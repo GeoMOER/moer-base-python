@@ -6,7 +6,7 @@ header:
   google-site-verification: googlecbcb487a237fee78.html
   overlay_color: "#000"
   overlay_filter: 0.6
-  overlay_image: "/assets/images/teaser.jpeg"
+  overlay_image: "/assets/python_heroteaser_init.jpg"
   caption: 'Photo: [**Infoworld from IDG**](https://www.infoworld.com/video/series/8563/do-more-with-r)'
   cta_label: Go to course units
   cta_url: "/units.html"
