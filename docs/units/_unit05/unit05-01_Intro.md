@@ -1,21 +1,21 @@
 ---
-title: Introduction
+title: "Introduction to data types and objects"
 header:
-  image: /assets/images/unit_images/u05/header.png
-  image_description: "work environment"
-  caption: "Photo by [Lukas Goumbik](https://pixabay.com/de/users/Goumbik-3752482/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2055522) from [Pixabay](https://pixabay.com)"
+  image: /assets/images/unit_images/u03/header.png
+  image_description: "neon data"
+  caption: "Photo by [Franki Chamaki](https://unsplash.com/@franki?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) [from unsplash](https://unsplash.com/s/photos/data?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)"
 ---
-*You will learn how to set up the working environment*
+
+*You will learn about different types of data storing in objects.*
 
 <!--more-->
-At the end of this unit you should know
 
-* what a workspace is and how to set up your working environment
-* what a root directory is
-* how directory structures work
-* what the differences between relative and absolute paths are
-* what packages are
-* what information you can find an the session info window.
+You may like to store more information than just one value inside a variable. There many different object types which can store more than one value. The ones we use the most are:
+*	Lists
+*	Data Frames
+*	Matrices
+*	Arrays
+
 
 ## Comments?
 You can leave comments below if you have questions or remarks about any of the text or code in this unit.
@@ -23,8 +23,14 @@ Please copy the corresponding line into your comment to make it easier to answer
 
 <script src="https://utteranc.es/client.js"
         repo="GeoMOER/moer-base-r"
-        issue-term="moer-base-r_unit05"
+        issue-term="moer-base-r_unit03"
         theme="github-light"
         crossorigin="anonymous"
         async>
 </script>
+
+<!--
+## Further reading
+
+add some day
+-->
