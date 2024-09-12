@@ -1,6 +1,7 @@
 ---
 title: Lapply-loops
 toc: TRUE
+published: FALSE
 toc_float: TRUE
 header:
   image: /assets/images/unit_images/u07/header.png

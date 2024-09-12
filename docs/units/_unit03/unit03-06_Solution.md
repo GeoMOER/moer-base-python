@@ -10,39 +10,54 @@ header:
 
 # Introduction
 
-This document contains solutions to the tasks related to operators and data structures in Python. Let's go through each task and its solution step-by-step.
+This unit covers Python's basic operators, focusing on arithmetic, comparison, and logical operators. You will practice using these operators through multiple tasks to solidify your understanding.
 
-## Task 1: Operators
+## Task 1: Arithmetic and Comparison Operators
 
 ### Solution:
-
 ```python
-# Defining variables
+# Define variables
 a = 10
 b = 5
 
-# Modulus
-modulus = a % b
-print(f"Modulus: {modulus}")
+# Arithmetic operations
+modulus_result = a % b
+exponentiation_result = a ** b
 
-# Exponentiation
-exponentiation = a ** b
-print(f"Exponentiation: {exponentiation}")
+# Print arithmetic results
+print("Modulus (a % b):", modulus_result)
+print("Exponentiation (a ** b):", exponentiation_result)
 
-# Comparison operators
-equal = a == b
-not_equal = a != b
-greater_than = a > b
-less_than = a < b
-greater_equal = a >= b
-less_equal = a <= b
-print(f"Equal: {equal}, Not Equal: {not_equal}, Greater than: {greater_than}, Less than: {less_than}")
-print(f"Greater or equal: {greater_equal}, Less or equal: {less_equal}")
+# Comparison operations
+is_equal = a == b
+is_not_equal = a != b
+is_greater = a > b
+is_less_or_equal = a <= b
 
-# Logical operators
-logical_and = (a > 5) and (b > 3)
-logical_or = (a > 15) or (b > 3)
-logical_not = not (a > 5)
-print(f"Logical AND: {logical_and}, Logical OR: {logical_or}, Logical NOT: {logical_not}")
+# Print comparison results
+print("Is a equal to b?", is_equal)
+print("Is a not equal to b?", is_not_equal)
+print("Is a greater than b?", is_greater)
+print("Is a less than or equal to b?", is_less_or_equal)
+```
+---
+
+## Task 2: Logical and Combined Operations
+
+### Solution:
+```python
+# Define variables
+a = 10
+b = 5
+
+# Combined logical operations
+and_result = a > 8 and b < 10
+or_result = a == 10 or b == 10
+not_result = not (a == b)
+
+# Print logical operation results
+print("Is a > 8 and b < 10?", and_result)
+print("Is a == 10 or b == 10?", or_result)
+print("Not (a == b):", not_result)
 ```
 ---
