@@ -1,48 +1,162 @@
 ---
-title: "Solution to Exercise 1"
+title: "Python Exercise - Solutions"
 toc: TRUE
 toc_float: TRUE
-published: true
 header:
-  image: /assets/images/unit_images/u03/header.png
-  image_description: "neon data"
-  caption: "Photo by [Franki Chamaki](https://unsplash.com/@franki?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) [from unsplash](https://unsplash.com/s/photos/data?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)"
+  image: /assets/images/unit_images/u01/header.png
+  image_description: "confused"
+  caption: "Image by [slon_pics](https://pixabay.com/de/users/www_slon_pics-5203613/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2261021) [from pixabay](https://pixabay.com/de/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2261021)"
 ---
 
-See if you were right in exercise 1!
+# Introduction
 
-### Tasks
-**1.** Calculate the root square of 10 + 6.<br>
+This document contains solutions to the tasks related to data structures in Python. Let's go through each task and its solution step-by-step.
+
+
+## Task 1: Lists
+
+### Solution:
 ```python
-(10+6)**2
+# Defining lists
+list1 = [1, 2, 3]
+list2 = [4, 5, 6]
+
+# Concatenating lists
+my_list = list1 + list2
+print(f"Concatenated list: {my_list}")
+
+# Sum
+sum_list = sum(my_list)
+print(f"Sum: {sum_list}")
+
+# Length of list1
+length_list1 = len(list1)
+print(f"Length of list1: {length_list1}")
+
+# Accessing second element of list2
+second_element = list2[1]
+print(f"Second element of list2: {second_element}")
+
+# Appending a new element to the list
+my_list.append('apple')
+print(f"List after appending 'apple': {my_list}")
+
+# Removes the second element (index 1)
+del list1[1]  
+print(f"List after removing the second element: {list1}")
+
+# Appending a nested list
+my_list.append(['tree', 'leave', 'root'])
+print(f"List after appending nested list: {my_list}")
+
+# Accessing second element of the nested list
+nested_second_element = my_list[-1][1] # -1 refering to the last element
+print(f"Second element of nested list: {nested_second_element}")
+
+# Length of my_list
+length_my_list = len(my_list)
+print(f"Length of my_list: {length_my_list}")
+
 ```
-**2.** Create arrays for size, height and states <br>
-<br>
-size: 1.67, 1.8, 1.58, 1.83, 1.65, 1.74, 1.8, 1.6, 1.76, 1.8 <br>
-weight: 62, 78, 56, 85, 58, 70, 70, 120, 62, 90 <br>
-state: NRW, Bayern, Sachsen, Hessen, Hessen, MV, Hessen, Brandenburg, Hessen, Berlin<br>
-<br>
-```python
-import numpy as np
-size = np.array([1.67, 1.8, 1.58, 1.83, 1.65, 1.74, 1.8, 1.6, 1.76, 1.8])
-weight = np.array([62, 78, 56, 85, 58, 70, 70, 120, 62, 90])
-state = np.array(["NRW", "Bayern", "Sachsen", "Hessen", "Hessen", "MV", "Hessen", "Brandenburg", "Hessen", "Berlin"])
- ```
-**3.** Use the arrays you just created to create a DataFrame with the columns size, weight, and state.
+
+---
+
+## Task 2: Data Frames
+
+### Solution:
 ```python
 import pandas as pd
-df = pd.DataFrame({'size' : size, 'weight' : weight, 'state' :state})
+
+# Creating a data frame
+data = {
+    'Name': ['Alice', 'Bob', 'Charlie'],
+    'Age': [25, 30, 35],
+    'Salary': [50000, 60000, 70000]
+}
+df = pd.DataFrame(data)
+
+# Displaying first two rows
+print(df.head(2))
+
+# Adding new column 'Department'
+df['Department'] = ['Human Resources', 'Engineering', 'Marketing']
 print(df)
-# Output:
-#    size  weight        state
-# 0  1.67      62          NRW
-# 1  1.80      78       Bayern
-# 2  1.58      56      Sachsen
-# 3  1.83      85       Hessen
-# 4  1.65      58       Hessen
-# 5  1.74      70           MV
-# 6  1.80      70       Hessen
-# 7  1.60     120  Brandenburg
-# 8  1.76      62       Hessen
-# 9  1.80      90       Berlin
+
+# Selecting Name and Salary columns
+name_salary = df[['Name', 'Salary']]
+print(name_salary)
+
+# Filtering rows where Age > 28
+filtered_df = df[df['Age'] > 28]
+print(filtered_df)
 ```
+---
+
+## Task 3: Matrices
+
+### Solution:
+```python
+import numpy as np
+
+# Creating a 2x3 matrix
+matrix = np.array([[1, 2, 3], [4, 5, 6]])
+
+# Transposing the matrix
+transposed_matrix = matrix.T
+print(f"Transposed matrix:\n{transposed_matrix}")
+
+# Calculating sum of all elements
+sum_elements = matrix.sum()
+print(f"Sum of all elements: {sum_elements}")
+
+# Multiplying each element by 2
+multiplied_matrix = matrix * 2
+print(f"Matrix after multiplying by 2:\n{multiplied_matrix}")
+
+# Accessing the element at row 1, column 2
+element = matrix[1, 2]
+print(f"Element at row 1, column 2: {element}")
+```
+---
+
+## Task 4: Arrays
+
+### Solution:
+```python
+# Creating a 3D array with shape (2, 2, 2)
+array = np.array([[[1, 2], [3, 4]], [[5, 6], [7, 8]]])
+
+# Accessing element at position (1, 1, 0)
+element = array[1, 1, 0]
+print(f"Element at position (1, 1, 0): {element}")
+
+# Slicing the array to get the first 2D matrix
+first_matrix = array[0]
+print(f"First 2D matrix:\n{first_matrix}")
+
+# Reshaping the array into a 2x4 array
+reshaped_array = array.reshape(2, 4)
+print(f"Reshaped array:\n{reshaped_array}")
+```
+---
+
+## Task 5: Factors
+
+### Solution:
+```python
+# Creating a pandas Categorical object
+categories = pd.Categorical(['low', 'high', 'medium', 'medium', 'low'], categories=['low', 'medium', 'high'])
+
+# Printing categories and their frequency
+print(categories)
+print(pd.value_counts(categories))
+
+# Converting to ordered categorical type
+ordered_categories = categories.as_ordered()
+print(f"Ordered categories:\n{ordered_categories}")
+
+# Sorting categories
+sorted_categories = sorted(ordered_categories)
+print(f"Sorted categories: {sorted_categories}")
+```
+---
