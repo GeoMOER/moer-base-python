@@ -8,7 +8,7 @@ header:
 *Setting up python and auxiliary programs for operating python and introducing a few tools if you get stuck.*
 <!--more-->
 
-# Python
+# Python99
 Python is a high-level, interpreted programming language created by Guido van Rossum and first released in 1991. It is known for its readability, simplicity, and versatility, which contribute to its widespread popularity. Python's design philosophy emphasizes code readability, allowing programmers to express concepts in fewer lines of code compared to other languages like C++ or Java. Its syntax is clear and easy to understand, making it an excellent choice for beginners and enabling developers to write and maintain code efficiently. Python boasts an extensive ecosystem of libraries and frameworks, such as NumPy, Pandas, Django, and Flask, which facilitate tasks in web development, data analysis, machine learning, and more. The language also benefits from a large and active community, providing a wealth of resources, documentation, and support for developers.
 
 
