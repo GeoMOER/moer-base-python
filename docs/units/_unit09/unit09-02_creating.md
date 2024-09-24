@@ -33,7 +33,7 @@ plt.ylabel("Y-Axis")
 plt.show()
 ```
 
-![Example](./assets/images/unit_images/u09/chart.png)
+![Example](/moer-base-python/assets/images/unit_images/u09/chart.png)
 
 ## 2. Seaborn
 
