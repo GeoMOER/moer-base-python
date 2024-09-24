@@ -52,7 +52,7 @@ plt.title("Iris Dataset Scatter Plot")
 plt.show()
 ```
 
-![Example Scatter Plot](./assets/images/unit_images/u09/scatterplot3.png)
+![Example Scatter Plot](/moer-base-python/assets/images/unit_images/u09/scatterplot3.png)
 
 
 ## 3. Plotly
