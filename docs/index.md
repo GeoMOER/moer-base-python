@@ -36,9 +36,9 @@ We would like to change this with this course.
 # Intended learning outcomes
 At the end of this course you should
 
-* know and understand the basic properties of an object-oriented programming language,
-* flexibly use your knowledge and understanding in various programming contexts, and
-* have the basic programming skills for working in more complex subject-specific projects.
+* know and understand the basic principles of programming with Python,
+* flexibly apply your knowledge and understanding in various programming contexts, and
+* have the foundational programming skills necessary for working on more complex subject-specific projects.
 
 
 # Course features
