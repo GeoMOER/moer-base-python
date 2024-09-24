@@ -32,9 +32,8 @@ plt.xlabel("X-Axis")
 plt.ylabel("Y-Axis")
 plt.show()
 ```
+
 ![Example](./assets/images/unit_images/u09/chart.png)
-header:
-  image: /assets/images/unit_images/u09/chart.png)
 
 ## 2. Seaborn
 
@@ -52,6 +51,7 @@ sns.scatterplot(x="sepal_length", y="sepal_width", data=data)
 plt.title("Iris Dataset Scatter Plot")
 plt.show()
 ```
+
 ![Example Scatter Plot](./assets/images/unit_images/u09/scatterplot3.png)
 
 
