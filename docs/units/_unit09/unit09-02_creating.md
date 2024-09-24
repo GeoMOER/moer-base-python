@@ -33,7 +33,8 @@ plt.ylabel("Y-Axis")
 plt.show()
 ```
 ![Example](./assets/images/unit_images/u09/chart.png)
-
+header:
+  image: /assets/images/unit_images/u09/chart.png)
 
 ## 2. Seaborn
 
