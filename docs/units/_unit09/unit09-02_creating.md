@@ -34,6 +34,7 @@ plt.show()
 ```
 ![Example ](/assets/images/unit_images/u09/chart.png "Spaska Forteva")
 
+image: /assets/images/unit_images/u09/chart.png
 
 ## 2. Seaborn
 
