@@ -1,5 +1,5 @@
 ---
-title: Work Workspace
+title: Workspace
 toc: TRUE
 toc_float: TRUE
 header:
