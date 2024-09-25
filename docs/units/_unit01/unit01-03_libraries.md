@@ -1,5 +1,5 @@
 ---
-title: Installing Libraries in Python
+title: Installing Libraries
 toc: TRUE
 toc_float: TRUE
 collapsed: TRUE
