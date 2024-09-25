@@ -24,6 +24,9 @@ Control structures determine the flow of a program's execution. In Python, the p
 - **Loops**: Use `for` and `while` loops to iterate over sequences or execute code repeatedly until a condition is met.
 
 Understanding control structures is essential for creating dynamic and responsive programs.
+{% include figure image_path="/assets/images/unit_images/u99/spotlight_1.png" %}
+<img src="assets/images/unit_images//u99/spotlight_1.png" title="spotlight" alt="spotlight_intro" height="200px" width="200px"> | Image by [Spaska Forteva, generiert über ChatGPT](https://github.com/sforteva){:target="_blank"}
+
 
 ## Types of Objects
 Python is an object-oriented language, meaning everything in Python is an object. Different types of objects include:
@@ -55,3 +58,4 @@ Data visualization in Python can be accomplished using libraries such as Matplot
 - **Scatter Plots**: Showing the relationship between two numerical variables.
 
 Visualizing data helps in understanding patterns, trends, and insights that can inform decision-making.
+<img src="assets/images/unit_images//u99/spotlight_2.png" title="spotlight" alt="spotlight_intro" height="200px" width="200px"> | Image by [Spaska Forteva, generiert über ChatGPT](https://github.com/sforteva){:target="_blank"}
