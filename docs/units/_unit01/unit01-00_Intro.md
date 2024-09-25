@@ -27,26 +27,6 @@ Python offers a rich ecosystem of libraries and frameworks that support various 
 Python’s large and active community provides extensive resources, documentation, and support, making it easier for developers to learn, collaborate, and solve problems.
 
 
-## Visual Studio Code
-Python itself does not come with a graphical user interface (GUI), but Integrated Development Environments (IDEs) are often used to enhance the development experience. A programming language is a formal system for writing instructions that a computer can execute, while an IDE provides a comprehensive suite of tools to facilitate coding with python. IDEs offer features like syntax highlighting, code completion, debugging tools, and project management, which streamline coding and improve productivity. Visual Studio Code (VS Code) is a popular IDE for Python development due to its extensive customization options, and a wide range of extensions that support Python programming. VS Code offers an integrated terminal, version control, and seamless integration with various Python tools and libraries, making it an excellent choice for both beginners and experienced developers.
-{% include figure image_path="/assets/images/unit_images/u01/vs_code.PNG" %}
-
-## Miniconda
-Miniconda is a minimal installer for conda, a package and environment management system. It provides a lightweight, quick way to install and manage multiple versions of Python and its packages, enabling developers to create isolated environments for different projects. This isolation helps avoid conflicts between dependencies and ensures that each project has access to the specific packages and versions it needs. Miniconda is particularly useful in data science and machine learning, where different projects may require different versions of libraries. By using Miniconda, developers can maintain clean, manageable environments, making their workflow more efficient and reliable.
-
---------
-So basically python is the programming language we work with. We download and manage Python using Miniconda and write and edit our Python scripts in Visual Studio Code.
-
-{% include figure image_path="/assets/images/unit_images/u01/flowchart_python.png" %}
-
-
-<!--
-## Further reading
-
-add some day
--->
-
-
 ## Comments?
 You can leave comments below if you have questions or remarks about any of the text or code in this unit. 
 Please copy the corresponding line into your comment to make it easier to answer your question.
