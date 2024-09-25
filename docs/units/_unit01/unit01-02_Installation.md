@@ -32,6 +32,7 @@ This tutorial will guide you through downloading Python, creating a virtual envi
 3. Go to the Extensions view by clicking on the Extensions icon in the Activity Bar on the side of the window or pressing Ctrl+Shift+X. Search for "Python" and install the extension published by Microsoft.
 4. Install the Jupyter extension: In the Extensions view, search for "Jupyter" and install the extension also published by Microsoft.
 
+{% include figure image_path="/assets/images/unit_images/u01/flowchart_python.png" %}
 <!--
 ## Further reading
 
