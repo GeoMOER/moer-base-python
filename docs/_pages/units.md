@@ -10,7 +10,7 @@ feature_row:
     alt: "Unit 1"
     title: "Unit 01: Overview and the very basics"
     excerpt: "Setting up Python and introducing some help tools."
-    url: "/unit01/unit01-01_Intro.html"
+    url: "/unit01/unit01-00_Intro.html"
     btn_label: "Show me more"
     btn_class: "btn--primary"
 
