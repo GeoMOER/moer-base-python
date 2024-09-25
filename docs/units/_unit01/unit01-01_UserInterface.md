@@ -15,6 +15,6 @@ Python can be used in various development environments, providing flexibility fo
 #### Local Interfaces
 - **[Visual Studio Code (VS Code)](https://code.visualstudio.com/)**: VS Code is a lightweight, versatile code editor that supports Python through extensions. It offers advanced features such as IntelliSense (code suggestions), debugging, and version control integration. VS Code is widely used due to its flexibility, customization options, and support for various programming languages.
 
-{% include figure image_path="/assets/images/unit_images/u01/flowchart_python.png" %}
+{% include figure image_path="/assets/images/unit_images/u01/vs_code.PNG" %}
 
 - **[PyCharm](https://www.jetbrains.com/pycharm/)**: PyCharm is an Integrated Development Environment (IDE) designed specifically for Python development. It provides robust features such
