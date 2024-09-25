@@ -6,8 +6,6 @@ header:
   caption: "Mobile Android operating system market share by version worldwide from 2018 to 2020: [StatCounter](https://gs.statcounter.com/android-version-market-share/mobile/worldwide/#monthly-201907-202001) [via Statista](https://www.statista.com/statistics/921152/mobile-android-version-share-worldwide/)"
 ---
 
-## Python User Interface
-
 Python can be used in various development environments, providing flexibility for different types of users. These interfaces allow programmers to write, test, and execute Python code efficiently.
 
 #### Online Interfaces
