@@ -1,11 +1,10 @@
 ---
-title: "Introduction to Spotlights"
+title: "Spotlights on Base Python"
 header:
   image: /assets/images/spotlights/header.png
   image_description: "A spotlight"
   caption: "Image by [Julia Schwab](https://pixabay.com/de/users/sweetaholic-296788/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=802634) [on Pixabay](https://pixabay.com/de/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=802634)"
 ---
-# Spotlights on Base Python
 
 ## Overview and the Very Basis
 Base Python is the foundational aspect of the Python programming language, encompassing its syntax, semantics, and basic features. Understanding these fundamentals is crucial for any programmer, as they form the building blocks for writing efficient and effective code. This section will cover the essential concepts and the core philosophy behind Python, including its readability and simplicity.
