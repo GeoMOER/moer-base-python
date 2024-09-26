@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variables and Assignment</title>
+</head>
+<body>
+
+    <h1>Variables and Assignment - Test</h1>
+
+    <form id="quizForm1">
+        <div class="question">
+            <p>1. Wie weist man einer Variable in Python einen Wert zu?</p>
+            <input type="radio" name="q1" value="a"> A) variable == 5<br>
+            <input type="radio" name="q1" value="b"> B) assign variable 5<br>
+            <input type="radio" name="q1" value="c"> C) variable = 5<br>
+        </div>
+
+        <button type="button" onclick="calculatePoints()">Test abschließen</button>
+    </form>
+
+    <div id="result"></div>
+
+    <div id="nextButton" style="display: none;">
+        <button onclick="window.location.href='test_2.html'">Weiter zu Seite 2 (Types of Data)</button>
+    </div>
+
+    <script>
+        function calculatePoints() {
+            let score1 = 0;
+
+            // Antwort überprüfen
+            const q1 = document.querySelector('input[name="q1"]:checked');
+            if (q1 && q1.value === "c") score1++;
+
+            // Punkte im localStorage speichern
+            localStorage.setItem("points_1", score1);
+
+            // Ergebnis anzeigen
+            document.getElementById("result").innerHTML = `Du hast ${score1} Punkte in diesem Thema erzielt.`;
+
+            // "Weiter"-Button anzeigen
+            document.getElementById("nextButton").style.display = "block";
+        }
+    </script>
+
+</body>
+</html>

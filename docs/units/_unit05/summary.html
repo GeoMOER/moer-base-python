@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zusammenfassung</title>
+</head>
+<body>
+
+    <h1>Zusammenfassung der Ergebnisse</h1>
+
+    <div id="summary"></div>
+
+    <script>
+        function calculateTotalScore() {
+            // Punkte aus localStorage abrufen
+            const points1 = localStorage.getItem("points_1") ? parseInt(localStorage.getItem("points_1")) : 0;
+            const points2 = localStorage.getItem("points_2") ? parseInt(localStorage.getItem("points_2")) : 0;
+
+            // Gesamtsumme berechnen
+            const totalScore = points1 + points2;
+
+            // Ergebnis anzeigen
+            document.getElementById("summary").innerHTML = `
+                <p>Thema 1: ${points1} Punkte</p>
+                <p>Thema 2: ${points2} Punkte</p>
+                <p>Gesamtergebnis: ${totalScore} Punkte</p>
+            `;
+        }
+
+        // Funktion beim Laden der Seite aufrufen
+        calculateTotalScore();
+    </script>
+
+</body>
+</html>
