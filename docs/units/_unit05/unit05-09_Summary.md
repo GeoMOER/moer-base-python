@@ -15,4 +15,9 @@ header:
 <iframe src="/tests/unit05/lists.html" width="100%" height="500px" style="border:none;"></iframe>
 
 Note the specific data types of objects:
+* Vectors must be of the same data type.
+* Matrices must be of the same data type.
+* Data frames must be arranged that columns are of the same data type.
+* Lists can contain any data type.
+* Factors can contain only strings.
 
