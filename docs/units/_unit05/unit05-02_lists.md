@@ -9,7 +9,7 @@ header:
 ---
 
 <!--more-->
-# Object Type List
+## Object Type Lists
 Lists in Python are versatile objects that allow you to store multiple items in a single variable. They are one of the most commonly used data structures in Python due to their flexibility. A list can contain elements of different data types, including numbers, strings, functions, and even other lists. This makes lists ideal for grouping related items together and managing collections of data.
 
 ## What Are Lists Used For?

@@ -10,7 +10,7 @@ header:
 
 <!--more-->
 
-# Object Type Matrix
+## Object Type Matrix
 A matrix is a two-dimensional rectangular data set that is particularly useful for mathematical and scientific computations. Matrices are widely used in areas such as linear algebra, physics, computer graphics, and machine learning. You can create and manipulate matrices using the `numpy` library in Python.
 
 ## Why Use Matrices?

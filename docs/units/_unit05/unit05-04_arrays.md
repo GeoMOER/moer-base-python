@@ -9,7 +9,7 @@ header:
 ---
 
 <!--more-->
-# Object Type Array
+## Object Type Arrays
 Arrays are a powerful data structure provided by the `NumPy` library in Python. They allow you to store multiple items of the same type in a single variable and perform efficient mathematical operations on these items.
 
 ## Why Use Arrays?
