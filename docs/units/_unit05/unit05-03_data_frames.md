@@ -1,5 +1,5 @@
 ---
-title: "Object Types"
+title: "Data Frames"
 toc: TRUE
 toc_float: TRUE
 header:
@@ -10,7 +10,7 @@ header:
 
 <!--more-->
 
-# Dataframe
+# Object Type Dataframe
 In Python, data frames are provided by the `pandas` library. A data frame is a two-dimensional data structure, similar to a list of equal-length lists. So basically data frames are simple tables we all now.  Each column represents a variable, and each row represents an observation or case. Unlike matrices, data frames can hold columns of different data types (e.g., numeric, string, date, etc.). This makes data frames suitable for storing and working with structured data and allows you to represent real-world datasets with mixed data types in a single structure. Data frames are built with the `pd.DataFrame()` function.
 
 ```python

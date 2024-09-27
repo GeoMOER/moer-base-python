@@ -1,5 +1,5 @@
 ---
-title: "Object Types"
+title: "Arrays"
 toc: TRUE
 toc_float: TRUE
 header:
@@ -9,7 +9,7 @@ header:
 ---
 
 <!--more-->
-# Arrays
+# Object Type Array
 Arrays are a powerful data structure provided by the `NumPy` library in Python. They allow you to store multiple items of the same type in a single variable and perform efficient mathematical operations on these items.
 
 ## Why Use Arrays?
