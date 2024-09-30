@@ -46,19 +46,11 @@ feature_row:
     btn_label: "Show me more"
     btn_class: "btn--primary"
 
-  - image_path: assets/images/unit_images/u06/grid.png
-    alt: "Unit 6"
-    title: "Unit 06: Indexing"
-    excerpt: "Introduction to indexing in python."
-    url: "/unit06/unit06-01_Intro.html"
-    btn_label: "Show me more"
-    btn_class: "btn--primary"  
-
   - image_path: assets/images/unit_images/u07/grid.png
-    alt: "Unit 07"
-    title: "Unit 07: For and While-loops"
+    alt: "Unit 06"
+    title: "Unit 06: For and While-loops"
     excerpt: "Introduction loops."
-    url: "/unit07/unit07-01_Intro.html"
+    url: "/unit06/unit07-01_Intro.html"
     btn_label: "Show me more"
     btn_class: "btn--primary"
 
