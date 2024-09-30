@@ -22,12 +22,12 @@
 # baseurl: "/data/UNIMR/lm_data/lm_xxx"
 
 # Serve on GitHub
-url: https://geomoer.github.io
-baseurl: "/moer-base-python"
+#url: https://geomoer.github.io
+#baseurl: "/moer-base-python"
 
 # Local setup (in _config.yml)
-#url: "http://localhost:4000"
-#baseurl: "/_site"
+url: "http://localhost:4000"
+baseurl: "/_site"
 
 ##### Title ###################################################################
 title: Base Python
@@ -177,22 +177,12 @@ defaults:
       path: ""
       type: unit06
     values:
-      category: "06 Indexing"
+      category: "06 Loops"
       tags: "Unit 06"
       layout: single
       sidebar:
         nav: "units"
   # unit07
-  - scope:
-      path: ""
-      type: unit07
-    values:
-      category: "07 Loops"
-      tags: "Unit 07"
-      layout: single
-      sidebar:
-        nav: "units"
-  # unit08
   - scope:
       path: ""
       type: unit08
@@ -202,7 +192,7 @@ defaults:
       layout: single
       sidebar:
         nav: "units"
-  # unit09
+  # unit08
   - scope:
       path: ""
       type: unit09
@@ -212,7 +202,6 @@ defaults:
       layout: single
       sidebar:
         nav: "units"
-
   # Spotlights
   - scope:
       path: ""
@@ -223,7 +212,6 @@ defaults:
       layout: single
       sidebar:
         nav: "units"
-
   # pages
   - scope:
       path: "_pages"
@@ -232,7 +220,6 @@ defaults:
       layout: single
       sidebar:
         nav: "docs"
-
 # Plugins
 plugins:
   - jekyll-feed
