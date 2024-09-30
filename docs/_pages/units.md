@@ -50,7 +50,7 @@ feature_row:
     alt: "Unit 06"
     title: "Unit 06: For and While-loops"
     excerpt: "Introduction loops."
-    url: "/unit06/unit07-01_Intro.html"
+    url: "/unit06/unit06-01_Intro.html"
     btn_label: "Show me more"
     btn_class: "btn--primary"
 
