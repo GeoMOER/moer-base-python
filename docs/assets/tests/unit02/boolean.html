@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booleans - Test</title>
+    <style>
+        .incorrect {
+            color: red;
+        }
+        .correct {
+            color: green;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Booleans - Test</h1>
+
+    <form id="quizForm4">
+
+        <div class="question">
+            <p>1. What are the two possible Boolean values in Python?</p>
+            <input type="radio" name="q1" value="a"> A) <code>True</code> and <code>False</code><br>
+            <input type="radio" name="q1" value="b"> B) <code>Yes</code> and <code>No</code><br>
+            <input type="radio" name="q1" value="c"> C) <code>1</code> and <code>0</code><br>
+            <span class="correct" style="display: none;">Correct answer: A) <code>True</code> and <code>False</code></span>
+        </div>
+
+        <div class="question">
+            <p>2. Which operator is used to compare two values for equality in Python?</p>
+            <input type="radio" name="q2" value="a"> A) <code>==</code><br>
+            <input type="radio" name="q2" value="b"> B) <code>=</code><br>
+            <input type="radio" name="q2" value="c"> C) <code>!=</code><br>
+            <span class="correct" style="display: none;">Correct answer: A) <code>==</code></span>
+        </div>
+
+        <div class="question">
+            <p>3. What does the following expression return: <code>5 > 3</code>?</p>
+            <input type="radio" name="q3" value="a"> A) <code>True</code><br>
+            <input type="radio" name="q3" value="b"> B) <code>False</code><br>
+            <input type="radio" name="q3" value="c"> C) <code>None</code><br>
+            <span class="correct" style="display: none;">Correct answer: A) <code>True</code></span>
+        </div>
+
+        <button type="button" onclick="calculatePoints()">Finish Test</button>
+    </form>
+
+    <div id="result"></div>
+
+    <div id="nextButton" style="display: none;">
+        <button onclick="window.location.href='final_summary.html'">Continue to Summary</button>
+    </div>
+
+    <script>
+        function calculatePoints() {
+            let score4 = 0;
+
+            // Check answers
+            const answers = {
+                q1: "a",
+                q2: "a",
+                q3: "a"
+            };
+
+            for (let i = 1; i <= 3; i++) {
+                const q = document.querySelector(`input[name="q${i}"]:checked`);
+                const correctAnswer = answers[`q${i}`];
+
+                if (q) {
+                    if (q.value === correctAnswer) {
+                        score4++;
+                    } else {
+                        // Highlight incorrect answer
+                        q.parentElement.classList.add('incorrect');
+                    }
+                }
+                // Show the correct answer
+                const correctSpan = document.querySelector(`.question:nth-of-type(${i}) .correct`);
+                correctSpan.style.display = "inline";
+            }
+
+            // Save points in localStorage
+            localStorage.setItem("points_4", score4);
+
+            // Display result
+            document.getElementById("result").innerHTML = `You scored ${score4} points in this topic.`;
+
+            // Show "Continue" button
+            document.getElementById("nextButton").style.display = "block";
+        }
+    </script>
+
+</body>
+</html>

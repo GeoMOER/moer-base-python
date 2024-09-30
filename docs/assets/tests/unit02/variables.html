@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variables and Assignment - Test</title>
+    <style>
+        .incorrect {
+            color: red;
+        }
+        .correct {
+            color: green;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Variables and Assignment - Test</h1>
+
+    <form id="quizForm1">
+      
+       <div class="question">
+            <p>1. Why do we use variables in programming?</p>
+            <input type="radio" name="q1" value="a"> A) To store data values for later use<br>
+            <input type="radio" name="q1" value="b"> B) To perform calculations only<br>
+            <input type="radio" name="q1" value="c"> C) Variables are used to define loops<br>
+            <span class="correct" style="display: none;">Correct answer: A) To store data values for later use</span>
+        </div>
+
+        <div class="question">
+            <p>2. Which of the following is a valid variable name in Python?</p>
+            <input type="radio" name="q2" value="a"> A) 123variable<br>
+            <input type="radio" name="q2" value="b"> B) variable_1<br>
+            <input type="radio" name="q2" value="c"> C) for<br>
+            <span class="correct" style="display: none;">Correct answer: B) variable_1</span>
+        </div>
+
+        <button type="button" onclick="calculatePoints()">Finish Test</button>
+    </form>
+
+    <div id="result"></div>
+
+    <div id="nextButton" style="display: none;">
+        <button onclick="window.location.href='integers-floats.html'">Continue to Page 2 (Integers and Floats)</button>
+    </div>
+
+    <script>
+        function calculatePoints() {
+            let score1 = 0;
+
+            // Check answers
+            const answers = {
+                q1: "a",
+                q2: "b"
+            };
+
+            for (let i = 1; i <= 2; i++) {
+                const q = document.querySelector(`input[name="q${i}"]:checked`);
+                const correctAnswer = answers[`q${i}`];
+
+                if (q) {
+                    if (q.value === correctAnswer) {
+                        score1++;
+                    } else {
+                        // Highlight incorrect answer
+                        q.parentElement.classList.add('incorrect');
+                    }
+                }
+                // Show the correct answer
+                const correctSpan = document.querySelector(`.question:nth-of-type(${i}) .correct`);
+                correctSpan.style.display = "inline";
+            }
+
+            // Save points in localStorage
+            localStorage.setItem("points_1", score1);
+
+            // Display result
+            document.getElementById("result").innerHTML = `You scored ${score1} points in this topic.`;
+
+            // Show "Continue" button
+            document.getElementById("nextButton").style.display = "block";
+        }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strings - Test</title>
+    <style>
+        .incorrect {
+            color: red;
+        }
+        .correct {
+            color: green;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Strings - Test</h1>
+
+    <form id="quizForm3">
+
+        <div class="question">
+            <p>1. How do you define a string in Python?</p>
+            <input type="radio" name="q1" value="a"> A) <code>my_string = 'hello'</code><br>
+            <input type="radio" name="q1" value="b"> B) <code>my_string = hello</code><br>
+            <input type="radio" name="q1" value="c"> C) <code>my_string = {hello}</code><br>
+            <span class="correct" style="display: none;">Correct answer: A) <code>my_string = 'hello'</code></span>
+        </div>
+
+        <div class="question">
+            <p>2. What does <code>my_string[0]</code> return if <code>my_string = 'hello'</code>?</p>
+            <input type="radio" name="q2" value="a"> A) h<br>
+            <input type="radio" name="q2" value="b"> B) e<br>
+            <input type="radio" name="q2" value="c"> C) o<br>
+            <span class="correct" style="display: none;">Correct answer: A) h</span>
+        </div>
+
+        <div class="question">
+            <p>3. Which method is used to replace all occurrences of a substring?</p>
+            <input type="radio" name="q3" value="a"> A) <code>replace()</code><br>
+            <input type="radio" name="q3" value="b"> B) <code>find()</code><br>
+            <input type="radio" name="q3" value="c"> C) <code>split()</code><br>
+            <span class="correct" style="display: none;">Correct answer: A) <code>replace()</code></span>
+        </div>
+
+        <div class="question">
+            <p>4. What does the <code>len()</code> function return for a string?</p>
+            <input type="radio" name="q4" value="a"> A) The number of words<br>
+            <input type="radio" name="q4" value="b"> B) The number of characters<br>
+            <input type="radio" name="q4" value="c"> C) The number of lines<br>
+            <span class="correct" style="display: none;">Correct answer: B) The number of characters</span>
+        </div>
+
+        <div class="question">
+            <p>5. What is the result of <code>'hello' * 3</code>?</p>
+            <input type="radio" name="q5" value="a"> A) hellohellohello<br>
+            <input type="radio" name="q5" value="b"> B) hello3<br>
+            <input type="radio" name="q5" value="c"> C) hello * 3<br>
+            <span class="correct" style="display: none;">Correct answer: A) hellohellohello</span>
+        </div>
+
+        <div class="question">
+            <p>6. How can you check if a string contains a specific substring?</p>
+            <input type="radio" name="q6" value="a"> A) Using the <code>find()</code> method<br>
+            <input type="radio" name="q6" value="b"> B) Using the <code>in</code> keyword<br>
+            <input type="radio" name="q6" value="c"> C) Both A and B<br>
+            <span class="correct" style="display: none;">Correct answer: C) Both A and B</span>
+        </div>
+
+        <button type="button" onclick="calculatePoints()">Finish Test</button>
+    </form>
+
+    <div id="result"></div>
+
+    <div id="nextButton" style="display: none;">
+        <button onclick="window.location.href='booleans.html'">Continue to Page 4 (Booleans)</button>
+    </div>
+
+    <script>
+        function calculatePoints() {
+            let score3 = 0;
+
+            // Check answers
+            const answers = {
+                q1: "a",
+                q2: "a",
+                q3: "a",
+                q4: "b",
+                q5: "a",
+                q6: "c"
+            };
+
+            for (let i = 1; i <= 6; i++) {
+                const q = document.querySelector(`input[name="q${i}"]:checked`);
+                const correctAnswer = answers[`q${i}`];
+
+                if (q) {
+                    if (q.value === correctAnswer) {
+                        score3++;
+                    } else {
+                        // Highlight incorrect answer
+                        q.parentElement.classList.add('incorrect');
+                    }
+                }
+                // Show the correct answer
+                const correctSpan = document.querySelector(`.question:nth-of-type(${i}) .correct`);
+                correctSpan.style.display = "inline";
+            }
+
+            // Save points in localStorage
+            localStorage.setItem("points_3", score3);
+
+            // Display result
+            document.getElementById("result").innerHTML = `You scored ${score3} points in this topic.`;
+
+            // Show "Continue" button
+            document.getElementById("nextButton").style.display = "block";
+        }
+    </script>
+
+</body>
+</html>
