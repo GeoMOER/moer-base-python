@@ -21,10 +21,10 @@
       
        <div class="question">
             <p>1. How do you remove an element <code>4</code> from a list <code>my_list = [1, 2, 3, 4]</code>?</p>
-            <input type="radio" name="q1" value="a"> A) my_list.remove(4)<br>
+            <input type="radio" name="q1" value="a"> A) my_list.pop(4)<br>
             <input type="radio" name="q1" value="b"> B) my_list.delete(4)<br>
-            <input type="radio" name="q1" value="c"> C) my_list.pop(4)<br>
-            <span class="correct" style="display: none;">Correct answer: A) my_list.remove(4)</span>
+            <input type="radio" name="q1" value="c"> C) my_list.remove(4)<br>
+            <span class="correct" style="display: none;">Correct answer: C) my_list.remove(4)</span>
         </div>
 
 
@@ -72,18 +72,18 @@
 
         <div class="question">
             <p>7. How do you append an element <code>4</code> to a list <code>my_list = [1, 2, 3]</code>?</p>
-            <input type="radio" name="q7" value="a"> A) my_list.append(4)<br>
-            <input type="radio" name="q7" value="b"> B) my_list.add(4)<br>
+            <input type="radio" name="q7" value="a"> A) my_list.add(4)<br>
+            <input type="radio" name="q7" value="b"> B) my_list.append(4)<br>
             <input type="radio" name="q7" value="c"> C) my_list.insert(4)<br>
-            <span class="correct" style="display: none;">Correct answer: A) my_list.append(4)</span>
+            <span class="correct" style="display: none;">Correct answer: B) my_list.append(4)</span>
         </div>
 
         <div class="question">
             <p>8. How do you find the length of a list <code>my_list = [1, 2, 3, 4, 5]</code>?</p>
-            <input type="radio" name="q8" value="a"> A) len(my_list)<br>
+            <input type="radio" name="q8" value="a"> A) count(my_list)<br>
             <input type="radio" name="q8" value="b"> B) my_list.length()<br>
-            <input type="radio" name="q8" value="c"> C) count(my_list)<br>
-            <span class="correct" style="display: none;">Correct answer: A) len(my_list)</span>
+            <input type="radio" name="q8" value="c"> C) len(my_list)<br>
+            <span class="correct" style="display: none;">Correct answer: C) len(my_list)</span>
         </div>
 
         <button type="button" onclick="calculatePoints()">Finish Test</button>
@@ -101,14 +101,14 @@
 
             // Check answers
             const answers = {
-                q1: "a",
+                q1: "c",
                 q2: "a",
                 q3: "a",
                 q4: "a",
                 q5: "b",
                 q6: "b",
-                q7: "a",
-                q8: "a"
+                q7: "b",
+                q8: "c"
             };
 
             for (let i = 1; i <= 8; i++) {

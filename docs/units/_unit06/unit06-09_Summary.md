@@ -10,9 +10,6 @@ header:
 ---
 ## Test
 
-
-Hier ist die eingebettete Testseite:
-
 <iframe src="/moer-base-python/assets/tests/unit06/for.html" width="100%" height="500px" style="border:none;"></iframe>
 
 
