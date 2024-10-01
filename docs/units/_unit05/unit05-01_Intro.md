@@ -1,5 +1,5 @@
 ---
-title: "Introduction to data types and objects"
+title: "Introduction"
 header:
   image: /assets/images/unit_images/u03/header.png
   image_description: "neon data"
