@@ -1,20 +1,38 @@
 ---
-title: "Introduction to CSV"
+title: Introduction to creating graphs
 header:
-  image: /assets/images/unit_images/u06/header.png
-  image_description: "neon data"
-  caption: "Photo by [Free-Photos](https://pixabay.com/photos/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=336373) [Pixabay](https://pixabay.com/de/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=336373)"
+  image: /assets/images/unit_images/u09/header.png
+  image_description: "statistics"
+  caption: "Photo by [Gerd Altmann](https://pixabay.com/de/users/geralt-9301/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4705451) [from Pixabay](https://pixabay.com/)"
 ---
-*You will learn what a csv file is and how to use it in a dataframe.*
 
-<!--more-->
+Data visualization is a crucial aspect of data analysis and communication. Python offers several powerful libraries for creating a wide range of graphs and charts. This guide introduces you to the fundamentals of graph creation using popular Python libraries.
 
-At the end of this unit you should know
+## Why Use Python for Graphs?
 
-* what tabulated data is,
-* how to import data into your environment
-* about the crux of decimal separators,
-* how to work with csv-files.
+Python is favored for data visualization due to its readability, ease of use, and the powerful libraries available. Whether you’re analyzing data, presenting results, or creating interactive visualizations, Python has the tools you need.
+
+## Popular Libraries for Graphing in Python
+
+1. **Matplotlib**: The most widely used library for basic plotting. It provides a flexible interface to create a variety of static, animated, and interactive plots.
+
+2. **Seaborn**: Built on top of Matplotlib, Seaborn simplifies the creation of attractive statistical graphics and makes complex visualizations more accessible.
+
+3. **Plotly**: Ideal for interactive visualizations, Plotly allows users to create complex and aesthetically pleasing charts with minimal code.
+
+4. **Bokeh**: Another library for interactive visualizations, Bokeh is designed for web applications and enables users to create sophisticated plots.
+
+5. **Pandas**: While primarily a data manipulation library, Pandas has built-in functions for quick plotting, making it easy to visualize data directly from DataFrames.
+
+## Getting Started
+
+### Installing Libraries
+
+To get started, ensure you have the necessary libraries installed. You can install them using pip:
+
+```bash
+pip install matplotlib seaborn plotly bokeh pandas
+```
 
 ## Comments?
 You can leave comments below if you have questions or remarks about any of the text or code in this unit.
@@ -22,15 +40,8 @@ Please copy the corresponding line into your comment to make it easier to answer
 
 <script src="https://utteranc.es/client.js"
         repo="GeoMOER/moer-base-r"
-        issue-term="moer-base-r_unit06"
+        issue-term="moer-base-r_unit09"
         theme="github-light"
         crossorigin="anonymous"
         async>
 </script>
-
-
-<!--
-## Further reading
-
-add some day
--->

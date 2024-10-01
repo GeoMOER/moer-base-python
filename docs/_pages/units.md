@@ -55,18 +55,18 @@ feature_row:
     btn_class: "btn--primary"
 
   - image_path: assets/images/unit_images/u08/grid.png
-    alt: "Unit 8"
-    title: "Unit 08: Working with Files"
-    excerpt:  "Introduction to sorting Data."
-    url: "/unit08/unit08-01_Intro.html"
+    alt: "Unit 7"
+    title: "Unit 07: CSV Data"
+    excerpt:  "Introduction to CSV"
+    url: "/unit07/unit07-01_Intro.html"
     btn_label: "Show me more"
     btn_class: "btn--primary"
 
   - image_path: assets/images/unit_images/u09/grid.png
-    alt: "Unit 09"
-    title: "Unit 09: Simple Visualizations"
+    alt: "Unit 08"
+    title: "Unit 08: Simple Visualizations"
     excerpt: "Introduction to simple graphic outputs."
-    url: "/unit09/unit09-01_Intro.html"
+    url: "/unit08/unit08-01_Intro.html"
     btn_label: "Show me more"
     btn_class: "btn--primary"
 
