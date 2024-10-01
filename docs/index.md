@@ -55,11 +55,10 @@ However, the provided units and spotlights can also be used independently.
 | 02 | Basic Data Types and Variables | How data is measured and organized with an Python perspective               |
 | 03 | Simple Operators               | How to use operators in Python                                              |
 | 04 | Control Structures             | Learn how to use if, elif and else                                          |
-| 05 | Types of Objects               | Get to know lists, arrays, matrices and data frames                         |
-| 06 | Indexing                       | Learn how to access your data in Python objects                             |
-| 07 | Loops                          | Use for-loops and while-loops  |
-| 08 | Working with files             | Work with csv files and sort, bind and merge your data  |
-| 09 | Simple Visualizations          | Quickly and simply visualize your data  |
+| 05 | Types of Objects               | Get to know lists, arrays, matrices and data frames                               |
+| 06 | Loops                          | Use for-loops and while-loops  |
+| 07 | Working with files             | Work with csv files and sort, bind and merge your data  |
+| 08 | Simple Visualizations          | Quickly and simply visualize your data  |
 
 
 <!--
