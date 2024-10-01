@@ -43,14 +43,12 @@ twitter:
 
 ##### Lecturer settings #######################################################
 author:
-  name             : "Dirk Zeuss"
-  avatar           : "/assets/images/zeuss.jpg"
+  name             : "Spaska Forteva"
+  avatar           : "/assets/images/forteva.jpg"
   bio              : "University of Marburg"
   location         : "Marburg, DE"
-  email            : "dirk.zeuss@uni-marburg.de"
+  email            : "forteva@staff.uni-marburg.de"
   uri              : "https://www.uni-marburg.de/en/fb19/disciplines/physisch/environmentalinformatics"
-  home             : "https://www.researchgate.net/profile/Dirk_Zeuss"
-  researchgate     : "https://www.researchgate.net/profile/Dirk_Zeuss/stats" # to be included some day
   github           : "GeoMOER"
 
 
@@ -101,9 +99,6 @@ collections:
     output: true
     permalink: /:collection/:title.html
   unit08:
-    output: true
-    permalink: /:collection/:title.html
-  unit09:
     output: true
     permalink: /:collection/:title.html
   unit99:
@@ -185,20 +180,20 @@ defaults:
   # unit07
   - scope:
       path: ""
-      type: unit08
+      type: unit07
     values:
-      category: "08 Working with Files"
-      tags: "Unit 08"
+      category: "07 Working with Files"
+      tags: "Unit 07"
       layout: single
       sidebar:
         nav: "units"
   # unit08
   - scope:
       path: ""
-      type: unit09
+      type: unit08
     values:
-      category: "09 Simple Visualizations"
-      tags: "Unit 09"
+      category: "08 Simple Visualizations"
+      tags: "Unit 08"
       layout: single
       sidebar:
         nav: "units"
