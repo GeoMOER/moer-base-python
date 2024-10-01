@@ -10,6 +10,14 @@
   location         : "Marburg, DE"
   home             : "https://www.uni-marburg.de/de/fb19/fachbereich/staff/dirk-zeuss"
   uri              : "https://www.uni-marburg.de/de/fb19/disciplines/physisch/umweltinformatik"
+- forteva:
+  name             : "Spaska Forteva"
+  avatar           : "/assets/images/authors/forteva.jpg"
+  email            : "spaska.forteva@geo.uni-marburg.de"
+  bio              : "Philipps-Universität Marburg"
+  location         : "Marburg, DE"
+  home             : "https://www.uni-marburg.de/de/fb19/disciplines/physisch/umweltinformatik/team/spaska-forteva"
+  uri              : "https://www.uni-marburg.de/de/fb19/disciplines/physisch/umweltinformatik"
 - heidrich:
   name             : "Lea Heidrich"
   avatar           : "/assets/images/authors/heidrich.jpg"
