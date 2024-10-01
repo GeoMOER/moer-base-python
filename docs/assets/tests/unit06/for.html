@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For Loops - Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .question {
+            background-color: #f0f8ff;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+        .answer {
+            background-color: #e6f7ff;
+            padding: 10px;
+            margin-bottom: 5px;
+            border-radius: 5px;
+        }
+        code {
+            background-color: black;
+            color: #ffffff;
+            padding: 5px 4px;
+            display: block;
+            font-family: "Courier New", monospace;
+        }
+        .incorrect {
+            color: red;
+        }
+        .correct {
+            color: green;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>For Loops - Test</h1>
+
+    <form id="quizForm61">
+
+        <div class="question">
+            <p>1. What is a `for` loop used for in Python?</p>
+            <div class="answer"><input type="radio" name="q1" value="a"> A) Iterating over a sequence (such as a list, tuple, or string)</div>
+            <div class="answer"><input type="radio" name="q1" value="b"> B) Defining a new function</div>
+            <div class="answer"><input type="radio" name="q1" value="c"> C) Creating an infinite loop</div>
+            <span class="correct" style="display: none;">Correct answer: A) Iterating over a sequence (such as a list, tuple, or string)</span>
+        </div>
+
+        <div class="question">
+            <p>2. What is the output of the following code?</p>
+            <code>for i in range(3):</code>
+            <code>&nbsp;&nbsp;&nbsp;&nbsp;print(i)</code>
+            <div class="answer"><input type="radio" name="q2" value="a"> A) 1 2 3</div>
+            <div class="answer"><input type="radio" name="q2" value="b"> B) 0 1 2</div>
+            <div class="answer"><input type="radio" name="q2" value="c"> C) 0 1 2 3</div>
+            <span class="correct" style="display: none;">Correct answer: B) 0 1 2</span>
+        </div>
+
+        <div class="question">
+            <p>3. What is the syntax for a `for` loop that iterates over a list?</p>
+            <div class="answer"><input type="radio" name="q3" value="a"> A) <code>for i in list</code></div>
+            <div class="answer"><input type="radio" name="q3" value="b"> B) <code>for i to list</code></div>
+            <div class="answer"><input type="radio" name="q3" value="c"> C) <code>while i in list</code></div>
+            <span class="correct" style="display: none;">Correct answer: A) <code>for i in list</code></span>
+        </div>
+
+        <div class="question">
+            <p>4. What does the `range()` function return in Python?</p>
+            <div class="answer"><input type="radio" name="q4" value="a"> A) A sequence of numbers</div>
+            <div class="answer"><input type="radio" name="q4" value="b"> B) A list of strings</div>
+            <div class="answer"><input type="radio" name="q4" value="c"> C) A single integer</div>
+            <span class="correct" style="display: none;">Correct answer: A) A sequence of numbers</span>
+        </div>
+
+        <div class="question">
+            <p>5. Which loop is better for iterating over a collection?</p>
+            <div class="answer"><input type="radio" name="q5" value="a"> A) `for` loop</div>
+            <div class="answer"><input type="radio" name="q5" value="b"> B) `while` loop</div>
+            <div class="answer"><input type="radio" name="q5" value="c"> C) Both are equally good</div>
+            <span class="correct" style="display: none;">Correct answer: A) `for` loop</span>
+        </div>
+
+        <div class="question">
+            <p>6. What is the output of the following code?</p>
+            <code>list = [10, 20, 30]</code>
+            <code>for i in list:</code>
+            <code>&nbsp;&nbsp;&nbsp;&nbsp;print(i, end=" ")</code>
+            <div class="answer"><input type="radio" name="q6" value="a"> A) 10 20 30</div>
+            <div class="answer"><input type="radio" name="q6" value="b"> B) 30 20 10</div>
+            <div class="answer"><input type="radio" name="q6" value="c"> C) 10, 20, 30</div>
+            <span class="correct" style="display: none;">Correct answer: A) 10 20 30</span>
+        </div>
+
+        <div class="question">
+            <p>7. How do you exit a `for` loop prematurely?</p>
+            <div class="answer"><input type="radio" name="q7" value="a"> A) `continue`</div>
+            <div class="answer"><input type="radio" name="q7" value="b"> B) `break`</div>
+            <div class="answer"><input type="radio" name="q7" value="c"> C) `return`</div>
+            <span class="correct" style="display: none;">Correct answer: B) `break`</span>
+        </div>
+
+        <div class="question">
+            <p>8. What will the following code print?</p>
+            <code>for i in range(3):</code>
+            <code>&nbsp;&nbsp;&nbsp;&nbsp;if i == 2:</code>
+            <code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;break</code>
+            <code>&nbsp;&nbsp;&nbsp;&nbsp;print(i)</code>
+            <div class="answer"><input type="radio" name="q8" value="a"> A) 0 1</div>
+            <div class="answer"><input type="radio" name="q8" value="b"> B) 0 1 2</div>
+            <div class="answer"><input type="radio" name="q8" value="c"> C) 2</div>
+            <span class="correct" style="display: none;">Correct answer: A) 0 1</span>
+        </div>
+
+        <button type="button" onclick="calculatePoints()">Finish Test</button>
+    </form>
+
+    <div id="result"></div>
+
+    <div id="nextButton" style="display: none;">
+        <button onclick="window.location.href='while.html'">Continue to While-Loops</button>
+    </div>
+
+    <script>
+        function calculatePoints() {
+            let score61 = 0;
+
+            // Check answers
+            const answers = {
+                q1: "a",
+                q2: "b",
+                q3: "a",
+                q4: "a",
+                q5: "a",
+                q6: "a",
+                q7: "b",
+                q8: "a"
+            };
+
+            for (let i = 1; i <= 8; i++) {
+                const q = document.querySelector(`input[name="q${i}"]:checked`);
+                const correctAnswer = answers[`q${i}`];
+
+                if (q) {
+                    if (q.value === correctAnswer) {
+                        score61++;
+                    } else {
+                        // Highlight incorrect answer
+                        q.parentElement.classList.add('incorrect');
+                    }
+                }
+                // Show the correct answer
+                const correctSpan = document.querySelector(`.question:nth-of-type(${i}) .correct`);
+                correctSpan.style.display = "inline";
+            }
+
+            // Save points in localStorage
+            localStorage.setItem("points_61", score61);
+
+            // Display result
+            document.getElementById("result").innerHTML = `You scored ${score61} points in this topic.`;
+
+            // Show "Continue" button
+            document.getElementById("nextButton").style.display = "block";
+        }
+    </script>
+
+</body>
+</html>
