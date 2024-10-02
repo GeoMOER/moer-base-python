@@ -62,28 +62,13 @@ print(list1)  # Output: [[2, 5, 3], 42.0, <built-in function sum>]
 list1.append("new item")
 print(list1)  # Output: [[2, 5, 3], 42.0, <built-in function sum>, 'new item']
 ```
-## Removing an element from the list
+### Removing an element from the list
 ```python
 list1.remove(42.0)
 print(list1)  # Output: [[2, 5, 3], <built-in function sum>, 'new item']
-
-## List Methods in Python
+```
 
 ### Common List Methods
-
-- **append(x)**: Adds an item `x` to the end of the list.
-- **extend(iterable)**: Extends the list by appending elements from the iterable.
-- **insert(i, x)**: Inserts an item `x` at a given position `i`.
-- **remove(x)**: Removes the first item from the list whose value is equal to `x`.
-- **pop([i])**: Removes and returns the item at the given position `i` in the list. If no index is specified, `pop()` removes and returns the last item in the list.
-- **clear()**: Removes all items from the list.
-- **index(x[, start[, end]])**: Returns the index of the first item whose value is equal to `x`. Raises a `ValueError` if not found.
-- **count(x)**: Returns the number of times `x` appears in the list.
-- **sort(key=None, reverse=False)**: Sorts the items of the list in place (the arguments can be used for sort order).
-- **reverse()**: Reverses the elements of the list in place.
-- **copy()**: Returns a shallow copy of the list.
-
-## List Methods in Python
 
 | Method               | Description                                                                                     |
 |----------------------|-------------------------------------------------------------------------------------------------|
@@ -100,4 +85,3 @@ print(list1)  # Output: [[2, 5, 3], <built-in function sum>, 'new item']
 | `copy()`             | Returns a shallow copy of the list.                                                           |
 
 
-```
