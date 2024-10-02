@@ -69,3 +69,20 @@ result = x + y
 print(result)
 # Output: [5 7 9]
 ```
+
+## NumPy Array Methods
+
+| Method/Function         | Description                                                                                       |
+|-------------------------|---------------------------------------------------------------------------------------------------|
+| `numpy.array()`         | Creates an array from a list or tuple.                                                           |
+| `numpy.zeros(shape)`    | Creates an array filled with zeros of the given shape.                                           |
+| `numpy.ones(shape)`     | Creates an array filled with ones of the given shape.                                            |
+| `numpy.arange(start, stop, step)` | Returns an array with evenly spaced values within a given interval.                     |
+| `numpy.linspace(start, stop, num)` | Returns an array of evenly spaced numbers over a specified range.                    |
+| `numpy.reshape(array, new_shape)` | Gives a new shape to an array without changing its data.                             |
+| `numpy.transpose(array)`| Transposes the array (swaps rows with columns).                                                  |
+| `numpy.sum(array, axis)`| Returns the sum of the array elements over the specified axis.                                  |
+| `numpy.mean(array)`     | Returns the mean of the array elements.                                                          |
+| `numpy.max(array)`      | Returns the maximum value in the array.                                                          |
+| `numpy.min(array)`      | Returns the minimum value in the array.                                                          |
+| `numpy.concatenate((array1, array2))` | Joins two or more arrays along an existing axis.                                |

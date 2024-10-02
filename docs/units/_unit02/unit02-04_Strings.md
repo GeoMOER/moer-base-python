@@ -134,3 +134,25 @@ lines = multiline_string.splitlines()
 # Output: ['This is line one.', 'This is line two.', 'This is line three.']
 
 ```
+
+## String Methods in Python
+
+| Method/Function                 | Description                                                                                       |
+|----------------------------------|---------------------------------------------------------------------------------------------------|
+| `str.lower()`                   | Converts all characters in the string to lowercase.                                              |
+| `str.upper()`                   | Converts all characters in the string to uppercase.                                              |
+| `str.title()`                   | Converts the first character of each word to uppercase and the rest to lowercase.                |
+| `str.capitalize()`              | Capitalizes the first character of the string and lowers all other characters.                   |
+| `str.strip()`                   | Removes any leading and trailing whitespace from the string.                                      |
+| `str.split(separator)`          | Splits the string into a list of substrings based on the specified separator.                    |
+| `str.join(iterable)`            | Concatenates a list or tuple of strings into a single string, separated by the string used to call the method. |
+| `str.replace(old, new)`         | Replaces all occurrences of a substring with another substring.                                  |
+| `str.find(substring)`           | Returns the lowest index of the substring if found in the string; otherwise, it returns -1.     |
+| `str.rfind(substring)`          | Returns the highest index of the substring if found in the string; otherwise, it returns -1.     |
+| `str.count(substring)`          | Returns the number of occurrences of a substring in the string.                                  |
+| `str.startswith(prefix)`        | Returns `True` if the string starts with the specified prefix; otherwise, it returns `False`.   |
+| `str.endswith(suffix)`          | Returns `True` if the string ends with the specified suffix; otherwise, it returns `False`.     |
+| `str.isdigit()`                 | Returns `True` if all characters in the string are digits; otherwise, it returns `False`.      |
+| `str.isalpha()`                 | Returns `True` if all characters in the string are alphabetic; otherwise, it returns `False`.   |
+| `str.isalnum()`                 | Returns `True` if all characters in the string are alphanumeric; otherwise, it returns `False`. |
+| `str.format(*args, **kwargs)`   | Formats the string using the specified arguments or keyword arguments.                            |

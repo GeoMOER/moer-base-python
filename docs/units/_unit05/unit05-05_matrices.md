@@ -74,3 +74,17 @@ print("Element-wise multiplication:\n", D)
 #  [24 25 24]
 #  [21 16  9]]
 ```
+
+## NumPy Matrix Methods
+
+| Method/Function             | Description                                                                                       |
+|-----------------------------|---------------------------------------------------------------------------------------------------|
+| `numpy.matrix()`            | Creates a matrix from a string or array.                                                         |
+| `matrix.A`                  | Returns the 2-D array representation of the matrix.                                              |
+| `matrix.T`                  | Returns the transpose of the matrix.                                                              |
+| `matrix.I`                  | Returns the inverse of the matrix.                                                                |
+| `matrix.sum(axis)`          | Returns the sum of the matrix elements along the specified axis.                                 |
+| `matrix.max()`              | Returns the maximum value in the matrix.                                                         |
+| `matrix.min()`              | Returns the minimum value in the matrix.                                                         |
+| `matrix.reshape(new_shape)`  | Gives a new shape to the matrix without changing its data.                                      |
+| `matrix.flatten()`          | Returns a copy of the matrix collapsed into one dimension.                                       |

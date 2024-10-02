@@ -79,3 +79,22 @@ print(patients)
 # 3     Ray   56    1.97   True      Brown
 # 4  Ashley   57    1.64  False  Rodriguez
 ```
+
+## Pandas DataFrame Methods
+
+| Method/Function                   | Description                                                                                   |
+|-----------------------------------|-----------------------------------------------------------------------------------------------|
+| `pd.DataFrame(data)`              | Creates a DataFrame from a dictionary, list, or array.                                      |
+| `df.head(n)`                      | Returns the first `n` rows of the DataFrame.                                               |
+| `df.tail(n)`                      | Returns the last `n` rows of the DataFrame.                                                |
+| `df.describe()`                   | Generates descriptive statistics of the DataFrame.                                         |
+| `df.info()`                       | Provides a concise summary of the DataFrame.                                               |
+| `df.shape`                        | Returns a tuple representing the dimensionality of the DataFrame (rows, columns).          |
+| `df.columns`                      | Returns the column labels of the DataFrame.                                                 |
+| `df.iloc[row_index, column_index]` | Accesses a group of rows and columns by labels or a boolean array.                      |
+| `df.loc[row_label, column_label]` | Accesses a group of rows and columns by label(s) or a boolean array.                     |
+| `df.drop(labels, axis)`          | Removes specified row or column labels.                                                      |
+| `df.fillna(value)`               | Fills NA/NaN values with the specified value.                                               |
+| `df.groupby(by)`                  | Groups the DataFrame using a mapper or by a Series of columns.                              |
+| `df.sort_values(by)`             | Sorts the DataFrame by the specified column(s).                                            |
+| `df.to_csv('filename.csv')`      | Exports the DataFrame to a CSV file.                                                        |
