@@ -7,17 +7,22 @@ header:
   image_description: "confused"
   caption: "Image by [slon_pics](https://pixabay.com/de/users/www_slon_pics-5203613/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2261021) [from pixabay](https://pixabay.com/de/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2261021)"
 ---
-*Making your first steps in R with simple arithmetic operations.*
+*Making your first steps in Python with simple print() operations.*
 
 <!--more-->
 
 ## #Hashtag and Run!
 
-Let's open our first Jupyter Notebook. Press `Ctrl+Shift+P` to open the command palette and search for `>Create: New Jupyter Notebook`. Here VS Code automatically creates the first code block for you. Try to enter this line of code:
+Let's open our first Jupyter Notebook. 
+
+If you are working locally with the VS User Interface, press Ctrl+Shift+P to open the command palette and search for > Create: New Jupyter Notebook. Here, VS Code automatically creates the first code block for you.
+
+Try to enter this line of code:
 ```python
 print('Welcome to Python)
 ```
-To run the block of code you can press `Shift+Enter`. Now VS Code will ask you for your Python interpreter. Here you have to chose your miniconda virtual environment. Then you can run your code. 
+To run the block of code you can press `Shift+Enter`. Now the interface will ask you for your Python interpreter. 
+Here you have to chose local your miniconda virtual environment or online Pytho(n Interpreter)Pyodide). Then you can run your code. 
 
 You can also comment your code to make it easier to understand for other and yourself. Python treats the hashtag character, **#**, in a special way. It will not compile anything that follows a # on a line. This makes hashtags very useful for adding comments and annotations to your code. You will be able to read the comments, but your computer will pass over them.
 

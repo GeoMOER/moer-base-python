@@ -10,8 +10,6 @@ header:
 *How to use Python: Running it online or installing Miniconda and VS Code for local use.*
 <!--more-->
 
-
-
 ## Online
 
 1. Go to the [Jupyter website](https://jupyter.org/).
