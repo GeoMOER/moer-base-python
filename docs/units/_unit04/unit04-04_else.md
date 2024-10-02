@@ -15,7 +15,7 @@ An `else` statement is typically placed at the end of an if-elif chain. When Pyt
 - If the `if` condition is `False`, Python moves on to evaluate the `elif` conditions in order, when there are any.
 - If none of the `if` or `elif` conditions are `True`, the code inside the else block is executed.
 
-## Example of else Usage
+## Examples of else Usage
 Here’s a basic example:
 ```python
 a = 15.0
@@ -29,6 +29,21 @@ else:
 # Output:
 # a is larger than b
 ```
+
+```python
+temperature = 25
+
+if temperature > 30:
+    print("It's a hot day.")
+elif temperature > 20:
+    print("It's a nice day.")
+elif temperature > 10:
+    print("It's a bit chilly.")
+else:
+    print("It's cold outside.")
+# Output:
+# It's a nice day.
+``
 
 `else` can also directly follow an `if`-statement without `elif`.
 ```python

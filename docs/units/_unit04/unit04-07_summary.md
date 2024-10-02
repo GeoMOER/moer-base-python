@@ -8,9 +8,7 @@ header:
   caption: "Photo by [Maksym Kaharlytskyi](https://unsplash.com/@qwitka?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) from [Unsplash](https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)"
 ---
 
-## Test
 
-# Test
 <iframe src="/moer-base-python/assets/tests/unit04/control-structures.html" width="100%" height="500px" style="border:none;"></iframe> 
 -----
 
