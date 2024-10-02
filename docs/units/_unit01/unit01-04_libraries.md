@@ -10,7 +10,7 @@ header:
   caption: "Photo by [Lukas Goumbik](https://pixabay.com/de/users/Goumbik-3752482/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2055522) from [Pixabay](https://pixabay.com)"
 ---
 
-# What are Libraries?
+## What are Libraries?
 In programming, libraries are collections of pre-written code that provide reusable functions, classes, and methods to perform common tasks. Libraries can significantly simplify your development process by allowing you to leverage existing solutions rather than writing code from scratch. They cover a wide range of functionalities such as data manipulation, machine learning, web development, and more.
 
 ## Why Do We Need Libraries?

@@ -19,7 +19,7 @@ If you are working locally with the VS User Interface, press Ctrl+Shift+P to ope
 
 Try to enter this line of code:
 ```python
-print('Welcome to Python)
+print('Welcome to Python')
 ```
 To run the block of code you can press `Shift+Enter`. Now the interface will ask you for your Python interpreter. 
 Here you have to chose local your miniconda virtual environment or online Pytho(n Interpreter)Pyodide). Then you can run your code. 
