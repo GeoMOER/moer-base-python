@@ -3,7 +3,149 @@ title: Cheat sheet
 permalink: /cheatsheet.html
 ---
 
-Coming Soon: On this page you will find a collection of useful pdf files and code snippets.
+On this page you will find a collection of useful pdf files and code snippets.
+
+## Basics of Syntax
+
+Python is known for its simple and readable syntax. Here are some basic rules:
+
+- No semicolon (`;`) at the end of a line.
+- Indentation with 4 spaces instead of curly braces (`{}`) for code blocks.
+- Comments start with a `#`.
+
+```python
+# This is a comment
+print("Hello, World!")  # Outputs Hello, World!
+```
+
+## Data Types and Variables
+
+Python is dynamically typed. Variable assignment is done simply with the = sign.
+
+### Examples of Data Types:
+  - int (Integers)
+  - float (Floating-point numbers)
+  - str (Strings)
+  - bool (Boolean)
+```python
+x = 10  # int
+y = 3.14  # float
+name = "Alice"  # str
+is_student = True  # bool
+```
+
+## Control Structures (If, Loops)
+
+### If-Else
+```python
+if x > 5:
+    print("x is greater than 5")
+else:
+    print("x is 5 or smaller")
+```
+
+### For Loop
+```python
+for i in range(5):
+    print(i)  # Outputs 0 to 4
+```
+
+### While Loop
+```python
+n = 0
+while n < 5:
+    print(n)
+    n += 1
+```
+
+### Functions and Methods
+
+Functions in Python are defined with the def keyword.
+
+def greet(name):
+    return f"Hello, {name}!"
+```python
+print(greet("Bob"))  # Outputs "Hello, Bob!"
+```
+
+### Lists, 
+```python
+fruits = ["Apple", "Banana", "Cherry"]
+print(fruits[1])  # Outputs "Banana"
+```
+
+### Tuples
+```python
+coordinates = (10, 20)
+print(coordinates[0])  # Outputs 10
+```
+### Reading and Writing Files
+
+#### Reading
+```python
+with open("file.txt", "r") as file:
+    content = file.read()
+    print(content)
+```
+
+#### Writing
+```python
+with open("file.txt", "w") as file:
+    file.write("Hello, World!")
+```
+
+## Error Handling
+
+You can catch errors with try and except.
+```python
+try:
+    result = 10 / 0
+except ZeroDivisionError:
+    print("Division by zero is not allowed")
+```
+
+## Modules and Packages
+
+Modules in Python are collections of functions. You can use them with import.
+```python
+import math
+
+print(math.sqrt(16))  # Outputs 4.0
+```
+
+## OOP (Object-Oriented Programming)
+
+Python supports object-oriented programming. Classes are defined with class.
+```python
+class Dog:
+    def __init__(self, name):
+        self.name = name
+
+    def bark(self):
+        print(f"{self.name} barks!")
+```
+dog = Dog("Rex")
+dog.bark()  # Outputs "Rex barks!"
+```
+
+## Useful Libraries
+### NumPy
+NumPy is a library for numerical computations.
+```python
+import numpy as np
+
+a = np.array([1, 2, 3])
+print(a * 2)  # Outputs [2, 4, 6]
+```
+### Pandas
+Pandas is great for data analysis.
+```python
+import pandas as pd
+
+data = {'Name': ['Alice', 'Bob'], 'Age': [25, 30]}
+df = pd.DataFrame(data)
+print(df)
+```
 
 <!--more
 
