@@ -5,6 +5,23 @@ permalink: /cheatsheet.html
 
 On this page you will find a collection of useful pdf files and code snippets.
 
+| Data Types      | Operators            | Control Structures         | Loops        | Libraries   |
+|-----------------|----------------------|----------------------------|--------------|-------------|
+| Integers        | Addition (+)         | If Statements              | For Loop     | numpy       |
+| `x = 5`         | `result = a + b`     | ```if x > 5:```           | ```for i in range(10):``` |  `import numpy as np` |
+| Floats          | Subtraction (-)      | Else Statements            | While Loop   | pandas      |
+| `y = 3.5`       | `result = a - b`     | ```else:```               | ```while x > 0:``` | `import pandas as pd` |
+| Strings         | Multiplication (*)   | Elif Statements            |              | matplotlib  |
+| `name = "John"` | `result = a * b`     | ```elif x < 10:```        |              | `import matplotlib.pyplot as plt` |
+| Lists           | Division (/)         | Try and Catch              |              |             |
+| `my_list = [1, 2, 3]` | `result = a / b` | ```try:```                |              |             |
+| Data Frames     | Modulus (%)          | Break and Continue         |              |             |
+| `df = pd.DataFrame(data)` | `result = a % b` | ```break```            |              |             |
+| Arrays          | Exponentiation (**)  |                            |              |             |
+| `my_array = np.array([1, 2, 3])` | `result = a ** b` |                     |              |             |
+| Matrix          | `<, >, ==, >=, <=, !=` |                        |              |             |
+| `my_matrix = np.array([[1, 2], [3, 4]])` |  |                        |              |             |
+
 ## Basics of Syntax
 
 Python is known for its simple and readable syntax. Here are some basic rules:
