@@ -5,6 +5,8 @@ permalink: /cheatsheet.html
 
 On this page you will find a collection of useful pdf files and code snippets.
 
+## Overview of Important Python Syntax
+
 | Data Types      | Operators            | Control Structures         | Loops        | Libraries   |
 |-----------------|----------------------|----------------------------|--------------|-------------|
 | Integers        | Addition (+)         | If Statements              | For Loop     | numpy       |
@@ -19,8 +21,8 @@ On this page you will find a collection of useful pdf files and code snippets.
 | `df = pd.DataFrame(data)` | `result = a % b` | ```break```            |              |             |
 | Arrays          | Exponentiation (**)  |                            |              |             |
 | `my_array = np.array([1, 2, 3])` | `result = a ** b` |                     |              |             |
-| Matrix          | `<, >, ==, >=, <=, !=` |                        |              |             |
-| `my_matrix = np.array([[1, 2], [3, 4]])` |  |                        |              |             |
+| Matrix          | Boolean |                        |              |             |
+| `my_matrix = np.array([[1, 2], [3, 4]])` |`<, >, ==, >=, <=, !=`|                        |              |             |
 
 ## Basics of Syntax
 

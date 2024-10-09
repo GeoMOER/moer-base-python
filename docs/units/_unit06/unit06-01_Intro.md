@@ -34,9 +34,6 @@ while <some logical expression with iteration variable>:
 ------
 
 ## What loop to choose?
-
-{% include figure image_path="/assets/images/unit_images/u07/which-loop-to-choose.jpg" alt="Flow chart showing a decision tree which helps to choose the right loop." %}
-
 One rule for choosing between a while- and a for-loop is that __while-loops__ are used when the number of iterations is __unknown__ and __for-loops__ are used when the number is __known__.
 
 Let’s go through a few examples of each:
