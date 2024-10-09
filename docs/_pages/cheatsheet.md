@@ -58,6 +58,16 @@ while n < 5:
     n += 1
 ```
 
+## Error Handling
+
+You can catch errors with try and except.
+```python
+try:
+    result = 10 / 0
+except ZeroDivisionError:
+    print("Division by zero is not allowed")
+```
+
 ### Functions and Methods
 
 Functions in Python are defined with the def keyword.
@@ -67,18 +77,45 @@ def greet(name):
 ```python
 print(greet("Bob"))  # Outputs "Hello, Bob!"
 ```
+## Objects
 
 ### Lists, 
 ```python
 fruits = ["Apple", "Banana", "Cherry"]
 print(fruits[1])  # Outputs "Banana"
 ```
+#### Conclusion
+Lists are flexible data structures in Python that can contain elements of different data types. 
+Arrays, on the other hand, are homogeneous data structures that store elements of the same data type. 
+NumPy arrays provide superior performance for mathematical operations compared to Python lists and are optimized for scientific computing.
 
-### Tuples
+
+### Data Frames
 ```python
-coordinates = (10, 20)
-print(coordinates[0])  # Outputs 10
+import pandas as pd
+
+# Creating lists
+a = ["Max", "Sara"]
+b = [24, 42,]
+
+# Creating a data frame from lists with assigned column names
+patients = pd.DataFrame({
+    'Name': a,
+    'Age': b,
+})
 ```
+### Matrix
+```python
+import numpy as np
+# Create a matrix
+M = np.array([[3,5,6], [11,76,4], [0,7,99]])
+```
+
+#### Conclusion
+DataFrames are versatile data structures provided by the Pandas library in Python. They allow for the storage and manipulation of tabular data with labeled axes (rows and columns). DataFrames are particularly useful for data analysis and manipulation.
+
+Matrices, on the other hand, are primarily used for numerical computations. While matrices are suited for mathematical operations such as matrix multiplication and linear algebra, they lack the rich functionalities of DataFrames for data manipulation and analysis.
+
 ### Reading and Writing Files
 
 #### Reading
@@ -94,16 +131,6 @@ with open("file.txt", "w") as file:
     file.write("Hello, World!")
 ```
 
-## Error Handling
-
-You can catch errors with try and except.
-```python
-try:
-    result = 10 / 0
-except ZeroDivisionError:
-    print("Division by zero is not allowed")
-```
-
 ## Modules and Packages
 
 Modules in Python are collections of functions. You can use them with import.
@@ -111,21 +138,6 @@ Modules in Python are collections of functions. You can use them with import.
 import math
 
 print(math.sqrt(16))  # Outputs 4.0
-```
-
-## OOP (Object-Oriented Programming)
-
-Python supports object-oriented programming. Classes are defined with class.
-```python
-class Dog:
-    def __init__(self, name):
-        self.name = name
-
-    def bark(self):
-        print(f"{self.name} barks!")
-```
-dog = Dog("Rex")
-dog.bark()  # Outputs "Rex barks!"
 ```
 
 ## Useful Libraries
