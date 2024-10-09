@@ -5,7 +5,7 @@ permalink: /cheatsheet.html
 
 On this page you will find a collection of useful pdf files and code snippets.
 
-<!--more-->
+<!--more
 
 ## <a href="https://geomoer.github.io/moer-base-r/assets/data/cheatsheets/rstudio-ide.pdf" download="rstudio-ide.pdf">RStudio IDE Cheat Sheet</a>{:target="_blank"}
 
@@ -27,3 +27,4 @@ On this page you will find a collection of useful pdf files and code snippets.
 {% include figure image_path="/assets/images/cheatsheet/02pdf_advancer_cheatsheet_p4.png" %}
 {% include figure image_path="/assets/images/cheatsheet/02pdf_advancer_cheatsheet_p5.png" %}
 <a href="https://geomoer.github.io/moer-base-r/assets/data/cheatsheets/advancedR.pdf" download="advancedR.pdf">Download Advanced R Cheat Sheet</a>{:target="_blank"}
+-->
