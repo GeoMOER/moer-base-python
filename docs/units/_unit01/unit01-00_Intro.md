@@ -32,8 +32,8 @@ You can leave comments below if you have questions or remarks about any of the t
 Please copy the corresponding line into your comment to make it easier to answer your question.
 
 <script src="https://utteranc.es/client.js"
-        repo="GeoMOER/moer-base-r"
-        issue-term="moer-base-r_unit01"
+        repo="GeoMOER/moer-base-python"
+        issue-term="moer-base-python_unit01"
         theme="github-light"
         crossorigin="anonymous"
         async>
