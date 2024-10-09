@@ -7,6 +7,7 @@ On this page you will find a collection of useful pdf files and code snippets.
 
 ## Overview of Important Python Syntax
 
+
 | Data Types      | Operators            | Control Structures         | Loops        | Libraries   |
 |-----------------|----------------------|----------------------------|--------------|-------------|
 | Integers        | Addition (+)         | If Statements              | For Loop     | numpy       |
@@ -18,11 +19,14 @@ On this page you will find a collection of useful pdf files and code snippets.
 | Lists           | Division (/)         | Try and Catch              |              |             |
 | `my_list = [1, 2, 3]` | `result = a / b` | ```try:```                |              |             |
 | Data Frames     | Modulus (%)          | Break and Continue         |              |             |
-| `df = pd.DataFrame(data)` | `result = a % b` | ```break```            |              |             |
-| Arrays          | Exponentiation (**)  |                            |              |             |
+| `df = pd.DataFrame(data)` | `result = a % b` | ```break # Exit the loop when```            |              |             |
+| Arrays          | Exponentiation (**)  | ```continue  # Skip the even numbers``` |              |             |
 | `my_array = np.array([1, 2, 3])` | `result = a ** b` |                     |              |             |
 | Matrix          | Boolean |                        |              |             |
 | `my_matrix = np.array([[1, 2], [3, 4]])` |`<, >, ==, >=, <=, !=`|                        |              |             |
+
+
+
 
 ## Basics of Syntax
 
@@ -177,6 +181,8 @@ data = {'Name': ['Alice', 'Bob'], 'Age': [25, 30]}
 df = pd.DataFrame(data)
 print(df)
 ```
+
+<a href="https://geomoer.github.io/moer-base-python/assets/data/cheatsheets/cheatsheets.pdf" download="cheatsheets.pdf">Download Advanced Python Cheat Sheet</a>{:target="_blank"}
 
 <!--more
 
