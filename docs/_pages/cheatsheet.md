@@ -3,7 +3,7 @@ title: Cheat sheet
 permalink: /cheatsheet.html
 ---
 
-On this page you will find a collection of useful pdf files and code snippets.
+Coming Soon: On this page you will find a collection of useful pdf files and code snippets.
 
 <!--more
 
