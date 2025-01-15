@@ -40,6 +40,8 @@ print(patients)
 # 4  Ashley   57    1.64  False
 ```
 In Python, data frames provided by the pandas library have column names (variable names) and row names (often called row labels) that help identify and reference specific variables and observations. You can access columns using the dot operator or square brackets `[]`, and you can access rows by their index or labels.
+You cann assign new labels to the index
+patients.index = ["ID_001", "ID_002", "ID_003", "ID_004", "ID_005"]
 
 ```r
 # Accessing columns
@@ -56,7 +58,7 @@ print(patients['Name'])  # Using square brackets
 # Accessing rows by index and label
 # because the row is at index 0 but is also called 0 we ask for the same
 print(patients.iloc[0])  # Accessing the first row
-print(patients.loc[0])  # Accessing the row with label 0
+print(patients.loc["ID_001"])  # Accessing the row with label "ID_001"
 # Output:
 # Name      Peter
 # Age          24
