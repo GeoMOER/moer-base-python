@@ -34,14 +34,3 @@ To get started, ensure you have the necessary libraries installed. You can insta
 pip install matplotlib seaborn plotly bokeh pandas
 ```
 
-<!--## Comments?
-You can leave comments below if you have questions or remarks about any of the text or code in this unit.
-Please copy the corresponding line into your comment to make it easier to answer your question.
-
-<script src="https://utteranc.es/client.js"
-        repo="GeoMOER/moer-base-r"
-        issue-term="moer-base-r_unit09"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>
