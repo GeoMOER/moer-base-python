@@ -16,7 +16,7 @@ At the end of this unit you should know
 * about the crux of decimal separators,
 * how to work with csv-files.
 
-## Comments?
+<!--## Comments?
 You can leave comments below if you have questions or remarks about any of the text or code in this unit.
 Please copy the corresponding line into your comment to make it easier to answer your question.
 

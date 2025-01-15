@@ -27,17 +27,7 @@ Python offers a rich ecosystem of libraries and frameworks that support various 
 Python’s large and active community provides extensive resources, documentation, and support, making it easier for developers to learn, collaborate, and solve problems.
 
 
-## Comments?
-You can leave comments below if you have questions or remarks about any of the text or code in this unit. 
-Please copy the corresponding line into your comment to make it easier to answer your question.
 
-<script src="https://utteranc.es/client.js"
-        repo="GeoMOER/moer-base-python"
-        issue-term="moer-base-python_unit01"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>
 
 
 

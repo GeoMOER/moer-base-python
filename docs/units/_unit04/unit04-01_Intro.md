@@ -16,18 +16,6 @@ At the end of this unit, you should know:
 
 Understanding these concepts will allow you to make decisions in your programs, enabling more dynamic and responsive code.
 
-## Comments?
-You can leave comments below if you have questions or remarks about any of the text or code in this unit.
-Please copy the corresponding line into your comment to make it easier to answer your question.
-
-<script src="https://utteranc.es/client.js"
-        repo="GeoMOER/moer-base-r"
-        issue-term="moer-base-r_unit07"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>
-
 
 <!--
 ## Further reading

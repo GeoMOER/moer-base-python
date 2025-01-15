@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>cheatsheet.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<p>On this page you will find a collection of useful pdf files and code snippets.</p>
+<h2 id="overview-of-important-python-syntax">Overview of Important Python Syntax</h2>
+<table>
+<thead>
+<tr>
+<th>Data Types</th>
+<th>Operators</th>
+<th>Control Structures</th>
+<th>Loops</th>
+<th>Libraries</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Integers</td>
+<td>Addition (+)</td>
+<td>If Statements</td>
+<td>For Loop</td>
+<td>numpy</td>
+</tr>
+<tr>
+<td><code>x = 5</code></td>
+<td><code>result = a + b</code></td>
+<td><code>if x &gt; 5:</code></td>
+<td><code>for i in range(10):</code></td>
+<td><code>import numpy as np</code></td>
+</tr>
+<tr>
+<td>Floats</td>
+<td>Subtraction (-)</td>
+<td>Else Statements</td>
+<td>While Loop</td>
+<td>pandas</td>
+</tr>
+<tr>
+<td><code>y = 3.5</code></td>
+<td><code>result = a - b</code></td>
+<td><code>else:</code></td>
+<td><code>while x &gt; 0:</code></td>
+<td><code>import pandas as pd</code></td>
+</tr>
+<tr>
+<td>Strings</td>
+<td>Multiplication (*)</td>
+<td>Elif Statements</td>
+<td></td>
+<td>matplotlib</td>
+</tr>
+<tr>
+<td><code>name = &quot;John&quot;</code></td>
+<td><code>result = a * b</code></td>
+<td><code>elif x &lt; 10:</code></td>
+<td></td>
+<td><code>import matplotlib.pyplot as plt</code></td>
+</tr>
+<tr>
+<td>Lists</td>
+<td>Division (/)</td>
+<td>Try and Catch</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><code>my_list = [1, 2, 3]</code></td>
+<td><code>result = a / b</code></td>
+<td><code>try:</code></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Data Frames</td>
+<td>Modulus (%)</td>
+<td>Break and Continue</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><code>df = pd.DataFrame(data)</code></td>
+<td><code>result = a % b</code></td>
+<td><code>break # Exit the loop when</code></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Arrays</td>
+<td>Exponentiation (**)</td>
+<td><code>continue  # Skip the even numbers</code></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><code>my_array = np.array([1, 2, 3])</code></td>
+<td><code>result = a ** b</code></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Matrix</td>
+<td>Boolean</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><code>my_matrix = np.array([[1, 2], [3, 4]])</code></td>
+<td><code>&lt;, &gt;, ==, &gt;=, &lt;=, !=</code></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="basics-of-syntax">Basics of Syntax</h2>
+<p>Python is known for its simple and readable syntax. Here are some basic rules:</p>
+<ul>
+<li>No semicolon (<code>;</code>) at the end of a line.</li>
+<li>Indentation with 4 spaces instead of curly braces (<code>{}</code>) for code blocks.</li>
+<li>Comments start with a <code>#</code>.</li>
+</ul>
+<pre class="hljs"><code><div><span class="hljs-comment"># This is a comment</span>
+print(<span class="hljs-string">"Hello, World!"</span>)  <span class="hljs-comment"># Outputs Hello, World!</span>
+</div></code></pre>
+<h2 id="data-types-and-variables">Data Types and Variables</h2>
+<p>Python is dynamically typed. Variable assignment is done simply with the = sign.</p>
+<h3 id="examples-of-data-types">Examples of Data Types:</h3>
+<ul>
+<li>int (Integers)</li>
+<li>float (Floating-point numbers)</li>
+<li>str (Strings)</li>
+<li>bool (Boolean)</li>
+</ul>
+<pre class="hljs"><code><div>x = <span class="hljs-number">10</span>  <span class="hljs-comment"># int</span>
+y = <span class="hljs-number">3.14</span>  <span class="hljs-comment"># float</span>
+name = <span class="hljs-string">"Alice"</span>  <span class="hljs-comment"># str</span>
+is_student = <span class="hljs-literal">True</span>  <span class="hljs-comment"># bool</span>
+</div></code></pre>
+<h2 id="control-structures-if-loops">Control Structures (If, Loops)</h2>
+<h3 id="if-else">If-Else</h3>
+<pre class="hljs"><code><div><span class="hljs-keyword">if</span> x &gt; <span class="hljs-number">5</span>:
+    print(<span class="hljs-string">"x is greater than 5"</span>)
+<span class="hljs-keyword">else</span>:
+    print(<span class="hljs-string">"x is 5 or smaller"</span>)
+</div></code></pre>
+<h3 id="for-loop">For Loop</h3>
+<pre class="hljs"><code><div><span class="hljs-keyword">for</span> i <span class="hljs-keyword">in</span> range(<span class="hljs-number">5</span>):
+    print(i)  <span class="hljs-comment"># Outputs 0 to 4</span>
+</div></code></pre>
+<h3 id="while-loop">While Loop</h3>
+<pre class="hljs"><code><div>n = <span class="hljs-number">0</span>
+<span class="hljs-keyword">while</span> n &lt; <span class="hljs-number">5</span>:
+    print(n)
+    n += <span class="hljs-number">1</span>
+</div></code></pre>
+<h2 id="error-handling">Error Handling</h2>
+<p>You can catch errors with try and except.</p>
+<pre class="hljs"><code><div><span class="hljs-keyword">try</span>:
+    result = <span class="hljs-number">10</span> / <span class="hljs-number">0</span>
+<span class="hljs-keyword">except</span> ZeroDivisionError:
+    print(<span class="hljs-string">"Division by zero is not allowed"</span>)
+</div></code></pre>
+<h3 id="functions-and-methods">Functions and Methods</h3>
+<p>Functions in Python are defined with the def keyword.</p>
+<p>def greet(name):
+return f&quot;Hello, {name}!&quot;</p>
+<pre class="hljs"><code><div>print(greet(<span class="hljs-string">"Bob"</span>))  <span class="hljs-comment"># Outputs "Hello, Bob!"</span>
+</div></code></pre>
+<h2 id="objects">Objects</h2>
+<h3 id="lists">Lists,</h3>
+<pre class="hljs"><code><div>fruits = [<span class="hljs-string">"Apple"</span>, <span class="hljs-string">"Banana"</span>, <span class="hljs-string">"Cherry"</span>]
+print(fruits[<span class="hljs-number">1</span>])  <span class="hljs-comment"># Outputs "Banana"</span>
+</div></code></pre>
+<h4 id="conclusion">Conclusion</h4>
+<p>Lists are flexible data structures in Python that can contain elements of different data types.
+Arrays, on the other hand, are homogeneous data structures that store elements of the same data type.
+NumPy arrays provide superior performance for mathematical operations compared to Python lists and are optimized for scientific computing.</p>
+<h3 id="data-frames">Data Frames</h3>
+<pre class="hljs"><code><div><span class="hljs-keyword">import</span> pandas <span class="hljs-keyword">as</span> pd
+
+<span class="hljs-comment"># Creating lists</span>
+a = [<span class="hljs-string">"Max"</span>, <span class="hljs-string">"Sara"</span>]
+b = [<span class="hljs-number">24</span>, <span class="hljs-number">42</span>,]
+
+<span class="hljs-comment"># Creating a data frame from lists with assigned column names</span>
+patients = pd.DataFrame({
+    <span class="hljs-string">'Name'</span>: a,
+    <span class="hljs-string">'Age'</span>: b,
+})
+</div></code></pre>
+<h3 id="matrix">Matrix</h3>
+<pre class="hljs"><code><div><span class="hljs-keyword">import</span> numpy <span class="hljs-keyword">as</span> np
+<span class="hljs-comment"># Create a matrix</span>
+M = np.array([[<span class="hljs-number">3</span>,<span class="hljs-number">5</span>,<span class="hljs-number">6</span>], [<span class="hljs-number">11</span>,<span class="hljs-number">76</span>,<span class="hljs-number">4</span>], [<span class="hljs-number">0</span>,<span class="hljs-number">7</span>,<span class="hljs-number">99</span>]])
+</div></code></pre>
+<h4 id="conclusion">Conclusion</h4>
+<p>DataFrames are versatile data structures provided by the Pandas library in Python. They allow for the storage and manipulation of tabular data with labeled axes (rows and columns). DataFrames are particularly useful for data analysis and manipulation.</p>
+<p>Matrices, on the other hand, are primarily used for numerical computations. While matrices are suited for mathematical operations such as matrix multiplication and linear algebra, they lack the rich functionalities of DataFrames for data manipulation and analysis.</p>
+<h3 id="reading-and-writing-files">Reading and Writing Files</h3>
+<h4 id="reading">Reading</h4>
+<pre class="hljs"><code><div><span class="hljs-keyword">with</span> open(<span class="hljs-string">"file.txt"</span>, <span class="hljs-string">"r"</span>) <span class="hljs-keyword">as</span> file:
+    content = file.read()
+    print(content)
+</div></code></pre>
+<h4 id="writing">Writing</h4>
+<pre class="hljs"><code><div><span class="hljs-keyword">with</span> open(<span class="hljs-string">"file.txt"</span>, <span class="hljs-string">"w"</span>) <span class="hljs-keyword">as</span> file:
+    file.write(<span class="hljs-string">"Hello, World!"</span>)
+</div></code></pre>
+<h2 id="modules-and-packages">Modules and Packages</h2>
+<p>Modules in Python are collections of functions. You can use them with import.</p>
+<pre class="hljs"><code><div><span class="hljs-keyword">import</span> math
+
+print(math.sqrt(<span class="hljs-number">16</span>))  <span class="hljs-comment"># Outputs 4.0</span>
+</div></code></pre>
+<h2 id="useful-libraries">Useful Libraries</h2>
+<h3 id="numpy">NumPy</h3>
+<p>NumPy is a library for numerical computations.</p>
+<pre class="hljs"><code><div><span class="hljs-keyword">import</span> numpy <span class="hljs-keyword">as</span> np
+
+a = np.array([<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>])
+print(a * <span class="hljs-number">2</span>)  <span class="hljs-comment"># Outputs [2, 4, 6]</span>
+</div></code></pre>
+<h3 id="pandas">Pandas</h3>
+<p>Pandas is great for data analysis.</p>
+<pre class="hljs"><code><div><span class="hljs-keyword">import</span> pandas <span class="hljs-keyword">as</span> pd
+
+data = {<span class="hljs-string">'Name'</span>: [<span class="hljs-string">'Alice'</span>, <span class="hljs-string">'Bob'</span>], <span class="hljs-string">'Age'</span>: [<span class="hljs-number">25</span>, <span class="hljs-number">30</span>]}
+df = pd.DataFrame(data)
+print(df)
+</div></code></pre>
+<!--more
+
+## <a href="https://geomoer.github.io/moer-base-r/assets/data/cheatsheets/rstudio-ide.pdf" download="rstudio-ide.pdf">RStudio IDE Cheat Sheet</a>{:target="_blank"}
+
+{% include figure image_path="/assets/images/cheatsheet/00pdf_ide_cheatsheet_p1.png" %}
+{% include figure image_path="/assets/images/cheatsheet/00pdf_ide_cheatsheet_p2.png" %}
+<a href="https://geomoer.github.io/moer-base-r/assets/data/cheatsheets/rstudio-ide.pdf" download="rstudio-ide.pdf">Download RStudio IDE Cheat Sheet</a>{:target="_blank"}
+
+## <a href="https://geomoer.github.io/moer-base-r/assets/data/cheatsheets/base-r.pdf" download="base-r.pdf">Base R Cheat Sheet</a>{:target="_blank"}
+
+{% include figure image_path="/assets/images/cheatsheet/01pdf_baser_cheatsheet_p1.png" %}
+{% include figure image_path="/assets/images/cheatsheet/01pdf_baser_cheatsheet_p2.png" %}
+<a href="https://geomoer.github.io/moer-base-r/assets/data/cheatsheets/base-r.pdf" download="base-r.pdf">Download Base R Cheat Sheet</a>{:target="_blank"}
+
+## <a href="https://geomoer.github.io/moer-base-r/assets/data/cheatsheets/advancedR.pdf" download="advancedR.pdf">Advanced R Cheat Sheet</a>{:target="_blank"}
+
+{% include figure image_path="/assets/images/cheatsheet/02pdf_advancer_cheatsheet_p1.png" %}
+{% include figure image_path="/assets/images/cheatsheet/02pdf_advancer_cheatsheet_p2.png" %}
+{% include figure image_path="/assets/images/cheatsheet/02pdf_advancer_cheatsheet_p3.png" %}
+{% include figure image_path="/assets/images/cheatsheet/02pdf_advancer_cheatsheet_p4.png" %}
+{% include figure image_path="/assets/images/cheatsheet/02pdf_advancer_cheatsheet_p5.png" %}
+<a href="https://geomoer.github.io/moer-base-r/assets/data/cheatsheets/advancedR.pdf" download="advancedR.pdf">Download Advanced R Cheat Sheet</a>{:target="_blank"}
+-->
+
+</body>
+</html>

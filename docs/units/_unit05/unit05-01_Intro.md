@@ -17,7 +17,7 @@ You may like to store more information than just one value inside a variable. Th
 *	Arrays
 
 
-## Comments?
+<!--## Comments?
 You can leave comments below if you have questions or remarks about any of the text or code in this unit.
 Please copy the corresponding line into your comment to make it easier to answer your question.
 
