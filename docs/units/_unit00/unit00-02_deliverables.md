@@ -22,19 +22,16 @@ You are allowed to use ChatGPT or similar AIs to solve the assignments. However,
 
 | Assignment | Topic                                                                             | Units | To be finish until |
 |------------|-----------------------------------------------------------------------------------|-------|---------------------|
-| 01         | [Data & Object types](/moer-bsc-base-r/unit10/unit10-assignment01.html)           | 1-3   | 30.10.2024         |
-| 02         | [Sorting & subsetting](/moer-bsc-base-r/unit10/unit10-assignment02.html)          | 4     | 06.11.2024         |
-| 03         | [Writing & Reading Data](/moer-bsc-base-r/unit10/unit10-assignment03.html)        | 5     | 20.11.2024         |
-| 04         | [Characters, Merge & Transform](/moer-bsc-base-r/unit10/unit10-assignment04.html) | 6     | 27.11.2024         |
-| 05         | [Merge & Transform](/moer-bsc-base-r/unit10/unit10-assignment05.html)             | 6     | 04.12.2024         |
-| 06         | [Starting Projects](/moer-bsc-base-r/unit10/unit10-assignment06.html)             | -     | 12.12.2024         |
-| --         | Prepare Your First Project                                                        | -     | 20.12.2024         |
-| Project 1  | [Project 1](/moer-bsc-base-r/unit12/unit12-02_project1.html)                      | -     | 15.01.2025         |
-| 07         | [ifelse](/moer-bsc-base-r/unit10/unit10-assignment07.html)                        | 8     | 23.01.2025         |
-| --         | for loops - no assignment                                                         | 9     |                    |
-| --         | apply functions - no assignment                                                   | 9     |                    |
-| Project 2  | [Project 2](/moer-bsc-base-r/unit12/unit12-03_project2.html)                      | -     | 13.03.2025         |
-| Project 3  | Project 3                                                                         | -     | 13.03.2025         |
+| 01         | [Data & Object types](/moer-base-python/unit10/unit10-assignment01.html)           | 1-3   | 15.05.2025         |
+| 02         | [Conditionals](/moer-base-python/unit10/unit10-assignment02.html)                  | 4     | 22.05.2025         |
+| 03         | [Loops](/moer-base-python/unit10/unit10-assignment03.html)                         | 5     | 29.05.2025         |
+| 04         | [Object Data Types](/moer-base-python/unit10/unit10-assignment04.html)             | 6     | 05.06.2025         |
+| 05         | [Working with Files](/moer-base-python/unit10/unit10-assignment05.html)            | 6     | 12.06.2025         |
+| 06         | [OOP](/moer-base-python/unit10/unit10-assignment06.html)                           | -     | 19.06.2025         |
+| --         | Prepare Your Project                                                               | -     | 26.06.2025         |
+| Project 1  | [Project 1](/moer-base-python/unit12/unit12-02_project1.html)                      | -     | 03.07.2025         |
+| Project 2  | [Project 2](/moer-base-python/unit12/unit12-03_project2.html)                      | -     | 17.07.2025         |
+
 
 <!-- | Assignment | Exercise                   | Read & take quiz to chapter  | To be finish until |
 |------------|----------------------------|------------------------------|--------------------|
@@ -59,9 +56,8 @@ You may use the following lines of code for calculating your final grade, for ex
 ```r
 assignment_1 <- 5
 assignment_2 <- 6
-assignment_3 <- 8
 
-final_grade <- round(mean(c(assignment_1, assignment_2, assignment_3)))
+final_grade <- round(mean(c(assignment_1, assignment_2)))
 final_grade
 ```
 
