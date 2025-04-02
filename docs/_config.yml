@@ -22,12 +22,12 @@
 # baseurl: "/data/UNIMR/lm_data/lm_xxx"
 
 # Serve on GitHub
-#url: https://geomoer.github.io
-#baseurl: "/moer-base-python"
+url: https://geomoer.github.io
+baseurl: "/moer-base-python"
 
 # Local setup (in _config.yml)
-url: "http://localhost:4000"
-baseurl: ""
+#url: "http://localhost:4000"
+#baseurl: ""
 
 ##### Title ###################################################################
 title: Base Python
