@@ -22,15 +22,15 @@ You are allowed to use ChatGPT or similar AIs to solve the assignments. However,
 
 | Assignment | Topic                                                                             | Units | To be finish until |
 |------------|-----------------------------------------------------------------------------------|-------|---------------------|
-| 01         | [Data & Object types](/moer-base-python/unit10/unit10-assignment01.html)           | 1-3   | 15.05.2025         |
-| 02         | [Conditionals](/moer-base-python/unit10/unit10-assignment02.html)                  | 4     | 22.05.2025         |
-| 03         | [Loops](/moer-base-python/unit10/unit10-assignment03.html)                         | 5     | 29.05.2025         |
-| 04         | [Object Data Types](/moer-base-python/unit10/unit10-assignment04.html)             | 6     | 05.06.2025         |
-| 05         | [Working with Files](/moer-base-python/unit10/unit10-assignment05.html)            | 6     | 12.06.2025         |
-| 06         | [OOP](/moer-base-python/unit10/unit10-assignment06.html)                           | -     | 19.06.2025         |
-| --         | Prepare Your Project                                                               | -     | 26.06.2025         |
-| Project 1  | [Project 1](/moer-base-python/unit12/unit12-02_project1.html)                      | -     | 03.07.2025         |
-| Project 2  | [Project 2](/moer-base-python/unit12/unit12-03_project2.html)                      | -     | 17.07.2025         |
+| 01         | [Data & Object types](/moer-base-python/unit10/unit10-assignment01_3.html)        | 1-3   | 22.05.2025         |
+| 02         | [Conditionals](/moer-base-python/unit10/unit10-assignment04.html)                 | 4     | 05.06.2025         |
+| 03         | [Loops](/moer-base-python/unit10/unit10-assignment05.html)                         | 5     | 12.06.2025         |
+| 04         | [Object Data Types](/moer-base-python/unit10/unit10-assignment06.html)             | 6     | 26.06.2025         |
+| 05         | [Working with Files](/moer-base-python/unit10/unit10-assignment07.html)            | 7     | 03.07.2025         |
+| 06         | [OOP](/moer-base-python/unit10/unit10-assignment08.html)                           | 8     | 10.07.2025         |
+| --         | Prepare Your Projects                                                              | -     | 10.07.2025         |
+| Project 1  | [Project 1](/moer-base-python/unit12/unit12-02_project1.html)                      | -     | 17.07.2025         |
+| Project 2  | [Project 2](/moer-base-python/unit12/unit12-03_project2.html)                      | -     | 24.07.2025         |
 
 
 <!-- | Assignment | Exercise                   | Read & take quiz to chapter  | To be finish until |
