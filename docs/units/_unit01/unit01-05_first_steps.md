@@ -13,34 +13,33 @@ header:
 
 ## #Hashtag and Run!
 
-Let's open our first Jupyter Notebook. 
+Let's open our first Jupyter Notebook.
 
-If you are working locally with the VS User Interface, press Ctrl+Shift+P to open the command palette and search for > Create: New Jupyter Notebook. Here, VS Code automatically creates the first code block for you.
+If you are working locally with the VS User Interface, navigate to the top menu and click on **View** > **Command Palette**. In the search bar that appears, type **Create: New Jupyter Notebook** and select it. VS Code will automatically create the first code block for you.
 
-Try to enter this line of code:
+Now, try entering this line of code:
+
 ```python
 print('Welcome to Python')
 ```
-To run the block of code you can press `Shift+Enter`. Now the interface will ask you for your Python interpreter. 
-Here you have to chose local your miniconda virtual environment or online Pytho(n Interpreter)Pyodide). Then you can run your code. 
 
-You can also comment your code to make it easier to understand for other and yourself. Python treats the hashtag character, **#**, in a special way. It will not compile anything that follows a # on a line. This makes hashtags very useful for adding comments and annotations to your code. You will be able to read the comments, but your computer will pass over them.
+To run the code block, simply click on the **Run** button (a small play icon) that appears above the code cell. If you are running the notebook for the first time, the interface will prompt you to select a Python interpreter.
+
+Here, you need to choose either your **local miniconda virtual environment** or an **online Python interpreter (Pyodide)**. After selecting the interpreter, click **Run** again to execute your code.
+
+### Using Comments in Python
+
+You can add comments to your code to make it easier to understand for yourself and others. Python treats the hashtag character **#** in a special way: anything following a **#** on a line is ignored by the interpreter.
+
+This makes hashtags very useful for adding explanations and annotations to your code. Comments are visible to you but do not affect the execution of the program.
 
 ```python
-# This is a comment. Comments are very helpful
-# when you want to describe what's going on in your code.
-# Use them often!
-This is not a comment anymore. Be careful.
+# This is a comment. Comments help you understand your code later.
+# Use them often to clarify what your code does.
 
-print("Welcome to R")
+print("Welcome to Python")
 ```
 
+
+
 {% include figure image_path="/assets/images/unit_images/u01/VS_code_first_steps.PNG" caption="VS Code Overview" %}
-
-As you see, in VS code you have many button to click on. Let's o over the most important ones. The `+Code` button create a new code chunk where you can insert new code. The `+Markdown` button create a markdown chunk. Markdown is a lightweight markup language used to format text with simple syntax for styling, such as headers, lists, and emphasis. With markdown you can explain and structure you code in more detail. This is why Jupyter Notebook is such a convenient tool, because you can run code and explain in really detailed in one file combined.
-
-In Markdown, headers are created using the `#` symbol. The number of # symbols indicates the level of the header (e.g., `#` for level 1, `##` for level 2). Normal text is simply written without any special formatting symbols.
-
-{% include figure image_path="/assets/images/unit_images/u01/VS_code_markdown.PNG" caption="VS Code Markdown Cell" %}
-
-When clicking the little checkmark marked with the orange arrow the markdown code will be change to text format.

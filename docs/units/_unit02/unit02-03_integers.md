@@ -1,5 +1,5 @@
 ---
-title: "Numbers (Integers, Floats)"
+title: "Numeric Data Types: `int` and `float`"
 toc: true
 header:
   image: /assets/images/unit_images/u03/header.png
@@ -9,46 +9,81 @@ header:
 
 <!--more-->
 
-### Integers
-Integers are whole nubers without a decimal point. They can be positive, negative, or zero. 
+## Integers
+Integers are whole numbers without a decimal point. They can be positive, negative, or zero. 
 
-### Floats
-Floats (floating-point numbers) are numbers that have a decimal point. They also can be positive, negative, or zero. 
-
-### Performing Arithmetic Operations
-As shown before Python can be used as a calculator to perform arithmetic operations. You can also perfom operations with integers and floats and once. The results wil be a float.
-
+### Examples:
 ```python
-sum = 5 + 4.2
-print(sum)
-# Output: 9.2
+x = 10     # Positive integer
+y = -3     # Negative integer
+z = 0      # Zero
 ```
 
-### Built-in Functions for Numeric Data
-Python provides several built-in functions to manipulate numeric data.
-The `type()` function returns the data type of a variable.
+## Floats
+Floats (floating-point numbers) are numbers with a decimal point. They can also be positive, negative, or zero.
 
+### Examples:
 ```python
-# Check types
-type(5)
-# Output: <class 'int'>
-
-type(3.14)
-# Output: <class 'float'>
+a = 3.14   # Positive float
+b = -2.5   # Negative float
+c = 0.0    # Zero as a float
 ```
 
-The `int()` function converts a float to an integer by truncating the decimal part. 
+
+## Arithmetic Operations - Addition, Subtraction, Multiplication, and Division
+- **Addition** (`+`) and **Subtraction** (`-`):
+  ```python
+  print(2 + 6)  # Output: 8
+  ```
+- **Multiplication** (`*`) and **Division** (`/`):
+  - Division by zero is not allowed.
+  ```python
+  print(4 * 2)  # Output: 8
+  print(8 / 2)  # Output: 4.0
+  ```
+- **Modulo** (`%`): Returns the remainder of a division.
+  ```python
+  print(10 % 3)  # Output: 1
+  ```
+- **Exponentiation** (`**`): Raises a number to a power.
+  ```python
+  print(2 ** 3)  # Output: 8
+  ```
+
+## The `math` Library
+Python provides the built-in `math` module, which contains many mathematical functions and constants.
+
+### Importing the `math` Module
+To use its functions, you must first import `math`:
+
 ```python
-# Convert float to integer
-int_value = int(3.99)
-# Output: 3
+import math
 ```
 
-The `float()` function converts an integer to a float.
-```python
-# Convert integer to float
-float_value = float(7)
-# Output: 7.0
-```
+### Important Functions from `math`
 
-However python handles the conversion between int and float automatic and you rarely need to handle it yourself.
+| `math.sqrt(x)` | Returns the square root of `x` |
+| `math.pow(x, y)` | Computes `x` raised to the power of `y` |
+| `math.floor(x)` | Rounds `x` down to the nearest integer |
+| `math.ceil(x)` | Rounds `x` up to the nearest integer |
+| `math.pi` | Constant π (3.141592653589793) |
+| `math.e` | Constant e (2.718281828459045) |
+
+### Examples:
+```python
+import math
+
+# Square root
+print(math.sqrt(25))  # Output: 5.0
+
+# Power
+print(math.pow(2, 3))  # Output: 8.0
+
+# Rounding
+print(math.floor(4.7))  # Output: 4
+print(math.ceil(4.1))   # Output: 5
+
+# Constants
+print(math.pi)  # Output: 3.141592653589793
+print(math.e)   # Output: 2.718281828459045
+```

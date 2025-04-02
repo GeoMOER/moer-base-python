@@ -18,6 +18,22 @@ double_quote_string = "Hello, World!"
 triple_quote_string = """This is a 
 multi-line string."""
 ```
+### Special Characters
+
+strasse = 'Ku'damm‘ – Error
+
+Solution -> Backslash
+strasse = 'Ku\'damm'
+
+
+### Strings are immutable.
+
+The String Methods and Functions create a New String!
+→ The original remains unchanged!
+A string is stored as a single object in memory, even if it consists of multiple characters.
+
+All characters are stored as a unit.
+You cannot change individual characters directly! (because the entire string is stored as a single block in memory)
 
 ## Basis String Operations
 
@@ -71,6 +87,11 @@ message = "Hello, Python!"
 print(message)
 # Output: Hello, Python!
 ```
+String concatenation in print() can be done using commas to separate variables or by using f-strings for more readable formatting:
+```python
+print(var1, var2)        
+print(f"{var1} text {var2}")
+```
 
 The `len()` function returns the length of a string.
 
@@ -87,14 +108,36 @@ number_string = str(number)
 print(number_string)
 # Output: '42'
 ```
+The `type()` function
+```python
+text = "Marburg"
+print( type(text) )  # <class 'str'>
+zahl = 42
+print( type(zahl) )  # <class 'int'>
+```
+
+The `sorted()` function - Returns a sorted copy of the list (without modifying the original list).
+```python
+print( sorted("Marburg") )  # ['M', 'a', 'b', 'g', 'r', 'r', 'u']
+```
+The `list()` function - Returns a list of tuples (index, element).
+```python
+print( list("Marburg") )  # ['M', 'a', 'r', 'b', 'u', 'r', 'g']
+```
 
 ## Built-in String Methods
-The `replace()` method replaces occurrences of a substring with another substring.
+The `replace()` method replaces occurrences of a substring with another substring, but does not modify the original.
+The third parameter for the count is optional – 
+it specifies how many occurrences should be replaced. If this parameter is not provided, all occurrences will be replaced.
 ```python
 original_string = "Hello, World!"
 new_string = original_string.replace("World", "Python")
 print(new_string)
 # Output: "Hello, Python!"
+```
+The `strip()` - Removes spaces but does not modify the original.
+```python
+print( original_string.strip() ) 
 ```
 
 The `find()` method returns the lowest index of the first occurrence of a substring, while `rfind()` returns the highest index of the last occurrence.
@@ -134,7 +177,17 @@ lines = multiline_string.splitlines()
 # Output: ['This is line one.', 'This is line two.', 'This is line three.']
 
 ```
+Additional string methods include `upper()`, `lower()`, `title()`, and `capitalize()`.
+```python
+text = "Marburg an der Lahn"
 
+print( text.upper() )       # MARBURG AN DER LAHN
+print( text.lower() )        # marburg an der lahn
+print( text.title() )           # Marburg An Der Lahn
+print( text.capitalize() )  # Marburg an der lahn
+
+```
+You can find more listed in the table below.
 ## String Methods in Python
 
 | Method/Function                 | Description                                                                                       |

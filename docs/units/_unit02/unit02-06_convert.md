@@ -29,34 +29,7 @@ The table below gives an overview of the different data types in Python.
 | NaN        | `math.isnan(x)` or `numpy.isnan(x)` | `x = np.nan` |
 
 
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-div {
-  margin-bottom: 15px;
-  padding: 4px 12px;
-}
 
-.info {
-  background-color: #e7f3fe;
-  border-left: 6px solid #2196F3;
-}
-
-</style>
-</head>
-<body>
-<div class="info">
-  <p>*Info  <br>
-  The function <code class="language-plaintext highlighter-rouge">numpy.isnan()</code> indicates which elements are NaN (missing or undefined).    <br><br>
-  
-  To set elements to NaN, you can use <code class="language-plaintext highlighter-rouge">numpy.nan</code>.  <br><br>
-
-  While factors (categorical data) are a unique feature of R, Python uses the <code class="language-plaintext highlighter-rouge">pandas.Categorical</code> type to manage categorical data and maintain the integrity and order of those categories.
-  </p>
-</div>
-</body>
-</html>
 
 <i>Example</i>
 ```python
