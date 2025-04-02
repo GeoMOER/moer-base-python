@@ -26,7 +26,7 @@ Please also note that the HTML learning environment has a FAQ page for recurring
 During the asynchronous phase, you'll work at your own pace to master the basics of the material provided in the HTML learning environment(s). Then, our synchronous sessions will start by query what you've learned in the asynchronous phase and serve as collaborative hubs where we'll delve deeper into real-world applications and complex tasks. These interactive discussions require your attendance.
 
 Note that you are flexible in solving your assignment tasks using the material provided in the HTML learning environment (and beyond), but the deadlines for submitting your solutions must be met.
-For details see the [Deliverables](/moer-bsc-python/unit00/unit00-02_deliverables.html) section.-->
+For details see the [Deliverables](/moer-base-python/unit00/unit00-02_deliverables.html) section.-->
 
 ## Virtual meeting room
 
