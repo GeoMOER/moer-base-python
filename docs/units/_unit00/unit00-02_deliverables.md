@@ -51,19 +51,8 @@ You are allowed to use ChatGPT or similar AIs to solve the assignments. However,
 
 
 ## Final grade
-Your final grade will consist of the project portfolio.
-You may use the following lines of code for calculating your final grade, for example:
+Your final grade will be based solely on your Final Thesis.
 
-```r
-assignment_1 <- 5
-assignment_2 <- 6
-
-final_grade <- round(mean(c(assignment_1, assignment_2)))
-final_grade
-```
-
-Note that you do not have to achieve five points in each assignment.
-However, passing the course requires at least five points in regard to your final grade and submitting the unmarked assignments in time.
 {: .notice--info}
 
 
