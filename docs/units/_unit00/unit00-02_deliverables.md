@@ -15,7 +15,7 @@ You will regularly complete unmarked assignments in the form of coding exercises
 These assignments help deepen your understanding and are required to pass the course, even though they do not count toward your final grade.
 
 ### Final Thesis  
-The **Final Thesis** is the only graded deliverable in this course. It challenges you to apply your knowledge to a comprehensive, real-world task. The thesis will be evaluated based on the criteria outlined [here](/moer-base-python/unit11/unit11-01_project_guidelines.html).  
+The **Final Thesis** is the only graded deliverable in this course. It challenges you to apply your knowledge to a comprehensive, real-world task. 
 Please note that the submission deadline for the Final Thesis is listed in the table below. There will be dedicated time in the course syllabus to support your work, and you are encouraged to make consistent progress throughout.
 
 You are allowed to use ChatGPT or similar AIs to solve the assignments. However, you need to present your solution to ensure that you understand what you have done.  
