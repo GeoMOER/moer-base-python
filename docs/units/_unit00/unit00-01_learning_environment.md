@@ -17,14 +17,14 @@ This course will take place in a hybrid synchronous setting in presence in room 
 
 | Assignment               | Name and link                                                                                      | marked / unmarked |
 |--------------------------|----------------------------------------------------------------------------------------------------|-------------------|
-| 24.04.2025 14:00 | [Overview and the very basics](https://geomoer.github.io/moer-base-python/unit01/unit01-00_Intro.html) | marked            |
+| 24.04.2025 14:00 | [Overview and the very basics](/moer-base-python/unit01/unit01-00_Intro.html) | marked            |
 | 08.05.2025 14:00 | [Basic Data Types and Variables](https://geomoer.github.io/moer-base-python/unit02/unit02-01_Intro.html) | marked            |
-| 15.05.2025 14:00 | [Mathematical Operators](/unit03/unit03-02_mathematical_operators.html) | marked            |
+| 15.05.2025 14:00 | [Mathematical Operators](/moer-base-python//unit03/unit03-02_mathematical_operators.html) | marked            |
 | 22.05.2025 14:00 | [Conditionals](https://geomoer.github.io/moer-base-python/unit04/unit04-01_Intro.html) | marked            |
 | 05.06.2025 14:00 | [Loops](https://geomoer.github.io/moer-base-python/unit05/unit05-01_intro.html) | marked            |
 | 12.06.2025 14:00 | [Object Type - List and Array ](https://geomoer.github.io/moer-base-python/unit06/unit06-02_lists.html) | marked            |
 | 26.06.2025 14:00 | [Object Type - Frames and Matrix ](https://geomoer.github.io/moer-base-python/unit06/unit06-04_data_frames.html) | marked            |
-| 03.07.2025 14:00 | [Working with Files](https://geomoer.github.io/moer-base-python/unit02/unit02-01_Intro.html) | marked            |
+| 03.07.2025 14:00 | [Working with Files](https://geomoer.github.io/moer-base-python/unit07/unit07-01_Intro.html) | marked            |
 | 10.07.2025 14:00 | [Simple Visualizations](https://geomoer.github.io/moer-base-python/unit02/unit02-01_Intro.html) | marked            |
 | 17.07.2025 14:00 | [Final Thesis – Preparation and Discussion](https://geomoer.github.io/moer-base-python/unit02/unit02-01_Intro.html) | marked            |
 | 24.07.2025 14:00 | Final Thesis Submission Deadline | marked            |
