@@ -17,16 +17,16 @@ This course will take place in a hybrid synchronous setting in presence in room 
 
 | Assignment               | Name and link                                                                                      | marked / unmarked |
 |--------------------------|----------------------------------------------------------------------------------------------------|-------------------|
-| 24.04.2025 14:00 | [Overview and the very basics](/moer-base-python/unit01/unit01-00_Intro.html) | marked            |
-| 08.05.2025 14:00 | [Basic Data Types and Variables](https://geomoer.github.io/moer-base-python/unit02/unit02-01_Intro.html) | marked            |
-| 15.05.2025 14:00 | [Mathematical Operators](/moer-base-python//unit03/unit03-02_mathematical_operators.html) | marked            |
-| 22.05.2025 14:00 | [Conditionals](https://geomoer.github.io/moer-base-python/unit04/unit04-01_Intro.html) | marked            |
-| 05.06.2025 14:00 | [Loops](https://geomoer.github.io/moer-base-python/unit05/unit05-01_intro.html) | marked            |
-| 12.06.2025 14:00 | [Object Type - List and Array ](https://geomoer.github.io/moer-base-python/unit06/unit06-02_lists.html) | marked            |
-| 26.06.2025 14:00 | [Object Type - Frames and Matrix ](https://geomoer.github.io/moer-base-python/unit06/unit06-04_data_frames.html) | marked            |
-| 03.07.2025 14:00 | [Working with Files](https://geomoer.github.io/moer-base-python/unit07/unit07-01_Intro.html) | marked            |
-| 10.07.2025 14:00 | [Simple Visualizations](https://geomoer.github.io/moer-base-python/unit02/unit02-01_Intro.html) | marked            |
-| 17.07.2025 14:00 | [Final Thesis – Preparation and Discussion](https://geomoer.github.io/moer-base-python/unit02/unit02-01_Intro.html) | marked            |
+| 24.04.2025 14:00 | [Overview and the very basics](/moer-base-python/unit01/unit01-00_Intro.html) | unmarked            |
+| 08.05.2025 14:00 | [Basic Data Types and Variables](/moer-base-python/unit02/unit02-01_Intro.html) | unmarked            |
+| 15.05.2025 14:00 | [Mathematical Operators](/moer-base-python//unit03/unit03-02_mathematical_operators.html) | unmarked            |
+| 22.05.2025 14:00 | [Conditionals](/moer-base-python/unit04/unit04-01_Intro.html) | unmarked            |
+| 05.06.2025 14:00 | [Loops](/moer-base-python/unit05/unit05-01_intro.html) | unmarked            |
+| 12.06.2025 14:00 | [Object Type - List and Array ](/moer-base-python/unit06/unit06-02_lists.html) | unmarked            |
+| 26.06.2025 14:00 | [Object Type - Frames and Matrix ](/moer-base-python/unit06/unit06-04_data_frames.html) | unmarked            |
+| 03.07.2025 14:00 | [Working with Files](/moer-base-python/unit07/unit07-01_Intro.html) | unmarked            |
+| 10.07.2025 14:00 | [Simple Visualizations](/moer-base-python/unit02/unit02-01_Intro.html) | unmarked            |
+| 17.07.2025 14:00 | [OOP and Final Thesis – Preparation and Discussion](/moer-base-python/unit09/unit08-01_Intro.html) | marked            |
 | 24.07.2025 14:00 | Final Thesis Submission Deadline | marked            |
 
 

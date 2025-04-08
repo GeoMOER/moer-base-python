@@ -23,28 +23,29 @@ You are allowed to use ChatGPT or similar AIs to solve the assignments. However,
 | Assignment | Topic                                                                             | Units | To be finish until |
 |------------|-----------------------------------------------------------------------------------|-------|---------------------|
 | 01         | [Data & Object types](/moer-base-python/unit10/unit10-assignment01_3.html)        | 1-3   | 22.05.2025         |
-| 02         | [Conditionals](/moer-base-python/unit10/unit10-assignment04.html)                 | 4     | 05.06.2025         |
-| 03         | [Loops](/moer-base-python/unit10/unit10-assignment05.html)                         | 5     | 12.06.2025         |
-| 04         | [Object Data Types](/moer-base-python/unit10/unit10-assignment06.html)             | 6     | 26.06.2025         |
-| 05         | [Working with Files](/moer-base-python/unit10/unit10-assignment07.html)            | 7     | 03.07.2025         |
-| 06         | [OOP](/moer-base-python/unit10/unit10-assignment08.html)                           | 8     | 10.07.2025         |
-| --         | Prepare Your Projects                                                              | -     | 10.07.2025         |
-| Project 1  | [Project 1](/moer-base-python/unit12/unit12-02_project1.html)                      | -     | 17.07.2025         |
-| Project 2  | [Project 2](/moer-base-python/unit12/unit12-03_project2.html)                      | -     | 24.07.2025         |
+| 02         | [Conditionals](/moer-base-python/unit10/unit10-assignment04.html)                 | 4     | 12.06.2025         |
+| 03         | [Loops](/moer-base-python/unit10/unit10-assignment05.html)                        | 5     | 26.06.2025         |
+| 04         | [Object Data Types](/moer-base-python/unit10/unit10-assignment06.html)            | 6     | 10.07.2025         |
+| 05         | [Working with Files](/moer-base-python/unit10/unit10-assignment07.html)           | 7     | 17.07.2025         |
+| Final Thesis  | [Final Thesis Submission Deadline](/moer-base-python/unit12/unit12-02_thesis.html)  | -     | 24.07.2025         |
+
 
 
 <!-- | Assignment | Exercise                   | Read & take quiz to chapter  | To be finish until |
 |------------|----------------------------|------------------------------|--------------------|
-| 01         | Exercise Unit01            | Units01-02                   | 19.04.2024         |
-| 02         | Exercise Unit 02-03        | Units03-04                   | 26.04.2024         |
-| 03         | Exercise Unit 03 (Task 1-2)| Unit04 again                 | 03.05.2024         |
-| 04         | Exercise Unit 03 (Task 3-5)| Unit04 again                 | 10.05.2024         |
-| 05         | Exercise Unit 04           | Unit05                       | 17.05.2024         |
-| 06         | Exercise Unit 05           | Unit06                       | 24.05.2024         |
-| 07         | Exercise Unit 06           | Unit07                       | 07.06.2024         |
-| 08         | Exercise Unit 07, Task 1   | Unit 07 again                | 13.06.2024         | 
-| 09         | Exercise Unit 07, Task 2   | Skim all Units, Questions?   | 21.06.2024         | 
-| 10         | Exercise Unit 08 (Task1, 2)| Unit09                       | 28.06.2024         |
+| Assignment               | Name and link                                                                                      | marked / unmarked |
+|--------------------------|----------------------------------------------------------------------------------------------------|-------------------|
+| 24.04.2025 14:00 | [Overview and the very basics](/moer-base-python/unit01/unit01-00_Intro.html) | marked            |
+| 08.05.2025 14:00 | [Basic Data Types and Variables](/moer-base-python/unit02/unit02-01_Intro.html) | marked            |
+| 15.05.2025 14:00 | [Mathematical Operators](/moer-base-python//unit03/unit03-02_mathematical_operators.html) | marked            |
+| 22.05.2025 14:00 | [Conditionals](/moer-base-python/unit04/unit04-01_Intro.html) | marked            |
+| 05.06.2025 14:00 | [Loops](/moer-base-python/unit05/unit05-01_intro.html) | marked            |
+| 12.06.2025 14:00 | [Object Type - List and Array ](/moer-base-python/unit06/unit06-02_lists.html) | marked            |
+| 26.06.2025 14:00 | [Object Type - Frames and Matrix ](/moer-base-python/unit06/unit06-04_data_frames.html) | marked            |
+| 03.07.2025 14:00 | [Working with Files](/moer-base-python/unit07/unit07-01_Intro.html) | marked            |
+| 10.07.2025 14:00 | [Simple Visualizations](/moer-base-python/unit02/unit02-01_Intro.html) | marked            |
+| 17.07.2025 14:00 | [OOP and Final Thesis – Preparation and Discussion](/moer-base-python/unit09/unit08-01_Intro.html) | marked            |
+| 24.07.2025 14:00 | Final Thesis Submission Deadline | marked   
  -->
 
 
