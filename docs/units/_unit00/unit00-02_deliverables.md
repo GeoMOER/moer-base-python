@@ -23,12 +23,19 @@ You are allowed to use ChatGPT or similar AIs to solve the assignments. However,
 
 | Assignment    | Topic                                                                                   | Units | To be finished by  |
 |---------------|-----------------------------------------------------------------------------------------|--------|---------------------|
-| 01            | [Data & Object Types](/moer-base-python/unit10/unit10-assignment01_3.html)              | 1–3    | 22.05.2025          |
-| 02            | [Conditionals](/moer-base-python/unit10/unit10-assignment04.html)                       | 4      | 12.06.2025          |
-| 03            | [Loops](/moer-base-python/unit10/unit10-assignment05.html)                              | 5      | 26.06.2025          |
-| 04            | [Object Data Types](/moer-base-python/unit10/unit10-assignment06.html)                  | 6      | 10.07.2025          |
-| 05            | [Working with Files](/moer-base-python/unit10/unit10-assignment07.html)                 | 7      | 17.07.2025          |
-| Final Thesis  | [Final Thesis Submission Deadline](/moer-base-python/unit12/unit12-02_thesis.html)      | –      | 24.07.2025          |
+| 01            | [Basic Data Types and Variables](/moer-base-python/unit10/unit10-assignment01.html)     | 1–2    | 14.05.2025          |
+| 02            | [Mathematical Operators](/moer-base-python/unit10/unit10-assignment01_3.html)              |   3    | 21.05.2025          |
+| 04            | [Conditionals](/moer-base-python/unit10/unit10-assignment04.html)                       | 4      | 11.06.2025          |
+| 05            | [Loops](/moer-base-python/unit10/unit10-assignment05.html)                              | 5      | 25.06.2025          |
+| 06            | [Object Data Types - Lists and Arrays](/moer-base-python/unit10/unit10-assignment06.html)                  | 6      | 09.07.2025          |
+| 06            | [Object Data Types - Frames and Matrix](/moer-base-python/unit10/unit10-assignment06.html)                  | 6      | 09.07.2025          |
+| 07            | [Working with Files](/moer-base-python/unit10/unit10-assignment07.html)                 | 7      | 16.07.2025          |
+| Final Thesis  | [Final Thesis Submission Deadline](/moer-base-python/unit12/unit12-02_thesis.html)      | –      | 23.07.2025          |
+
+
+All assignment solutions – both marked and unmarked – must be submitted to the virtual classroom by 23:59 on Tuesday night, prior to the following Wednesday’s course session.
+{: .notice--info}
+
 
 ## Final Grade
 Your final grade will be based solely on your **Final Thesis**.

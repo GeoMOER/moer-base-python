@@ -1,7 +1,7 @@
 ---
 title: Getting Help
 header:
-  image: '/assets/images/title/DALLE_R.png'
+  image: '/assets/images/title/DALLE_Python.png'
   caption: 'Image generated with DALL E: [**Environmental Informatics Marburg**](https://www.uni-marburg.de/en/fb19/disciplines/physisch/environmentalinformatics)'
 ---
 
