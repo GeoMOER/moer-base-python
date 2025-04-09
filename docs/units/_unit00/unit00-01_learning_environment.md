@@ -10,6 +10,15 @@ header:
 
 <!--more-->
 
+This course is intended as a blended learning module, although the provided introductions, explanations and examples might be useful for self-study only, too. 
+
+## HTML learning environment
+
+Your primary learning environment is this public homepage, which was created on GitHub. Here you find all learning materials, assignment tasks, and help. The structure is linear, so just work your way through it. Of course you can also jump freely between units, but this is not recommended for beginners.
+
+Please also not that the HTML learning environment has a FAQ page for recurring questions and a comment functionality on the first page of each unit.
+
+
 ## Setting
 This course will take place in a hybrid synchronous setting in presence in room F 14 | 00A19. In addition, there will be regular meetings with a tutor. Details on the additional tutor sessions will be provided in the first regular session, which will take place on Thursday 24.04.2025	 at 14:00 am (German time) in room F 14 | 00A19. The virtual room for online participants will be announced by email and must be accesses via ILIAS. Note that the tutor sessions are voluntary.
 
@@ -29,12 +38,6 @@ This course will take place in a hybrid synchronous setting in presence in room 
 | 17.07.2025 | [OOP and Final Thesis – Preparation and Discussion](/moer-base-python/unit09/unit08-01_Intro.html) | marked            |
 | 24.07.2025 | Final Thesis Submission Deadline | marked            |
 
-
-## HTML learning environment
-
-Your primary learning environment is this public homepage, which was created on GitHub. Here you find all learning materials, assignment tasks, and help. The structure is linear, so just work your way through it. Of course you can also jump freely between units, but this is not recommended for beginners.
-
-Please also not that the HTML learning environment has a FAQ page for recurring questions and a comment functionality on the first page of each unit.
 
 
 ## Flexible learning with deadlines
