@@ -9,16 +9,8 @@ header:
 This is a continuously updated collection of frequently asked questions.
 
 
-## Course requirements
-
 ### What is the expected workload for this course?
-This course is worth 6 ECTS credit points, which corresponds to a total workload of 180 hours.
-Given that the course meets once per week for two academic hours (1.5 real-time hours), the total in-class time amounts to 21 hours across 14 weeks.
-This leaves 159 hours of expected self-study, which corresponds to an average of approximately 11.4 hours per week outside of the classroom.
-
-Note that this workload is designed to achieve an average grade according to the European Credit Transfer and Accumulation System (ECTS).
-
-
+This course gives 6 (ECTS) credit points, making up a total of 180 hours workload. 180 hours in total minus the time spend during the course sessions divided by the number of weeks makes up a workload of 9.6 hours on average per week in addition to the time spend during the course sessions ((180-(13*3.5))/14). Note that this workload is intended to achieve an average grade according to the official European study system.
 
 
 

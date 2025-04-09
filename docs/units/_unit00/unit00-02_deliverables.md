@@ -10,33 +10,42 @@ header:
 We distinguish between unmarked and marked deliverables ("Studien- und Prüfungsleistung").  
 Both are required for passing the course, but only the latter are graded.
 
+You are allowed to use ChatGPT or similar AIs to solve the assignments. However, you need to present your solution to ensure that you understand what you have done.  
+{: .notice--info}
+
+## Overview
+
+| Assignment               | Name and link                                                                                      | marked / unmarked |
+|--------------------------|----------------------------------------------------------------------------------------------------|-------------------|
+| 01 | [Overview and the very basics](/moer-base-python/unit01/unit01-00_Intro.html) | unmarked            |
+| 02 | [Basic Data Types and Variables](/moer-base-python/unit02/unit02-01_Intro.html) | unmarked            |
+| 03 | [Mathematical Operators](/moer-base-python//unit03/unit03-02_mathematical_operators.html) | unmarked            |
+| 04 | [Conditionals](/moer-base-python/unit04/unit04-01_Intro.html) | unmarked            |
+| 05 | [Loops](/moer-base-python/unit05/unit05-01_intro.html) | unmarked            |
+| 06 | [Object Types - Lists and Arrays ](/moer-base-python/unit06/unit06-02_lists.html) | unmarked            |
+| 07 | [Object Types - Frames and Matrix ](/moer-base-python/unit06/unit06-04_data_frames.html) | unmarked            |
+| 08 | [Working with Files](/moer-base-python/unit07/unit07-01_Intro.html) | unmarked            |
+| 09 | [Simple Visualizations](/moer-base-python/unit02/unit02-01_Intro.html) | unmarked            |
+| 10 | [OOP and Final Thesis – Preparation and Discussion](/moer-base-python/unit09/unit08-01_Intro.html) | unmarked            |
+| 11 | Final Thesis Submission Deadline | marked            |
+
+
 ### Coding Exercises and Tasks  
 You will regularly complete unmarked assignments in the form of coding exercises and other tasks. Most of these exercises will be worked on during the course, but if not completed in class, they must be submitted by the end of the following Wednesday.  
 These assignments help deepen your understanding and are required to pass the course, even though they do not count toward your final grade.
+
+The deadlines for uploading your assignment solutions – both marked and unmarked – to Classroom is 12:00 o’clock in the night between Monday and Tuesday before the next course session.
+{: .notice--info}
+
+Be aware that it will NOT be sufficient to start working on the assignments the day before the deadline. It will be necessary to solve a lot of disturbing and time-consuming problems in the programming world. So start early!!!
+{: .notice--warning}
+
 
 ### Final Thesis  
 The **Final Thesis** is the only graded deliverable in this course. It challenges you to apply your knowledge to a comprehensive, real-world task. 
 Please note that the submission deadline for the Final Thesis is listed in the table below. There will be dedicated time in the course syllabus to support your work, and you are encouraged to make consistent progress throughout.
 
-You are allowed to use ChatGPT or similar AIs to solve the assignments. However, you need to present your solution to ensure that you understand what you have done.  
-{: .notice--info}
-
-| Assignment    | Topic                                                                                   | Units | To be finished by  |
-|---------------|-----------------------------------------------------------------------------------------|--------|---------------------|
-| 01            | [Basic Data Types and Variables](/moer-base-python/unit10/unit10-assignment01.html)     | 1–2    | 14.05.2025          |
-| 02            | [Mathematical Operators](/moer-base-python/unit10/unit10-assignment01_3.html)              |   3    | 21.05.2025          |
-| 04            | [Conditionals](/moer-base-python/unit10/unit10-assignment04.html)                       | 4      | 11.06.2025          |
-| 05            | [Loops](/moer-base-python/unit10/unit10-assignment05.html)                              | 5      | 25.06.2025          |
-| 06            | [Object Data Types - Lists and Arrays](/moer-base-python/unit10/unit10-assignment06.html)                  | 6      | 09.07.2025          |
-| 06            | [Object Data Types - Frames and Matrix](/moer-base-python/unit10/unit10-assignment06.html)                  | 6      | 09.07.2025          |
-| 07            | [Working with Files](/moer-base-python/unit10/unit10-assignment07.html)                 | 7      | 16.07.2025          |
-| Final Thesis  | [Final Thesis Submission Deadline](/moer-base-python/unit12/unit12-02_thesis.html)      | –      | 23.07.2025          |
-
-
-All assignment solutions – both marked and unmarked – must be submitted to the virtual classroom by 23:59 on Tuesday night, prior to the following Wednesday’s course session.
-{: .notice--info}
-
 
 ## Final Grade
 Your final grade will be based solely on your **Final Thesis**.
-{: .notice--info}
+
