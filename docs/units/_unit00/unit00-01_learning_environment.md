@@ -27,6 +27,7 @@ Note that you are flexible in solving your assignment tasks using the material p
 For details see the [Deliverables](/moer-base-python/unit00/unit00-02_deliverables.html) section.
 {: .notice--info}
 
+
 ## Hybrid setting
 
 The course will take place in a synchronous hybrid setting on a weekly basis. This means, that students can attend the course in the seminar room in presence (room 00A19) or online using the link provided in Ilias.
@@ -34,9 +35,5 @@ The course will take place in a synchronous hybrid setting on a weekly basis. Th
 
 ## Ilias
 
-Ilias is the course space offered by the University of Marburg. We will use Ilias mainly for the administration of the course and for providing small static documents. The link to the Ilias space for this course can be found [here](https://ilias.uni-marburg.de/login.php?target=crs_4113838&cmd=force_login&lang=de). Note that you have to log in with your student account. In Ilias, you can also find the links to the online meeting room for the weekly session and for the tutorium.
-
-
-## Classroom
-
-You will use Classroom for uploading your assignments and for getting familiar with git. The link for joining our Classroom can be found in Ilias. 
+Ilias is the course space offered by the University of Marburg. We will use Ilias mainly for the administration of the course and for providing small static documents. The link to the Ilias space for this course can be found here. Note that you have to log in with your student account. In Ilias, you can also find the links to the online meeting room for the weekly session and for the tutorium.
+All assignments should also be submitted via Ilias. Please make sure to respect the [deadlines](/moer-base-python/unit00/unit00-02_deliverables.html) and upload your solutions in the required format.
