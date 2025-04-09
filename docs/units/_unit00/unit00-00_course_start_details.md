@@ -8,5 +8,7 @@ header:
 
 * First termin: Thursday 24 April 2025
 * Time: Weekly 14:00 to 16:00 (German time)
-* Place: Room 00A19 (Deutschhausstraße 12, Institutsgebäude ( F | 14)) + online room (link see ILIAS)
+* Place: Room 00A19, Deutschhausstraße 12, Institutsgebäude F 14
+* Online room: (link see ILIAS)
+
 
