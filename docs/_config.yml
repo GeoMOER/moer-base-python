@@ -22,12 +22,12 @@
 # baseurl: "/data/UNIMR/lm_data/lm_xxx"
 
 # Serve on GitHub
-url: https://geomoer.github.io
-baseurl: "/moer-base-python"
+#url: https://geomoer.github.io
+#baseurl: "/moer-base-python"
 
 # Local setup (in _config.yml)
-#url: "http://localhost:4000"
-#baseurl: ""
+url: "http://localhost:4000"
+baseurl: ""
 
 ##### Title ###################################################################
 title: Base Python
@@ -109,6 +109,9 @@ collections:
   unit09:
     output: true
     permalink: /:collection/:title.html
+  unit10:
+    output: true
+    permalink: /:collection/:title.html
   unit99:
     output: true
     permalink: /:collection/:title.html
@@ -150,7 +153,7 @@ defaults:
       path: ""
       type: unit02
     values:
-      category: "02 Basic Data Types and Variables"
+      category: "02 Variables and Basic Data Types"
       tags: "Unit 02"
       layout: single
       sidebar:
@@ -225,7 +228,16 @@ defaults:
       layout: single
       sidebar:
         nav: "units"
-
+  # unit10
+  - scope:
+      path: ""
+      type: unit10
+    values:
+      category: "10 Final Summary & Homework"
+      tags: "Unit 10"
+      layout: single
+      sidebar:
+        nav: "units"
   # Spotlights
   - scope:
       path: ""

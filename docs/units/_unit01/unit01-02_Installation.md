@@ -4,13 +4,13 @@ toc: TRUE
 toc_float: TRUE
 header:
   image: /assets/images/unit_images/u01/header.png
-  image_description: "Android Market-share Worldwide 2018-2020"
-  caption: "Mobile Android operating system market share by version worldwide from 2018 to 2020: [StatCounter](https://gs.statcounter.com/android-version-market-share/mobile/worldwide/#monthly-201907-202001) [via Statista](https://www.statista.com/statistics/921152/mobile-android-version-share-worldwide/)"
+  image_description: "Python und Visual Studio Code Logos nebeneinander"
+  caption: "Installation Guide für Python und VS Code"
 ---
-*Installation Guide for Python, Miniconda, and Visual Studio Code*
+
 <!--more-->
 
-## Installation Guide for Python, Miniconda, and Visual Studio Code
+## Guide for Python and Visual Studio Code
 
 ### **Step 1: Download and Install Python**
 
@@ -37,31 +37,7 @@ header:
 
 ---
 
-### **Step 2: Download and Install Miniconda**
-
-1. **Go to the Miniconda download page**  
-   - Visit the official [Miniconda download page](https://docs.conda.io/en/latest/miniconda.html).
-
-2. **Choose the correct installer**  
-   - Select the appropriate version for your operating system:
-     - **Windows**: `.exe` installer  
-     - **macOS**: `.pkg` file or `bash` version for terminal use  
-     - **Linux**: `.sh` script
-
-3. **Start the installation**  
-   - Run the installer and follow the instructions.
-   - Choose the option to add Miniconda to the system PATH if available.
-
-4. **Verify the installation**  
-   - Open a terminal or command prompt and enter:
-     ```sh
-     conda --version
-     ```
-   - If no error appears, Miniconda is successfully installed.
-
----
-
-### **Step 3: Download and Install Visual Studio Code**
+### **Step 2: Download and Install Visual Studio Code**
 
 1. **Go to the Visual Studio Code download page**  
    - Visit the [official VS Code download page](https://code.visualstudio.com/Download).
@@ -85,7 +61,7 @@ header:
 
 ---
 
-### **Step 4: Install Extensions in Visual Studio Code**
+### **Step 3: Install Extensions in Visual Studio Code**
 
 #### **1. Install the Python extension**
 
@@ -139,11 +115,28 @@ If any issues arise:
 This guide should now cover all essential steps! 😊
 ```
 
+### **(Optional): Install Miniconda**
 
-{% include figure image_path="/assets/images/unit_images/u01/flowchart_python.png" %}
+*Miniconda is optional but useful if you're working in Data Science, AI, or scientific computing.*
 
-<!--
-## Further reading
+#### **What is Miniconda?**
+Miniconda is a minimal version of Anaconda. It allows you to create isolated Python environments and install scientific packages more easily.
 
-add some day
--->
+#### **Install Miniconda**
+
+1. **Download Miniconda**  
+   - [https://docs.conda.io/en/latest/miniconda.html](https://docs.conda.io/en/latest/miniconda.html)
+
+2. **Run the installer**  
+   - For Windows, you may select "Add Miniconda to my PATH environment variable" (only if you are not using another Python version).
+
+3. **Verify the installation**  
+   - Open a terminal and run:
+     ```bash
+     conda --version
+     conda create -n myproject python=3.11
+     conda activate myproject
+     ```
+
+
+

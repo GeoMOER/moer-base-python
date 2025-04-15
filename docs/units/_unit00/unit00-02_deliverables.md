@@ -17,8 +17,8 @@ You are allowed to use ChatGPT or similar AIs to solve the assignments. However,
 
 | Assignment               | Name and link                                                                                      | marked / unmarked |
 |--------------------------|----------------------------------------------------------------------------------------------------|-------------------|
-| 01 | [Basic Data Types and Variables](/moer-base-python/unit02/unit02-01_Intro.html) | unmarked            |
-| 02 | [Mathematical Operators](/moer-base-python//unit03/unit03-02_mathematical_operators.html) | unmarked            |
+| 01 | [Variables and Basic Data Types  ](/moer-base-python/unit02/unit02-01_Intro.html) | unmarked            |
+| 02 | [Strings and Mathematical Operators](/moer-base-python//unit03/unit03-02_mathematical_operators.html) | unmarked            |
 | 03 | [Conditionals](/moer-base-python/unit04/unit04-01_Intro.html) | unmarked            |
 | 04 | [Loops](/moer-base-python/unit05/unit05-01_intro.html) | unmarked            |
 | 05 | [Object Types - Lists and Arrays ](/moer-base-python/unit06/unit06-02_lists.html) | unmarked            |

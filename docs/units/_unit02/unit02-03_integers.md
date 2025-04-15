@@ -1,5 +1,5 @@
 ---
-title: "Numeric Data Types: `int` and `float`"
+title: "Numeric Data Types"
 toc: true
 header:
   image: /assets/images/unit_images/u03/header.png
@@ -28,27 +28,6 @@ a = 3.14   # Positive float
 b = -2.5   # Negative float
 c = 0.0    # Zero as a float
 ```
-
-
-## Arithmetic Operations - Addition, Subtraction, Multiplication, and Division
-- **Addition** (`+`) and **Subtraction** (`-`):
-  ```python
-  print(2 + 6)  # Output: 8
-  ```
-- **Multiplication** (`*`) and **Division** (`/`):
-  - Division by zero is not allowed.
-  ```python
-  print(4 * 2)  # Output: 8
-  print(8 / 2)  # Output: 4.0
-  ```
-- **Modulo** (`%`): Returns the remainder of a division.
-  ```python
-  print(10 % 3)  # Output: 1
-  ```
-- **Exponentiation** (`**`): Raises a number to a power.
-  ```python
-  print(2 ** 3)  # Output: 8
-  ```
 
 ## The `math` Library
 Python provides the built-in `math` module, which contains many mathematical functions and constants.

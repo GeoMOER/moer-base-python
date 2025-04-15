@@ -19,10 +19,6 @@ is_false = False
 ## Boolean Expressions
 Boolean expressions are expressions that evaluate to either True or False. They are commonly used in conditional statements and loops. There are two kind of operators. Relational and Logical Operators.
 
-
-#### Relational Operators
-Relational operators are used to compare values. The result of a comparison is a Boolean value.
-
 ```python
 a = 10
 b = 5
@@ -52,8 +48,6 @@ print(a <= b)
 # Output: False
 ```
 
-#### Logical Operators
-Logical operators are used to combine Boolean expressions.
 ```python
 x = True
 y = False
@@ -70,17 +64,3 @@ result = x or y
 result = not x
 # Output: False --> 'not' turns around true and false
 ```
-
-| **Relational Operators**                         ||
-| <         | Test if x is smaller than y          | `x < y`     |
-| >         | Test if x is greater than y          | `x > y`     |
-| ==        | Test if x is exactly equal to y      | `x == y`    |
-| >=        | Test if x is greater than or equal to y | `x >= y` |
-| <=        | Test if x is smaller than or equal to y | `x <= y` |
-| !=        | Test if x is not equal to y          | `x != y`    |
-| **Logical Operators**                            ||
-| not       | Logical NOT                          | `not x`     |
-| &         | Element-wise logical AND             | `x & y`     |
-| and       | Logical AND                          | `x and y`   |
-| \|        | Element-wise logical OR              | `x | y`     |
-| or        | Logical OR                           | `x or y`    |

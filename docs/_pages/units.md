@@ -24,7 +24,7 @@ feature_row:
 
   - image_path: assets/images/unit_images/u02/grid.png
     alt: "Unit 2"
-    title: "Unit 02: Variables and Basic 04"
+    title: "Unit 02: Variables and basic data types"
     excerpt: "Introduction to variables and basic data types."
     url: "/unit02/unit02-01_Intro.html"
     btn_label: "Show me more"
@@ -47,9 +47,9 @@ feature_row:
     btn_class: "btn--primary"
 
   - image_path: assets/images/unit_images/u05/grid.png
-    alt: "Unit 05"
+    alt: "Unit 5"
     title: "Unit 05: Loops"
-    excerpt: "Introduction loops."
+    excerpt: "Introduction to loops."
     url: "/unit05/unit05-01_Intro.html"
     btn_label: "Show me more"
     btn_class: "btn--primary"
@@ -86,6 +86,14 @@ feature_row:
     btn_label: "Show me more"
     btn_class: "btn--primary"
 
+  - image_path: assets/images/unit_images/u00/grid.png
+    alt: "Unit 10"
+    title: "Homework"
+    excerpt: "Final summary with all required exercises and submission info."
+    url: "/unit10/unit10-01_Intro.html"
+    btn_label: "Show me more"
+    btn_class: "btn--primary"
+
   - image_path: assets/images/spotlights/grid.png
     alt: "Spotlights"
     title: "Spotlights"
@@ -105,10 +113,6 @@ feature_row:
 
 {% include feature_row %}
 
----
-
 <!---
 your comment goes here
-and here
-{% include units_page %}
 -->
