@@ -163,7 +163,7 @@ defaults:
       path: ""
       type: unit03
     values:
-      category: "03 Simple Operators"
+      category: "03 Working with String and simple operators"
       tags: "Unit 03"
       layout: single
       sidebar:

@@ -5,13 +5,19 @@ header:
   image_description: "neon data"
   caption: "Photo by [Franki Chamaki](https://unsplash.com/@franki?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) [from unsplash](https://unsplash.com/s/photos/data?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)"
 ---
-*Learn about the operators in Python and how they are used to perform different operations on data.*
+
+*Strings are everywhere—from user names and messages to data labels and file names. In this unit, you'll learn how to work with text effectively, and how to use simple operators to bring logic and structure to your Python programs.*
 
 <!--more-->
-At the end of this unit, you should know:
 
-- What operators are and why they are essential in Python,
-- The different types of operators in Python: mathematical, comparison, and logical
-- How to use operators to perform calculations, comparisons, and logical operations,
+By the end of this unit, you’ll be able to:
 
-Understanding these concepts will help you effectively manipulate and evaluate data in Python, making your code more powerful and expressive.
+- Understand what strings are and how to manipulate them using built-in methods,
+- Format and combine text in powerful and flexible ways,
+- Use Python’s simple operators to:
+  - Perform mathematical calculations (`+`, `-`, `*`, `/`),
+  - Compare values (`==`, `!=`, `>`, `<`),
+  - Apply logic with conditions (`and`, `or`, `not`),
+- Write small, expressive programs that combine strings and logic.
+
+Mastering strings and basic operators is a key step in writing clear, meaningful Python code—whether you're building user interfaces, analyzing data, or just making your programs speak your language.

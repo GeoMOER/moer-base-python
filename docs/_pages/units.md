@@ -32,7 +32,7 @@ feature_row:
 
   - image_path: assets/images/unit_images/u03/grid.png
     alt: "Unit 3"
-    title: "Unit 03: Simple Operators"
+    title: "Unit 03: Working with String and simple operators"
     excerpt: "Introduction to mathematical, comparison and logical operators."
     url: "/unit03/unit03-01_Intro.html"
     btn_label: "Show me more"
