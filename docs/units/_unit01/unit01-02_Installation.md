@@ -79,7 +79,7 @@ header:
    - Type "Jupyter" in the search bar.
    - Select the **Jupyter** extension by **Microsoft** and install it.
 
-### ** Additional Tests After Installation**
+### **3. Additional Tests After Installation**
 **Run Python in VS Code**
 
 1. Open VS Code.
@@ -175,13 +175,6 @@ Miniconda works seamlessly with Visual Studio Code and is ideal for creating iso
    - Press `Ctrl+Shift+P` → `Python: Select Interpreter`
    - Choose the one that looks like: `Python 3.11.x ('myenv': conda)`
 
-5. **(Optional) Save interpreter setting per project**  
-   VS Code will store your selection in `.vscode/settings.json`, for example:
-   ```json
-   {
-     "python.defaultInterpreterPath": "/Users/yourname/miniconda3/envs/myenv/bin/python"
-   }
-   ```
 ---
 
 With this setup, you can work efficiently on multiple Python projects, each with its own isolated environment.
