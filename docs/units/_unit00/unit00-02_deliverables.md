@@ -15,19 +15,20 @@ You are allowed to use ChatGPT or similar AIs to solve the assignments. However,
 
 ## Overview
 
-| Assignment               | Name and link                                                                                      | marked / unmarked |
-|--------------------------|----------------------------------------------------------------------------------------------------|-------------------|
-| 01 | [Variables and Basic Data Types  ](/moer-base-python/unit02/unit02-01_Intro.html) | unmarked            |
-| 02 | [Strings and Mathematical Operators](/moer-base-python//unit03/unit03-02_mathematical_operators.html) | unmarked            |
-| 03 | [Conditionals](/moer-base-python/unit04/unit04-01_Intro.html) | unmarked            |
-| 04 | [Loops](/moer-base-python/unit05/unit05-01_intro.html) | unmarked            |
-| 05 | [Object Types - Lists and Arrays ](/moer-base-python/unit06/unit06-02_lists.html) | unmarked            |
-| 06 | [Object Types - Frames and Matrix ](/moer-base-python/unit06/unit06-04_data_frames.html) | unmarked            |
-| 07 | [Working with Files](/moer-base-python/unit07/unit07-01_Intro.html) | unmarked            |
-| 08 | [Simple Visualizations](/moer-base-python/unit02/unit02-01_Intro.html) | unmarked            |
-| 09 | [OOP and Final Thesis – Preparation and Discussion](/moer-base-python/unit09/unit08-01_Intro.html) | unmarked            |
-| 10 | Final Thesis Submission Deadline | marked            |
+## ✅ Overview of All Assignments
 
+| #   | Assignment Name                                                             | Type        |
+|-----|------------------------------------------------------------------------------|-------------|
+| 01  | [Introduction to Variables and Basic Data Types](/moer-base-python/unit10/unit10-01_variables.html)                | unmarked    |
+| 02  | [Working with Strings and Simple Operators](/moer-base-python/unit10/unit10-02_strings_math.html)                  | unmarked    |
+| 03  | [Using Conditionals in Python](/moer-base-python/unit10/unit10-03_conditionals.html)                               | unmarked    |
+| 04  | [Looping with For and While Statements](/moer-base-python/unit10/unit10-04_loops.html)                             | unmarked    |
+| 05  | [Object Types: Lists and Arrays](/moer-base-python/unit10/unit10-05_lists.html)                                    | unmarked    |
+| 06  | [Object Types: DataFrames and Matrices](/moer-base-python/unit10/unit10-06_dataframes.html)                        | unmarked    |
+| 07  | [Working with Files](/moer-base-python/unit10/unit10-07_files.html)                                                | unmarked    |
+| 08  | [Simple Visualizations](/moer-base-python/unit10/unit10-08_visualizations.html)                                    | unmarked    |
+| 09  | [OOP Fundamentals and Final Thesis Preparation](/moer-base-python/unit10/unit10-09_thesis_prep.html)               | unmarked    |
+| 10  | [Final Thesis Submission](/moer-base-python/unit10/unit10-10_thesis_submission.html)                               | **marked**  |
 
 ### Coding Exercises and Tasks  
 You will regularly complete unmarked assignments in the form of coding exercises and other tasks. Most of these exercises will be worked on during the course, but if not completed in class, they must be submitted by the end of the following Wednesday.  

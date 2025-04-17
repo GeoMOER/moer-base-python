@@ -79,17 +79,8 @@ header:
    - Type "Jupyter" in the search bar.
    - Select the **Jupyter** extension by **Microsoft** and install it.
 
-#### **3. (Optional) Additional useful extensions**
-
-- **Pylance** (better code completion for Python)
-- **Conda** (simplifies managing Conda environments in VS Code)
-- **Live Share** (for collaborative work)
-
----
-
-### **Additional Tests After Installation**
-
-#### **Run Python in VS Code**
+### ** Additional Tests After Installation**
+**Run Python in VS Code**
 
 1. Open VS Code.
 2. Create a new file `test.py` with the following content:
@@ -98,7 +89,7 @@ header:
    ```
 3. Press `F5` or go to **Run** → **Run Python File**.
 
-#### **Test Jupyter Notebook**
+**Test Jupyter Notebook**
 
 1. Open VS Code.
 2. Create a new file `test.ipynb`.
@@ -108,12 +99,28 @@ header:
    ```
 4. Run the cell.
 
-If any issues arise:
-- Check if Python and Miniconda are correctly installed.
-- Select the correct Python interpreter (`Ctrl+Shift+P` → "Python: Select Interpreter").
 
-This guide should now cover all essential steps! 😊
-```
+#### **4. Check and Select the Python Interpreter in VS Code**
+
+After installing Python and Visual Studio Code, it’s important to make sure the correct Python interpreter is selected.
+
+**Use the Command Palette**
+
+1. Open VS Code.
+2. Press `Ctrl+Shift+P` (or `Cmd+Shift+P` on macOS) to open the **Command Palette**.
+3. Type `Python: Select Interpreter` and hit Enter.
+4. Select the interpreter you want to use (e.g. a global install, virtual environment, or Conda environment).
+5. VS Code will remember your selection per workspace/project.
+
+
+**💡 Why this is powerful:**
+
+One of the **biggest advantages of VS Code** is that you can assign a **different Python interpreter or environment per project**.  
+This means:
+- Different Python versions for different projects
+- Clean and isolated environments (especially useful for data science or academic projects)
+- No interference between project dependencies
+
 
 ### **(Optional): Install Miniconda**
 
@@ -139,4 +146,42 @@ Miniconda is a minimal version of Anaconda. It allows you to create isolated Pyt
      ```
 
 
+#### (Optional): Use Miniconda with VS Code
 
+Miniconda works seamlessly with Visual Studio Code and is ideal for creating isolated environments with specific Python versions and packages.
+
+
+1. **Create a new environment**  
+   Open your terminal (or Anaconda Prompt on Windows):
+   ```bash
+   conda create -n myenv python=3.11
+   conda activate myenv
+   ```
+
+2. **Install packages (optional)**  
+   You can install packages like numpy or pandas:
+   ```bash
+   conda install numpy pandas
+   ```
+
+3. **Launch VS Code from the same terminal**  
+   This ensures the environment is automatically detected:
+   ```bash
+   code .
+   ```
+
+4. **Or manually select the environment in VS Code**  
+   - Open VS Code
+   - Press `Ctrl+Shift+P` → `Python: Select Interpreter`
+   - Choose the one that looks like: `Python 3.11.x ('myenv': conda)`
+
+5. **(Optional) Save interpreter setting per project**  
+   VS Code will store your selection in `.vscode/settings.json`, for example:
+   ```json
+   {
+     "python.defaultInterpreterPath": "/Users/yourname/miniconda3/envs/myenv/bin/python"
+   }
+   ```
+---
+
+With this setup, you can work efficiently on multiple Python projects, each with its own isolated environment.
