@@ -1,9 +1,9 @@
 ---
 title: Introduction
 header:
-  image: /assets/images/unit_images/u08/grid.png
+  image: /assets/images/unit_images/u08/header.png
   image_description: "Object-oriented programming concept"
-  caption: "Photo by [Gerd Altmann](https://pixabay.com/de/users/geralt-9301/) from [Pixabay](https://pixabay.com/)"
+  caption: "Photo by [Spaska Forteva](chatgpt)"
 ---
 
 # Introduction to Object-Oriented Programming (OOP) in Python
@@ -12,7 +12,7 @@ Object-Oriented Programming (OOP) is a fundamental programming paradigm based on
 
 ---
 
-## 🧠 Why Learn OOP?
+## Why Learn OOP?
 
 Understanding OOP allows you to:
 
@@ -23,7 +23,7 @@ Understanding OOP allows you to:
 
 ---
 
-## 🧱 Core Concepts of OOP
+## Core Concepts of OOP
 
 Here are the key principles you’ll learn in this unit:
 
