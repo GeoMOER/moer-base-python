@@ -24,7 +24,7 @@ Imagine you are giving instructions to a robot – **each step must be clear, co
 **Answer the following questions in writing:**
 
 - What role does **Python** play in the field of Artificial Intelligence?
-- Name at least popular AI or data science libraries in Python.
+- Name at some popular AI or data science libraries in Python.
 
 *(Hint: Consider: readability, rapid development, community support, available libraries...)*
 
@@ -49,9 +49,9 @@ Answer in writing:
 ## 5. Define 4 variables with meaningful names and different data types
 
 Define the variables yourself using:
-- A number (integer or float)
+- A integer
 - A string
-- A list
+- A float
 - A boolean
 
 Then, use print() to display each variable together with its data type using the type() function.
@@ -98,7 +98,7 @@ print(root_a > root_b and root_c > root_d)
 
 ## 8. Strings and slicing
 
-In this task, you will practice working with strings using **only slicing (`[:]`)** – no other string functions.
+In this task, you will practice working with strings using **only slicing (`[:]`)** – no other string functions or methods.
 
 1. Define the following variables as strings:
    - First name
@@ -113,8 +113,16 @@ In this task, you will practice working with strings using **only slicing (`[:]`
    - Extract the first 5 characters of your address.
    - Extract the last 3 characters of your city.
    - Extract only the first digit of your age string.
+   - Print all characters of your first name **except the last one** using `[:-1]` and explain what this slicing does.
+   - Replace the first letter of your last name by concatenating slices (e.g., change "Klein" to "Blein").
+   - Create a new string from your city where the middle part is removed using slicing.
 
-3. Use `print()` to show the results with labels.
+3. Use `print()` to show the results with labels. All outputs should be clearly formatted.
+
+### 🎯 Goal:
+- Understand how slicing works in Python strings.
+- Use slicing creatively to modify or extract parts of strings.
+- Prepare for similar operations later with Python lists.
 
 ---
 
@@ -122,10 +130,12 @@ In this task, you will practice working with strings using **only slicing (`[:]`
 
 You are developing a program for managing bakery orders. Simulate user input by defining all inputs as strings:
 
-- product_name = "Wholegrain Bread"
-- price = "3.79"
-- quantity = "12"
-- available = "True"
+```python
+product_name = "Wholegrain Bread"
+price = "3.79"         # net price (without tax)
+quantity = "12"
+available = "True"
+```
 
 ### Your tasks:
 
@@ -134,16 +144,25 @@ You are developing a program for managing bakery orders. Simulate user input by 
    - quantity → int
    - available → boolean
 
-2. Print each converted value and its data type.
+2. Print each converted value and its data type using `type()`.  
+   Make sure the output is clearly formatted and easy to read.
 
-3. Calculate total price:
-   - Multiply quantity by price
+3. Calculate total net price:
+   - Multiply quantity by net price
    - Store and print result with its type
 
-4. Bonus – Reverse conversion:
-   - Convert the total price back to a string
+4. Calculate total gross price (including 19% tax):
+   - Calculate 19% of the total net price
+   - Add it to the net total
+   - Store and print the gross price and its type
+
+5. Bonus – Reverse conversion:
+   - Convert the total gross price back to a string
    - Create a sentence like:  
-     `"12 Wholegrain Bread cost 45.48 euros."`
+     `"12 Wholegrain Bread cost 45.48 euros (including tax)."`
    - Print the final sentence
+
+---
+
 
 ---
