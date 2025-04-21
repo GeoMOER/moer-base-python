@@ -14,7 +14,7 @@ The **final thesis submission**  will be graded — please make sure to follow t
 
 ---
 
-## ✅ Overview of All Assignments
+## Overview of All Assignments
 
 | #   | Assignment Name                                                             | Type        |
 |-----|------------------------------------------------------------------------------|-------------|
@@ -51,5 +51,5 @@ Make sure to include:
 
 ---
 
-Thank you for your engagement throughout the course — and good luck with your final submission! 🎉  
-You’ve come a long way. Keep coding! 💻✨
+Thank you for your engagement throughout the course — and good luck with your final submission! 
+You’ve come a long way. Keep coding! 

@@ -11,7 +11,7 @@ header:
 We distinguish between unmarked and marked deliverables ("Studien- und Prüfungsleistung").  
 Both are required for passing the course, but only the latter are graded.
 
-The deadline for uploading your assignment solutions – both marked and unmarked – to Classroom is Wednesday at 24:00 (midnight) before the next course session.
+The deadline for uploading your unmarked assignment solutions to Classroom is Wednesday at 24:00 (midnight) before the next course session.
 {: .notice--warning}
 
 You are allowed to use ChatGPT or similar AIs to solve the assignments. However, you need to present your solution to ensure that you understand what you have done.  
@@ -23,7 +23,7 @@ You will regularly complete unmarked assignments in the form of coding exercises
 These assignments help deepen your understanding and are required to pass the course, even though they do not count toward your final grade.
 
 
-## ✅ Overview of All Assignments
+#### Overview 
 
 | #   | Assignment Name                                                             | Type        |
 |-----|------------------------------------------------------------------------------|-------------|
@@ -44,6 +44,9 @@ Be aware that it will NOT be sufficient to start working on the assignments the 
 ### Final Thesis  
 The **Final Thesis** is the only graded deliverable in this course. It challenges you to apply your knowledge to a comprehensive, real-world task. 
 Please note that the submission deadline for the Final Thesis is listed in the table below. There will be dedicated time in the course syllabus to support your work, and you are encouraged to make consistent progress throughout.
+
+📝 The Final Thesis must be submitted within one week.
+The deadline is Thursday, July 24th, 2025 at 24:00 (midnight).
 
 ## Final Grade
 Your final grade will be based solely on your **Final Thesis**.
