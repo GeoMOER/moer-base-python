@@ -1,5 +1,5 @@
 ---
-title: "Final Summary & Homework"
+title: "Introduction"
 header:
   image: /assets/images/unit_images/u09/header.png
   image_description: "statistics"
@@ -18,7 +18,7 @@ The **final thesis submission**  will be graded — please make sure to follow t
 
 | #   | Assignment Name                                                             | Type        |
 |-----|------------------------------------------------------------------------------|-------------|
-| 01  | [Introduction to Variables and Basic Data Types](/moer-base-python/unit10/unit10-01_variables.html)                | unmarked    |
+| 01  | [Introduction to Python - Variables and Basic Data Types](/moer-base-python/unit10/unit10-01_variables.html)                | unmarked    |
 | 02  | [Working with Strings and Simple Operators](/moer-base-python/unit10/unit10-02_strings_math.html)                  | unmarked    |
 | 03  | [Using Conditionals in Python](/moer-base-python/unit10/unit10-03_conditionals.html)                               | unmarked    |
 | 04  | [Looping with For and While Statements](/moer-base-python/unit10/unit10-04_loops.html)                             | unmarked    |
