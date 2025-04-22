@@ -12,7 +12,7 @@ header:
   cta_url: "/units.html"
 excerpt: Learn the essentials for working with Python.
 feature_row_intro:
-- excerpt: This course is brought to you by the Lab of Environmental Informatics (University of Marburg, Germany) and was funded by the "digLL" initiative of the Hessian Ministry of Higher Education, Research, Science and the Arts.
+- excerpt: This course is brought to you by the Lab of Environmental Informatics (University of Marburg, Germany)
 feature_row_ilos:
 - image_path: "/assets/images/envobs_ilos.jpg"
   alt: PC monitor laying in the garden of the institute.
@@ -25,49 +25,63 @@ feature_row_ilos:
 
 {% include feature_row id="feature_row_intro" type="center" %}
 
+
+### 📅 Course Schedule
+
+* **First session:** Thursday, 24 April 2025  
+* **Time:** Weekly 14:00 to 16:00 (German time)  
+* **Place:** Room 00A19, Deutschhausstraße 12, Institutsgebäude F 14  
+* **Online room:** (link – see ILIAS)  
+{: .notice--info}
+
+#  Motivation
 A life without the free programming language Python is no longer imaginable for many people and those who do not know Python often do not know what they are missing.
 Unfortunately, the widespread believe that Python is difficult to learn still exists,
 which makes it unnecessarily difficult for many newcomers to enter the world of Python.
 We would like to change this with this course.
 
+---
 
+# Learning Objectives
+By the end of this course, participants will be able to:
 
+* set up and operate a Python development environment for data-driven tasks;
+* use and distinguish basic data types and variables to structure and process information effectively;
+* apply string manipulation and fundamental operators to work with textual and numeric data;
+* control program flow using conditional statements and loops;
+* structure and manage data using Python's built-in object data types such as lists, arrays, and data frames;
+* read, process, and organize external data from CSV files for analysis;
+* create simple and informative visualizations to explore and communicate data insights;
+* understand and apply basic concepts of object-oriented programming (OOP);
 
-# Intended learning outcomes
-At the end of this course you should
+---
 
-* know and understand the basic principles of programming with Python,
-* flexibly apply your knowledge and understanding in various programming contexts, and
-* have the foundational programming skills necessary for working on more complex subject-specific projects.
+# Setting
 
+This course will take place in a hybrid synchronous setting in presence in room F 14 \| 00A19 and online. In addition, there will be regular meetings with a tutor. Details on the additional tutor sessions will be provided in the first regular session, which will take place on Wednesday 24.04.2025 at 14:15 am (German time) in room F 14 \| 00A19. The virtual room for online participants must be accessed via ILIAS. Note that the tutor sessions are voluntary.  
+{: .notice--info}
 
-# Course features
-
-This course is intended as a blended learning module in the study program of the Department of Geography at the University of Marburg.
-However, the provided units and spotlights can also be used independently.
-
-
+---
 # Syllabus
 
-| Unit | Topic | Content |
-|------|-------|---------|
-| 01 | Overview and the very Basics   | Set up everything for operating Python, take your own first steps in Python |
-| 02 | Basic Data Types and Variables | How data is measured and organized with an Python perspective               |
-| 03 | Simple Operators               | How to use operators in Python                                              |
-| 04 | Control Structures             | Learn how to use if, elif and else                                          |
-| 05 | Types of Objects               | Get to know lists, arrays, matrices and data frames                               |
-| 06 | Loops                          | Use for-loops and while-loops  |
-| 07 | Working with files             | Work with csv files and sort, bind and merge your data  |
-| 08 | Simple Visualizations          | Quickly and simply visualize your data  |
+| Unit | Date |Topic | Content |
+|------|-----|-----|---------|
+| 01 |24.04.2025| Overview and the very Basics   | Set up everything for operating Python, take your own first steps in Python |
+| 02 |15.05.2025 |Variables and Basic Data Types | How data is measured and organized with an Python perspective               |
+| 03 |22.05.2025 |Working with String and simple operators               | How to use Strings and operators in Python                                              |
+| 04 |05.06.2025 |Conditionals           | Learn how to use if, elif and else                                          |
+| 05 |12.06.2025 |Loops               | Use for-loops and while-loops                               |
+| 06 |26.06.2025 |Object Data Types                          | Get to know lists, arrays, matrices and data frames |
+| 07 |03.07.2025 |Working with files             | Work with csv files and sort, bind and merge your data  |
+| 08 |10.07.2025 |Simple Visualizations          | Quickly and simply visualize your data  |
+| 09 |17.07.2025 |OOP|Introduction to Object-Oriented Programming|
+| 10 |24.07.2025 |Final Thesis | tbd |
 
-
+---
 <!--
 # Deliverables
 The exam in unit 16 will be used for self-assessment and as a prerequisite for more subject-specific courses.
 -->
-
-# Preparation and prerequisites
-No preparation or prerequisites are needed for this course.
 
 
 # Instructor
