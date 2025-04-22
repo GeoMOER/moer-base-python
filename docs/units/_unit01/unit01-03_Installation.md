@@ -1,5 +1,5 @@
 ---
-title: "Ex | Installation"
+title: "EX | Installation"
 toc: TRUE
 toc_float: TRUE
 header:

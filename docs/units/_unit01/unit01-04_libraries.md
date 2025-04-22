@@ -1,5 +1,5 @@
 ---
-title: Ex | Installing Libraries
+title: EX | Installing Libraries
 toc: TRUE
 toc_float: TRUE
 collapsed: TRUE

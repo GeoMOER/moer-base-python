@@ -1,5 +1,5 @@
 ---
-title: "Ex | First steps in Python"
+title: "EX | First steps in Python"
 toc: TRUE
 toc_float: TRUE
 header:
