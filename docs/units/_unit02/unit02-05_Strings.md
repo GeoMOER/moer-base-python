@@ -37,7 +37,7 @@ You cannot change individual characters directly! (because the entire string is 
 
 ## Basis String Operations
 
-#### Indexing
+### Indexing
 Strings are indexed, starting at 0. A sequence of characters is stored in a string data type. So you can access each character of a string when using `[]`.
 ```python
 my_string = "Hello"
@@ -46,7 +46,7 @@ print(my_string[1]) # Output: e
 print(my_string[4]) # Output: o
 ```
 
-#### Concatenation (`+`)
+### Concatenation (`+`)
 Concatenation is the process of joining two or more strings together using the + operator.
 ```python
 greeting = "Hello"
@@ -56,7 +56,7 @@ print(full_greeting)
 # Output: "Hello, Alice!"
 ```
 
-#### Repetition (`*`)
+### Repetition (`*`)
 Repetition is the process of repeating a string multiple times using the `*` operator.
 ```python
 repeat_greeting = "Hello! " * 3
@@ -64,16 +64,92 @@ print(repeat_greeting)
 # Output: "Hello! Hello! Hello! "
 ```
 
-#### Slicing (`:`)
-Slicing allows you to extract a portion of a string using indices. The slice operator `:` is used to specify the start and end indices of the substring.
+### Slicing (`:`)
+
+Slicing allows you to extract a portion of a string, list, or any sequence using indices. The general syntax is:
+
 ```python
-sample_string = "Hello, World!"
-substring = sample_string[0:5]
-print(substring)
-# Output: "Hello"
+sequence[start:end]
 ```
 
-## The String Function print()
+- **start**: The index to begin the slice (inclusive).
+- **end**: The index where the slice ends (exclusive).
+- If **start** or **end** is omitted, Python uses the default (start = 0, end = length of sequence).
+
+---
+
+Basic Example
+
+```python
+sample = "Hello, World!"
+```
+
+`sample[0:5]`
+
+```python
+print(sample[0:5])  # Output: 'Hello'
+```
+- Starts at index 0 → `"H"`
+- Ends **before** index 5 → `"o"`
+- Does **not** include the comma at index 5
+
+---
+
+`sample[:5]`
+
+```python
+print(sample[:5])  # Output: 'Hello'
+```
+- Starts from the beginning (index 0 by default)
+- Returns the **first 5 characters**
+
+---
+
+`sample[:-1]`
+
+```python
+print(sample[:-1])  # Output: 'Hello, World'
+```
+- Starts from the beginning
+- Ends **one character before the last**
+- Omits the last character `"!"`
+
+---
+
+Negative Indices
+
+Python supports **negative indexing**:
+- `-1` refers to the **last** element
+- `-2` refers to the second-to-last, and so on
+
+---
+
+####  Summary Table
+
+| Expression     | Description                                 |
+|----------------|---------------------------------------------|
+| `s[0:5]`       | Characters from index 0 to 4                |
+| `s[:5]`        | First 5 characters                          |
+| `s[:-1]`       | All except the last character               |
+| `s[-3:]`       | Last 3 characters                           |
+| `s[::2]`       | Every second character (step = 2)           |
+
+---
+
+### 🧮 Bonus: Visual Index Map
+
+You can visualize string indices like this:
+
+```
+Index:     0 1 2 3 4 5 6 7 8  9 10 11 12
+String:    H e l l o ,   W o  r  l  d  !
+Negative: -13          ...          -1
+```
+
+This helps understand how slicing selects characters based on position.
+
+
+### The String Function print()
 Python provides several built-in methods for string manipulation.
 
 The `print()` function outputs strings (or other data types) to the console. We have used that function before.
