@@ -1,5 +1,5 @@
 ---
-title: Learning Environment
+title: How-to-Base-Python
 toc: true
 header:
   image: '/assets/images/title/DALLE_Python.png'

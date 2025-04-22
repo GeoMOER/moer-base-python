@@ -1,5 +1,5 @@
 ---
-title: "Introduction to Python – Variables and Basic Data Types"
+title: " A | Assignment"
 header:
   image: /assets/images/unit_images/u09/header.png
   image_description: "statistics"

@@ -45,8 +45,8 @@ Be aware that it will NOT be sufficient to start working on the assignments the 
 The **Final Thesis** is the only graded deliverable in this course. It challenges you to apply your knowledge to a comprehensive, real-world task. 
 Please note that the submission deadline for the Final Thesis is listed in the table below. There will be dedicated time in the course syllabus to support your work, and you are encouraged to make consistent progress throughout.
 
-📝 The Final Thesis must be submitted within one week.
-The deadline is Thursday, July 24th, 2025 at 24:00 (midnight).
+📝 The final thesis must be submitted within three weeks.  
+The deadline is August 8th, 2025 by midnight.
 
 ## Final Grade
 Your final grade will be based solely on your **Final Thesis**.

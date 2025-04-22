@@ -11,7 +11,11 @@ The responsibility for the content rests with the instructors. Statements, opini
 
 ---
 
-### Image Sources
+### Setting
+
+This course will take place in a hybrid synchronous setting in presence in room F 14 | 00A19 and online. In addition, there will be regular meetings with a tutor. Details on the additional tutor sessions will be provided in the first regular session, which will take place on Wednesday 24.04.2025 at 14:15 am (German time) in room F 14 | 00A19. The virtual room for online participants must be accesses via ILIAS. Note that the tutor sessions are voluntary.
+
+### Syllabus
 
 |  Page | Thumbnail             | Source |
 |------ | ----------------------|--------|

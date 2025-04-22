@@ -2,14 +2,14 @@
 # /_data/authors.yml
 
 
-- #zeuss:
-  #name             : "Dirk Zeuss"
-  #avatar           : "/assets/images/authors/zeuss.jpg"
- # email            : "dirk.zeuss@uni-marburg.de"
- # bio              : "Philipps-Universität Marburg"
- # location         : "Marburg, DE"
- # home             : "https://www.uni-marburg.de/de/fb19/fachbereich/staff/dirk-zeuss"
- # uri              : "https://www.uni-marburg.de/de/fb19/disciplines/physisch/umweltinformatik"
+- zeuss:
+  name             : "Dirk Zeuss"
+  avatar           : "/assets/images/authors/zeuss.jpg"
+  email            : "dirk.zeuss@uni-marburg.de"
+  bio              : "Philipps-Universität Marburg"
+  location         : "Marburg, DE"
+  home             : "https://www.uni-marburg.de/de/fb19/fachbereich/staff/dirk-zeuss"
+  uri              : "https://www.uni-marburg.de/de/fb19/disciplines/physisch/umweltinformatik"
 - forteva:
   name             : "Spaska Forteva"
   avatar           : "/assets/images/authors/forteva.jpg"

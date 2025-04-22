@@ -8,7 +8,7 @@ sidebar:
 feature_row:
   - image_path: assets/images/unit_images/u00/grid.png
     alt: "Unit 00"
-    title: "Unit 00: Learning Environment"
+    title: "Unit 00: How-to-Base-Python"
     excerpt: "Find out how this course is supposed to work."
     url: "/unit00/unit00-01_learning_environment.html"
     btn_label: "Show me more"
@@ -71,28 +71,21 @@ feature_row:
     btn_class: "btn--primary"
     
   - image_path: assets/images/unit_images/u08/grid.png
-    alt: "Unit 8"
-    title: "Unit 08: OOP"
-    excerpt:  "Introduction to OOP"
+    alt: "Unit 08"
+    title: "Unit 08: Simple Visualizations"
+    excerpt: "Introduction to simple graphic outputs."
     url: "/unit08/unit08-01_Intro.html"
     btn_label: "Show me more"
     btn_class: "btn--primary"
 
   - image_path: assets/images/unit_images/u09/grid.png
-    alt: "Unit 09"
-    title: "Unit 09: Simple Visualizations"
-    excerpt: "Introduction to simple graphic outputs."
+    alt: "Unit 9"
+    title: "Unit 09: OOP"
+    excerpt:  "Introduction to OOP"
     url: "/unit09/unit09-01_Intro.html"
     btn_label: "Show me more"
     btn_class: "btn--primary"
 
-  - image_path: assets/images/unit_images/u00/grid.png
-    alt: "Unit 10"
-    title: "Homework"
-    excerpt: "Final summary with all required exercises and submission info."
-    url: "/unit10/unit10-01_Intro.html"
-    btn_label: "Show me more"
-    btn_class: "btn--primary"
 
   - image_path: assets/images/spotlights/grid.png
     alt: "Spotlights"

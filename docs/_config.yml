@@ -133,7 +133,7 @@ defaults:
       path: ""
       type: unit00
     values:
-      category: "00 learning environment"
+      category: "00 How-to-Base-Python"
       tags: "Unit 00"
       layout: single
       sidebar:
@@ -213,7 +213,7 @@ defaults:
       path: ""
       type: unit08
     values:
-      category: "08 OOP"
+      category: "08 Simple Visualizations"
       tags: "Unit 08"
       layout: single
       sidebar:
@@ -223,18 +223,8 @@ defaults:
       path: ""
       type: unit09
     values:
-      category: "09 Simple Visualizations"
+      category: "09 OOP"
       tags: "Unit 09"
-      layout: single
-      sidebar:
-        nav: "units"
-  # unit10
-  - scope:
-      path: ""
-      type: unit10
-    values:
-      category: "10 Final Summary & Homework"
-      tags: "Unit 10"
       layout: single
       sidebar:
         nav: "units"
