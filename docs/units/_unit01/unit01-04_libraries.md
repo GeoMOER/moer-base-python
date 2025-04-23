@@ -25,26 +25,86 @@ Libraries are essential for several reasons:
 
 ---
 
+## **Built-in Libraries in Python**
+
+When you install Python, it already comes with many built-in libraries that are ready to use — no additional installation required. These are part of the **Python Standard Library**.
+
+#### Example:
+```python
+import math
+
+print(math.sqrt(25))  # Output: 5.0
+```
+
+Other built-in libraries include: `os`, `datetime`, `random`, `json`, `sys`, and more.
+
+---
+
 ## **Installing Python Libraries in Visual Studio**
 
 Visual Studio provides tools to manage Python environments and install libraries using the built-in `pip` package manager.
-
-### **Option 1: Use the Python Environments Window**
-
-1. Open **Visual Studio**.
-2. Go to **View → Other Windows → Python Environments**.
-3. Select your installed Python interpreter (e.g., `Python 3.11 (64-bit)`).
-4. In the right panel, choose the **"Packages (PyPI)"** tab.
-5. Use the search bar to find a package (e.g., `numpy`), then click **Install**.
 
 This uses `pip` under the hood and installs the package into the selected environment.
 
 ---
 
-### **Option 2: Use the Terminal to Install Libraries**
+### Use the Terminal to Install Libraries
 
-1. Open **Visual Studio**.
-2. Go to **View → Terminal** or press `Ctrl + ` (backtick).
+You can install Python libraries either directly inside **Visual Studio Code** or using the **Command Prompt** (cmd). Depending on where your Python interpreter is installed, you may need administrator rights.
+
+---
+
+#### Inside Visual Studio Code (VS Code)
+
+1. Open **Visual Studio Code**.
+2. Go to **View → Terminal**.
 3. In the terminal, install libraries using `pip`:
    ```sh
-   pip install numpy pandas matplotlib
+   pip install numpy 
+   ```
+
+---
+
+#### Use the Command Prompt (cmd)
+
+1. Press <kbd>Win</kbd> + <kbd>R</kbd>, type `cmd`, and hit Enter.
+2. Install packages as usual:
+   ```sh
+   pip install pandas
+   ```
+
+---
+
+#### 🔐 Important: Run as Administrator if Python is in C:\ProgramData
+
+If your Python interpreter is installed in a system-wide location like:
+  ```
+  C:\Program Files\Python39\python.exe
+  ```
+
+Then `pip install` may **fail without admin rights**. In that case:
+
+1. **Right-click** on the Command Prompt or VS Code icon.
+2. Select **"Run as administrator"**.
+3. Then install the library again:
+   ```sh
+   pip install matplotlib
+   ```
+
+---
+
+##  After Installing: How to Use a Library in Your Python Script
+
+Once a library is installed, you can import it in your code using the `import` statement.
+
+#### Example:
+```python
+import pandas as pd
+
+data = pd.DataFrame({
+    "Name": ["Alice", "Bob", "Charlie"],
+    "Age": [25, 30, 35]
+})
+
+print(data)
+```

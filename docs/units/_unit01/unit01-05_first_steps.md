@@ -13,25 +13,16 @@ header:
 
 ## #Hashtag and Run!
 
-Let's open our first Jupyter Notebook.
-
-If you are working locally with the VS User Interface, navigate to the top menu and click on **View** > **Command Palette**. In the search bar that appears, type **Create: New Jupyter Notebook** and select it. VS Code will automatically create the first code block for you.
-
-Now, try entering this line of code:
-
-```python
-print('Welcome to Python')
-```
-
-To run the code block, simply click on the **Run** button (a small play icon) that appears above the code cell. If you are running the notebook for the first time, the interface will prompt you to select a Python interpreter.
-
-Here, you need to choose either your **local miniconda virtual environment** or an **online Python interpreter (Pyodide)**. After selecting the interpreter, click **Run** again to execute your code.
-
 ### Using Comments in Python
 
-You can add comments to your code to make it easier to understand for yourself and others. Python treats the hashtag character **#** in a special way: anything following a **#** on a line is ignored by the interpreter.
+✍️  Add Comments to Structure and Clarify Your Code  
+To make your code easier to understand — both for yourself and for others who review your work — it's important to use comments. In Python, everything following a `#` on a line is treated as a comment and is ignored by the interpreter.
 
-This makes hashtags very useful for adding explanations and annotations to your code. Comments are visible to you but do not affect the execution of the program.
+Comments do not affect how your program runs, but they are extremely useful for:
+
+- Explaining what your code does
+- Structuring your code clearly
+- Making your assignments easier to read and grade
 
 ```python
 # This is a comment. Comments help you understand your code later.
@@ -40,6 +31,69 @@ This makes hashtags very useful for adding explanations and annotations to your 
 print("Welcome to Python")
 ```
 
+---
 
+## Create Your First Python File in Visual Studio Code
 
-{% include figure image_path="/assets/images/unit_images/u01/VS_code_first_steps.PNG" caption="VS Code Overview" %}
+### 1. Create a New Folder for This Unit
+- Open **Visual Studio Code**.
+- Click on **File → Open Folder...** and create a new folder named:
+  ```
+  unit01_EX
+  ```
+
+### 2. Create a New Python File
+- Inside the folder `unit01_EX`, create a new file called:
+  ```
+  first_steps_hello.py
+  ```
+
+### 3. Write Your First Script with a Comment
+```python
+# Unit 01 – First Print Example
+# This is my first Python program
+
+print("Hello World")
+```
+
+- Save the file with <kbd>Ctrl</kbd> + <kbd>S</kbd>.
+
+### 4. Open the Terminal in VS Code
+- Go to **View → Terminal** or press <kbd>Ctrl</kbd> + <kbd>`</kbd>.
+- Navigate to the folder using:
+  ```sh
+  cd unit01_EX
+  ```
+
+### 5. Run Your Script
+```sh
+python first_steps_hello.py
+```
+
+---
+
+## Using `input()` to Pause or Interact
+
+### 1. Create a New File
+- In the same folder `unit01_EX`, create a file called:
+  ```
+  first_steps_input.py
+  ```
+
+### 2. Write a Script with Input
+```python
+# Unit 01 – Using input()
+# This script pauses until the user presses Enter
+name = input("Enter your name please ")
+print(name)
+input("Press Enter to continue...")
+print("Thanks!")
+```
+
+### 3. Save and Run the Script
+- Save the file and run it in the VS Code terminal:
+  ```sh
+  python first_steps_input.py
+  ```
+
+This is your first interactive Python script!

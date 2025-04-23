@@ -36,11 +36,37 @@ header:
    - If the command does not work, restart your computer and check if Python is added to the PATH.
    
 5. **Check the Python Path**  
-To check where your system is using Python from, use the following command:
+To find out which Python version your system is using (and where it is installed), you can follow these steps:
 
-   - On Windows (Command Prompt or PowerShell): where python
-   - On macOS/Linux:which python
+   - Windows (Command Prompt or PowerShell).
+     Open the **Command Prompt** or **PowerShell** (e.g., with `Win + R`, then type `cmd` or `powershell` and press Enter).
+   ```
+   #Enter the following command:
+   where python
+   ```
+   You will get one or more paths, for example:
+   ```
+   C:\Users\YourName\AppData\Local\Programs\Python\Python311\python.exe
+   C:\Program Files\Python39\python.exe
+   ```
+   The **first path** listed is the Python interpreter your system uses by default.
+   ```
+   # To check the version of the found Python installation:
+   python --version
+   ```
    
+   - macOS / Linux (Terminal).
+    Open the **Terminal** and enter the following command:
+   ```
+   which python
+   # or on newer systems:
+   which python3
+   # You will see something like:
+   /usr/bin/python3
+   /opt/homebrew/bin/python3
+   ```
+   The displayed path shows the active interpreter your system is using.
+
 ---
 
 ### **Step 2: Download and Install Visual Studio Code**
@@ -93,7 +119,7 @@ To check where your system is using Python from, use the following command:
    ```python
    print("Hello, world!")
    ```
-3. Press `F5` or go to **Run** → **Run Python File**.
+3. Press `Ctrg + Alt + N` or go to **Run** → **Run Python File**.
 
 **Test Jupyter Notebook**
 
@@ -113,7 +139,7 @@ After installing Python and Visual Studio Code, it’s important to make sure th
 **Use the Command Palette**
 
 1. Open VS Code.
-2. Press `Ctrl+Shift+P` (or `Cmd+Shift+P` on macOS) to open the **Command Palette**.
+2. Press `Ctrl+Shift+P` to open the **Command Palette**.
 3. Type `Python: Select Interpreter` and hit Enter.
 4. Select the interpreter you want to use (e.g. a global install, virtual environment, or Conda environment).
 5. VS Code will remember your selection per workspace/project.
