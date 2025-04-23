@@ -1,12 +1,12 @@
 ---
-title: Submission Guidelines of
+title: Submission Guidelines
 toc: true
 header:
   image: '/assets/images/title/DALLE_Python.png'
   caption: 'Image generated with DALL E: [**Environmental Informatics Marburg**](https://www.uni-marburg.de/en/fb19/disciplines/physisch/environmentalinformatics)'
 ---
 
-#  Your Exercises on ILIAS
+#  of your Exercises on ILIAS
 
 To ensure that all exercise submissions are organized, complete, and easy to review, please follow these instructions **exactly**.
 
