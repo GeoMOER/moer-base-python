@@ -39,21 +39,17 @@ Make sure your folder and file structure follow the guidelines below to ensure s
 
 Inside each `unitXX` folder, you must upload:
 
-- Your written answers (text or PDF)  
+- Please upload your written answers or diagrams in the following format (PDF)  
   File name:
   ```
-  unitXX_answers.txt
-  ```
-  or:
-  ```
-  unitXX_answers.pdf
+  unitXX_answers_ex1(1-5).pdf
   ```
 
 - Your Python scripts for exercises in that unit  
   File names:
   ```
-  unitXX_ex1.py
-  unitXX_ex2.py
+  unitXX_ex6.py
+  unitXX_ex7.py
   ...
   ```
 
@@ -61,9 +57,9 @@ Inside each `unitXX` folder, you must upload:
 ```
 unit01/
 │
-├── unit01_answers.txt
-├── unit01_ex1.py
-├── unit01_ex2.py
+├── unit01_answers(1-5).pdf
+├── unit01_ex6.py
+├── unit01_ex7.py
 ```
 
 ---
