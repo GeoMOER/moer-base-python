@@ -74,27 +74,23 @@ Optional: Take a screenshot of your installed Python version in the terminal.
 ## 8️⃣ Your First Python Script
 
 **Task**:
-1. Create a folder called `unit01_EX`.
-2. Inside it, create a Python file called `print_user_CR.py`.
-3. In the file, use `print()` to show your:
+1. Create a Python file called `unit01_ex8.py`.
+2. In the file, use `print()` to show your:
    - Last name
    - First name
    - Address
-
-3. Open the terminal and run the script:
-
-   ```
+3. Run the script in the terminal and test it.
 
 ---
 
 ## ⭐ Bonus Task – Input Practice
 
 **Task**:
-1. Create a new file in the same folder: `input_user_CR.py`.
+1. Create a new file in the same folder: `unit01_ex9.py`.
 2. Use `input()` to collect:
    - Your last name
    - Your first name
    - Your address
 3. Output the result using `print()`.
 
-Run the script in the terminal and test it.
+4. Run the script in the terminal and test it.

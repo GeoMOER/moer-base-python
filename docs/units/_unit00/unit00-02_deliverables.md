@@ -27,12 +27,12 @@ These assignments help deepen your understanding and are required to pass the co
 
 | #   | Assignment Name                                                             | Type        |
 |-----|------------------------------------------------------------------------------|-------------|
-| 01  | [Introduction to Variables and Basic Data Types](/moer-base-python/unit10/unit10-01_variables.html)                | unmarked    |
-| 02  | [Working with Strings and Simple Operators](/moer-base-python/unit10/unit10-02_strings_math.html)                  | unmarked    |
-| 03  | [Using Conditionals in Python](/moer-base-python/unit10/unit10-03_conditionals.html)                               | unmarked    |
-| 04  | [Looping with For and While Statements](/moer-base-python/unit10/unit10-04_loops.html)                             | unmarked    |
-| 05  | [Object Types: Lists and Arrays](/moer-base-python/unit10/unit10-05_lists.html)                                    | unmarked    |
-| 06  | [Object Types: DataFrames and Matrices](/moer-base-python/unit10/unit10-06_dataframes.html)                        | unmarked    |
+| 01  | [Overview and the very Basics](/moer-base-python/unit01/unit01-07_Assignment.html)                | unmarked    |
+| 02  | [Variables and Basic Data Types](/moer-base-python/unit10/unit02-07_Assignment.html)                  | unmarked    |
+| 03  | [Working with String and simple operators](/moer-base-python/unit10/unit03-07_Assignment.html)                               | unmarked    |
+| 04  | [Conditionals](/moer-base-python/unit04-07_Assignment.html)                             | unmarked    |
+| 05  | [Loops](/moer-base-python/unit10/unit10-05_lists.html)                                    | unmarked    |
+| 06  | [Object Types](/moer-base-python/unit10/unit10-06_dataframes.html)                        | unmarked    |
 | 07  | [Working with Files](/moer-base-python/unit10/unit10-07_files.html)                                                | unmarked    |
 | 08  | [Simple Visualizations](/moer-base-python/unit10/unit10-08_visualizations.html)                                    | unmarked    |
 | 09  | [OOP Fundamentals and Final Thesis Preparation](/moer-base-python/unit10/unit10-09_thesis_prep.html)               | unmarked    |

@@ -6,13 +6,16 @@ header:
   caption: 'Image generated with DALL E: [**Environmental Informatics Marburg**](https://www.uni-marburg.de/en/fb19/disciplines/physisch/environmentalinformatics)'
 ---
 
-#  of your Exercises on ILIAS
+## Upload of Your Exercises on ILIAS
 
-To ensure that all exercise submissions are organized, complete, and easy to review, please follow these instructions **exactly**.
+All your exercise solutions must be uploaded in the following ILIAS folder:  
+**`Submission/SS_2025`**
+
+Make sure your folder and file structure follow the guidelines below to ensure smooth correction and feedback.
 
 ---
 
-## 📁 Folder Structure
+### 📁 Folder Structure
 
 1. **Create a main folder** on ILIAS with the following naming convention:
    ```
