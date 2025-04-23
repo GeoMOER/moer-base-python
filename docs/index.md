@@ -26,14 +26,6 @@ feature_row_ilos:
 {% include feature_row id="feature_row_intro" type="center" %}
 
 
-### 📅 Course Schedule
-
-* **First session:** Thursday, 24 April 2025  
-* **Time:** Weekly 14:00 to 16:00 (German time)  
-* **Place:** Room 00A19, Deutschhausstraße 12, Institutsgebäude F 14  
-* **Online room:** (link – see ILIAS)  
-{: .notice--info}
-
 #  Motivation
 A life without the free programming language Python is no longer imaginable for many people and those who do not know Python often do not know what they are missing.
 Unfortunately, the widespread believe that Python is difficult to learn still exists,
