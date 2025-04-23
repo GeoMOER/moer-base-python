@@ -40,14 +40,14 @@ Make sure your folder and file structure follow the guidelines below to ensure s
 Inside each `unitXX` folder, you must upload:
 
 - Please upload your written answers or diagrams in the following format (PDF)  
-  File name:
+  Syntax of the file name:
   ```
   unitXX_ex1.pdf or
   unitXX_ex(1-5).pdf
   ```
 
 - Your Python scripts for exercises in that unit  
-  File names:
+  Syntax of the file name:
   ```
   unitXX_ex6.py
   unitXX_ex7.py
@@ -58,9 +58,9 @@ Inside each `unitXX` folder, you must upload:
 ```
 unit01/
 │
-├── unit01_ex(1-5).pdf
-├── unit01_ex6.py
-├── unit01_ex7.py
+├── unit01_ex(1-7).pdf
+├── unit01_ex8.py
+├── unit01_ex9.py
 ```
 
 ---
