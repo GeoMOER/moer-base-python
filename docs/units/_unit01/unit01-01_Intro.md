@@ -39,17 +39,6 @@ There are two major ways to convert code into machine language:
 
 ---
 
-## ⚙️ What is an Algorithm?
-
-An **algorithm** is a sequence of step-by-step instructions to solve a specific problem or perform a task.
-
-### Example: Baking a Cake (Algorithm)
-
-This is an algorithm! Just like a recipe, programming algorithms give exact instructions to achieve a goal.
-
-{% include figure image_path="/assets/images/unit_images/u01/algo_backen.png" %}
----
-
 ##  Python and AI – Real-World Impact
 
 Python is the go-to language for Artificial Intelligence and Machine Learning due to:
@@ -90,3 +79,14 @@ Python offers a rich ecosystem of libraries and frameworks that support various 
 Python’s large and active community provides extensive resources, documentation, and support, making it easier for developers to learn, collaborate, and solve problems.
 
 Whether you’re automating your daily tasks, building a website, or developing AI models — **Python is a great place to start.**
+
+## ⚙️ What is an Algorithm?
+
+An **algorithm** is a sequence of step-by-step instructions to solve a specific problem or perform a task.
+
+### Example: Baking a Cake (Algorithm)
+
+This is an algorithm! Just like a recipe, programming algorithms give exact instructions to achieve a goal.
+
+{% include figure image_path="/assets/images/unit_images/u01/algo_backen.png" %}
+---
