@@ -50,10 +50,6 @@ To find out which Python version your system is using (and where it is installed
    C:\Program Files\Python39\python.exe
    ```
    The **first path** listed is the Python interpreter your system uses by default.
-   ```
-   # To check the version of the found Python installation:
-   python --version
-   ```
    
    - macOS / Linux (Terminal).
     Open the **Terminal** and enter the following command:
