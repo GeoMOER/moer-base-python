@@ -70,7 +70,7 @@ feature_row:
     btn_label: "Show me more"
     btn_class: "btn--primary"
     
-  - image_path: assets/images/unit_images/u08/grid_1.png
+  - image_path: assets/images/unit_images/u08/grid.png
     alt: "Unit 08"
     title: "Unit 08: Simple Visualizations"
     excerpt: "Introduction to simple graphic outputs."
