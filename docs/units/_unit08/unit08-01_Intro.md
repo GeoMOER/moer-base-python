@@ -1,7 +1,7 @@
 ---
 title: Introduction
 header:
-  image: /assets/images/unit_images/u08/grid.png
+  image: /assets/images/unit_images/u08/header_1.png
   image_description: "Object-oriented programming concept"
   caption: "Photo by [Gerd Altmann](https://pixabay.com/de/users/geralt-9301/) from [Pixabay](https://pixabay.com/)"
 ---
