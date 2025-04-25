@@ -37,7 +37,7 @@ In this video, you’ll learn how to set the Python interpreter for an entire fo
 You’ll find the video in ILIAS under BasePython → LernVideos → VS_Interpreter.mp4
 
 #### How can I set up the Python path on Windows as an administrator?
-You’ll find the video in ILIAS under BasePython → LernVideos → windows_python_path.mp4."
+You’ll find the video in ILIAS under BasePython → LernVideos → windows_python_path.mp4.
 
 
 
