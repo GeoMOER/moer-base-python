@@ -19,7 +19,7 @@ The sessions will be in a hybrid format, meaning that parts of the students may 
 
 Your primary learning environment is this public homepage, which was created on GitHub. Here you find all learning materials, assignment tasks, and help. The structure is linear, so just work your way through it. Of course you can also jump freely between units, but this is not recommended for beginners.
 
-Please also not that the HTML learning environment has a FAQ page for recurring questions and a comment functionality on the first page of each unit.
+Please also not that the HTML learning environment has a FAQ page for recurring questions.
 
 ### Structure of the HTML Learning EnvironmentPermalink
 
