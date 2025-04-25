@@ -22,7 +22,7 @@ Please note that this workload is designed to achieve an average grade according
 Please check the permissions of your main folder in ILIAS Username_SS2025. If the permissions are not set correctly, you won’t be able to create subfolders.
 
 
-#### How can I set the Python interpreter for a whole folder in VS Code instead of doing it for each script?"
+#### How can I set the Python interpreter for a whole folder in VS Code instead of doing it for each script?
 
 In this video, you’ll learn how to set the Python interpreter for an entire folder in Visual Studio Code, so you don’t have to configure it for each script individually
 You’ll find the video in ILIAS under BasePython →  Lernvideos  → VS_Interpreter.mp4
