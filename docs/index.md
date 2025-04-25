@@ -53,7 +53,7 @@ By the end of this course, participants will be able to:
 This course will take place in a hybrid synchronous setting in presence in room F 14 \| 00A19 and online. In addition, there will be regular meetings with a tutor. Details on the additional tutor sessions will be provided in the first regular session, which will take place on Wednesday 24.04.2025 at 14:15 am (German time) in room F 14 \| 00A19. The virtual room for online participants must be accessed via ILIAS. Note that the tutor sessions are voluntary.
 {: .notice--info}
 
-🆕 **A weekly tutorial will take place on Fridays from 15:00 to 17:00 (German time)**.  
+🆕 **A weekly tutorial will take place on Fridays from 15:00 to 17:00 (German time) in room F 14 \| 00A19**.  
 Further details on the tutorial format and location will be announced soon.
 {: .notice--info}
 
