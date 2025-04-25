@@ -31,10 +31,13 @@ Please check the permissions of your main folder in ILIAS XXXXX_SS2025. If the p
 {% include figure image_path="/assets/images/unit_images/u00/ilias_permissions_step3.jpg" %}
 
 
+#### How can I set the Python interpreter for a whole folder in VS Code instead of doing it for each script?"
 
+In this video, you’ll learn how to set the Python interpreter for an entire folder in Visual Studio Code, so you don’t have to configure it for each script individually
+You’ll find the video in ILIAS under BasePython → LernVideos → VS_Interpreter.mp4
 
-
-
+#### How can I set up the Python path on Windows as an administrator?
+You’ll find the video in ILIAS under BasePython → LernVideos → windows_python_path.mp4."
 
 
 
