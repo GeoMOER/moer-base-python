@@ -20,15 +20,6 @@ Please note that this workload is designed to achieve an average grade according
 
 #### ILIAS Edit Permissions 
 Please check the permissions of your main folder in ILIAS XXXXX_SS2025. If the permissions are not set correctly, you won’t be able to create subfolders.
-1. Click on the **"Permissions"** button (see Image 1):  
-
-{% include figure image_path="/assets/images/unit_images/u00/ilias_permissions_step1.jpg" %}
-
-2. Check the boxes as shown in Image 2:  
-{% include figure image_path="/assets/images/unit_images/u00/ilias_permissions_step2.jpg" %}
-
-3. And as shown in Image 3:  
-{% include figure image_path="/assets/images/unit_images/u00/ilias_permissions_step3.jpg" %}
 
 
 #### How can I set the Python interpreter for a whole folder in VS Code instead of doing it for each script?"
