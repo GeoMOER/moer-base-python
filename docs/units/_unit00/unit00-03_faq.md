@@ -22,29 +22,14 @@ Please note that this workload is designed to achieve an average grade according
 Please check the permissions of your main folder in ILIAS XXXXX_SS2025. If the permissions are not set correctly, you won’t be able to create subfolders.
 1. Click on the **"Permissions"** button (see Image 1):  
 
-<figure>
-  <a href="/assets/images/unit_images/u00/ilias_permissions_step1.jpg" target="_blank">
-    <img src="/assets/images/unit_images/u00/ilias_permissions_step1.jpg" alt="Step 2" style="width: 20%;">
-  </a>
-  <figcaption>Permissions button</figcaption>
-</figure>
+{% include figure image_path="/assets/images/u00/ilias_permissions_step1.jpg" %}
 
 2. Check the boxes as shown in Image 2:  
-<figure>
-  <a href="/assets/images/unit_images/u00/ilias_permissions_step2.jpg" target="_blank">
-    <img src="/assets/images/unit_images/u00/ilias_permissions_step2.jpg" alt="Step 2" style="width: 20%;">
-  </a>
-  <figcaption>Settings 1</figcaption>
-</figure>
-
+{% include figure image_path="/assets/images/u00/ilias_permissions_step2.jpg" %}
 
 3. And as shown in Image 3:  
-<figure>
-  <a href="/assets/images/unit_images/u00/ilias_permissions_step3.jpg" target="_blank">
-    <img src="/assets/images/unit_images/u00/ilias_permissions_step3.jpg" alt="Step 2" style="width: 20%;">
-  </a>
-  <figcaption>Settings 2</figcaption>
-</figure>
+{% include figure image_path="/assets/images/u00/ilias_permissions_step3.jpg" %}
+
 
 
 
