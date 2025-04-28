@@ -18,7 +18,7 @@ feature_row:
     alt: "Unit 1"
     title: "Unit 01: Overview and the very basics"
     excerpt: "Setting up Python and introducing some help tools."
-    url: "/unit01/unit01-00_Overview.html"
+    url: "/unit01/unit01-01_Overview.html"
     btn_label: "Show me more"
     btn_class: "btn--primary"
 
@@ -26,7 +26,7 @@ feature_row:
     alt: "Unit 2"
     title: "Unit 02: Variables and basic data types"
     excerpt: "Introduction to variables and basic data types."
-    url: "/unit02/unit02-01_Intro.html"
+    url: "/unit02/unit02-01_Overview.html"
     btn_label: "Show me more"
     btn_class: "btn--primary"
 
