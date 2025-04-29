@@ -1,5 +1,5 @@
 ---
-title: "EX | Boolean Values"
+title: "EX | Boolean"
 toc: true
 header:
   image: /assets/images/unit_images/u03/header.png

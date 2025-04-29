@@ -24,8 +24,8 @@ feature_row:
 
   - image_path: assets/images/unit_images/u02/grid.png
     alt: "Unit 2"
-    title: "Unit 02: Variables and basic data types"
-    excerpt: "Introduction to variables and basic data types."
+    title: "Unit 02: Basic data types"
+    excerpt: "Introduction to basic data types."
     url: "/unit02/unit02-01_Overview.html"
     btn_label: "Show me more"
     btn_class: "btn--primary"

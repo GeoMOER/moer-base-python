@@ -6,18 +6,19 @@ header:
   caption: "Photo by [Franki Chamaki](https://unsplash.com/@franki?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) [from unsplash](https://unsplash.com/s/photos/data?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)"
 ---
 <!--more-->
-Understanding variables and data types is a fundamental step in learning any programming language. In Python, variables allow you to store, manage, and manipulate data easily. Different types of data, such as numbers, text, and logical values, play a crucial role in building efficient and meaningful programs.
 
-This unit introduces the concept of variables, explores various fundamental data types such as integers, floating-point numbers, booleans, and strings, and shows how to convert between these types when necessary.
+Understanding basic data types is a fundamental step in learning any programming language. In Python, different types of data, such as numbers, text, and logical values, form the foundation of all programs. Variables allow you to store and work with this data efficiently, but understanding the data types themselves is key to writing effective code.
+
+This unit focuses on the most important basic data types — integers, floating-point numbers, booleans, and strings — and shows how to use and convert between these types when necessary. The concept of variables will also be briefly introduced to explain how data is stored and managed.
 
 ---
 
 ## This session
 In this unit, you will learn:
-- how to create and assign variables;
-- how to work with numbers and text;
-- the importance and use of boolean values in logical operations;
-- how and why to convert data from one type to another.
+- how to work with numbers, text, and boolean values;
+- the properties and uses of different basic data types;
+- how and why to convert data from one type to another;
+- a short introduction to variables and data assignment.
 
 By the end of this unit, you will have a solid understanding of the basic building blocks that are essential for any Python program.
 
@@ -26,11 +27,11 @@ By the end of this unit, you will have a solid understanding of the basic buildi
 ## Learning Objectives
 By the end of this unit, participants will be able to:
 
-* declare and use variables in Python;
 * distinguish between numeric, boolean, and string data types;
 * perform basic operations on numbers and strings;
 * apply boolean logic in simple expressions;
-* convert between different data types as needed.
+* convert between different data types as needed;
+* declare and use simple variables to store data.
 
 ---
 

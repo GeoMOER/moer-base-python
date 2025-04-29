@@ -153,7 +153,7 @@ defaults:
       path: ""
       type: unit02
     values:
-      category: "02 Variables and Basic Data Types"
+      category: "02 Basic Data Types"
       tags: "Unit 02"
       layout: single
       sidebar:

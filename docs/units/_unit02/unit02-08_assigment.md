@@ -6,69 +6,22 @@ header:
   caption: "Photo by [Gerd Altmann](https://pixabay.com/de/users/geralt-9301/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4705451) [from Pixabay](https://pixabay.com/)"
 ---
 
+
 ## 1. Exercise
 
-### Algorithm: Baking Bread (Everyday Algorithm)
+### How do we store and manage data in a program?
 
-Describe the process of baking bread as a clear, step-by-step algorithm.
-Imagine you are giving instructions to a robot – each action must be simple, complete, and in the correct order.
+**Answer in your own words.**
 
-Your task:
-Write the algorithm as a numbered list.
-
-Include at least two different loops (repeating actions), for example:
-
-Checking whether the dough has risen enough
-
-Waiting for the oven to reach the correct temperature
-
-Create a simple flowchart that represents the algorithm visually.
-
-You may use tools like draw.io, diagrams.net, PowerPoint, or draw it by hand and take a photo.
-
-**Example start:**
-1. Get a large bowl.  
-2. Add 500g of flour.  
-3. Measure and add 300ml of warm water.  
-4. ...
+- Explain how data is stored and managed in a program.
+- Why is it important to organize data instead of working only with raw values?
+- Can variables change their value or data type?
 
 ---
 
 ## 2. Exercise
 
-### Python and Artificial Intelligence (AI)
-
-**Answer the following questions in writing:**
-
-- What role does **Python** play in the field of Artificial Intelligence?
-- Name at some popular AI or data science libraries in Python.
-
----
-
-## 3. Exercise
-
-### How does Python translate code into machine code?
-
-**Answer in your own words.**
-
-
----
-
-## 4. Exercise
-
-### What are variables and why do we use them.
-
-**Answer in your own words.**
-
-- Define what a variable is in programming.
-- Why are variables essential in any program?
-- Can variables change their value or data type?
-
----
-
-## 5. Exercise
-
-### Define 4 variables with meaningful names and different data types
+### Define 4 variables with meaningful names and different data types.
 
 **Write your solution as a Python code.**
 
@@ -86,7 +39,7 @@ print("Price:", price, "| Type:", type(price))
 ```
 ---
 
-## 6. Exercise
+## 3. Exercise
 
 ### Mathematical operations and using the `math` library
 
@@ -101,6 +54,7 @@ print("Price:", price, "| Type:", type(price))
 - Print each result together with its type using `type()`.
 
 Make sure your variable names clearly describe what they store.
+
 👉 Your print() statements should be well-formatted and readable – include clear labels for both the result and the data type.
 
 Example:
@@ -109,7 +63,7 @@ print("Square root of x:", root_x, "| Type:", type(root_x))
 ```
 ---
 
-## 7. Exercise
+## 4. Exercise
 
 ### Boolean values and comparisons
 
@@ -128,8 +82,7 @@ print(root_a > root_b and root_c > root_d)
 
 ---
 
-
-## 8. Exercise
+## 5. Exercise
 
 ### Strings and slicing
 
@@ -160,7 +113,7 @@ In this task, you will practice working with strings using **only slicing (`[:]`
 
 ---
 
-## 9. Exercise
+## 6. Bonus Exercise
 
 ### Converting Data Types in Python
 
@@ -194,13 +147,10 @@ Your tasks:
    - Add it to the net total
    - Store and print the gross price and its type
 
-5. Bonus – Reverse conversion:
+5. Reverse conversion:
    - Convert the total gross price back to a string
    - Create a sentence like:  
      `"12 Wholegrain Bread cost 45.48 euros (including tax)."`
    - Print the final sentence
-
----
-
 
 ---

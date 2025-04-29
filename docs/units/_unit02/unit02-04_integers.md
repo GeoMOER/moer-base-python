@@ -1,5 +1,5 @@
 ---
-title: "EX | Numeric Data Types"
+title: "EX | Numeric"
 toc: true
 header:
   image: /assets/images/unit_images/u03/header.png
