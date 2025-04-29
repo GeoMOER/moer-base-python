@@ -52,15 +52,4 @@ print(a <= b)
 x = True
 y = False
 
-# AND operator
-result = x and y
-# Output: False --> because not both are true (would be true if x and y are true)
 
-# OR operator
-result = x or y
-# Output: True  --> gets true if one of both variables are true
-
-# NOT operator
-result = not x
-# Output: False --> 'not' turns around true and false
-```

@@ -18,7 +18,7 @@ In this unit, you will learn:
 - how to work with numbers, text, and boolean values;
 - the properties and uses of different basic data types;
 - how and why to convert data from one type to another;
-- a short introduction to variables and data assignment.
+- a short introduction to store and manage data;
 
 By the end of this unit, you will have a solid understanding of the basic building blocks that are essential for any Python program.
 

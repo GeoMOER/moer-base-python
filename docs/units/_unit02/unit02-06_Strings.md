@@ -15,8 +15,7 @@ Strings are sequences of characters enclosed in quotes. They can be created usin
 # Examples of strings
 single_quote_string = 'Hello, World!'
 double_quote_string = "Hello, World!"
-triple_quote_string = """This is a 
-multi-line string."""
+
 ```
 ### Special Characters
 
@@ -26,15 +25,6 @@ Solution -> Backslash
 strasse = 'Ku\'damm'
 
 
-### Strings are immutable.
-
-The String Methods and Functions create a New String!
-→ The original remains unchanged!
-A string is stored as a single object in memory, even if it consists of multiple characters.
-
-All characters are stored as a unit.
-You cannot change individual characters directly! (because the entire string is stored as a single block in memory)
-
 ## Basis String Operations
 
 ### Indexing
@@ -43,7 +33,6 @@ Strings are indexed, starting at 0. A sequence of characters is stored in a stri
 my_string = "Hello"
 print(my_string[0]) # Output: H
 print(my_string[1]) # Output: e
-print(my_string[4]) # Output: o
 ```
 
 ### Concatenation (`+`)
@@ -83,7 +72,6 @@ Basic Example
 ```python
 sample = "Hello, World!"
 ```
-
 `sample[0:5]`
 
 ```python

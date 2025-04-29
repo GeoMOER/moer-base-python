@@ -244,4 +244,13 @@ print("Straße".casefold() == "strasse".casefold())  # True
 
 ---
 
+## Strings are immutable.
+
+The String Methods and Functions create a New String!
+→ The original remains unchanged!
+A string is stored as a single object in memory, even if it consists of multiple characters.
+
+All characters are stored as a unit.
+You cannot change individual characters directly! (because the entire string is stored as a single block in memory)
+
 ✅ You're now ready to work efficiently with strings in Python!
