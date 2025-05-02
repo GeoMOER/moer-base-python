@@ -15,10 +15,11 @@ This unit focuses on the most important basic data types — integers, floating-
 
 ## This session
 In this unit, you will learn:
+- a short introduction to store and manage data;
 - how to work with numbers, text, and boolean values;
 - the properties and uses of different basic data types;
 - how and why to convert data from one type to another;
-- a short introduction to store and manage data;
+
 
 By the end of this unit, you will have a solid understanding of the basic building blocks that are essential for any Python program.
 
