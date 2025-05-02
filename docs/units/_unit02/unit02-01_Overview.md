@@ -17,7 +17,6 @@ This unit focuses on the most important basic data types — integers, floating-
 In this unit, you will learn:
 - a short introduction to store and manage data;
 - how to work with numbers, text, and boolean values;
-- the properties and uses of different basic data types;
 - how and why to convert data from one type to another;
 
 
