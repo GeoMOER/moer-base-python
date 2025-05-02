@@ -24,9 +24,6 @@ The table below gives an overview of the most common data types in Python.
 | integer    | `type(x) == int`    | `int(x)`     |
 | float      | `type(x) == float`  | `float(x)`   |
 | string     | `type(x) == str`    | `str(x)`     |
-| boolean    | `type(x) == bool`   | `bool(x)`    |
-| None       | `x is None`         | `x = None`   |
-| NaN        | `math.isnan(x)` or `numpy.isnan(x)` | `x = np.nan` |
 
 <i>Example</i>
 
@@ -36,20 +33,9 @@ value = 23.5
 print(type(value))
 # Output: <class 'float'>
 
-print(type(value) == str)
-# Output: False
+print(int(value))
+print(str(value))
+
 ```
 
-```python
-colors = ["blue", "red", "red", "yellow"]
-print(colors)
-# Output: ['blue', 'red', 'red', 'yellow']
 
-print(type(colors))
-# Output: <class 'list'>
-
-# Convert to set to manage unique colors (like a category)
-colors_set = set(colors)
-print(colors_set)
-# Output: {'blue', 'yellow', 'red'}
-```
