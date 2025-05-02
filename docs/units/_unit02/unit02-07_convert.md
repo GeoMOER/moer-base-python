@@ -6,9 +6,6 @@ header:
   caption: "Photo by [Franki Chamaki](https://unsplash.com/@franki?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) [from unsplash](https://unsplash.com/s/photos/data?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)"
 ---
 <!--more-->
-
-> “Errors using inadequate data are much less than those using no data at all.” – Charles Babbage
-
 ---
 
 In Python, data types are automatically assigned to variables. You can check the type of any value using the `type()` function. If needed, you can also convert a value to a different data type using functions like `int()`, `float()`, `str()`, and `bool()`.
