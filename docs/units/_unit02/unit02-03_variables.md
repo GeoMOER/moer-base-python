@@ -40,9 +40,11 @@ product = 7 * 2
 Variables make it possible to **structure** your work — just like using labeled boxes in an archive rather than writing everything on loose sheets of paper.
 
 ---
-{% include figure image_path="/assets/images/unit_images/u03/container.webp" %}
 
 ## Variables as Memory References
+
+{% include figure image_path="/assets/images/unit_images/u03/container.webp" %}
+
 
 In Python, a **variable acts as a label** pointing to a location in memory where a value is stored.
 
@@ -56,9 +58,39 @@ temperature = 18.5  # Float (Decimal number)
 cloud_coverage = 75  # Integer (Whole number)
 is_sunny = False  # Boolean (True/False)
 ```
+---
 
-In the image above, you can think of variables as labels stuck onto containers. The labels can easily be changed, and the contents can be updated.
+## Rules for Variable Names
 
+- Variables can contain **letters, numbers, and underscores (`_`)**, but **cannot start with a number**.
+- No spaces or special characters are allowed (e.g., `-` is invalid).
+- Variable names are **case-sensitive** (`myVar` and `myvar` are different).
+- Reserved keywords like `type` or `print` should not be used as variable names
+
+### Naming Conventions
+
+Clear and consistent variable names make your programs easier to read and maintain.
+
+Recommended Naming Style
+- Use **underscores** to separate words for better readability:
+
+```python
+flower_name = "Daisy"
+print(flower_name)
+```
+
+- Avoid starting variable names with numbers:
+
+```python
+3Beta = 4  # Invalid!
+```
+
+- Prefer **descriptive names** over short and unclear ones:
+
+```python
+x1, xx  # Not recommended
+num_students, avg_temperature  # Better!
+```
 ---
 
 ## Important: Variables are not permanent containers
@@ -81,44 +113,8 @@ The previous value (`5`) is no longer accessible through `a`.
 This flexibility is what makes programming powerful — but also why you need to **carefully track** your variable names and values.
 
 ---
-Understanding how to name, assign, and manage variables is essential for writing clean and effective Python code. In this section, we will cover best practices for naming variables, the concept of dynamic typing, and how to receive user input.
 
----
 
-## Naming Conventions
-
-> “All things are defined by names. Change the name, and you change the thing.” — Terry Pratchett, *Pyramids*
-
-Clear and consistent variable names make your programs easier to read and maintain.
-
-### Rules for Variable Names
-- Variables can contain **letters, numbers, and underscores (`_`)**, but **cannot start with a number**.
-- No spaces or special characters are allowed (e.g., `-` is invalid).
-- Variable names are **case-sensitive** (`myVar` and `myvar` are different).
-- Reserved keywords like `type` or `print` should not be used as variable names.
-
-### Recommended Naming Style
-- Use **underscores** to separate words for better readability:
-
-```python
-flower_name = "Daisy"
-print(flower_name)
-```
-
-- Avoid starting variable names with numbers:
-
-```python
-3Beta = 4  # Invalid!
-```
-
-- Prefer **descriptive names** over short and unclear ones:
-
-```python
-x1, xx  # Not recommended
-num_students, avg_temperature  # Better!
-```
-
----
 
 ## Dynamic Typing
 

@@ -11,34 +11,32 @@ header:
 
 ---
 
-In Python, data types are automatically assigned to variables, or the data type of a variable can be subsequently converted into another data type. To check the data type, the `type()` function is used. To check for a specific data type you can use the `isinstance()`-function. Conversion functions like int(), float(), and str() are used to change the data type.
+In Python, data types are automatically assigned to variables. You can check the type of any value using the `type()` function. If needed, you can also convert a value to a different data type using functions like `int()`, `float()`, `str()`, and `bool()`.
 
-Python has three numeric classes. The two most common are float (for floating-point numbers) and int (for integers). Python will automatically convert between numeric classes when needed, so it generally does not matter whether the number 3 is currently stored as an integer or a float. Most math is done using float precision, so that is often the default storage.
+Python has three numeric types. The most common are `float` (for numbers with decimals) and `int` (for whole numbers). Python will often switch between these automatically, so whether a number like `3` is stored as an `int` or a `float` often doesn’t matter in practice.
 
-Sometimes you may want to specifically store a variable as an integer if you know that it will never be converted to a float (used as ID values or indexing) since integers require less storage space. But if they are going to be used in any math that will convert them to float, then it may be best to store them as floats from the beginning.
+However, sometimes you may want to store a number as an integer—especially if it’s used for counting, indexing, or IDs—because integers use less memory. If you're going to do math with decimals, it's better to use floats.
 
-The table below gives an overview of the different data types in Python.
+The table below gives an overview of the most common data types in Python.
 
-| Data Type  | check type                          | convert      |
-|------------|-------------------------------------|--------------|
-| integer    | `isinstance(x, int)`                | `int(x)`     |
-| float      | `isinstance(x, float)`              | `float(x)`   |
-| character  | `isinstance(x, str)`                | `str(x)`     |
-| boolean    | `isinstance(x, bool)`               | `bool(x)`    |
-| None       | `if x is None`                      | `x = None`   |
+| Data Type  | check type          | convert      |
+|------------|---------------------|--------------|
+| integer    | `type(x) == int`    | `int(x)`     |
+| float      | `type(x) == float`  | `float(x)`   |
+| string     | `type(x) == str`    | `str(x)`     |
+| boolean    | `type(x) == bool`   | `bool(x)`    |
+| None       | `x is None`         | `x = None`   |
 | NaN        | `math.isnan(x)` or `numpy.isnan(x)` | `x = np.nan` |
 
-
-
-
 <i>Example</i>
+
 ```python
 value = 23.5
 
-print(isinstance(value, float))
-# Output: True
+print(type(value))
+# Output: <class 'float'>
 
-print(isinstance(value, str))
+print(type(value) == str)
 # Output: False
 ```
 
@@ -47,19 +45,11 @@ colors = ["blue", "red", "red", "yellow"]
 print(colors)
 # Output: ['blue', 'red', 'red', 'yellow']
 
-print(isinstance(colors, list))
-# Output: True
+print(type(colors))
+# Output: <class 'list'>
 
-# Convert to set to manage unique colors (similar to R's factor)
+# Convert to set to manage unique colors (like a category)
 colors_set = set(colors)
 print(colors_set)
 # Output: {'blue', 'yellow', 'red'}
 ```
-<!--more-->
-
-
-<!--
-## Further reading
-
-add some day
--->
