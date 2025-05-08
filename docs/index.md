@@ -64,14 +64,14 @@ Further details on the tutorial format and location will be announced soon.
 |------|-----|-----|---------|
 | 01 |24.04.2025| Overview and the very Basics   | Set up everything for operating Python, take your own first steps in Python |
 | 02 |08.05.2025 |Basic Data Types | How data is measured and organized with an Python perspective               |
-| 03 |15.05.2025 |Working with String and simple operators               | How to use Strings and operators in Python                                              |
-| 04 |22.06.2025 |Conditionals           | Learn how to use if, elif and else                                          |
+| 03 |15.05.2025 |Working with String and simple operators               | How to use Strings and operators in Python                       |
+| 04 |22.05.2025 |Conditionals           | Learn how to use if, elif and else                                          |
 | 05 |05.06.2025 |Loops               | Use for-loops and while-loops                               |
 | 06 |12.06.2025 |Object Data Types                          | Get to know lists, arrays, matrices and data frames |
-| 07 |26.07.2025 |Working with files             | Work with csv files and sort, bind and merge your data  |
+| 07 |26.06.2025 |Working with files             | Work with csv files and sort, bind and merge your data  |
 | 08 |03.07.2025 |Simple Visualizations          | Quickly and simply visualize your data  |
 | 09 |10.07.2025 |OOP|Introduction to Object-Oriented Programming|
-| 10 |17 24.07.2025 |Final Thesis | tbd |
+| 10 |17.07.2025 |Final Thesis | tbd |
 
 ---
 <!--
