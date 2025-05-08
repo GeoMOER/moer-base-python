@@ -1,3 +1,4 @@
+
 ---
 title: Submission Guidelines
 toc: true
@@ -8,16 +9,18 @@ header:
 
 ## Upload of Your Exercises on ILIAS
 
-All your exercise solutions must be uploaded in the following ILIAS folder:  
+Please upload your full submission as a **single folder** named:  
+**`Lastname_SS_2025`**  
+to the following ILIAS folder:  
 **`Submission/SS_2025`**
 
-Make sure your folder and file structure follow the guidelines below to ensure smooth correction and feedback.
+This folder should contain **one ZIP file per unit**.
 
 ---
 
-### 📁 Folder Structure
+### 📁 Folder and ZIP File Structure
 
-1. **Create a main folder** on ILIAS with the following naming convention:
+1. **Create a main folder** on your computer:
    ```
    Lastname_SS_2025
    ```
@@ -25,60 +28,71 @@ Make sure your folder and file structure follow the guidelines below to ensure s
    🔸 *Example:*  
    If your name is Alex Johnson → `Johnson_SS_2025`
 
-2. **Inside this main folder**, create one **subfolder per unit**:
+2. **Inside this main folder**, create **one ZIP file per unit**, named:
    ```
-   unit01
-   unit02
+   unit01.zip
+   unit02.zip
    ...
-   unit10
+   unit10.zip
    ```
+
+3. Each `unitXX.zip` should contain your files for that unit, structured as follows:
+   ```
+   unitXX_ex(1-5).pdf
+   unitXX_ex6.py
+   unitXX_ex7.py
+   ...
+   ```
+
+✅ Example:
+```
+Johnson_SS_2025/
+│
+├── unit01.zip
+├── unit02.zip
+├── ...
+├── unit10.zip
+```
+
+Inside `unit01.zip`:
+```
+unit01_ex1.pdf
+unit01_ex2.pdf
+unit01_ex6.py
+unit01_ex7.py
+```
 
 ---
 
-## 📄 Naming Your Files
+### File Naming Guidelines
 
-Inside each `unitXX` folder, you must upload:
-
-- Please upload your written answers or diagrams in the following format (PDF)  
-  Syntax of the file name:
+- Use the following format for written answers (as PDF):
   ```
-  unitXX_ex1.pdf or
+  unitXX_ex1.pdf
   unitXX_ex(1-5).pdf
   ```
 
-- Your Python scripts for exercises in that unit  
-  Syntax of the file name:
+- Use the following format for Python scripts:
   ```
   unitXX_ex6.py
   unitXX_ex7.py
-  ...
   ```
 
-🔸 *Example:* For Unit 01:
-```
-unit01/
-│
-├── unit01_ex(1-7).pdf
-├── unit01_ex8.py
-├── unit01_ex9.py
-```
+---
+
+## Tips for Clean Submission
+
+- Test all Python scripts to ensure they run without errors.
+- Include helpful comments in your code.
+- Keep your naming consistent and your structure tidy.
+- Do **not** include unnecessary files like `.pyc`, `__pycache__`, etc.
 
 ---
 
-## ✅ Tips for Clean Submission
+## Why This Structure?
 
-- Use **clear and consistent formatting** in your text files (you may also submit as `.pdf` if preferred).
-- Make sure your **Python files run without errors** before submitting.
-- Add **comments** in your code to explain your solution steps.
-- Submit **only the required files** – avoid uploading unnecessary files like `.pyc`, cache folders, etc.
+This approach:
 
----
-
-## 💡 Why This Is Important
-
-This structure helps us:
-- Quickly navigate through your work,
-- Review your solutions fairly and efficiently,
-- Give you timely feedback.
-
-And it helps **you** practice good documentation habits, which are essential in real-world projects!
+- Helps us correct and give feedback efficiently,
+- Keeps your submission portable and organized,
+- Trains you in clear digital project documentation – a crucial skill in real-world data science.
