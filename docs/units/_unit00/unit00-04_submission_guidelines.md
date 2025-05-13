@@ -35,8 +35,8 @@ Make sure your folder and file structure follow the guidelines below to ensure s
 
 3. Each `unitXX.zip` should contain your files for that unit, structured as follows:
    ```
-   unitXX_ex(1-5).pdf
-   unitXX_code.py
+   unitXX_ex(1-X).pdf
+   unitXX__ex(1-X)code.py
    ```
 
 ---
@@ -46,12 +46,12 @@ Make sure your folder and file structure follow the guidelines below to ensure s
 - Use the following format for written answers (as PDF):
   ```
   unitXX_ex1.pdf
-  unitXX_ex(1-5).pdf
+  unitXX_ex(1-X).pdf
   ```
 
 - Use the following format for Python code:
   ```
-  unitXX_ex(1-5)code.py
+  unitXX_ex(1-X)code.py
   ```
 
   📝 *This file should contain all your Python solutions (e.g., from exercises 6–10) in one script, clearly separated and commented.*
