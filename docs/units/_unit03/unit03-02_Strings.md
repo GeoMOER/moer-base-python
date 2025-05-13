@@ -9,13 +9,13 @@ header:
 
 <!--more-->
 
+## 🧩 What is a Function?
+A function is a reusable block of code that performs a specific task. You call it by its name, followed by parentheses containing any values (parameters) it needs to work with.
 
 ## String Functions
 
 Python provides several built-in functions for string manipulation.
 
-🧩 What is a Function?
-A function is a reusable block of code that performs a specific task. You call it by its name, followed by parentheses containing any values (parameters) it needs to work with.
 
 ```python
 function_name(parameter1, parameter2, ...)
@@ -23,21 +23,13 @@ function_name(parameter1, parameter2, ...)
 
 ### `print()`
 
-Outputs strings (or other data types) to the console.
+Displays output in the console.
+You can print text, variables, or multiple values by separating them with commas.
 
 ```python
-# Print a string variable
-message = "Hello, Python!"
-print(message)  # Output: Hello, Python!
-```
-
-String concatenation in `print()` can be done using commas or f-strings:
-
-```python
-var1 = "Hello"
-var2 = "World"
-
-print(var1, var2)  # Hello World
+name = "Alice"
+age = 25
+print("Name:", name, "| Age:", age)
 
 ```
 
@@ -66,8 +58,9 @@ string.replace(old, new, count)
 - **count** *(optional)*: How many times to replace it (from left to right)
 
 ```python
-text = "apple apple apple"
-print(text.replace("apple", "banana"))  
+textA = "apple apple apple"
+textB = textA.replace("apple", "banana")
+print(textB)  
 # Output: banana banana banana
 
 print(text.replace("apple", "banana", 1))  
@@ -117,8 +110,8 @@ print(text.count("banana", 10, 20)) # Output: 1
 
 ```python
 text = "marburg an der lahn"
-
-print(text.upper())       # MARBURG AN DER LAHN
+textUpper = text.upper() 
+print(textUpper)       # MARBURG AN DER LAHN
 print(text.lower())       # marburg an der lahn
 print(text.title())       # Marburg An Der Lahn
 print(text.capitalize())  # Marburg an der lahn
@@ -138,7 +131,8 @@ string.split(sep[, maxsplit])
 
 ```python
 text = "apple,banana,cherry"
-print(text.split(","))         # Output: ['apple', 'banana', 'cherry']
+textList = text.split(",")
+print(textList)         # Output: ['apple', 'banana', 'cherry']
 
 text2 = "one two three four"
 print(text2.split(" ", 2))     # Output: ['one', 'two', 'three four']
