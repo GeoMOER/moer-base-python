@@ -12,14 +12,13 @@ header:
 ## 🧩 What is a Function?
 A function is a reusable block of code that performs a specific task. You call it by its name, followed by parentheses containing any values (parameters) it needs to work with.
 
-## String Functions
-
 Python provides several built-in functions for string manipulation.
 
 
 ```python
 function_name(parameter1, parameter2, ...)
 ```
+## String Functions
 
 ### `print()`
 
