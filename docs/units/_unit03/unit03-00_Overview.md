@@ -11,16 +11,13 @@ In this unit, you'll learn essential programming tools to process data and make 
 ## 📘 Topics
 
 - **Strings: Functions and Methods**  
-  Working with text using functions like `.upper()`, `.lower()`, `.replace()`, `len()`, `in`, and more.
+  Working with text using functions.
 
 - **Mathematical Operators**  
-  Performing calculations: `+`, `-`, `*`, `/`, `**`, `%`, `//`
 
 - **Comparison Operators**  
-  Making comparisons: `==`, `!=`, `<`, `>`, `<=`, `>=`
 
 - **Logical Operators**  
-  Combining conditions: `and`, `or`, `not`
 
 - **Introduction**  
   A practical introduction to using these concepts in simple programs.
