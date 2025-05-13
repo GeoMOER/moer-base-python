@@ -1,0 +1,30 @@
+---
+title: "Overview"
+header:
+  image: /assets/images/unit_images/u07/header.png
+  image_description: "neon data"
+  caption: "Photo by [Franki Chamaki](https://unsplash.com/@franki?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) [from unsplash](https://unsplash.com/s/photos/data?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)"
+---
+
+In this unit, you'll learn essential programming tools to process data and make decisions.
+
+## 📘 Topics
+
+- **Strings: Functions and Methods**  
+  Working with text using functions like `.upper()`, `.lower()`, `.replace()`, `len()`, `in`, and more.
+
+- **Mathematical Operators**  
+  Performing calculations: `+`, `-`, `*`, `/`, `**`, `%`, `//`
+
+- **Comparison Operators**  
+  Making comparisons: `==`, `!=`, `<`, `>`, `<=`, `>=`
+
+- **Logical Operators**  
+  Combining conditions: `and`, `or`, `not`
+
+- **Introduction**  
+  A practical introduction to using these concepts in simple programs.
+
+## 🎯 Learning Goal
+
+You will be able to write expressions and conditions, analyze strings, and create programs that react based on comparisons and logical decisions.

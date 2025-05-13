@@ -1,5 +1,5 @@
 ---
-title: Comparison Operators
+title: LM | Comparison Operators
 header:
   image: /assets/images/unit_images/u07/header.png
   image_description: "loop"

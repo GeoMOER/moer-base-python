@@ -1,5 +1,5 @@
 ---
-title: "Introduction"
+title: "LM | Introduction"
 header:
   image: /assets/images/unit_images/u07/header.png
   image_description: "neon data"
@@ -10,14 +10,15 @@ header:
 
 <!--more-->
 
-By the end of this unit, you’ll be able to:
 
-- Understand what strings are and how to manipulate them using built-in methods,
-- Format and combine text in powerful and flexible ways,
-- Use Python’s simple operators to:
-  - Perform mathematical calculations (`+`, `-`, `*`, `/`),
-  - Compare values (`==`, `!=`, `>`, `<`),
-  - Apply logic with conditions (`and`, `or`, `not`),
-- Write small, expressive programs that combine strings and logic.
+In programming, it’s not enough to store data—you also need to work with it, compare it, and make decisions. This unit introduces some of the most important tools for that: strings, operators, and logic.
 
-Mastering strings and basic operators is a key step in writing clear, meaningful Python code—whether you're building user interfaces, analyzing data, or just making your programs speak your language.
+We start with **strings**, which represent text in Python. You’ll learn how to manipulate strings using built-in functions and methods—for example, changing the case of text, replacing parts of it, or checking whether certain words are present.
+
+Next, we explore **mathematical operators** to perform basic arithmetic. These allow your programs to calculate values, such as totals, percentages, or averages.
+
+With **comparison operators**, you’ll learn how to ask questions like "Is this number greater than that one?" or "Are these two strings the same?". These are essential for making decisions.
+
+Finally, we’ll introduce **logical operators**. They help you combine multiple conditions—like saying "this AND that must be true" or "either this OR that".
+
+By the end of this unit, you’ll be able to write Python code that thinks: analyzing data, checking conditions, and responding accordingly.

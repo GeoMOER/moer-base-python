@@ -1,5 +1,5 @@
 ---
-title: "Strings: Functions and Methods"
+title: "EX | Strings: Functions and Methods"
 toc: true
 header:
   image: /assets/images/unit_images/u03/header.png
@@ -19,9 +19,6 @@ Python provides several built-in functions for string manipulation.
 Outputs strings (or other data types) to the console.
 
 ```python
-# Print a string
-print("Hello, World!")  # Output: Hello, World!
-
 # Print a string variable
 message = "Hello, Python!"
 print(message)  # Output: Hello, Python!
@@ -46,22 +43,6 @@ length = len("Hello, World!")
 print(length)  # Output: 13
 ```
 
-
-### `sorted()`
-
-Returns a sorted list of characters from a string.
-
-```python
-print(sorted("Marburg"))  # ['M', 'a', 'b', 'g', 'r', 'r', 'u']
-```
-
-### `list()`
-
-Converts a string into a list of individual characters.
-
-```python
-print(list("Marburg"))  # ['M', 'a', 'r', 'b', 'u', 'r', 'g']
-```
 
 ## String Methods
 
@@ -125,15 +106,6 @@ print(text.title())       # Marburg An Der Lahn
 print(text.capitalize())  # Marburg an der lahn
 ```
 
-### `join()`
-
-Joins a list of strings into one string.
-
-```python
-words = ["Hello", "Python", "World"]
-joined = " ".join(words)
-print(joined)  # Output: Hello Python World
-```
 
 ### `startswith()` and `endswith()`
 
