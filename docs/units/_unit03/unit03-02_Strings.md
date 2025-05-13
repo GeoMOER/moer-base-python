@@ -14,6 +14,13 @@ header:
 
 Python provides several built-in functions for string manipulation.
 
+🧩 What is a Function?
+A function is a reusable block of code that performs a specific task. You call it by its name, followed by parentheses containing any values (parameters) it needs to work with.
+
+```python
+function_name(parameter1, parameter2, ...)
+```
+
 ### `print()`
 
 Outputs strings (or other data types) to the console.
@@ -48,51 +55,62 @@ print(length)  # Output: 13
 
 ### `replace()`
 
-Replaces parts of a string without modifying the original.
+Replaces parts of a string. The replace() method can take up to three parameters:
 
 ```python
-original_string = "Hello, World!"
-new_string = original_string.replace("World", "Python")
-print(new_string)  # Output: Hello, Python!
+string.replace(old, new, count)
 ```
 
-### `strip()`
-
-Removes leading and trailing whitespace.
+- **old**: The part of the string you want to replace  
+- **new**: What you want to replace it with  
+- **count** *(optional)*: How many times to replace it (from left to right)
 
 ```python
-text = "  hello  "
-print(text.strip())  # Output: hello
+text = "apple apple apple"
+print(text.replace("apple", "banana"))  
+# Output: banana banana banana
+
+print(text.replace("apple", "banana", 1))  
+# Output: banana apple apple
 ```
 
-### `find()` and `rfind()`
 
-Find first or last occurrence of a substring.
+### `find()``
+
+Searches for a substring in a string and returns the index of its first occurrence. If the substring is not found, it returns -1.
+
+The find() method can take up to three parameters:
+```python
+string.find(sub[, start[, end]])
+```
+- **sub**: The substring you want to search for  
+- **start** *(optional)*: The index to start the search from  
+- **end** *(optional)*: The index to stop the search (not inclusive)
 
 ```python
-text = "Hello, World! Hello, Python!"
-print(text.find("Hello"))      # Output: 0
-print(text.rfind("Hello"))     # Output: 13
+text = "environmental informatics"
+print(text.find("inform"))        # Output: 14
+print(text.find("e", 5))          # Output: 11
+print(text.find("e", 5, 10))      # Output: -1
 ```
 
 ### `count()`
 
-Counts how many times a substring appears.
+Counts how many times a substring appears in a string.
 
+The count() method can take up to three parameters:
 ```python
-text = "Hello, World! Hello, Python!"
-print(text.count("Hello"))  # Output: 2
+string.count(sub[, start[, end]])
 ```
-
-### `split()`
-
-Splits string into substrings based on a separator.
+- **sub**: The substring you want to count  
+- **start** *(optional)*: The index to start counting from  
+- **end** *(optional)*: The index to stop counting (not inclusive)
 
 ```python
-sentence = "Hello, World! How are you?"
-words = sentence.split(" ")
-print(words)
-# Output: ['Hello,', 'World!', 'How', 'are', 'you?']
+text = "banana banana banana"
+print(text.count("banana"))         # Output: 3
+print(text.count("banana", 10))     # Output: 2
+print(text.count("banana", 10, 20)) # Output: 1
 ```
 
 ### `upper()`, `lower()`, `title()`, `capitalize()`
@@ -106,13 +124,25 @@ print(text.title())       # Marburg An Der Lahn
 print(text.capitalize())  # Marburg an der lahn
 ```
 
+### `split()`
 
-### `startswith()` and `endswith()`
+Splits a string into a list, using a specified separator.
+
+The split() method can take up to two parameters:
+```python
+string.split(sep[, maxsplit])
+``
+
+- **sep** *(optional)*: The delimiter to split the string on (default is any whitespace)  
+- **maxsplit** *(optional)*: The maximum number of splits to perform
 
 ```python
-text = "hello world"
-print(text.startswith("hello"))  # True
-print(text.endswith("world"))    # True
+text = "apple,banana,cherry"
+print(text.split(","))         # Output: ['apple', 'banana', 'cherry']
+
+text2 = "one two three four"
+print(text2.split(" ", 2))     # Output: ['one', 'two', 'three four']
+
 ```
 
 
