@@ -1,11 +1,10 @@
 ---
-
 title: "A | Assignment"
 header:
 image: /assets/images/unit\_images/u07/header.png
 image\_description: "loop"
 caption: "Photo by [Christopher Kuszajewski](https://pixabay.com/de/users/kuszapro-369349/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=583537) [from Pixabay](https://pixabay.com/de/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=583537)"
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
 
 ## 🧹 Strings: Functions and Methods
 
