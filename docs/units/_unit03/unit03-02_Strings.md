@@ -104,7 +104,7 @@ Counts how many times a substring appears in a string.
 
 The count() method can take up to three parameters:
 ```python
-string.count(sub[, start[, end]])
+string.count(sub, start, end)
 ```
 - **sub**: The substring you want to count  
 - **start** *(optional)*: The index to start counting from  
