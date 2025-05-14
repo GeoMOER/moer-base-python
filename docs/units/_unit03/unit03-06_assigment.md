@@ -6,11 +6,19 @@ image\_description: "loop"
 caption: "Photo by [Christopher Kuszajewski](https://pixabay.com/de/users/kuszapro-369349/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=583537) [from Pixabay](https://pixabay.com/de/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=583537)"
 ---
 
-## 🧹 Strings: Functions and Methods
+## 🧹 Strings: Functions and Methods. Simple operators
 
-Please save your solution for Exercise 1 as a PDF and include it in the unit03 folder.
-Then complete exercises 2 to 7 and write your solutions in a single Python script (`.py`). Save this script in the same unit03 folder, compress the folder into a `.zip` file, and upload it to ILIAS.
-Ensure your code is clearly structured and contains comments where helpful.
+Please save your solution for Exercise 1 as a PDF file named `unit03_ex1.pdf` and place it in the `unit02` folder.
+
+Then complete Exercises 2 to 5 and write your solutions in a single Python script named `unit02__ex(2-7)code.py`.  
+For Bonus Exercise 8, use a separate Python script named `unit03__ex8code.py`.
+
+Save all scripts in the same `unit03` folder, compress the folder into a `.zip` file, and upload it to ILIAS.
+
+For more information, please visit the following link:  
+https://geomoer.github.io/moer-base-python/unit00/unit00-04_submission_guidelines.html
+
+Make sure your code is clearly structured and includes comments where helpful.
 
 ### Exercise 1 – Short Text Questions
 

@@ -5,9 +5,18 @@ header:
   image_description: "statistics"
   caption: "Photo by [Gerd Altmann](https://pixabay.com/de/users/geralt-9301/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4705451) [from Pixabay](https://pixabay.com/)"
 ---
-Please save your solution for Exercise 1 as a PDF and include it in the unit02 folder.
-Then complete exercises 2 to 5 and write your solutions in a single Python script (`.py`). Save this script in the same unit03 folder, compress the folder into a `.zip` file, and upload it to ILIAS.
-Ensure your code is clearly structured and contains comments where helpful.
+Please save your solution for Exercise 1 as a PDF file named `unit02_ex1.pdf` and place it in the `unit02` folder.
+
+Then complete Exercises 2 to 5 and write your solutions in a single Python script named `unit02__ex2-5code.py`.  
+For Bonus Exercise 6, use a separate Python script named `unit02__ex6code.py`.
+
+Save all scripts in the same `unit02` folder, compress the folder into a `.zip` file, and upload it to ILIAS.
+
+For more information, please visit the following link:  
+https://geomoer.github.io/moer-base-python/unit00/unit00-04_submission_guidelines.html
+
+Make sure your code is clearly structured and includes comments where helpful.
+
 
 ## 1. Exercise
 
