@@ -85,7 +85,7 @@ Searches for a substring in a string and returns the index of its first occurren
 
 The find() method can take up to three parameters:
 ```python
-string.find(sub[, start[, end]])
+string.find(sub)
 ```
 - **sub**: The substring you want to search for  
 - **start** *(optional)*: The index to start the search from  
