@@ -42,7 +42,19 @@ print(length)  # Output: 13
 ```
 
 
+## 🧩 What is a Method?
+
+A **method** is similar to a function, but it is **attached to an object** (like a string)  
+and is called using **dot notation (`.`)**. It performs a task that is specific to that object.
+
+Example:  
+```python
+myString = "Hello"
+myString.method_name(parameter1, parameter2, ...)
+```
+
 ## String Methods
+
 
 ### `replace()`
 
