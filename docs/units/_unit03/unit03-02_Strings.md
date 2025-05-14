@@ -134,7 +134,7 @@ Splits a string into a list, using a specified separator.
 
 The split() method can take up to two parameters:
 ```python
-string.split(sep[, maxsplit])
+string.split(sep, maxsplit)
 ``
 
 - **sep** *(optional)*: The delimiter to split the string on (default is any whitespace)  
