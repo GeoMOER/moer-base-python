@@ -19,8 +19,6 @@ In this unit, you'll learn essential programming tools to process data and make 
 
 - **Logical Operators**  
 
-- **Introduction**  
-  A practical introduction to using these concepts in simple programs.
 
 ## 🎯 Learning Goal
 
