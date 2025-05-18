@@ -1,5 +1,5 @@
 ---
-title: "EX | Homework Exercises"
+title: "A | Assignment"
 toc: TRUE
 toc_float: TRUE
 header:
