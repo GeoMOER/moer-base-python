@@ -35,32 +35,27 @@ Make sure your folder and file structure follow the guidelines below to ensure s
 
 3. Each `unitXX.zip` should contain your files for that unit, structured as follows:
    ```
-   unitXX_ex(1-X).pdf
    unitXX__ex(1-X)code.py
+   unitXX__exXXcode.py # Bonus 
    ```
 
 ---
 
 ### 📄 File Naming Guidelines
 
-- Use the following format for written answers (as PDF):
-  ```
-  unitXX_ex1.pdf
-  unitXX_ex(1-X).pdf
-  ```
 
-- Use the following format for Python code:
+- Use the following format for written answers and Python code:
   ```
   unitXX_ex(1-X)code.py
   ```
+`
+  📝 *The .py file should contain all your Python solutions (e.g., from exercises 1 to X) in one script, with the task texts included as comments. Bonus solutions should be saved in a separate file named unitXX__exXXcode.py *
 
-  📝 *This file should contain all your Python solutions (e.g., from exercises 6–10) in one script, clearly separated and commented.*
 
 ---
 
 ## ✅ Tips for Clean Submission
 
-- Use **clear and consistent formatting** in your text files (you may also submit as `.pdf` if preferred).
 - Make sure your **Python files run without errors** before submitting.
 - Add **comments** in your code to explain your solution steps.
 - Submit **only the required files** – avoid uploading unnecessary files like `.pyc`, cache folders, etc.
