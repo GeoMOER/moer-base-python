@@ -122,12 +122,17 @@
     <div id="result"></div>
 
     <div id="nextButton" style="display: none;">
-        <button onclick="window.location.href='results.html'">Continue to Summary</button>
+        <button onclick="window.location.href = `results.html?score_41=${score_41}&score_42=${score_42}`;">Continue</button>
+       
     </div>
 
     <script>
+        let score_42 = 0;
+                    // Save points in localStorage
+        const params = new URLSearchParams(window.location.search);
+        const score_41 = parseInt(params.get("score_41") || 0, 10);
         function calculatePoints() {
-            let score42 = 0;
+            
 
             // Check answers
             const answers = {
@@ -145,7 +150,7 @@
 
                 if (q) {
                     if (q.value === correctAnswer) {
-                        score42++;
+                        score_42++;
                     } else {
                         // Highlight incorrect answer
                         q.parentElement.classList.add('incorrect');
@@ -156,11 +161,9 @@
                 correctSpan.style.display = "inline";
             }
 
-            // Save points in localStorage
-            localStorage.setItem("points_42", score42);
 
             // Display result
-            document.getElementById("result").innerHTML = `You scored ${score42} points in this topic.`;
+            document.getElementById("result").innerHTML = `You scored ${score_42} points in this topic.`;
 
             // Show "Continue" button
             document.getElementById("nextButton").style.display = "block";

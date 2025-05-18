@@ -36,12 +36,12 @@
 
     <div id="summary"></div>
 
-    <script>
+    <script>const points_41 = parseInt(localStorage.getItem("points_41") || 0, 10);
         function calculateTotalScore() {
             // Retrieve points from localStorage
-            const points_41 = localStorage.getItem("points_1") ? parseInt(localStorage.getItem("points_42")) : 0;
-            const points_42 = localStorage.getItem("points_2") ? parseInt(localStorage.getItem("points_42")) : 0;
-
+            const params = new URLSearchParams(window.location.search);
+            const points_41 = parseInt(params.get("score_41") || 0, 10);
+            const points_42 = parseInt(params.get("score_42") || 0, 10);
 
             // Calculate total score
             const totalScore = points_41 + points_42;
@@ -64,7 +64,7 @@
                 <div class="score-container">
                     <div class="score-bar" style="width: ${((totalScore / maxPoints) * 100)}%;">${totalScore}/${maxPoints}</div>
                 </div>
-                <p>Total Score: ${totalScore} points <span class="emoji">${emoji}</span></p>
+                <p>Total cScore: ${totalScore} points <span class="emoji">${emoji}</span></p>
             `;
         }
 
