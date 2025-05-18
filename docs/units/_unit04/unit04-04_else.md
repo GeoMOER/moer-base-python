@@ -22,16 +22,14 @@ a = 15.0
 
 if a > 20 :
     print("a is larger than 20")
-elif a > 15 :
-    print("a is larger than 15")
+elif a < 20 :
+    print("a is smaller than 20")
 else:
-    print("a is smaller than 15)
-# Output:
-# a is larger than b
+    print("a is equal 15")
 ```
 
 ```python
-temperature = 25
+temperature = 0
 
 if temperature > 30:
     print("It's a hot day.")
@@ -41,8 +39,6 @@ elif temperature > 10:
     print("It's a bit chilly.")
 else:
     print("It's cold outside.")
-# Output:
-# It's a nice day.
 ``
 
 `else` can also directly follow an `if`-statement without `elif`.
@@ -54,6 +50,4 @@ if a < b:
     print("a is smaller than b")
 else:
     print("a is not smaller than b")
-# Output:
-# a is smaller than b
 ```

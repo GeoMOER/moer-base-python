@@ -93,10 +93,18 @@ string.find(sub, start, end)
 
 ```python
 text = "environmental informatics"
-print(text.find("inform"))        # Output: 14
-print(text.find("e", 5))          # Output: 11
-print(text.find("e", 5, 10))      # Output: -1
+
+print(text.find("informatics"))   # Output: 14
+print(text.find("a", 5))          # Output: 11
+print(text.find("i", 5, 10))      # Output: -1
 ```
+text.find("informatics")
+
+"informatics" beginnt bei Index 14
+text.find("a", 5)
+Suche "a" ab Index 5 → erstes "a" ist bei 11 (in "mental")
+text.find("i", 5, 10)
+Bereich ist "nment" (Index 5–9) → kein "i" enthalten → -1
 
 ### `count()`
 

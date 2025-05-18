@@ -24,7 +24,7 @@ You can also use more complex boolean expressions within if statements to make m
 ```python
 c = 5
 if a < b and a == c:
-print("a is smaller than b and equal to c")
+  print("a is smaller than b and equal to c")
 # Output:
 # a is smaller than b and equal to c
 ```
@@ -32,8 +32,8 @@ print("a is smaller than b and equal to c")
 ## Negating Conditions with `not`
 The `not` operator can be used to check if a condition is `False`:
 ```python
-if not a < b:
-    print("a is not smaller than b")
+if not a > b:
+    print("a is smaller than b")
 # Output:
 # a is not smaller than b
 ```
