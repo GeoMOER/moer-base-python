@@ -1,5 +1,5 @@
 ---
-title: "EX | Exercises - Control Flow"
+title: "EX | Exercises"
 toc: TRUE
 toc_float: TRUE
 header:

@@ -8,10 +8,8 @@ caption: "Photo by [Christopher Kuszajewski](https://pixabay.com/de/users/kuszap
 
 ## 🧹 Strings: Functions and Methods. Simple operators
 
-Please save your solution for Exercise 1 as a PDF file named `unit03_ex1.pdf` and place it in the `unit03` folder.
-
-Then complete Exercises 2 to 5 and write your solutions in a single Python script named `unit03__ex(2-7)code.py`.  
-For Bonus Exercise 8, use a separate Python script named `unit03__ex8code.py`.
+Please save your solution Exercises 1 to 8 and write your solutions in a single Python script named `unit03__ex(1-8)code.py`.  
+For Bonus Exercise 8, use a separate Python script named `unit03__ex10code.py`.
 
 Save all scripts in the same `unit03` folder, compress the folder into a `.zip` file, and upload it to ILIAS.
 
