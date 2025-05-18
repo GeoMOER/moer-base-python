@@ -1,5 +1,5 @@
 ---
-title: "Python Exercise - Control Flow with if, elif, and else"
+title: "EX | Exercises - Control Flow"
 toc: TRUE
 toc_float: TRUE
 header:
