@@ -3,7 +3,7 @@ title: Introduction
 header:
   image: /assets/images/unit_images/u08/header.png
   image_description: "Object-oriented programming concept"
-  caption: "Photo by [Spaska Forteva](chatgpt)"
+  caption: "Image concept and AI prompt: Spaska Forteva – Generated with ChatGPT/DALL·E"
 ---
 
 # Object-Oriented Programming (OOP) in Python
