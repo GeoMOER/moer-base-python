@@ -38,11 +38,11 @@ This course will take place in a hybrid synchronous setting in presence in room 
 | **Unit 04**        |  Conditionals          |        |
 | *Grid* <br> and <br> *Header*    | <img src="assets/images/unit_images/u04/grid.png" title="teaser" alt="teaser_welcome" height="200px" width="200px">  |  Photo by [Maksym Kaharlytskyi](https://unsplash.com/@qwitka?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) from [Unsplash](https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText){:target="_blank"}      |
 
-| **Unit 05**        |  Loops          |        |
-| *Grid* <br> and <br> *Header*   | <img src="assets/images/unit_images/u05/grid.png" title="work_environment" alt="work_environment" height="200px" width="200px"> | Photo by [Lukas "Goumbik"](https://pixabay.com/de/users/Goumbik-3752482/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2055522) from [Pixabay](https://pixabay.com)       |
+| **Unit 05**        |  Object Data Types          |        |
+| *Grid* <br> and <br> *Header*     |   <img src="assets/images/unit_images/u05/grid.png" title="teaser" alt="teaser_welcome" height="200px" width="200px">     | Image by [Free-Photos](https://pixabay.com/de/users/free-photos-242387/) from [Pixabay](https://pixabay.com) |
 
-| **Unit 06**        |  Object Data Types          |        |
-| *Grid* <br> and <br> *Header*     |   <img src="assets/images/unit_images/u06/grid.png" title="teaser" alt="teaser_welcome" height="200px" width="200px">     | Image by [Free-Photos](https://pixabay.com/de/users/free-photos-242387/) from [Pixabay](https://pixabay.com) |
+| **Unit 06**        |  Loops          |        |
+| *Grid* <br> and <br> *Header*   | <img src="assets/images/unit_images/u06/grid.png" title="work_environment" alt="work_environment" height="200px" width="200px"> | Photo by [Lukas "Goumbik"](https://pixabay.com/de/users/Goumbik-3752482/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2055522) from [Pixabay](https://pixabay.com)       |
 
 | **Unit 07**        |   Working with files         |        |
 | *Grid* <br> and <br> *Header*     |  <img src="assets/images/unit_images/u07/grid.png" title="teaser" alt="teaser_welcome" height="200px" width="200px">  | Photo by [Christopher Kuszajewski](https://pixabay.com/de/users/kuszapro-369349/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=583537) from [Pixabay](https://pixabay.com/de/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=583537) |

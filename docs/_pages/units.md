@@ -48,20 +48,20 @@ feature_row:
 
   - image_path: assets/images/unit_images/u05/grid.png
     alt: "Unit 5"
-    title: "Unit 05: Loops"
-    excerpt: "Introduction to loops."
+    title: "Unit 05: Object Data Types"
+    excerpt: "Introduction to lists, matrices, data frames, arrays"
     url: "/unit05/unit05-01_Intro.html"
     btn_label: "Show me more"
     btn_class: "btn--primary"
     
   - image_path: assets/images/unit_images/u06/grid.png
     alt: "Unit 6"
-    title: "Unit 06: Object Data Types"
-    excerpt: "Introduction to lists, matrices, data frames, arrays"
+    title: "Unit 06: Loops"
+    excerpt: "Introduction to loops."
     url: "/unit06/unit06-01_Intro.html"
     btn_label: "Show me more"
     btn_class: "btn--primary"
-
+    
   - image_path: assets/images/unit_images/u07/grid.png
     alt: "Unit 7"
     title: "Unit 07: Working with Files"
