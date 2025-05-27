@@ -183,7 +183,7 @@ defaults:
       path: ""
       type: unit05
     values:
-      category: "05 Loops"
+      category: "05 Object Data Types"
       tags: "Unit 05"
       layout: single
       sidebar:
@@ -193,7 +193,7 @@ defaults:
       path: ""
       type: unit06
     values:
-      category: "06 Object Data Types"
+      category: "06 Loops"
       tags: "Unit 06"
       layout: single
       sidebar:
