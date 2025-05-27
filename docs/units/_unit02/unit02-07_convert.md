@@ -12,6 +12,9 @@ Python has three numeric types. The most common are `float` (for numbers with de
 
 However, sometimes you may want to store a number as an integer—especially if it’s used for counting, indexing, or IDs—because integers use less memory. If you're going to do math with decimals, it's better to use floats.
 
+> 💡 **Note:** Python automatically treats Boolean values in arithmetic contexts as integers: `True` behaves like `1` and `False` like `0`.  
+> For example, `print(True + True)` will output `2`, and `print(False * 100)` will output `0`.
+
 The table below gives an overview of the most common data types in Python.
 
 | Data Type  | check type          | convert      |
@@ -31,6 +34,8 @@ print(type(value))
 print(int(value))
 print(str(value))
 
+boolean_var = True
+print(int(boolean_var))  # Output: 1
+print(True + True)       # Output: 2
+print(False * 100)       # Output: 0
 ```
-
-

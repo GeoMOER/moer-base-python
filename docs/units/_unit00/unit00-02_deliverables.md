@@ -8,10 +8,12 @@ header:
 
 
 ## Assignments
-We distinguish between unmarked and marked deliverables ("Studien- und Prüfungsleistung").  
+We distinguish between unmarked and marked deliverables ("Studien- und Prüfungsleistung").
 Both are required for passing the course, but only the latter are graded.
 
-The deadline for uploading your unmarked assignment solutions to Classroom is Wednesday at 24:00 (midnight) before the next course session.
+The regular deadline for uploading your unmarked assignment solutions to Classroom is Wednesday at 24:00 (midnight) before the next course session.
+
+🕒 Note: If the Thursday session falls on a public holiday, the course will take place one week later. In this case, the assignment deadline also shifts by one week.
 {: .notice--warning}
 
 You are allowed to use ChatGPT or similar AIs to solve the assignments. However, you need to present your solution to ensure that you understand what you have done.  
