@@ -10,10 +10,10 @@ header:
 
 # Lists, Arrays and DataFrames without Loops
 
-Please save your solutions for Exercises 1 to 8 in a single Python script named `unitXX__ex(1-8)code.py`.  
-For Bonus Exercise 9, use a separate script named `unitXX__ex9code.py`.
+Please save your solutions for Exercises 1 to 9 in a single Python script named `unit05__ex(1-9)code.py`.  
+For Bonus Exercise 10, use a separate script named `unit05__ex10code.py`.
 
-Save both scripts in the same `unitXX` folder, compress the folder into a `.zip` file, and upload it to ILIAS.
+Save both scripts in the same `unit05` folder, compress the folder into a `.zip` file, and upload it to ILIAS.
 
 For more information, please visit the following link:  
 https://geomoer.github.io/moer-base-python/unit00/unit00-04_submission_guidelines.html
