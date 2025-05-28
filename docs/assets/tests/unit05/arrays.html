@@ -72,12 +72,13 @@
     <div id="result"></div>
 
     <div id="nextButton" style="display: none;">
-        <button onclick="window.location.href='matrix.html'">Continue to Test 4 (Matrix)</button>
+        <button onclick="window.location.href='results.html'">Continue to results</button>
     </div>
 
     <script>
+      let score53 = 0;
         function calculatePoints() {
-            let score3 = 0;
+            
 
             // Check answers
             const answers = {
@@ -95,7 +96,7 @@
 
                 if (q) {
                     if (q.value === correctAnswer) {
-                        score3++;
+                        score53++;
                     } else {
                         // Highlight incorrect answer
                         q.parentElement.classList.add('incorrect');
@@ -107,10 +108,10 @@
             }
 
             // Save points in localStorage
-            localStorage.setItem("points_53", score3);
+            localStorage.setItem("points_53", score53);
 
             // Display result
-            document.getElementById("result").innerHTML = `You scored ${score3} points in this topic.`;
+            document.getElementById("result").innerHTML = `You scored ${score53} points in this topic.`;
 
             // Show "Continue" button
             document.getElementById("nextButton").style.display = "block";

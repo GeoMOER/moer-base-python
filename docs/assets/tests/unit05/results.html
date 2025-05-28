@@ -39,22 +39,22 @@
     <script>
         function calculateTotalScore() {
             // Retrieve points from localStorage
-            const points1 = localStorage.getItem("points_1") ? parseInt(localStorage.getItem("points_1")) : 0;
-            const points2 = localStorage.getItem("points_2") ? parseInt(localStorage.getItem("points_2")) : 0;
-            const points3 = localStorage.getItem("points_3") ? parseInt(localStorage.getItem("points_3")) : 0;
-            const points4 = localStorage.getItem("points_4") ? parseInt(localStorage.getItem("points_4")) : 0;
+            const points1 = localStorage.getItem("points_51") ? parseInt(localStorage.getItem("points_51")) : 0;
+            const points2 = localStorage.getItem("points_52") ? parseInt(localStorage.getItem("points_52")) : 0;
+            const points3 = localStorage.getItem("points_53") ? parseInt(localStorage.getItem("points_53")) : 0;
+  
 
             // Calculate total score
-            const totalScore = points1 + points2 + points3 + points4;
+            const totalScore = points1 + points2 + points3;
 
             // Maximum points (3 for each section)
-            const maxPoints = 24; 
+            const maxPoints = 20; 
 
             // Determine emoji based on score
             let emoji = '';
-            if (totalScore > 21) {
+            if (totalScore > 16) {
                 emoji = '😄'; // Happy emoji
-            } else if (totalScore > 11) {
+            } else if (totalScore > 10) {
                 emoji = '😐'; // Neutral emoji
             } else {
                 emoji = '😢'; // Sad emoji

@@ -1,5 +1,5 @@
 ---
-title: "Introduction"
+title: "LM | Introduction"
 header:
   image: /assets/images/unit_images/u03/header.png
   image_description: "neon data"
@@ -12,9 +12,10 @@ header:
 
 You may like to store more information than just one value inside a variable. There many different object types which can store more than one value. The ones we use the most are:
 *	Lists
+*	Arrays
 *	Data Frames
 *	Matrices
-*	Arrays
+
 
 
 <!--## Comments?

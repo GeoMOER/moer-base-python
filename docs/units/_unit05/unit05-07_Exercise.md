@@ -1,5 +1,5 @@
 ---
-title: "Python Exercise - Operators and Data Structures"
+title: " EX | Exercises"
 toc: TRUE
 toc_float: TRUE
 header:
@@ -10,31 +10,57 @@ header:
 
 # Introduction
 
-This unit covers Python's data structures, including vectors (lists), data frames (using pandas), matrices, arrays, lists, and factors. You will work through various tasks to build familiarity with these concepts.
+This unit covers Python's data structures, including lists and data frames (using pandas). You will work through various tasks to build familiarity with these concepts.
 
 
-## Task 1: Lists
+## 🧪 Task 1: Working with Lists
 
-### Description:
-Work with Python lists. You will define lists and perform various operations on them.
+### 📋 Description:
+In this task, you will practice using Python lists. You’ll define lists, access elements, and apply key list methods such as `append()`, `remove()`, and `extend()`.
 
-### Instructions:
-1. Define two lists `list1 = [1, 2, 3]` and `list2 = [4, 5, 6]`.
+### ️ Instructions:
+1. Define two lists:
+
+```python
+list1 = [19, 20, 3]
+list2 = [48, 5, 6]
+```
+
 2. Perform the following operations:
-    - Concatenate the two list and name it `my_list`.
-    - Calculate the sum.
-    - Find the length of `list1`.
-    - Access the second element of `list2`.
-3. Now append the list:
-    - Append a new element `'apple'` to the list.
-    - Remove `2` from the list.
-    - Append a nested list `['tree', 'leave', 'root']`
-    - Access the nested list and retrieve the second element.
-    - Find the length of `my_list`.
+   - Concatenate `list1` and `list2` to create a new list called `my_list`.
+   - Calculate the sum of `list1` (use Accessing elements by index, no loops).
+   - Find the length of `list1` using the `len()` function.
+   - Print the second element of `list2`.
+
+3. Modify `my_list`:
+   - Append a new element `'apple'` using `append()`.
+   - Remove the value `19` from the list using `remove()`.
+   - Extend the list with another list `['tree', 'leave', 'root']` using `extend()`.
+   - Finally, print the updated length of `my_list`.
+
+### 💡 Reminder:
+- `append()` adds a single item.
+- `extend()` adds each element from another iterable.
+- Lists are **mutable**, so you can modify them in place.
 
 ---
 
-## Task 2: Data Frames
+
+## 🧪 Task 2: Compare Array Elements
+
+### 📋 Description:
+You will create a NumPy array and use an `if-else` statement to compare specific elements. No loops are required.
+
+### ️ Instructions:
+1. Import the NumPy library.
+2. Create an array called `scores` with the values `[88, 92, 75, 91]`.
+3. Compare the first and last elements of the array using an `if-else` statement:
+    - If the first element is greater than the last, print: `"First score is higher."`
+    - Otherwise, print: `"Last score is higher or equal."`
+
+---
+
+## Task 3: Data Frames
 
 ### Description:
 Learn how to create and manipulate data frames using pandas.
@@ -71,33 +97,6 @@ Learn how to create and manipulate matrices using numpy.
 
 ---
 
-## Task 4: Arrays
 
-### Description:
-Explore arrays in Python using numpy, which can represent multi-dimensional data structures.
-
-### Instructions:
-1. Create a 3-dimensional array with the shape (2, 2, 2) and values ranging from 1 to 8.
-2. Perform the following operations:
-    - Access the element at position (1, 1, 0).
-    - Slice the array to get the first 2D matrix.
-    - Reshape the array into a 2x4 array.
-
----
-
-## Task 5: Factors
-
-### Description:
-In Python, you can represent categorical variables using pandas `Categorical` type, similar to R's factors.
-
-### Instructions:
-1. Create a pandas Categorical object with the following categories: `['low', 'medium', 'high']`.
-2. Perform the following operations:
-    - Assign the values `['low', 'high', 'medium', 'medium', 'low']` to a variable `categories`.
-    - Print the categories and their frequency.
-    - Convert `categories` to an ordered categorical type with the order `['low', 'medium', 'high']`.
-    - Sort the categories based on their levels.
-
----
 
 Happy coding!

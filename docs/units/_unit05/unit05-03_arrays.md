@@ -1,5 +1,5 @@
 ---
-title: "Arrays"
+title: "LM | Arrays"
 toc: TRUE
 toc_float: TRUE
 header:
@@ -52,6 +52,7 @@ print(apple)
 # Output:
 # ['red' 'green' 'yellow' 'brown']
 ```
+
 ### Vectorization
 In Python, most (but not all!) functions provided by the numpy library are automatically applied to all elements of an array.
 
@@ -70,6 +71,19 @@ print(result)
 # Output: [5 7 9]
 ```
 
+
+## 🔍 Comparison: Lists vs Arrays
+
+| Feature              | Python `list`                          | NumPy `array`                                |
+|----------------------|----------------------------------------|-----------------------------------------------|
+| **Data types**       | Can mix different types                | All elements must be the same type            |
+| **Speed**            | Slower for numeric operations          | Faster, optimized for numerical computations  |
+| **Memory efficiency**| Less efficient                         | More efficient                                |
+| **Operations**       | Requires loops or list comprehensions  | Supports vectorized operations (e.g. `a + b`) |
+| **Dimensionality**   | 1D (multi-dim via nesting)             | Supports multi-dimensional arrays             |
+| **Best use case**    | General-purpose storage                | Numeric and scientific computing              |
+
+
 ## NumPy Array Methods
 
 | Method/Function         | Description                                                                                       |
@@ -77,12 +91,12 @@ print(result)
 | `numpy.array()`         | Creates an array from a list or tuple.                                                           |
 | `numpy.zeros(shape)`    | Creates an array filled with zeros of the given shape.                                           |
 | `numpy.ones(shape)`     | Creates an array filled with ones of the given shape.                                            |
-| `numpy.arange(start, stop, step)` | Returns an array with evenly spaced values within a given interval.                     |
-| `numpy.linspace(start, stop, num)` | Returns an array of evenly spaced numbers over a specified range.                    |
-| `numpy.reshape(array, new_shape)` | Gives a new shape to an array without changing its data.                             |
+| `numpy.arange(start, stop, step)` | Returns an array with evenly spaced values within a given interval.             |
+| `numpy.linspace(start, stop, num)` | Returns an array of evenly spaced numbers over a specified range.              |
+| `numpy.reshape(array, new_shape)` | Gives a new shape to an array without changing its data.                         |
 | `numpy.transpose(array)`| Transposes the array (swaps rows with columns).                                                  |
 | `numpy.sum(array, axis)`| Returns the sum of the array elements over the specified axis.                                  |
 | `numpy.mean(array)`     | Returns the mean of the array elements.                                                          |
 | `numpy.max(array)`      | Returns the maximum value in the array.                                                          |
 | `numpy.min(array)`      | Returns the minimum value in the array.                                                          |
-| `numpy.concatenate((array1, array2))` | Joins two or more arrays along an existing axis.                                |
+| `numpy.concatenate((array1, array2))` | Joins two or more arrays along an existing axis.                        |

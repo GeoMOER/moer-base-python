@@ -77,8 +77,9 @@
     </div>
 
     <script>
+      let score52 = 0;
         function calculatePoints() {
-            let score2 = 0;
+            
 
             // Check answers
             const answers = {
@@ -96,7 +97,7 @@
 
                 if (q) {
                     if (q.value === correctAnswer) {
-                        score2++;
+                        score52++;
                     } else {
                         // Highlight incorrect answer
                         q.parentElement.classList.add('incorrect');
@@ -108,10 +109,10 @@
             }
 
             // Save points in localStorage
-            localStorage.setItem("points_52", score2);
+            localStorage.setItem("points_52", score52);
 
             // Display result
-            document.getElementById("result").innerHTML = `You scored ${score2} points in this topic.`;
+            document.getElementById("result").innerHTML = `You scored ${score52} points in this topic.`;
 
             // Show "Continue" button
             document.getElementById("nextButton").style.display = "block";

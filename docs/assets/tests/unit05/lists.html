@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Variables and Assignment - Test</title>
+    <title>Object Data Type - Test</title>
     <style>
         .incorrect {
             color: red;
@@ -15,7 +15,7 @@
 </head>
 <body>
 
-    <h1>Variables and Assignment - Test</h1>
+    <h1>Object Data Types - Test</h1>
 
     <form id="quizForm1">
       
@@ -92,12 +92,13 @@
     <div id="result"></div>
 
     <div id="nextButton" style="display: none;">
-        <button onclick="window.location.href='dataframes.html'">Continue to Test 2 (Data Frames)</button>
+         <button onclick="window.location.href='dataframes.html'">Continue to Test 2 (Data Frames)</button>
     </div>
 
     <script>
+    let score51 = 0;
         function calculatePoints() {
-            let score1 = 0;
+            
 
             // Check answers
             const answers = {
@@ -117,7 +118,7 @@
 
                 if (q) {
                     if (q.value === correctAnswer) {
-                        score1++;
+                        score51++;
                     } else {
                         // Highlight incorrect answer
                         q.parentElement.classList.add('incorrect');
@@ -129,10 +130,10 @@
             }
 
             // Save points in localStorage
-            localStorage.setItem("points_51", score1);
+            localStorage.setItem("points_51", score51);
 
             // Display result
-            document.getElementById("result").innerHTML = `You scored ${score1} points in this topic.`;
+            document.getElementById("result").innerHTML = `You scored ${score51} points in this topic.`;
 
             // Show "Continue" button
             document.getElementById("nextButton").style.display = "block";
