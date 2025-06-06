@@ -18,9 +18,6 @@ Make sure your folder and file structure follow the guidelines below to ensure s
 ### 📁 Folder Structure
 
 1. **Create a main folder** on ILIAS with the following naming convention:
-   ```
-   Lastname_SS_2025
-   ```
 
    🔸 *Example:*  
    If your name is Alex Johnson → `JohnsonA_SS_2025`
@@ -48,7 +45,11 @@ Make sure your folder and file structure follow the guidelines below to ensure s
   ```
   unitXX_ex(1-X)code.py
   ```
-`
+  🔖 *At the top , please include your **student ID number** as a comment, e.g.:
+  ```python
+  # Matrikelnummer: 12345678
+  ```
+
   📝 *The .py file should contain all your Python solutions (e.g., from exercises 1 to X) in one script, with the task texts included as comments. Bonus solutions should be saved in a separate file named unitXX__exXXcode.py *
   💬 *Comments and the written answer for Exercise 1 may be written in either German or English.*
 
