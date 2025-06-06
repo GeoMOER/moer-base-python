@@ -96,11 +96,11 @@ fruits.append(["date", "elderberry"])
 
 # Insert
 fruits.insert(1, "orange")
-print(fruits)  # ['apple', 'orange', 'banana', 'cherry']
+print(fruits)  # ['apple', 'orange', 'banana', 'cherry', ['date', 'elderberry']]
 
 # Extend - Adds each element of an iterable (like a list or tuple) to the list individually.
 fruits.extend(["grape", "melon"])
-print(fruits)  # ['apple', 'orange', 'banana', 'cherry', 'grape', 'melon']
+print(fruits)  # ['apple', 'orange', 'banana', 'cherry', ['date', 'elderberry'], 'grape', 'melon']
 ```
 
 ---

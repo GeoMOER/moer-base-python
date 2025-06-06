@@ -23,7 +23,7 @@ Make sure your folder and file structure follow the guidelines below to ensure s
    ```
 
    🔸 *Example:*  
-   If your name is Alex Johnson → `Johnson_SS_2025`
+   If your name is Alex Johnson → `JohnsonA_SS_2025`
 
 2. **Inside this main folder**, create **one ZIP file per unit**, named:
    ```
@@ -50,6 +50,7 @@ Make sure your folder and file structure follow the guidelines below to ensure s
   ```
 `
   📝 *The .py file should contain all your Python solutions (e.g., from exercises 1 to X) in one script, with the task texts included as comments. Bonus solutions should be saved in a separate file named unitXX__exXXcode.py *
+  💬 *Comments and the written answer for Exercise 1 may be written in either German or English.*
 
 
 ---
@@ -59,6 +60,18 @@ Make sure your folder and file structure follow the guidelines below to ensure s
 - Make sure your **Python files run without errors** before submitting.
 - Add **comments** in your code to explain your solution steps.
 - Submit **only the required files** – avoid uploading unnecessary files like `.pyc`, cache folders, etc.
+
+---
+
+## 📝  Where to Find Your Feedback
+
+The results of the assignment corrections will be saved as a PDF table in the ILIAS folder:
+Hausaufgaben-Feedback
+
+Legend for the table:
+
+- A green cell next to your student ID means that all required exercises from Unit 01 were successfully completed.
+- A white “B” inside the green cell indicates that the bonus exercise was also completed successfully.
 
 ---
 
