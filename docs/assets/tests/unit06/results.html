@@ -39,8 +39,11 @@
     <script>
         function calculateTotalScore() {
             // Retrieve points from localStorage
-            const points1 = localStorage.getItem("points_1") ? parseInt(localStorage.getItem("points_61")) : 0;
-            const points2 = localStorage.getItem("points_2") ? parseInt(localStorage.getItem("points_62")) : 0;
+            //const points1 = localStorage.getItem("points_1") ? parseInt(localStorage.getItem("points_61")) : 0;
+            //const points2 = localStorage.getItem("points_2") ? parseInt(localStorage.getItem("points_62")) : 0;
+            const params = new URLSearchParams(window.location.search);
+            const points1 = parseInt(params.get("score61") || 0, 10);
+            const points2 = parseInt(params.get("score62") || 0, 10);
 
             // Calculate total score
             const totalScore = points1 + points2;

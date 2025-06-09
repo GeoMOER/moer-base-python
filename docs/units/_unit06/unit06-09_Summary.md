@@ -1,5 +1,5 @@
 ---
-title: "Summary"
+title: "EX | Multiple Choice Exsercises"
 toc: TRUE
 toc_float: TRUE
 published: TRUE
