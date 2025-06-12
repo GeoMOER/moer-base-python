@@ -78,33 +78,10 @@ while a < 10:
 
 The loop ends immediately when `a == 4` because of the `break`.
 
----
-
-## ♾️ While True Loop (Controlled Inside)
-
-You can create a loop that runs forever unless you manually stop it using `break`.
-
-```python
-count = 0
-while True:
-    print("Counting:", count)
-    count += 1
-    if count == 3:
-        break
-```
-
-### Output:
-```
-Counting: 0
-Counting: 1
-Counting: 2
-```
-
-> `while True` is common in programs that wait for user input or conditions, and rely on `break` to stop.
 
 ---
 
-## 🔢 Counting Backwards
+## 🔢 Backward
 
 You can also count down using a while-loop:
 
@@ -126,7 +103,32 @@ while i > 0:
 
 ---
 
-## The continue Statement
+---
+
+## ♾️ While True Loop (Controlled Inside)
+
+### The Break Statement
+You can create a loop that runs forever unless you manually stop it using `break`.
+
+```python
+count = 0
+while True:
+    print("Counting:", count)
+    count += 1
+    if count == 3:
+        break
+```
+
+#### Output:
+```
+Counting: 0
+Counting: 1
+Counting: 2
+```
+
+> `while True` is common in programs that wait for user input or conditions, and rely on `break` to stop.
+
+### The Continue Statement
 
 With the continue statement we can stop the current iteration, and continue with the next:
 ```python
@@ -138,7 +140,7 @@ while i < 6:
   print(i)
 ``` 
 
-### Output:
+#### Output:
 ```
 1
 2
@@ -153,7 +155,7 @@ while i < 6:
 | Repetition Count        | Unknown                        |
 | Condition Placement     | Before each iteration          |
 | Use Case                | Wait for condition to become false |
-| Special Keywords        | `break`                        |
+| Special Keywords        | `break` and `continue`         |
 | Common Pattern          | `while True:` with internal stop |
 
 Use while-loops when repetition depends on changing conditions, not a fixed number.
