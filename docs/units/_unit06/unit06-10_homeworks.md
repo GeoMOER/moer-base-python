@@ -68,7 +68,7 @@ Write a program that asks the user to enter 5 numbers, stores them in a list, fi
 
 ---
 
-## Task 5: Password Input with Limited Attempts
+## Task 5: Bonus - Password Input with Limited Attempts
 
 ### Description:
 Write a program that implements a password prompt. The program asks the user for a password and allows them to guess up to five times. If the correct password is entered, the program displays a success message. After five incorrect attempts, the program displays an error message.
