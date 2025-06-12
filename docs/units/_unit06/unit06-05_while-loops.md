@@ -24,7 +24,7 @@ b = 10
 
 while a <= b:
     print(a)
-    a += 1
+    a += 1 a = a + 1
 ```
 
 ### Output:
@@ -64,7 +64,7 @@ while a < 10:
     print(a)
     if a == 4:
         break
-    a += 1
+    a += 1 # a = a + 1
 ```
 
 ### Output:
@@ -89,7 +89,7 @@ You can also count down using a while-loop:
 i = 5
 while i > 0:
     print(i)
-    i -= 1
+    i -= 1 # i = i - 1
 ```
 
 ### Output:
@@ -114,7 +114,7 @@ You can create a loop that runs forever unless you manually stop it using `break
 count = 0
 while True:
     print("Counting:", count)
-    count += 1
+    count += 1  # count = count + 1
     if count == 3:
         break
 ```
@@ -134,7 +134,7 @@ With the continue statement we can stop the current iteration, and continue with
 ```python
 i = 0
 while i < 6:
-  i += 1
+  i += 1 # i = i + 1
   if i == 3:
     continue
   print(i)
