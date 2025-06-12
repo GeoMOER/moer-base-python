@@ -1,11 +1,25 @@
 ---
-title: "A | Loops"
+title: "A | Assignment"
 toc: TRUE
 toc_float: TRUE
 header:
   image: /assets/images/unit_images/u02/header.png
   image_description: "thinking"
   caption: "Image by [username](https://pixabay.com) from pixabay"
+---
+
+# Loops in Python
+
+Please save your solutions for Exercises 1 to 4 in a single Python script named `unit06__ex(1-4)code.py`.  
+For Bonus Exercise 10, use a separate script named `unit06__ex5code.py`.
+
+Save both scripts in the same `unit06` folder, compress the folder into a `.zip` file, and upload it to ILIAS.
+
+For more information, please visit the following link:  
+https://geomoer.github.io/moer-base-python/unit00/unit00-04_submission_guidelines.html
+
+Make sure your code is clearly structured and includes comments where helpful.
+
 ---
 
 # Introduction
