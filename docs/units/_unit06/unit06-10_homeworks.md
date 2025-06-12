@@ -11,7 +11,7 @@ header:
 # Loops in Python
 
 Please save your solutions for Exercises 1 to 4 in a single Python script named `unit06__ex(1-4)code.py`.  
-For Bonus Exercise 10, use a separate script named `unit06__ex5code.py`.
+For Bonus Exercise, use a separate script named `unit06__ex5code.py`.
 
 Save both scripts in the same `unit06` folder, compress the folder into a `.zip` file, and upload it to ILIAS.
 
