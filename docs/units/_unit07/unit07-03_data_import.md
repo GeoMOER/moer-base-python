@@ -1,82 +1,60 @@
 ---
-title: Importing Data
+title: "Importing CSV Data with Python"
 toc: TRUE
 toc_float: TRUE
 header:
   image: /assets/images/unit_images/u06/header.png
   image_description: "computer"
-  caption: "Photo by [Free-Photos](https://pixabay.com/photos/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=336373) [Pixabay](https://pixabay.com/de/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=336373)"
+  caption: "Photo by [Free-Photos](https://pixabay.com/photos/) [Pixabay](https://pixabay.com/de/)"
 ---
 
-<!--more-->
+## 📥 Importing CSV Data with `pandas`
 
-## Importing csv data with python using pandas
-Reading or writing tabulated data into or from a data frame is a quite common task in data analysis. Based on the csv data provide is can be really easy or sometimes also a bit cumbersome. If the separator of your csv is `,`, the decimal separator is `.` and you have a header for each column you can normally use the `read_csv()` function with the path of you `.csv` without any additional parameters.
-
-```python
-import pandas as pd
-
-# Reading the CSV file
-df = pd.read_csv('path/to/your/file.csv')
-```
-When ever one of these parameters are different than the default you need to change them manually. To see all available parameters of the function you can type `pd.read_csv?` So for European `.csv` files it often looks like this:
-```python
-df = pd.read_csv('path/to/your/file.csv', sep = ';', decimal = ',')
-```
-
-## Real World Example
-
-This (example is taken from [here](https://www.regionalstatistik.de/genesis/online/){:target="_blank"}) . It contains data about the area of different landuse types. 
-
+Reading tabular data into a DataFrame is a common task in data analysis. If your CSV file uses commas as separators, periods for decimals, and includes a header row, importing is straightforward using `pandas.read_csv()`:
 
 ```python
 import pandas as pd
 
-# Reading the CSV file
-df = pd.read_csv('/AI001_gebiet_flaeche.csv', skiprows=4, header=0, sep=';', decimal=',')
+df = pd.read_csv("path/to/your/file.csv")
 ```
+
+### Custom Parameters
+
+If your file uses different settings (common in Europe), you can adjust the parameters:
+
+```python
+df = pd.read_csv("path/to/your/file.csv", sep=";", decimal=",")
+```
+
+### Example with Real Data (GENESIS)
+
+This example uses data from the [GENESIS regional statistics portal](https://www.regionalstatistik.de/genesis/online/), which provides official statistics for Germany.
+
+To use such data:
+1. Visit the GENESIS portal and download the desired table as a `.csv` file.
+2. Save the file locally, then read it with pandas:
+
+```python
+import pandas as pd
+
+df = pd.read_csv("AI001_gebiet_flaeche.csv", skiprows=4, header=0, sep=";", decimal=",")
+```
+
+**Note:** You cannot directly import GENESIS data via URL because the download requires user interaction. Download the file manually and place it in your working directory.
+
+
 #### Explanation of Parameters
-1. `filepath_or_buffer`: The path to the CSV file.
-2. `skiprows=4`: Skips the first four lines (useful if the first few lines contain metadata rather than data).
-3. `header=0`: Specifies that the first non-skipped row contains the header.
-4. `sep=';'`: Defines the column separator.
-5. `decimal=','`: Defines the decimal separator used in the dataset.
 
-A quick way to check if everything is fine is to display the first few lines of the data file using the `head` method (without the 2, it will print 5 lines as a standard setting).
+- `skiprows=4`: Skip metadata rows.
+- `header=0`: Use first valid row as header.
+- `sep=';'`: Semicolon as column separator.
+- `decimal=','`: Comma as decimal point.
+
+
+### Check First Rows
 
 ```python
 print(df.head(2))
-## Output:
-##      X X.1                  X.2
-## 1 1996  DG          Deutschland
-## 2 1996  01   Schleswig-Holstein
-##   Anteil.Siedlungs..und.Verkehrsfläche.an.Gesamtfl.
-## 1                                              11,8
-## 2                                              10,8
-##   Anteil.Erholungsfläche.an.Gesamtfläche
-## 1                                    0,7
-## 2                                    0,7
-##   Anteil.Landwirtschaftsfläche.an.Gesamtfläche
-## 1                                         54,1
-## 2                                         73,0
-##   Anteil.Waldfläche.an.Gesamtfläche
-## 1                              29,4
-## 2                               9,3
 ```
 
-## Writing Data to CSV Files
-Writing data to a CSV file is as straightforward as reading it. You can use the `to_csv` method from the pandas DataFrame.
-```python
-df.to_csv('path/to/your/output_file.csv', sep=',', decimal='.', index=False)
-```
-1. `path_or_buf`: The file path or object where the CSV data will be written.
-2. `sep=','`: Defines the column separator.
-3. `decimal='.'`: Defines the decimal separator.
-4. `index=False`: Omits the DataFrame index from the output file.
-
-
-<!--
-## Further reading
-
-add some day
--->
+This displays the first 2 rows of your DataFrame, useful for quickly inspecting the structure.
