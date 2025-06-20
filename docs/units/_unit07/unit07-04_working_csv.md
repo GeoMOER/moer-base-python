@@ -12,7 +12,7 @@ header:
 
 Once you’ve imported a CSV file into a pandas DataFrame, you can begin exploring and editing the data.
 
-![CSV Table]({{ site.baseurl }}/assets/images/unit_images/u07/csv_example.JPG)
+![CSV Table]({{ site.baseurl }}/assets/images/unit_images/u07/csv_example.jpg)
 [📥 Download CSV file]({{ site.baseurl }}/assets/tests/unit07/csv_example.csv)
 s
 ```
