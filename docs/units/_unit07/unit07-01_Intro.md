@@ -1,36 +1,42 @@
 ---
 title: "LM | Introduction"
+toc: true
+toc_depth: 2
 header:
-  image: /assets/images/unit_images/u06/header.png
-  image_description: "neon data"
-  caption: "Photo by [Free-Photos](https://pixabay.com/photos/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=336373) [Pixabay](https://pixabay.com/de/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=336373)"
+  image: /assets/images/unit_images/uXX/header.png
+  image_description: "tabular data"
+  caption: "Image by [pixabay](https://pixabay.com/)"
 ---
-*You will learn what a csv file is and how to use it in a dataframe.*
-
-<!--more-->
-
-At the end of this unit you should know
-
-* what tabulated data is,
-* how to import data into your environment
-* about the crux of decimal separators,
-* how to work with csv-files.
-
-<!--## Comments?
-You can leave comments below if you have questions or remarks about any of the text or code in this unit.
-Please copy the corresponding line into your comment to make it easier to answer your question.
-
-<script src="https://utteranc.es/client.js"
-        repo="GeoMOER/moer-base-r"
-        issue-term="moer-base-r_unit06"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>
 
 
-<!--
-## Further reading
+## 🔍 What is a CSV File?
 
-add some day
--->
+CSV (Comma-Separated Values) is a simple file format used to store tabular data, such as spreadsheets or databases. Each line in the file is a row of data, and columns are typically separated by commas or semicolons.
+
+Example:
+```
+Name,Age,City
+Alice,30,Berlin
+Bob,25,Hamburg
+```
+
+## 🐍 Working with CSV Files in Python
+
+Python offers two common ways to work with CSV files:
+
+### 1. Using `pandas`
+The `pandas` library provides powerful tools for reading, writing, and analyzing CSV data as DataFrames.
+
+### 2. Using the `csv` module
+The built-in `csv` module allows you to read and write CSV files using simple Python structures like lists and dictionaries.
+
+
+## ✅ Good to Know
+
+- Always check your delimiter (`sep`) when reading European CSV files – often it's a semicolon `;`.
+
+
+## 📚 Further Reading
+
+- [pandas.read_csv Documentation](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html)
+- [Working with CSV files in Python](https://docs.python.org/3/library/csv.html)

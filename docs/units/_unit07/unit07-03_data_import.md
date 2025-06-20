@@ -1,5 +1,5 @@
 ---
-title: "Importing CSV Data with Python"
+title: "LM | Import"
 toc: TRUE
 toc_float: TRUE
 header:
@@ -22,39 +22,32 @@ df = pd.read_csv("path/to/your/file.csv")
 
 If your file uses different settings (common in Europe), you can adjust the parameters:
 
-```python
-df = pd.read_csv("path/to/your/file.csv", sep=";", decimal=",")
-```
-
-### Example with Real Data (GENESIS)
-
-This example uses data from the [GENESIS regional statistics portal](https://www.regionalstatistik.de/genesis/online/), which provides official statistics for Germany.
-
-To use such data:
-1. Visit the GENESIS portal and download the desired table as a `.csv` file.
-2. Save the file locally, then read it with pandas:
+#### Example 
 
 ```python
 import pandas as pd
 
-df = pd.read_csv("AI001_gebiet_flaeche.csv", skiprows=4, header=0, sep=";", decimal=",")
+df = pd.read_csv(
+    "data.csv",             # Path to your CSV file
+    sep=",",                # Separator used in the file (e.g., ',' or ';')
+    header=0,               # Row number to use as column names (0 = first row)
+    names=[None],             # Custom column names (e.g., ['A', 'B', 'C']), overrides header
+    index_col=None,         # Column to use as the row index
+    usecols=None,           # List of columns to read (e.g., ['Name', 'Age'])
+    dtype=None,             # Data types for columns (e.g., {'Age': int})
+    engine="python",        # Parser engine ('c' or 'python')
+    skiprows=0,             # Number of lines to skip at the start
+    na_values=["NA", ""],   # Additional strings to recognize as NA/NaN
+    nrows=None,             # Number of rows to read (e.g., 100)
+    encoding="utf-8",       # Character encoding (e.g., 'utf-8', 'latin1')
+    parse_dates=False,      # Parse date columns as datetime
+    dayfirst=False,         # When parsing dates, set to True if day comes first
+    thousands=",",          # Character used as thousands separator
+    decimal=".",            # Character used as decimal point
+    quotechar='"',          # Character used to quote fields
+    skip_blank_lines=True   # Skip over blank lines
+)
+
+print(df.head())  # Show the first 5 rows of the DataFrame standart
 ```
 
-**Note:** You cannot directly import GENESIS data via URL because the download requires user interaction. Download the file manually and place it in your working directory.
-
-
-#### Explanation of Parameters
-
-- `skiprows=4`: Skip metadata rows.
-- `header=0`: Use first valid row as header.
-- `sep=';'`: Semicolon as column separator.
-- `decimal=','`: Comma as decimal point.
-
-
-### Check First Rows
-
-```python
-print(df.head(2))
-```
-
-This displays the first 2 rows of your DataFrame, useful for quickly inspecting the structure.

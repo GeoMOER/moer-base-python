@@ -12,13 +12,22 @@ header:
 
 Once you’ve imported a CSV file into a pandas DataFrame, you can begin exploring and editing the data.
 
----
+![CSV Table]({{ site.baseurl }}/assets/images/unit_images/u07/csv_example.JPG)
+[📥 Download CSV file]({{ site.baseurl }}/assets/tests/unit07/csv_example.csv)
+s
+```
+
 
 ### 🔍 View Rows
 
 Use `.head()` and `.tail()` to view the first or last few rows:
 
 ```python
+import pandas as pd
+
+url = "https://geomoer.github.io/moer-base-python/assets/tests/unit07/csv_example.csv"
+
+df = pd.read_csv(url)
 df.head()      # First 5 rows
 df.head(10)    # First 10 rows
 df.tail(3)     # Last 3 rows
@@ -32,15 +41,18 @@ Use `.iloc[]` to access rows by position:
 
 ```python
 df.iloc[0]     # First row
-df.iloc[5:8]   # Rows 5 to 7
+df.iloc[1:3]   # Rows 5 to 7
 ```
 
-Use `.loc[]` to access rows by label:
+🔍 Search for a Value in a Row (Loop)
 
 ```python
-df.loc[3]      # Row with label/index 3
-```
+# row 1 as list
+row_list = df.iloc[1].tolist()
 
+if 'Diana' in row_list:
+    print("Found Bob in row 2!")
+```
 ---
 
 ### ✅ Filter Rows by Condition
@@ -50,16 +62,6 @@ df.loc[3]      # Row with label/index 3
 df[df["Name"] == "Alice"]
 ```
 
----
-
-### 🔍 Search for a Value in a Row (Loop)
-
-```python
-# Check if 'example.com' appears in row 2
-'example.com' in df.iloc[2].to_string()
-```
-
----
 
 ### 🔁 Loop Through All Rows
 
@@ -68,15 +70,13 @@ for index, row in df.iterrows():
     print(f"Row {index}: {row['Name']}")
 ```
 
-Replace `"Name"` with your actual column name.
-
 ---
 
-### 🔍 Loop to Find a Keyword (e.g. 'Berlin')
+### 🔍 Loop to Find some Information
 
 ```python
 for index, row in df.iterrows():
-    if "Berlin" in row.to_string():
+    if "Alex" in row.to_string():
         print(row)
 ```
 
