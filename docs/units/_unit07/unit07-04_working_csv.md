@@ -14,11 +14,7 @@ Once you’ve imported a CSV file into a pandas DataFrame, you can begin explori
 
 ![CSV Table]({{ site.baseurl }}/assets/images/unit_images/u07/csv_example.jpg)
 [📥 Download CSV file]({{ site.baseurl }}/assets/tests/unit07/csv_example.csv)
-s
-```
 
-
-### 🔍 View Rows
 
 Use `.head()` and `.tail()` to view the first or last few rows:
 
@@ -28,6 +24,11 @@ import pandas as pd
 url = "https://geomoer.github.io/moer-base-python/assets/tests/unit07/csv_example.csv"
 
 df = pd.read_csv(url)
+
+```
+
+### 🔍 View Rows
+```python
 df.head()      # First 5 rows
 df.head(10)    # First 10 rows
 df.tail(3)     # Last 3 rows
