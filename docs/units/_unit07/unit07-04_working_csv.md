@@ -50,7 +50,7 @@ df.iloc[1:3]   # Rows 5 to 7
 # row 1 as list
 row_list = df.iloc[1].tolist()
 
-if 'Diana' in row_list:
+if 'Bob' in row_list:
     print("Found Bob in row 2!")
 ```
 ---
@@ -58,8 +58,8 @@ if 'Diana' in row_list:
 ### ✅ Filter Rows by Condition
 
 ```python
-# Rows where the value in column 'Name' is 'Alice'
-df[df["Name"] == "Alice"]
+# Rows where the value in column 'Name' is 'Anna'
+df[df["Name"] == "Anna"]
 ```
 
 
@@ -77,6 +77,7 @@ for index, row in df.iterrows():
 ```python
 for index, row in df.iterrows():
     if "Alex" in row.to_string():
+        print(index)
         print(row)
 ```
 
