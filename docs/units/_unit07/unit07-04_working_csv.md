@@ -15,6 +15,7 @@ In this section, you'll learn how to read, explore, and manipulate data from a C
 ![CSV Table]({{ site.baseurl }}/assets/images/unit_images/u07/csv_example.jpg)
 [📥 Download CSV file]({{ site.baseurl }}/assets/tests/unit07/csv_example.csv)
 
+
 ### 📥 Import CSV into a DataFrame
 
 ```python
@@ -25,18 +26,40 @@ url = "https://geomoer.github.io/moer-base-python/assets/tests/unit07/csv_exampl
 df = pd.read_csv(url)
 
 ```
+---
+### Iterate over the rows
+`df.iterrows()` is a method in pandas that allows you to iterate over the rows of a DataFrame one at a time.
+
+```python
+for index, row in df.iterrows():
+    # you can access row data like this:
+    print(index, row['Name'])
+    
+```
+
+
+---
 ### 📋 Get Column Names
 
 ```python
 print(df.columns)
 ```
+---
 
+###  Access Values from a Column
+
+```python
+df["Name"].values
+```
+ Returns a NumPy array with the raw data from the "Name" column — without index, formatting, or metadata.
+---
 ### 🔍 View Rows
 ```python
 df.head()      # First 5 rows
 df.head(10)    # First 10 rows
 df.tail(3)     # Last 3 rows
 ```
+
 ---
 
 ### 🔢 Access Specific Rows
@@ -45,15 +68,7 @@ Use `.iloc[]` to access rows by position:
 
 ```python
 df.iloc[0]     # First row
-df.iloc[1:3]   # Rows 5 to 7
-```
----
-
-###  Access values from column
-
-NumPy array that contains only the raw data from the "Name" column — without index, formatting, or metadata.
-```python
-df["Name"].values
+df.iloc[1:3]   # Rows 2 to 3 (index 1 and 2)
 ```
 ---
 
@@ -64,76 +79,46 @@ df["Name"].values
 row_list = df.iloc[1].tolist()
 
 if 'Bob' in row_list:
-    print("Found Bob in row 2!")
+    print("Found Bob")
 ```
 ---
 
-### 🔁 Loop Through All Rows
+### 🔁  Search using `iterrows()` — 3 different methods
+
+
+Each of these does the same task but uses a different technique:
 
 ```python
 for index, row in df.iterrows():
-    print("Row " + str(index) + ": " + row["Name"]) 
-```
-
-```python
+    if "Maria" in row.to_string():
+        print("Row " + str(index) + ": " + row["Name"])
+        
 for index, row in df.iterrows():
-    if "Alex" in row.to_string():
+    if "Maria" in row.values:
+        print("Row " + str(index) + ": " + row["Name"])
+        
+for index, row in df.iterrows():
+    if "Maria" == row["Name"]:
         print("Row " + str(index) + ": " + row["Name"])
 ```
 
 ---
 
-### ✅ Filter Rows by Condition
+
+### ⚙️ Search for a Value in a Row with`.apply()` 
 
 ```python
 
-print(df["Name"]== "Anna") #looks like it's coming from a loop, but actually no loop is written. 
-      # That’s one of the most powerful features of Pandas - Vectorized operations.
-      # Results:
-      # 0     True
-      # 1    False
-      # 2    False
-      # 3    False
-      # 4    False
-      # 5    False
-      # 6    False
-      # 7    False
-      # 8    False
-      # 9    False
-      
-      
-df_anna = ""
-if "Anna" in df["Name"].values:
-    
-    df_anna = df[df["Name"] == "Anna"] # Rows(true) where the value in column 'Name' is 'Anna'
-    
-    print("New DataFrame with Anna only:")
-    print(df_anna)
-else:
-    df_anna = pd.DataFrame()  # Leerer DataFrame als Fallback
-```
+print(df[df["Name"] == "Maria"])
+print(df[df.apply(lambda row: row["Name"] == "Maria", axis=1)])
+print(df[df.apply(lambda row: "Maria" in row.values, axis=1)])
+print(df[df.apply(lambda row: "Maria" in row.to_string(), axis=1)])
+
+# df.apply(...): Applies a function to each row of the DataFrame.
+# axis=1: Ensures the function is applied row-wise.
+# Each line demonstrates a different way of searching for "Maria" in the rows.
 
 
----
-
-### ⚙️ Use `.apply()` for Custom Actions
-
-```python
-
-df["FullName"] = df.apply(lambda row: row["FirstName"] + " " + row["LastName"], axis=1)
-
-print(df[["FirstName", "LastName", "FullName"]])
-
-
- # df.apply(...): Applies a function to each row of the DataFrame.
-
- # lambda row: ...: Defines a short function that combines two values from the row.
-
- # row["FirstName"] + " " + row["LastName"]: Concatenates the first and last name with a space in between.
-
- # axis=1: Means the function is applied row-wise (not column-wise).
-
- # df["FullName"] = ...: Stores the result in a new column called "FullName"
 ```
 ---
 
