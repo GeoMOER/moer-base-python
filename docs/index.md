@@ -72,6 +72,8 @@ Further details on the tutorial format and location will be announced soon.
 | 08 |03.07.2025 |Simple Visualizations          | Quickly and simply visualize your data  |
 | 09 |10.07.2025 |OOP|Introduction to Object-Oriented Programming|
 | 10 |17.07.2025 |Final Thesis | tbd |
+| 11 | 24.07.2025 | Final assignment discussion | Notes, questions, and course feedback |
+
 
 ---
 <!--
