@@ -1,10 +1,11 @@
 ---
-title: "A | Assigments"
+
+title: "EX | Exercises"
 header:
-  image: /assets/images/unit_images/u08/header.png
-  image_description: "if logic structure"
-  caption: "Photo by [Gerd Altman](https://pixabay.com/de/users/geralt-9301/) [from Pixabay](https://pixabay.com)"
----
+image: /assets/images/unit\_images/u08/header.png
+image\_description: "if logic structure"
+caption: "Photo by [Gerd Altman](https://pixabay.com/de/users/geralt-9301/) [from Pixabay](https://pixabay.com)"
+----------------------------------------------------------------------------------------------------------------
 
 ## ✨ Simple Visualization Practice Tasks
 
@@ -14,7 +15,7 @@ These tasks are designed to help you practice simple data visualization in Pytho
 
 ### 🔥 Task 1: Plot a single product line
 
-1. Download the provided CSV file (`data.csv`) and load it into a DataFrame using `pandas`.
+1. Download the provided CSV file (`data.csv`) or load it directly from the URL: [CSV file](https://geomoer.github.io/moer-base-python/assets/tests/unit07/books.csv) using `pandas`.
 2. Create a line plot that shows the revenue of **Product A** over the years.
 3. Add a descriptive title to your plot (e.g., "Revenue of Product A over Time").
 4. Label the x-axis as "Year" and the y-axis as "Revenue in USD".
@@ -25,7 +26,7 @@ These tasks are designed to help you practice simple data visualization in Pytho
 
 1. Extend your plot from Task 1 by adding lines for **Product B** and **Product C**.
 2. Use different colors and line styles for each product to make them easy to distinguish.
-3. Add a legend to your plot to clearly show which line represents each product.
+3. Add a legend to clearly indicate which line corresponds to each product.
 
 ---
 
@@ -36,10 +37,11 @@ These tasks are designed to help you practice simple data visualization in Pytho
 
 ---
 
-## 💡 Tips
+## 💡 Tips & Reminders
 
-* Remember to use `plt.plot()` for each product series.
-* Always include a legend when showing multiple lines on the same plot.
+* To see column names in your DataFrame, use `df.columns`.
+* To access a specific column, you can use `df['ColumnName']`.
+* Use `plt.plot()` for each product series and always include a legend when showing multiple lines on the same plot.
 * Check your file after saving to confirm it looks as expected.
 
 ---
