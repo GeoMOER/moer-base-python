@@ -83,6 +83,17 @@ if 'Bob' in row_list:
 ```
 ---
 
+### Update DataFrame values by using labels (row index and column names).
+
+Key points
+Syntax: df.loc[row_index, column_label]
+```python
+
+for index, row in df.iterrows():
+  df.loc[3, "Name"] = "Updated Name"
+  print(df.loc[3]["Name"])
+
+
 ### 🔁  Search using `iterrows()` — 3 different methods
 
 

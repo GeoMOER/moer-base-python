@@ -50,4 +50,9 @@ Note: From this task on, use the original column names from the CSV file.
    → You only need to write the filename (e.g. `"books_modified.csv"`), without a full path.  
    → The CSV file will be saved in the same folder where your Python file is located.  
    → If you are using **Visual Studio Code**, you will find the file in the **current working directory** (the folder you see in the file explorer on the left side).
+   
+Important note:
+   → When using iterrows(), each row is only a copy (a Series).
+   → Changing row["Year"] alone does not modify the original DataFrame.
+   → To update the actual DataFrame, you should use  df.loc or create a new DataFrame with the changes.
 
