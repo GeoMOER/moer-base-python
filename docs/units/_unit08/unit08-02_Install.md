@@ -7,7 +7,7 @@ header:
 ---
 
 
-Matplotlib is not included in the standard Python installation, so you need to install it first. The most common way is using `pip`.
+Matplotlib is not included in the standard Python installation, so you need to install it first. The most common way is using `pip` and shel.
 
 ```bash
 pip install matplotlib

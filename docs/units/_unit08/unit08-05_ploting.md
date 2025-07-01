@@ -43,6 +43,8 @@ plt.legend()
 plt.show()
 ```
 
+![Example Scatter Plot](/moer-base-python/assets/images/unit_images/u08/plot07.png)
+
 ### ✅ Save the Plot
 
 You can save your plot to a file instead of (or in addition to) showing it on screen:

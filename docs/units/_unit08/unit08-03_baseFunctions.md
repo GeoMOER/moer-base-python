@@ -7,11 +7,11 @@ header:
 ---
 
 
-## 🎨 Why Customize Plots?
+##  Why Customize Plots?
 
 Adding titles, labels, and legends makes your plots easier to understand and more informative. It helps the audience quickly see what each axis represents and what the data shows.
 
-## 🏷️ Adding Titles and Labels
+##  Adding Titles and Labels
 
 ### Add a title
 
@@ -26,7 +26,7 @@ plt.xlabel("X-Axis Label")
 plt.ylabel("Y-Axis Label")
 ```
 
-## 🔖 Adding a Legend
+## Adding a Legend
 
 If you have multiple data series in one plot, a legend helps distinguish them.
 
@@ -36,7 +36,7 @@ plt.plot(...,label="Series B")
 plt.legend()
 ```
 
-## 💡 Grid and Style Adjustments
+## Grid and Style Adjustments
 
 ### Add grid lines
 

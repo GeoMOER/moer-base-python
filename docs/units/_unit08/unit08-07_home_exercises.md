@@ -7,6 +7,16 @@ header:
   caption: "Photo by [Gerd Altman](https://pixabay.com/de/users/geralt-9301/) [from Pixabay](https://pixabay.com)"
 ---
 
+Please save your solutions for Exercises 1 to 4 in a single Python script named `unit08__ex(1-4)code.py`.  
+
+Save the script in the `unit08` folder, compress the folder into a `.zip` file, and upload it to ILIAS.
+
+For more information, please visit the following link:  
+https://geomoer.github.io/moer-base-python/unit00/unit00-04_submission_guidelines.html
+
+Make sure your code is clearly structured and includes comments where helpful.
+
+
 ## ✨ Simple Visualization Practice Tasks
 
 These tasks are designed to help you practice simple data visualization in Python using Matplotlib. You will use a CSV file as a data source, load it into a DataFrame, and create different plots. The total estimated time for all tasks is about 20 minutes.
