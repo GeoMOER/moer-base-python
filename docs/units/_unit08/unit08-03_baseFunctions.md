@@ -1,5 +1,5 @@
 ---
-title: "LM | Basic Functions for Plots"
+title: "LM | Basic Functions"
 header:
   image: /assets/images/unit_images/u08/header.png
   image_description: "if logic structure"
@@ -31,8 +31,8 @@ plt.ylabel("Y-Axis Label")
 If you have multiple data series in one plot, a legend helps distinguish them.
 
 ```python
-plt.plot([1, 2, 3], [4, 5, 6], label="Series A")
-plt.plot([1, 2, 3], [6, 5, 4], label="Series B")
+plt.plot(..., label="Series A")
+plt.plot(...,label="Series B")
 plt.legend()
 ```
 

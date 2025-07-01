@@ -1,5 +1,5 @@
 ---
-title: "LM | Creating Matplotlib"
+title: "LM | Creating"
 header:
   image: /assets/images/unit_images/u08/header.png
   image_description: "if logic structure"
@@ -140,28 +140,27 @@ It defines how to format the labels showing the percentage on each slice.
 
 #### startangle=90
 Sets the starting angle of the pie chart (where the first slice begins).
-By default, the first slice starts at 0 degrees (to the right, 3 o'clock position).
-With startangle=90, it starts from the top (12 o'clock).
 
 ![Example Scatter Plot](/moer-base-python/assets/images/unit_images/u08/plot05.png)
 
 ```python
 import matplotlib.pyplot as plt
 
-# Beispiel-Daten
-labels = ["Äpfel", "Bananen", "Kirschen", "Datteln"]
+
+labels = ["Apples", "Bananas", "Cherries", "Dates"]
 sizes = [15, 30, 45, 10]
 colors = ["red", "yellow", "pink", "brown"]
 
-# Kreisdiagramm
+
 plt.pie(
     sizes,
     labels=labels,
     colors=colors,
-    autopct="%1.1f%%",   # Zeige Prozent mit einer Nachkommastelle
-    startangle=90        # Starte oben (12 Uhr)
+    autopct="%1.1f%%",   
+    startangle=30       
 )
 
-plt.title("Obstverteilung")
+plt.title("Pie Chart Example 30")
 plt.show()
 ```
+![Example Scatter Plot](/moer-base-python/assets/images/unit_images/u08/plot06.png)

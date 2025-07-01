@@ -1,13 +1,12 @@
 ---
 
 title: "A | Solutions"
-toc: TRUE
-toc\_float: TRUE
 header:
 image: /assets/images/unit\_images/u02/header.png
 image\_description: "thinking"
 caption: "Image by [username](https://pixabay.com) from pixabay"
-----------------------------------------------------------------
+---
+
 
 # Solutions: Loops in Python
 
