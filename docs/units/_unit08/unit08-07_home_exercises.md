@@ -1,11 +1,11 @@
 ---
 
-title: "EX | Exercises"
+title: "A | Assignment"
 header:
-image: /assets/images/unit\_images/u08/header.png
-image\_description: "if logic structure"
-caption: "Photo by [Gerd Altman](https://pixabay.com/de/users/geralt-9301/) [from Pixabay](https://pixabay.com)"
-----------------------------------------------------------------------------------------------------------------
+  image: /assets/images/unit_images/u08/header.png
+  image_description: "if logic structure"
+  caption: "Photo by [Gerd Altman](https://pixabay.com/de/users/geralt-9301/) [from Pixabay](https://pixabay.com)"
+---
 
 ## ✨ Simple Visualization Practice Tasks
 
@@ -30,7 +30,14 @@ These tasks are designed to help you practice simple data visualization in Pytho
 
 ---
 
-### 💾 Task 3: Save your plot
+### Task 3: Add markers
+Improve your plot from Task 2 by adding markers (e.g., circles o, squares s, or triangles ^) to each product line.
+
+Choose different marker styles for each product so that they remain distinguishable even if printed in black and white.
+
+Optionally adjust the marker size and color for better visibility.
+
+### 💾 Task 4: Save your plot
 
 1. Save the plot you created in Task 2 as a PNG image file named `revenue_comparison.png`.
 2. Make sure to save the file **before** calling `plt.show()` so that it is properly written to disk.
