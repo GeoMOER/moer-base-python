@@ -1,9 +1,10 @@
 ---
 title: LM | Logical Operators
+toc: true
 header:
-  image: /assets/images/unit_images/u07/header.png
-  image_description: "loop"
-  caption: "Photo by [Christopher Kuszajewski](https://pixabay.com/de/users/kuszapro-369349/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=583537) [from Pixabay](https://pixabay.com/de/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=583537)"
+  image: /assets/images/unit_images/u03/header.png
+  image_description: "neon data"
+  caption: "Photo by [Franki Chamaki](https://unsplash.com/@franki?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) [from unsplash](https://unsplash.com/s/photos/data?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)"
 ---
 Logical operators in Python are used to combine multiple conditions and perform logical operations. These operators are fundamental for decision-making in your code, allowing you to control code based on multiple conditions.
 

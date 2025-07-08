@@ -1,9 +1,10 @@
 ---
 title: "A | Assignment"
+toc: true
 header:
-image: /assets/images/unit\_images/u07/header.png
-image\_description: "loop"
-caption: "Photo by [Christopher Kuszajewski](https://pixabay.com/de/users/kuszapro-369349/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=583537) [from Pixabay](https://pixabay.com/de/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=583537)"
+  image: /assets/images/unit_images/u03/header.png
+  image_description: "neon data"
+  caption: "Photo by [Franki Chamaki](https://unsplash.com/@franki?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) [from unsplash](https://unsplash.com/s/photos/data?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)"
 ---
 
 ## 🧹 Strings: Functions and Methods. Simple operators

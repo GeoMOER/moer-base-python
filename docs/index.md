@@ -45,6 +45,7 @@ By the end of this course, participants will be able to:
 * read, process, and organize external data from CSV files for analysis;
 * create simple and informative visualizations to explore and communicate data insights;
 * understand and apply basic concepts of object-oriented programming (OOP);
+* Quick recap;
 
 ---
 

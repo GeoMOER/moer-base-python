@@ -2,8 +2,11 @@
 title: "Overview"
 toc: TRUE
 toc_float: TRUE
+header:
+  image: /assets/images/unit_images/u07/header.png
+  image_description: "loop"
+  caption: "Photo by [Christopher Kuszajewski](https://pixabay.com)"
 ---
-
 ## 🧭 Overview of Loops in Python
 
 In Python, loops allow you to execute a block of code repeatedly. The two main types are **for-loops** and **while-loops**. Knowing which loop to choose depends on the task and whether you know how many repetitions are needed.

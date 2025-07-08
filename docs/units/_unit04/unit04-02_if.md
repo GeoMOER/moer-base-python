@@ -1,9 +1,9 @@
 ---
 title: LM | if Statement
 header:
-  image: /assets/images/unit_images/u07/header.png
-  image_description: "loop"
-  caption: "Photo by [Christopher Kuszajewski](https://pixabay.com/de/users/kuszapro-369349/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=583537) [from Pixabay](https://pixabay.com/de/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=583537)"
+  image: /assets/images/unit_images/u04/header.png
+  image_description: "if logic structure"
+  caption: "Photo by [Markus Spiske](https://unsplash.com/@markusspiske) [from Unsplash](https://unsplash.com/photos/code-on-laptop-screen-FXFz-sW0uwo)"
 ---
 
 In Python, `if` statements are used to control the flow of a program by executing certain blocks of code only when specific conditions are met. The basic form of an `if` statement checks a condition and executes the following indented block of code `if` the condition is True

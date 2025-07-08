@@ -3,10 +3,11 @@ title: "A | Assignment"
 toc: TRUE
 toc_float: TRUE
 header:
-  image: /assets/images/unit_images/u06/header.png
-  image_description: "books"
-  caption: "Generated Book Dataset"
+  image: /assets/images/unit_images/u07/header.png
+  image_description: "computer"
+  caption: "Photo by [Free-Photos](https://pixabay.com/photos/) [Pixabay](https://pixabay.com/de/)"
 ---
+
 
 
 ## 📚  Working with Books CSV

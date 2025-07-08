@@ -1,12 +1,11 @@
 ---
 title: "A | Assignment"
-toc: TRUE
-toc_float: TRUE
 header:
-  image: /assets/images/unit_images/u02/header.png
-  image_description: "thinking"
-  caption: "Image by [pexels](https://pixabay.com/de/users/pexels-2286921/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1559046) [from pixabay](https://pixabay.com/de/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1559046)"
+  image: /assets/images/unit_images/u04/header.png
+  image_description: "if logic structure"
+  caption: "Photo by [Markus Spiske](https://unsplash.com/@markusspiske) [from Unsplash](https://unsplash.com/photos/code-on-laptop-screen-FXFz-sW0uwo)"
 ---
+
 # Conditional Statements and Error Handling in Python
 
 Please save your solutions for Exercises 1 to 6  in a single Python script named `unit04__ex(1-6)code.py`.  

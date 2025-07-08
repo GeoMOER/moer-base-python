@@ -1,9 +1,9 @@
 ---
 title: LM | if and elif
 header:
-  image: /assets/images/unit_images/u07/header.png
-  image_description: "loop"
-  caption: "Photo by [Christopher Kuszajewski](https://pixabay.com/de/users/kuszapro-369349/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=583537) [from Pixabay](https://pixabay.com/de/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=583537)"
+  image: /assets/images/unit_images/u04/header.png
+  image_description: "if logic structure"
+  caption: "Photo by [Markus Spiske](https://unsplash.com/@markusspiske) [from Unsplash](https://unsplash.com/photos/code-on-laptop-screen-FXFz-sW0uwo)"
 ---
 
 The `elif` statement in Python, short for "else if," allows you to check multiple conditions in sequence. It provides a way to handle more than just two possible outcomes (as with a simple if and else). With `elif`, you can check for additional conditions after the initial `if` statement, and only the first condition that evaluates to `True` will have its corresponding block of code executed.

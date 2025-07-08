@@ -3,7 +3,7 @@ title: How-to-Base-Python
 toc: true
 header:
   image: '/assets/images/title/DALLE_Python.png'
-  caption: 'Image generated with DALL E: [**Environmental Informatics Marburg**](https://www.uni-marburg.de/en/fb19/disciplines/physisch/environmentalinformatics)'
+  caption: 'Image generated with DALL·E, created by Spaska Forteva & ChatGPT'
 ---
 
 *Find out how this course is supposed to work*

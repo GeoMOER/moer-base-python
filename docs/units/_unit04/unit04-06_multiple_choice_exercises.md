@@ -1,11 +1,9 @@
 ---
 title: "EX | Multiple Choice Exsercises"
-toc: TRUE
-toc_float: TRUE
 header:
   image: /assets/images/unit_images/u04/header.png
-  image_description: "index"
-  caption: "Photo by [Maksym Kaharlytskyi](https://unsplash.com/@qwitka?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) from [Unsplash](https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)"
+  image_description: "if logic structure"
+  caption: "Photo by [Markus Spiske](https://unsplash.com/@markusspiske) [from Unsplash](https://unsplash.com/photos/code-on-laptop-screen-FXFz-sW0uwo)"
 ---
 
 

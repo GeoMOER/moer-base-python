@@ -3,9 +3,9 @@ title: "EX | Exercise For"
 toc: TRUE
 toc_float: TRUE
 header:
-  image: /assets/images/unit_images/u02/header.png
-  image_description: "thinking"
-  caption: "Image by [username](https://pixabay.com) from pixabay"
+  image: /assets/images/unit_images/u07/header.png
+  image_description: "loop"
+  caption: "Photo by [Christopher Kuszajewski](https://pixabay.com)"
 ---
 
 # Introduction
