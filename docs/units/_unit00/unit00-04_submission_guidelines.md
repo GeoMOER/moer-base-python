@@ -6,6 +6,14 @@ header:
   caption: 'Image generated with DALL E: [**Environmental Informatics Marburg**](https://www.uni-marburg.de/en/fb19/disciplines/physisch/environmentalinformatics)'
 ---
 
+## Welcome!
+
+Dear students,
+
+To help you stay organized and make your submission process as smooth as possible, please follow these detailed guidelines carefully. By submitting your work in a clear and structured way, you not only make it easier for us to provide feedback, but you also develop essential skills for future research and professional projects.
+
+---
+
 ## Upload of Your Exercises on ILIAS
 
 All your exercise solutions must be uploaded in the following ILIAS folder:  
@@ -40,19 +48,17 @@ Make sure your folder and file structure follow the guidelines below to ensure s
 
 ### 📄 File Naming Guidelines
 
-
 - Use the following format for written answers and Python code:
   ```
-  unitXX_ex(1-X)code.py
+  unitXX__ex(1-X)code.py
   ```
-  🔖 *At the top , please include your **student ID number** as a comment, e.g.:
+  🔖 *At the top, please include your **student ID number** as a comment, e.g.:*
   ```python
   # Matrikelnummer: 12345678
   ```
 
-  📝 *The .py file should contain all your Python solutions (e.g., from exercises 1 to X) in one script, with the task texts included as comments. Bonus solutions should be saved in a separate file named unitXX__exXXcode.py *
+  📝 *The `.py` file should contain all your Python solutions (e.g., from exercises 1 to X) in one script, with the task texts included as comments. Bonus solutions should be saved in a separate file named `unitXX__exXXcode.py`.*
   💬 *Comments and the written answer for Exercise 1 may be written in either German or English.*
-
 
 ---
 
@@ -64,10 +70,10 @@ Make sure your folder and file structure follow the guidelines below to ensure s
 
 ---
 
-## 📝  Where to Find Your Feedback
+## 📝 Where to Find Your Feedback
 
-The results of the assignment corrections will be saved as a PDF table in the ILIAS folder:
-Hausaufgaben-Feedback
+The results of the assignment corrections will be saved as a PDF table in the ILIAS folder:  
+**Hausaufgaben-Feedback**
 
 Legend for the table:
 
@@ -84,3 +90,21 @@ This structure helps us:
 - Give you timely feedback.
 
 And it helps **you** practice good documentation habits, which are essential in real-world projects!
+
+---
+
+## 🎓 Final Project (Abschlussarbeit)
+
+The final project (Abschlussarbeit) will be presented in the second-to-last session on **17 July 2025**.  
+After that, you will have one week to review the content of your own final project and collect any questions that might arise.  
+In the final session on **24 July 2025**, we will discuss all open questions regarding the final project together.  
+You have time to submit the final version of your project until **3 September 2025 at 24:00**.
+
+---
+
+## 🚀 Final Words
+
+We are looking forward to seeing your creative solutions and final projects!  
+Stay curious, keep experimenting — and most importantly, have fun while coding and exploring new ideas.  
+
+Good luck and enjoy the journey!
