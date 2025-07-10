@@ -6,7 +6,20 @@
 
 In this task, you will practice iterating over a list and stopping a search as soon as a condition is met.
 
-Next week (during the Q&A session on **24 July 2025**), you will receive a list of first names.  
+Next week (during the Q&A session on **24 July 2025**), you will receive a list of first names. 
+names = [
+    "Anna", "Paul", "Sofia", "Lukas", "Maria", "Jonas", "Emma", "Noah", "Laura", "Leon",
+    "Mia", "Felix", "Lina", "Max", "Lea", "Elias", "Clara", "David", "Sarah", "Tim",
+    "Hannah", "Julian", "Emily", "Ben", "Johanna", "Niklas", "Amelie", "Jan", "Marie", "Tom",
+    "Lena", "Luis", "Lisa", "Erik", "Julia", "Finn", "Sophie", "Samuel", "Charlotte", "Matteo",
+    "Isabella", "Moritz", "Ella", "Adrian", "Melina", "Sebastian", "Zoe", "Fabian", "Alina", "Philipp",
+    "Nora", "Christian", "Nele", "Alexander", "Luisa", "Marco", "Viktoria", "Daniel", "Carla", "Kevin",
+    "Ronja", "Stefan", "Greta", "Johannes", "Elina", "Oliver", "Ida", "Patrick", "Mila", "Dennis",
+    "Thea", "Florian", "Tabea", "Marcel", "Jule", "Roman", "Yara", "Anton", "Frieda", "Patrick",
+    "Jasmin", "Marvin", "Helene", "Tobias", "Maja", "Raphael", "Leni", "Valentin", "Kira", "Simon",
+    "Mathilda", "Jannik", "Stella", "Georg", "Lotta", "Richard", "Pauline", "Henry", "Josephine", "Karl"
+]
+
 Your goal: Write a program that checks whether **your own first name** is in this list.
 
 ---
@@ -36,6 +49,20 @@ No registration found for user {searched_name}. You are not yet registered for t
 **Hint:** Replace `{searched_name}` with your actual name (the value of `my_name`).
 
 ### 🎲 Game Task — "Lucky String Duel: You vs Computer"
+
+words = [
+    "Sun", "Storm", "Strike", "Sound", "Star", "Stone", "Smile", "Stream", "Strong", "Start",
+    "Shadow", "Stack", "Structure", "Shine", "Spark", "Space", "Street", "Strike", "Storm", 
+    "Sky", "Strike", "Snow", "Strike", "Stellar", "Swim", "Strike", "Shape", "Strike", "Star",
+    "Strike", "Stream", "Stack", "Stone", "Strike", "Structure", "Storm", "Strike",
+    "Harmony", "Echo", "Wave", "Dream", "Light", "Magic", "River", "Ocean", "Mountain", "Forest",
+    "Crystal", "Journey", "Flame", "Vision", "Peace", "Energy", "Rhythm", "Gravity", "Thunder", "Shadow",
+    "Glitter", "Whisper", "Galaxy", "Moon", "Aurora", "Blaze", "Breeze", "Strike", "Flare", "Lunar", "Nova",
+    "Serenity", "Strike", "Twilight", "Mirage", "Pulse", "Drift", "Mystery", "Orbit", "Ray", "Spirit", "Zen",
+    "Glow", "Whirl", "Chase", "Fusion", "Nebula", "Rise", "Quest", "Vortex", "Wild", "Breeze",
+    "Motion", "Flash", "Wander", "Sparkle", "Strike", "Charm", "Bloom", "Echoes", "Dawn", "Shimmer", "Surge"
+]
+
 
 **Description:**
 

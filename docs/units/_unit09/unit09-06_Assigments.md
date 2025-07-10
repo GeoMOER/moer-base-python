@@ -1,14 +1,20 @@
 ---
-title: AS | Assignment
+title: A | Assignment
 header:
   image: /assets/images/unit_images/u08/header.png
   image_description: "Object-oriented programming concept"
   caption: "Image concept and AI prompt: Spaska Forteva — Generated with ChatGPT/DALL·E"
 ---
 
-# Assignment
+Please save your solutions for Exercises 1 to 2 in a Python script named `unit09__ex(1-2)code.py`.  
 
-Extend the `Animal` class you created during the exercise.
+Save the script in the `unit09` folder, compress the folder into a `.zip` file, and upload it to ILIAS.
+
+For more information, please visit the following link:  
+https://geomoer.github.io/moer-base-python/unit00/unit00-04_submission_guidelines.html
+
+Make sure your code is clearly structured and includes comments where helpful.
+
 
 ## Tasks
 
