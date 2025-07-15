@@ -18,6 +18,10 @@ Make sure your code is clearly structured and includes comments where helpful.
 
 ## Tasks
 
+### 🔥 Base class `Animal`
+
+Please use the same `Animal` class from the exercises unit09.
+
 ### 1️⃣ Create a subclass called `Bird`
 
 - This subclass should inherit all attributes and methods from `Animal`.

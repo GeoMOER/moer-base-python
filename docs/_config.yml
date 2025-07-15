@@ -228,6 +228,16 @@ defaults:
       layout: single
       sidebar:
         nav: "units"
+  # unit10
+  - scope:
+      path: ""
+      type: unit10
+    values:
+      category: "Course Review"
+      tags: "Unit 10"
+      layout: single
+      sidebar:
+        nav: "units"
   # Spotlights
   - scope:
       path: ""
