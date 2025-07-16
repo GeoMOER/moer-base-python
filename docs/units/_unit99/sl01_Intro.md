@@ -1,7 +1,7 @@
 ---
 title: Spotlight
 header:
-  image: /assets/images/unit_images/spotlights/grid.png
+  image: /assets/images/spotlights/header.png
   image_description: "Spotlight"
   caption: ""
 ---
@@ -28,19 +28,6 @@ Your Python journey has just begun — and the possibilities are endless!
 - **Automate the Boring Stuff with Python** by Al Sweigart  
   Learn how to use Python to automate everyday tasks — fun and very practical.
 
-- **Fluent Python** by Luciano Ramalho  
-  For advanced learners who want to master modern Python techniques.
-
----
-
-## 🌐 Useful Online Resources
-
-- [Official Python Documentation](https://docs.python.org/3/)
-- [Real Python](https://realpython.com/) — Tutorials, articles, and videos.
-- [Python Tutor](https://pythontutor.com/) — Visualize code execution step by step.
-- [LeetCode](https://leetcode.com/) — Practice coding problems (also good for interviews).
-- [Stack Overflow](https://stackoverflow.com/questions/tagged/python) — Find answers and ask questions.
-
 ---
 
 ## 💻 Working with Jupyter at Marburg University
@@ -54,6 +41,16 @@ If you are a student at Marburg, you can access Jupyter via:
 - Local installation on your own laptop, using Anaconda or `pip install notebook`.
 
 **Tip:** Jupyter is perfect for step-by-step explanations and trying out code snippets from this course.
+
+
+## 🌐 Useful Online Resources
+
+- [Official Python Documentation](https://docs.python.org/3/) — The official reference for Python syntax and standard library.
+- [Online Python](https://www.online-python.com/) — Run and test Python code directly in your browser without installing anything.
+- [Real Python](https://realpython.com/) — Tutorials, articles, and videos for all levels.
+- [Python Tutor](https://pythontutor.com/) — Visualize code execution step by step.
+
+---
 
 
 ### 🚀 Final words
