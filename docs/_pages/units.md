@@ -85,7 +85,14 @@ feature_row:
     url: "/unit09/unit09-01_Intro.html"
     btn_label: "Show me more"
     btn_class: "btn--primary"
-
+    
+  - image_path: assets/images/unit_images/u10/grid.png
+    alt: "Unit 10"
+    title: "Unit 10: Review"
+    excerpt:  "Course Review"
+    url: "/unit10/unit10-01_Intro.html"
+    btn_label: "Show me more"
+    btn_class: "btn--primary"
 
   - image_path: assets/images/spotlights/grid.png
     alt: "Spotlights"
