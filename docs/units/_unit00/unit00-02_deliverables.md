@@ -47,8 +47,17 @@ Be aware that it will NOT be sufficient to start working on the assignments the 
 The **Final Thesis** is the only graded deliverable in this course. It challenges you to apply your knowledge to a comprehensive, real-world task. 
 Please note that the submission deadline for the Final Thesis is listed in the table below. There will be dedicated time in the course syllabus to support your work, and you are encouraged to make consistent progress throughout.
 
-📝 The final thesis must be submitted within three weeks.  
-The deadline is August 8th, 2025 by midnight.
+#### Instruction summary
+ 
+1. Please include a short description at the top of each script or function explaining what your code does and what is being calculated.
+2. Inside your code, write meaningful comments to describe each important step, logic, and variable updates.
+3. Clear comments help show your understanding, make your work easier to follow, and improve the overall quality of your code.
+4. 🚫 Do not copy any example code directly; always adapt it to your own logic and task requirements.
+
+
+
+📝  The final thesis must be submitted within **six weeks**.  
+**Deadline:** **September 4th, 2025 at midnight**.
 
 ## Final Grade
 Your final grade will be based solely on your **Final Thesis**.
