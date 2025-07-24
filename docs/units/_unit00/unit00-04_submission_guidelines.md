@@ -100,6 +100,10 @@ After that, you will have one week to review the content of your own final proje
 In the final session on **24 July 2025**, we will discuss all open questions regarding the final project together.  
 You have time to submit the final version of your project until **3 September 2025 at 24:00**.
 
+Please make sure to name your submitted file as follows:
+**final_thesis_FirstnameLastname_SS2025**
+(e.g. final_thesis_AnnaMuster_SS2025)
+Avoid using special characters such as ä, ö, ü, or ß.
 ---
 
 ## 🚀 Final Words
