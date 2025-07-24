@@ -39,6 +39,7 @@ These assignments help deepen your understanding and are required to pass the co
 | 08  | [Simple Visualizations](/moer-base-python/unit10/unit10-08_visualizations.html)                                    | unmarked    |
 | 09  | [OOP Fundamentals and Final Thesis Preparation](/moer-base-python/unit10/unit10-09_thesis_prep.html)               | unmarked    |
 | 10  | [Final Thesis Submission](/moer-base-python/unit10/unit10-10_thesis_submission.html)                               | **marked**  |
+| 11  | [Feedback]                               | **marked**  |
 
 Be aware that it will NOT be sufficient to start working on the assignments the day before the deadline. It will be necessary to solve a lot of disturbing and time-consuming problems in the programming world. So start early!!!
 {: .notice--warning}
