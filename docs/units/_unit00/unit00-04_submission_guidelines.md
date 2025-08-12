@@ -41,7 +41,6 @@ Make sure your folder and file structure follow the guidelines below to ensure s
 3. Each `unitXX.zip` should contain your files for that unit, structured as follows:
    ```
    unitXX__ex(1-X)code.py
-   unitXX__exXXcode.py # Bonus 
    ```
 
 ---
@@ -52,13 +51,18 @@ Make sure your folder and file structure follow the guidelines below to ensure s
   ```
   unitXX__ex(1-X)code.py
   ```
-  🔖 *At the top, please include your **student ID number** as a comment, e.g.:*
-  ```python
-  # Matrikelnummer: 12345678
+🔖 *At the top, please include your **student ID number** **and your full name** as a comment.*  
+❗ *If either the name or the student ID is missing, points will be deducted.*  
+
+*Example:*
+```python
+# Name: Alex Johnson
+# Matrikelnummer: 12345678
+
   ```
 
-  📝 *The `.py` file should contain all your Python solutions (e.g., from exercises 1 to X) in one script, with the task texts included as comments. Bonus solutions should be saved in a separate file named `unitXX__exXXcode.py`.*
-  💬 *Comments and the written answer for Exercise 1 may be written in either German or English.*
+  📝 *The .py file should contain all your Python solutions (e.g., from exercises 1 to X) in one script, with the task texts included as comments. Bonus solutions should be saved in a separate file named unitXX__exXXcode.py.*
+  💬 *Comments and the written answer for Exercises may be written in either German or English.*
 
 ---
 
@@ -95,15 +99,24 @@ And it helps **you** practice good documentation habits, which are essential in 
 
 ## 🎓 Final Project (Abschlussarbeit)
 
-The final project (Abschlussarbeit) will be presented in the second-to-last session on **17 July 2025**.  
+The final project (Abschlussarbeit) will be presented in the second-to-last session.  
 After that, you will have one week to review the content of your own final project and collect any questions that might arise.  
-In the final session on **24 July 2025**, we will discuss all open questions regarding the final project together.  
+In the final session, we will discuss all open questions regarding the final project together.  
 You have time to submit the final version of your project until **3 September 2025 at 24:00**.
 
 Please make sure to name your submitted file as follows:
 **final_thesis_FirstnameLastname_SS2025**
 (e.g. final_thesis_AnnaMuster_SS2025)
 Avoid using special characters such as ä, ö, ü, or ß.
+
+🔖 *At the top of your Python file, please include your **full name** and **student ID number** as comments.*  
+❗ *If either the name or the student ID is missing, points will be deducted.*  
+
+*Example:*
+```python
+# Name: Anna Muster
+# Matrikelnummer: 12345678
+```
 ---
 
 ## 🚀 Final Words

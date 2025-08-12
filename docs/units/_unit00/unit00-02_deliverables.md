@@ -16,8 +16,6 @@ The regular deadline for uploading your unmarked assignment solutions to Classro
 🕒 Note: If the Thursday session falls on a public holiday, the course will take place one week later. In this case, the assignment deadline also shifts by one week.
 {: .notice--warning}
 
-You are allowed to use ChatGPT or similar AIs to solve the assignments. However, you need to present your solution to ensure that you understand what you have done.  
-{: .notice--info}
 
 
 ### Coding Exercises  
@@ -48,18 +46,30 @@ Be aware that it will NOT be sufficient to start working on the assignments the 
 The **Final Thesis** is the only graded deliverable in this course. It challenges you to apply your knowledge to a comprehensive, real-world task. 
 Please note that the submission deadline for the Final Thesis is listed in the table below. There will be dedicated time in the course syllabus to support your work, and you are encouraged to make consistent progress throughout.
 
-#### Instruction summary
- 
-1. Please include a short description at the top of each script or function explaining what your code does and what is being calculated.
-2. Inside your code, write meaningful comments to describe each important step, logic, and variable updates.
-3. Clear comments help show your understanding, make your work easier to follow, and improve the overall quality of your code.
-4. 🚫 Do not copy any example code directly; always adapt it to your own logic and task requirements.
-
-
 
 📝  The final thesis must be submitted within **six weeks**.  
 **Deadline:** **September 4th, 2025 at midnight**.
 
 ## Final Grade
 Your final grade will be based solely on your **Final Thesis**.
+
+## Instruction summary
+
+1. Please include a short description at the top of each script or function explaining what your code does and what is being calculated.  
+2. Inside your code, write meaningful comments to describe each important step, logic, and variable updates.  
+3. Clear comments help show your understanding, make your work easier to follow, and improve the overall quality of your code.  
+4. 🚫 Do not copy any example code directly; always adapt it to your own logic and task requirements.  
+5. **Use of ChatGPT or Similar AI Tools**  
+
+   You are allowed to use ChatGPT or similar AI tools to support you in solving the assignments.  
+   However, you must be able to present and explain your solution to demonstrate that you understand what you have done.  
+
+   If you copy code from ChatGPT or another AI directly (**copy & paste**), you are responsible for:  
+   - **Running the program** before submission to ensure it works correctly.  
+   - **Removing unwanted formatting** – especially special icons or symbols in `print()` statements.  
+   - **Checking indentations carefully**, as incorrect indentation will cause errors and unnecessary delays during grading.  
+
+   Code that does not run due to such avoidable issues may result in **point deductions**,  
+   as it creates additional overhead for the examiner during evaluation.
+
 
