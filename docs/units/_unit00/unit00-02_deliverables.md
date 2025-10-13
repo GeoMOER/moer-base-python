@@ -36,8 +36,10 @@ These assignments help deepen your understanding and are required to pass the co
 | 07  | [Working with Files](/moer-base-python/unit10/unit10-07_files.html)                                                | unmarked    |
 | 08  | [Simple Visualizations](/moer-base-python/unit10/unit10-08_visualizations.html)                                    | unmarked    |
 | 09  | [OOP Fundamentals and Final Thesis Preparation](/moer-base-python/unit10/unit10-09_thesis_prep.html)               | unmarked    |
-| 10  | [Final Thesis Submission](/moer-base-python/unit10/unit10-10_thesis_submission.html)                               | **marked**  |
-| 11  | Feedback                               | unmarked |
+| 10  | [OOP Fundamentals and Final Thesis Preparation](/moer-base-python/unit10/unit10-09_thesis_prep.html)               | unmarked    |
+| 11  | [OOP Fundamentals and Final Thesis Preparation](/moer-base-python/unit10/unit10-09_thesis_prep.html)               | unmarked    |
+| 12  | [Final Thesis Submission](/moer-base-python/unit10/unit10-10_thesis_submission.html)                               | **marked**  |
+| 13  | Feedback                               | unmarked |
 
 Be aware that it will NOT be sufficient to start working on the assignments the day before the deadline. It will be necessary to solve a lot of disturbing and time-consuming problems in the programming world. So start early!!!
 {: .notice--warning}
@@ -48,7 +50,7 @@ Please note that the submission deadline for the Final Thesis is listed in the t
 
 
 📝  The final thesis must be submitted within **six weeks**.  
-**Deadline:** **September 4th, 2025 at midnight**.
+**Deadline:** **March 5th, 2026 at midnight**.
 
 ## Final Grade
 Your final grade will be based solely on your **Final Thesis**.

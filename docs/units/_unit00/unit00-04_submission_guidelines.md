@@ -17,13 +17,13 @@ To help you stay organized and make your submission process as smooth as possibl
 ## Upload of Your Exercises on ILIAS
 
 All your exercise solutions must be uploaded in the following ILIAS folder:  
-**`Submission/SS_2025`**
+**`Submission/WS_2025`**
 
 Make sure your folder and file structure follow the guidelines below to ensure smooth correction and feedback.
 
 ---
 
-### 📁 Folder Structure
+### 📁 Folder Structure and Guidelines
 
 1. **Create a main folder** on ILIAS with the following naming convention:
 
@@ -43,16 +43,14 @@ Make sure your folder and file structure follow the guidelines below to ensure s
    unitXX__ex(1-X)code.py
    ```
 
----
+4. 📝 The unitXX__ex(1-X)code.py file should contain **all your Python solutions** (e.g., from exercises 1 to X) in one script, with the task texts included as comments.
 
-### 📄 File Naming Guidelines
+5. 💬 Comments and the written answer for Exercises may be written in either German or English.
 
-- Use the following format for written answers and Python code:
-  ```
-  unitXX__ex(1-X)code.py
-  ```
-🔖 *At the top, please include your **student ID number** **and your full name** as a comment.*  
-❗ *If either the name or the student ID is missing, points will be deducted.*  
+6. Use the following format for written **answers** and Python code:
+
+   - 🔖 *At the top, please include your **student ID number** **and your full name** as a comment.*  
+   - ❗ *If either the name or the student ID is missing, points will be deducted.*  
 
 *Example:*
 ```python
@@ -60,9 +58,6 @@ Make sure your folder and file structure follow the guidelines below to ensure s
 # Matrikelnummer: 12345678
 
   ```
-
-  📝 *The .py file should contain all your Python solutions (e.g., from exercises 1 to X) in one script, with the task texts included as comments. Bonus solutions should be saved in a separate file named unitXX__exXXcode.py.*
-  💬 *Comments and the written answer for Exercises may be written in either German or English.*
 
 ---
 
@@ -102,11 +97,10 @@ And it helps **you** practice good documentation habits, which are essential in 
 The final project (Abschlussarbeit) will be presented in the second-to-last session.  
 After that, you will have one week to review the content of your own final project and collect any questions that might arise.  
 In the final session, we will discuss all open questions regarding the final project together.  
-You have time to submit the final version of your project until **3 September 2025 at 24:00**.
 
 Please make sure to name your submitted file as follows:
-**final_thesis_FirstnameLastname_SS2025**
-(e.g. final_thesis_AnnaMuster_SS2025)
+**final_thesis_FirstnameLastname_WS2026**
+(e.g. final_thesis_AnnaMuster_WS2026)
 Avoid using special characters such as ä, ö, ü, or ß.
 
 🔖 *At the top of your Python file, please include your **full name** and **student ID number** as comments.*  
