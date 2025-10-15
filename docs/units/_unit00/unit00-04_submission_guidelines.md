@@ -23,39 +23,49 @@ Make sure your folder and file structure follow the guidelines below to ensure s
 
 ---
 
-### 📁 Folder Structure and Guidelines
+### Folder and File Structure 
 
-1. **Create a main folder** on ILIAS with the following naming convention:
+**Create a main folder** on ILIAS with the following naming convention:
 
    🔸 *Example:*  
-   If your name is Alex Johnson → `JohnsonA_SS_2025`
-
-2. **Inside this main folder**, create **one ZIP file per unit**, named:
+   If your name is Alex Johnson → 📁 `JohnsonA_SS_2025`
+  
+  {% include figure image_path="/assets/images/unit_images/u00/Guidelines_1.JPG" %}
+  
+  
+**Inside this main folder**, upload **one ZIP 📁  file per unit**, named:
    ```
-   unit01.zip
-   unit02.zip
+   unit01_assigment.zip
+   unit02_assigment.zip
    ...
-   unit10.zip
+   unit10_assigment.zip
    ```
+{% include figure image_path="/assets/images/unit_images/u00/Guidelines_2.JPG" %}
+Since ILIAS does not allow direct uploads of .py files, please compress your Python file into a ZIP archive (e.g. unit01_assignment.zip) before submitting it.
 
-3. Each `unitXX.zip` should contain your files for that unit, structured as follows:
+
+Each 📦 *`unitXX_assigment.zip`* should contain your .py (Python) file for that unit, structured as follows:
    ```
-   unitXX__ex(1-X)code.py
+   unitXX_assigment.py
    ```
+ 
+ 
+📝 The unitXX_assigment.py file should contain **all your Python solutions** (e.g., from exercises 1 to X) and the task texts included as comments in one script!!!
 
-4. 📝 The unitXX__ex(1-X)code.py file should contain **all your Python solutions** (e.g., from exercises 1 to X) in one script, with the task texts included as comments.
 
-5. 💬 Comments and the written answer for Exercises may be written in either German or English.
+💬 Comments and the written answer for Exercises may be written in either German or English.
 
-6. Use the following format for written **answers** and Python code:
 
-   - 🔖 *At the top, please include your **student ID number** **and your full name** as a comment.*  
-   - ❗ *If either the name or the student ID is missing, points will be deducted.*  
+Use the following format as a comment at the top:
+   - ❗include unitXX_assigment.py
+   - 🔖 include your **student ID number**
+   -  *and your full name*  
 
 *Example:*
 ```python
+# unit01_assignment.py
+# Student ID: 12345678
 # Name: Alex Johnson
-# Matrikelnummer: 12345678
 
   ```
 
@@ -98,18 +108,21 @@ The final project (Abschlussarbeit) will be presented in the second-to-last sess
 After that, you will have one week to review the content of your own final project and collect any questions that might arise.  
 In the final session, we will discuss all open questions regarding the final project together.  
 
-Please make sure to name your submitted file as follows:
-**final_thesis_FirstnameLastname_WS2026**
-(e.g. final_thesis_AnnaMuster_WS2026)
+**Inside your main folder**, upload **the final ZIP 📁  file **, named final_thesis_FirstnameLastname_WS2025.zip
+
+
+Please make sure to name your submitted python file as follows:
+**final_thesis_FirstnameLastname_WS2025.py**
+(e.g. final_thesis_AnnaMuster_WS2025.py)
 Avoid using special characters such as ä, ö, ü, or ß.
 
-🔖 *At the top of your Python file, please include your **full name** and **student ID number** as comments.*  
+🔖 *At the top of your Python file final_thesis_FirstnameLastname_WS2025.py, please include your **full name** and **student ID number** as comments.*  
 ❗ *If either the name or the student ID is missing, points will be deducted.*  
 
 *Example:*
 ```python
 # Name: Anna Muster
-# Matrikelnummer: 12345678
+# Student ID: 12345678
 ```
 ---
 

@@ -1,5 +1,7 @@
 ---
 title: "Overview"
+toc: TRUE
+toc_float: TRUE
 header:
   image: /assets/images/unit_images/u01/header.png
   image_description: "Android Market-share Worldwide 2018-2020"
@@ -21,4 +23,3 @@ By the end of this unit, participants will be able to:
 * install Python and the required libraries on their local machine;
 * understand the purpose and structure of a Python programming interface;
 * write and run simple Python commands as a first step into programming;
-* describe the role and relevance of Python in data analysis and automation.

@@ -27,18 +27,18 @@ These assignments help deepen your understanding and are required to pass the co
 
 | #   | Assignment Name                                                             | Type        |
 |-----|------------------------------------------------------------------------------|-------------|
-| 01  | [Overview and the very Basics](/moer-base-python/unit01/unit01-07_Assignment.html)                | unmarked    |
-| 02  | [Variables and Basic Data Types](/moer-base-python/unit10/unit02-07_Assignment.html)                  | unmarked    |
-| 03  | [Working with String and simple operators](/moer-base-python/unit10/unit03-07_Assignment.html)                               | unmarked    |
-| 04  | [Conditionals](/moer-base-python/unit04-07_Assignment.html)                             | unmarked    |
-| 05  | [Loops](/moer-base-python/unit10/unit10-05_lists.html)                                    | unmarked    |
-| 06  | [Object Types](/moer-base-python/unit10/unit10-06_dataframes.html)                        | unmarked    |
-| 07  | [Working with Files](/moer-base-python/unit10/unit10-07_files.html)                                                | unmarked    |
-| 08  | [Simple Visualizations](/moer-base-python/unit10/unit10-08_visualizations.html)                                    | unmarked    |
-| 09  | [OOP Fundamentals and Final Thesis Preparation](/moer-base-python/unit10/unit10-09_thesis_prep.html)               | unmarked    |
-| 10  | [OOP Fundamentals and Final Thesis Preparation](/moer-base-python/unit10/unit10-09_thesis_prep.html)               | unmarked    |
-| 11  | [OOP Fundamentals and Final Thesis Preparation](/moer-base-python/unit10/unit10-09_thesis_prep.html)               | unmarked    |
-| 12  | [Final Thesis Submission](/moer-base-python/unit10/unit10-10_thesis_submission.html)                               | **marked**  |
+| 01  | [Overview and the very Basics](/moer-base-python/unit01/unit01-06_Assignment.html)                | unmarked    |
+| 02  | [Variables and Basic Data Types](/moer-base-python/unit02/unit02-08_assigment.html)                  | unmarked    |
+| 03  | [Working with String and simple operators](/moer-base-python/unit03/unit03-06_assigment.html)                               | unmarked    |
+| 04  | [Conditionals](/moer-base-python/unit04/unit04-08_home_exercises.html)                             | unmarked    |
+| 05  | [Object Types](/moer-base-python/unit05/unit05-10_home_exercises.html)                                    | unmarked    |
+| 06  | [Loops](/moer-base-python/unit06/unit06-10_homeworks.html)                         | unmarked    |
+| 07  | [Working with Files](/moer-base-python/unit07/unit07-07_assignment.html)                                                | unmarked    |
+| 08  | [Simple Visualizations](/moer-base-python/unit08/unit08-07_home_exercises.html)                                    | unmarked    |
+| 09  | [OOP Fundamentals](/moer-base-python/unit09/unit09-06_Assigments.html)               | unmarked    |
+| 10  | [Course Review](/moer-base-python/unit10/unit10-09_assignment.html)               | unmarked    |
+| 11  | [Practical Python Applications](/moer-base-python/unit11/unit11-01_assignment.html)               | unmarked    |
+| 12  | [Final Thesis Submission](/moer-base-python/unit12/unit10-thesis_submission.html)                               | **marked**  |
 | 13  | Feedback                               | unmarked |
 
 Be aware that it will NOT be sufficient to start working on the assignments the day before the deadline. It will be necessary to solve a lot of disturbing and time-consuming problems in the programming world. So start early!!!

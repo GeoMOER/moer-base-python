@@ -1,12 +1,12 @@
 ---
 title: "LM | Introduction"
+toc: true
 header:
   image: /assets/images/unit_images/u01/header.png
   image_description: "Android Market-share Worldwide 2018-2020"
   caption: "Mobile Android operating system market share by version worldwide from 2018 to 2020: [StatCounter](https://gs.statcounter.com/android-version-market-share/mobile/worldwide/#monthly-201907-202001) [via Statista](https://www.statista.com/statistics/921152/mobile-android-version-share-worldwide/)"
 ---
-*Setting up Python and auxiliary programs for operating Python and introducing a few tools if you get stuck.*
-<!--more-->
+
 
 ## Python: A Versatile and Beginner-Friendly Language
 
@@ -84,9 +84,26 @@ Whether you’re automating your daily tasks, building a website, or developing 
 
 An **algorithm** is a sequence of step-by-step instructions to solve a specific problem or perform a task.
 
-### Example: Baking a Cake (Algorithm)
+### Algorithm: Baking a Cake
 
 This is an algorithm! Just like a recipe, programming algorithms give exact instructions to achieve a goal.
 
-{% include figure image_path="/assets/images/unit_images/u01/algo_backen.png" %}
+**Example (in pseudocode):**
+
+```text
+Start
+  Gather all ingredients
+  Mix flour, sugar, eggs, and butter
+  IF batter texture is too thick THEN add some milk
+  Pour batter into a baking pan
+  Preheat oven to 180°C
+  Put pan in the oven
+  Bake for 30 minutes
+  IF cake is not baked through THEN bake for 10 more minutes
+  Take cake out of the oven
+  Let it cool
+  Serve and enjoy
+End
+```
+
 ---

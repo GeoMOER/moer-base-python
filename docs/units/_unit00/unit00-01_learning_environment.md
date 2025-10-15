@@ -11,7 +11,9 @@ header:
 <!--more-->
 
 ## Learning Environment
-This course is intended as a blended learning module, although the provided introductions, explanations and examples might be useful for self-study only, too.
+This course uses the **Jupyter Marburg** environment as the main platform for coding and practicing Python.  
+You will work interactively in your browser — no local installation is required.  
+All exercises, examples, and assignments can be opened and executed directly in Jupyter.
 
 The sessions will be in a hybrid format, meaning that parts of the students may attend the sessions in person at the Department of [Environmental Informatics in Marburg](https://www.uni-marburg.de/en/fb19/disciplines/physisch/environmentalinformatics), and the others virtually. The link to the virtual meeting room will be provided be the instructors in the first session and can also be found in Ilias (see below).
 
