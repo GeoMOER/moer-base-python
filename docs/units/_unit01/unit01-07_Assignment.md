@@ -1,5 +1,5 @@
 ---
-title: "A | Assignment "
+title: "A | Assignment unit 01 "
 toc: true
 header:
   image: /assets/images/unit_images/u01/header.png
@@ -7,8 +7,6 @@ header:
   caption: "User Interface:
   [StatCounter](https://gs.statcounter.com/android-version-market-share/mobile/worldwide/#monthly-201907-202001) [via Statista](https://www.statista.com/statistics/921152/mobile-android-version-share-worldwide/)"
 ---
-
-## Unit 01
 
 Please export your exercise solutions from Jupyter as a single Python script named `unit01_Assignment.py`.  
 
