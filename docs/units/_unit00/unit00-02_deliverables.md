@@ -27,7 +27,7 @@ These assignments help deepen your understanding and are required to pass the co
 
 | #   | Assignment Name                                                             | Type        |
 |-----|------------------------------------------------------------------------------|-------------|
-| 01  | [Overview and the very Basics](/moer-base-python/unit01/unit01-06_Assignment.html)                | unmarked    |
+| 01  | [Overview and the very Basics](/moer-base-python/unit01/unit01-07_Assignment.html)                | unmarked    |
 | 02  | [Variables and Basic Data Types](/moer-base-python/unit02/unit02-08_assigment.html)                  | unmarked    |
 | 03  | [Working with String and simple operators](/moer-base-python/unit03/unit03-06_assigment.html)                               | unmarked    |
 | 04  | [Conditionals](/moer-base-python/unit04/unit04-08_home_exercises.html)                             | unmarked    |
