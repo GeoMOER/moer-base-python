@@ -63,19 +63,20 @@ Further details on the tutorial format and location will be announced soon.
 
 | Unit | Date |Topic | Content |
 |------|-----|-----|---------|
-| 01 |24.04.2025| Overview and the very Basics   | Set up everything for operating Python, take your own first steps in Python |
-| 02 |08.05.2025 |Basic Data Types | How data is measured and organized with an Python perspective               |
-| 03 |15.05.2025 |Working with String and simple operators               | How to use Strings and operators in Python                       |
-| 04 |22.05.2025 |Conditionals           | Learn how to use if, elif and else                                          |
-| 05 |05.06.2025 |Object Data Types                          | Get to know lists, arrays, matrices and data frames |
-| 06 |12.06.2025 |Loops               | Use for-loops and while-loops                               |
-| 07 |26.06.2025 |Working with files             | Work with csv files and sort, bind and merge your data  |
-| 08 |03.07.2025 |Simple Visualizations          | Quickly and simply visualize your data  |
-| 09 |10.07.2025 |OOP|Introduction to Object-Oriented Programming|
-| 10 |17.07.2025 |Quick recap and Final Thesis | tbd |
-| 11 |24.07.2025 | Final assignment discussion | Notes, questions, and course feedback |
-
-
+| 01 |23.10.2025| Overview and the very Basics   | Set up everything for operating Python, take your own first steps in Python |
+| 02 |30.10.2025 |Variables and Basic Data Types | How data is measured and organized with an Python perspective               |
+| 03 |06.11.2025 |Working with String and simple operators               | How to use Strings and operators in Python                       |
+| 04 |13.11.2025 |Conditionals           | Learn how to use if, elif and else                                          |
+| 05 |20.11.2025 |Object Types                          | Get to know lists, arrays, matrices and data frames |
+| 06 |27.11.2025 |Loops               | Use for-loops and while-loops                               |
+| 07 |04.12.2025 |Working with files             | Work with csv files and sort, bind and merge your data  |
+| 08 |11.12.2025 |Simple Visualizations          | Quickly and simply visualize your data  |
+| 09 |18.11.2025 |OOP Fundamentals|Introduction to Object-Oriented Programming|
+| 10 |15.01.2026 |Course Review | tbd |
+| 11 |22.01.2026 | Practical Python Applications| Notes, questions, and course feedback |
+| 11 |22.01.2026 | Practical Python Applications | Notes, questions, and course feedback |
+| 11 |22.01.2026 | Final Thesis Submission | Notes, questions, and course feedback |
+| 11 |22.01.2026 | Feedback | Notes, questions, and course feedback |
 ---
 <!--
 # Deliverables
