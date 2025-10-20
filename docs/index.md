@@ -74,9 +74,9 @@ Further details on the tutorial format and location will be announced soon.
 | 09 |18.11.2025 |OOP Fundamentals|Introduction to Object-Oriented Programming|
 | 10 |15.01.2026 |Course Review | tbd |
 | 11 |22.01.2026 | Practical Python Applications| Practical use of Python programs to solve real-world tasks and automate simple processes.|
-| 11 |22.01.2026 | Practical Python Applications |Practical use of Python programs to solve real-world tasks and automate simple processes.|
-| 11 |22.01.2026 | Final Thesis Submission | Notes, questions |
-| 11 |22.01.2026 | Feedback | Notes, questions, and course feedback |
+| 11 |29.01.2026 | Practical Python Applications |Practical use of Python programs to solve real-world tasks and automate simple processes.|
+| 11 |05.02.2026 | Final Thesis Submission | Notes and Questions |
+| 11 |12.02.2026 | Feedback | Course feedback |
 
 ---
 
