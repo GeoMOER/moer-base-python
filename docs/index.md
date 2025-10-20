@@ -73,11 +73,13 @@ Further details on the tutorial format and location will be announced soon.
 | 08 |11.12.2025 |Simple Visualizations          | Quickly and simply visualize your data  |
 | 09 |18.11.2025 |OOP Fundamentals|Introduction to Object-Oriented Programming|
 | 10 |15.01.2026 |Course Review | tbd |
-| 11 |22.01.2026 | Practical Python Applications| Notes, questions, and course feedback |
-| 11 |22.01.2026 | Practical Python Applications | Notes, questions, and course feedback |
-| 11 |22.01.2026 | Final Thesis Submission | Notes, questions, and course feedback |
+| 11 |22.01.2026 | Practical Python Applications| Practical use of Python programs to solve real-world tasks and automate simple processes.|
+| 11 |22.01.2026 | Practical Python Applications |Practical use of Python programs to solve real-world tasks and automate simple processes.|
+| 11 |22.01.2026 | Final Thesis Submission | Notes, questions |
 | 11 |22.01.2026 | Feedback | Notes, questions, and course feedback |
+
 ---
+
 <!--
 # Deliverables
 The exam in unit 16 will be used for self-assessment and as a prerequisite for more subject-specific courses.
