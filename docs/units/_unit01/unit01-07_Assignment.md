@@ -56,15 +56,8 @@ You can write it in natural language, but try to structure it clearly (like pseu
 
 ---
 
-### 6️⃣ What does the Python Path mean? Describe what it contains and why it's important.
 
----
-
-### 7️⃣ Is it possible to use more than one Python version on the same computer?  
-
----
-
-### 8️⃣ Your First Python Script
+### ⃣6️⃣⃣ Your First Python Script
 
 Use function `print()` to print:
    - Last name
@@ -73,12 +66,4 @@ Use function `print()` to print:
    
 ---
 
-### ⭐ Bonus Task – Input Practice
-
-Use function `input()` to collect:
-   - Your last name
-   - Your first name
-   - Your address
-   
-Output the result using `print()`.
 
