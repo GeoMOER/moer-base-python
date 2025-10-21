@@ -57,7 +57,7 @@ You can write it in natural language, but try to structure it clearly (like pseu
 ---
 
 
-### ⃣6️⃣⃣ Your First Python Script
+### ⃣6️⃣ Your First Python Script
 
 Use function `print()` to print:
    - Last name
