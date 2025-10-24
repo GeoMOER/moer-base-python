@@ -28,7 +28,7 @@ Make sure your folder and file structure follow the guidelines below to ensure s
 **Create a main folder** on ILIAS with the following naming convention:
 
    🔸 *Example:*  
-   If your name is Alex Johnson → 📁 `JohnsonA_SS_2025`
+   If your name is Alex Johnson → 📁 `JohnsonA_WS_2025`
   
   {% include figure image_path="/assets/images/unit_images/u00/Guidelines_1.JPG" %}
   
