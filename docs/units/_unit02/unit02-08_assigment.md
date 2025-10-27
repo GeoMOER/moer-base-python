@@ -5,12 +5,12 @@ header:
   image_description: "neon data"
   caption: "Photo by [Franki Chamaki](https://unsplash.com/@franki?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) [from unsplash](https://unsplash.com/s/photos/data?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)"
 ---
-Please save your solution for Exercise 1 as a PDF file named `unit02_ex1.pdf` and place it in the `unit02` folder.
 
-Then complete Exercises 2 to 5 and write your solutions in a single Python script named `unit02__ex2-5code.py`.  
-For Bonus Exercise 6, use a separate Python script named `unit02__ex6code.py`.
 
-Save all scripts in the same `unit02` folder, compress the folder into a `.zip` file, and upload it to ILIAS.
+Please complete Exercises 1 to 5(6) and write your solutions in a single Python script named `unit02__ assigment.py`.  
+
+
+Save all scripts in the same `unit02_assigmen` folder, compress the folder into a `.zip` file, and upload it to ILIAS.
 
 For more information, please visit the following link:  
 https://geomoer.github.io/moer-base-python/unit00/unit00-04_submission_guidelines.html
