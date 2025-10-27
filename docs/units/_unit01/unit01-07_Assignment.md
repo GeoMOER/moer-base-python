@@ -31,19 +31,13 @@ This worksheet introduces Python and helps you get started with the first steps 
 
 ### 3️⃣ Describe the process of doing laundry using a simple algorithm. Include two conditional checks:
 
-Check the water temperature: If not correct → adjust it.
+---
 
-Check if the clothes are clean: If not → run another wash cycle.
-
-You can write it in natural language, but try to structure it clearly (like pseudocode or flow logic).
+### 3️⃣ Install the latest version of Python on your computer.
 
 ---
 
-### 4️⃣ Install the latest version of Python on your computer.
-
----
-
-### 5️⃣ Check Your Python Version and Path
+### 4️⃣ Check Your Python Version and Path
 
 **Task**:
 1. Open the terminal (or CMD).
@@ -57,7 +51,7 @@ You can write it in natural language, but try to structure it clearly (like pseu
 ---
 
 
-### ⃣6️⃣ Your First Python Script
+### ⃣5️⃣ Your First Python Script
 
 Use function `print()` to print:
    - Last name
