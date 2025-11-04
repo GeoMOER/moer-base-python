@@ -9,10 +9,10 @@ header:
 
 ## 🧹 Strings: Functions and Methods. Simple operators
 
-Please save your solution Exercises 1 to 8 and write your solutions in a single Python script named `unit03__ex(1-8)code.py`.  
-For Bonus Exercise 8, use a separate Python script named `unit03__ex10code.py`.
+Please complete Exercises 1 to 5(6) and write your solutions in a single Python script named `unit03_assigment.py`.  
 
-Save all scripts in the same `unit03` folder, compress the folder into a `.zip` file, and upload it to ILIAS.
+
+Save all scripts in the same `unit03_assigmen` folder, compress the folder into a `.zip` file, and upload it to ILIAS.
 
 For more information, please visit the following link:  
 https://geomoer.github.io/moer-base-python/unit00/unit00-04_submission_guidelines.html
