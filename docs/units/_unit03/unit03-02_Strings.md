@@ -100,11 +100,14 @@ print(text.find("i", 5, 10))      # Output: -1
 ```
 text.find("informatics")
 
-"informatics" beginnt bei Index 14
-text.find("a", 5)
-Suche "a" ab Index 5 → erstes "a" ist bei 11 (in "mental")
-text.find("i", 5, 10)
-Bereich ist "nment" (Index 5–9) → kein "i" enthalten → -1
+
+- `"informatics"` starts at index **14**
+- `text.find("a", 5)`  
+  → Searches for `"a"` starting from index **5**.  
+  → The first `"a"` appears at index **11** (in the word *"mental"*).
+- `text.find("i", 5, 10)`  
+  → Searches within the substring from index **5** to **9** (i.e., `"nment"`).  
+  → No `"i"` is found in this range → returns **-1**.
 
 ### `count()`
 
