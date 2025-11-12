@@ -8,15 +8,16 @@ header:
 
 # Conditional Statements and Error Handling in Python
 
-Please save your solutions for Exercises 1 to 6  in a single Python script named `unit04__ex(1-6)code.py`.  
-For Bonus Exercise 8, use a separate Python script named `unit04__ex7code.py`.
+Please complete Exercises write your solutions in a single Python script named `unit04_assigment.py`.  
 
-Save all scripts in the same `unit04` folder, compress the folder into a `.zip` file, and upload it to ILIAS.
+
+Save all scripts in the same `unit04_assigment` folder, compress the folder into a `.zip` file, and upload it to ILIAS.
 
 For more information, please visit the following link:  
 https://geomoer.github.io/moer-base-python/unit00/unit00-04_submission_guidelines.html
 
 Make sure your code is clearly structured and includes comments where helpful.
+
 ##  Exercise 1 – Theory Test (Multiple Choice)
 
 **Which of the following statements are correct?**
