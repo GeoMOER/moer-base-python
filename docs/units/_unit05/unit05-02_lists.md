@@ -85,6 +85,10 @@ print(len(my_list))  # Output: 3
 
 ### ➕ Adding Elements  - append() , insert(pos, element), extend()
 ```python
+# Insert
+fruits.insert(1, "orange")
+print(fruits)  # ['apple', 'orange', 'banana', 'cherry', ['date', 'elderberry']]
+
 # Append - Adds a single element to the end of the list. 
 fruits = ["apple", "banana"]
 fruits.append("cherry")
@@ -94,26 +98,21 @@ print(fruits)  # ['apple', 'banana', 'cherry']
 fruits.append(["date", "elderberry"])
 # ['apple', 'banana', 'cherry', ['date', 'elderberry']]
 
-# Insert
-fruits.insert(1, "orange")
-print(fruits)  # ['apple', 'orange', 'banana', 'cherry', ['date', 'elderberry']]
-
 # Extend - Adds each element of an iterable (like a list or tuple) to the list individually.
 fruits.extend(["grape", "melon"])
 print(fruits)  # ['apple', 'orange', 'banana', 'cherry', ['date', 'elderberry'], 'grape', 'melon']
 ```
-
 ---
 
 ### ➖ Removing Elements - remove(), pop(index), clear()
 
 ```python
 # Remove by value - Removes the first matching element found in the list.
-fruits = ["apple", "banana", "cherry"]
+fruits = ["apple", "banana", "cherry", "banana", "banana"]
 fruits.remove("banana")
 print(fruits)  # ['apple', 'cherry']
 
-# Pop by index
+# Remove by index with pop()
 removed_element = fruits.pop(1)
 print(removed_element)  # cherry
 print(fruits)   # ['apple']
