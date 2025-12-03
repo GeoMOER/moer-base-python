@@ -87,12 +87,14 @@ if 'Bob' in row_list:
 
 Key points
 Syntax: df.loc[row_index, column_label]
+
 ```python
 
 for index, row in df.iterrows():
   df.loc[3, "Name"] = "Updated Name"
   print(df.loc[3]["Name"])
 
+```
 
 ### 🔁  Search using `iterrows()` — 3 different methods
 
@@ -100,18 +102,25 @@ for index, row in df.iterrows():
 Each of these does the same task but uses a different technique:
 
 ```python
+
 for index, row in df.iterrows():
     if "Maria" in row.to_string():
         print("Row " + str(index) + ": " + row["Name"])
         
 for index, row in df.iterrows():
-    if "Maria" in row.values:
+    if "Maria" in row.tolist():
         print("Row " + str(index) + ": " + row["Name"])
         
 for index, row in df.iterrows():
     if "Maria" == row["Name"]:
         print("Row " + str(index) + ": " + row["Name"])
 ```
+
+| Method         | Works? | Best used for |
+|----------------|--------|----------------|
+| `row.to_string()` | ✔️ | Searching the entire row as text (imprecise and slow) |
+| `row.tolist()`    | ✔️ | Comparing against all values in the row as a list |
+| `row["Name"]`     | ✔️✔️ | Best method for checking a specific column |
 
 ---
 
