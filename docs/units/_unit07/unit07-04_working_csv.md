@@ -160,31 +160,30 @@ df = pd.read_csv("https://raw.githubusercontent.com/datasciencedojo/datasets/mas
 
 # 1) Fastest (vectorized)
 start = time.perf_counter()
-print(df[df["Name"].str.contains("Maria", case=False, na=False)])
+print(df[df["Sex"] == "female"])
 end = time.perf_counter()
 print("Elapsed time (vectorized):", end - start, "seconds")
 
 
 # 2) Slower .apply exact match (should find nothing)
 start = time.perf_counter()
-print(df[df.apply(lambda row: row["Name"] == "Maria", axis=1)])
+print(df[df.apply(lambda row: row["Sex"] == "female", axis=1)])
 end = time.perf_counter()
 print("Elapsed time (apply exact match):", end - start, "seconds")
 
 
 # 3) Apply on values (slower)
 start = time.perf_counter()
-print(df[df.apply(lambda row: "Maria" in row.values, axis=1)])
+print(df[df.apply(lambda row: "female" in row.values, axis=1)])
 end = time.perf_counter()
 print("Elapsed time (apply values):", end - start, "seconds")
 
 
 # 4) Apply with row.to_string (slowest)
 start = time.perf_counter()
-print(df[df.apply(lambda row: "Maria" in row.to_string(), axis=1)])
+print(df[df.apply(lambda row: "female" in row.to_string(), axis=1)])
 end = time.perf_counter()
 print("Elapsed time (apply to_string):", end - start, "seconds")
-
 
 ```
 
