@@ -21,7 +21,7 @@ Use the online CSV file and follow the steps to explore the dataset using `panda
 
 1. Import the `pandas` library.  
 2. Load the CSV file using `pd.read_csv()` from the URL.  
-   Assign custom column names `"Name"`, `"Autor"`, `"Jahr"`, and `"Genre"` by using the `names` parameter together with `header=None`.  
+   Assign custom column names `"Name"`, `"Autor"`, `"Jahr"`, and `"Genre"` by using the `names` parameter together with `header`.  
 3. Print the column names.  
 4. Print all values of the DataFrame using `.values`.  
 5. Print the value from the second row.

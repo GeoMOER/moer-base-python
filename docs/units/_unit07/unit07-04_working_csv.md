@@ -137,9 +137,52 @@ print(df[df.apply(lambda row: "Maria" in row.to_string(), axis=1)])
 # df.apply(...): Applies a function to each row of the DataFrame.
 # axis=1: Ensures the function is applied row-wise.
 # Each line demonstrates a different way of searching for "Maria" in the rows.
+        print("Row " + str(index) + ": " + row["Name"])
+```
 
+| Method | Speed | Why |
+|--------|--------|------|
+| `df[df["Name"] == "Maria"]` | ⭐⭐⭐⭐⭐ (fastest) | Fully vectorized, uses optimized Pandas internals |
+| `df.apply(lambda row: row["Name"] == "Maria", axis=1)` | ⭐⭐ | Row-wise Python function (slow) |
+| `df.apply(lambda row: "Maria" in row.values, axis=1)` | ⭐ | Checks all row values (slower) |
+| `df.apply(lambda row: "Maria" in row.to_string(), axis=1)` | 🚫 Very slow | Converts entire row to string; avoid |
+
+
+### Titanic Test
+
+{% include figure image_path="/assets/images/unit_images/u07/titanic.jpg" %}
+
+```python
+df = pd.read_csv("https://raw.githubusercontent.com/datasciencedojo/datasets/master/titanic.csv")
+
+df = pd.read_csv(url)
+
+start = time.perf_counter()
+print(df[df["Name"] == "Maria"])
+end = time.perf_counter()
+
+print("Elapsed time:", end - start, "seconds")
+
+start = time.perf_counter()
+print(df[df.apply(lambda row: row["Name"] == "Maria", axis=1)])
+end = time.perf_counter()
+
+print("Elapsed time:", end - start, "seconds")
+
+start = time.perf_counter()
+print(df[df.apply(lambda row: "Maria" in row.values, axis=1)])
+end = time.perf_counter()
+
+print("Elapsed time:", end - start, "seconds")
+
+start = time.perf_counter()
+print(df[df.apply(lambda row: "Maria" in row.to_string(), axis=1)])
+end = time.perf_counter()
+
+print("Elapsed time:", end - start, "seconds")
 
 ```
+
 ---
 
 
