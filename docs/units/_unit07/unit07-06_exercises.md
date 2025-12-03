@@ -44,12 +44,12 @@ Note: From this task on, use the original column names from the CSV file.
 
 1. Loop through all rows using `df.iterrows()`.  
 2. Search for the book titled **"The Alchemist"** by checking row["Title"].
-3. If the book is found, change the value in the `"Year"` column to **1990**.  
+3. If the book is found, change the value (df.loc[index, "Year"] = "1990") in the `"Year"` column to **1990**.  
 4. Print the updated row to verify that the change was successful.  
 5. Export the updated DataFrame to a new CSV file using `df.to_csv("filename.csv", index=False)`.  
    → You only need to write the filename (e.g. `"books_modified.csv"`), without a full path.  
    → The CSV file will be saved in the same folder where your Python file is located.  
-   → If you are using **Visual Studio Code**, you will find the file in the **current working directory** (the folder you see in the file explorer on the left side).
+   → If you are using **Jupyter online**, you will find the file in the **current working directory ** (the folder you see in the file explorer on the left side).
    
 Important note:
    → When using iterrows(), each row is only a copy (a Series).
