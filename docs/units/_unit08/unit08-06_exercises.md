@@ -1,6 +1,7 @@
 ---
 
 title: "EX | Exercises"
+toc: true
 header:
   image: /assets/images/unit_images/u08/header.png
   image_description: "if logic structure"
