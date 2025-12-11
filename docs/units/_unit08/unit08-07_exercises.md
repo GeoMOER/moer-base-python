@@ -72,7 +72,6 @@ In this exercise, you will load the Titanic dataset and perform a basic first ex
    - **A bar chart showing the number of male vs. female passengers**
     Use the categories from `df['Sex'].value_counts().index` as the x-axis labels.
     Use the counts from `df['Sex'].value_counts().values` as the bar heights.
-   
     ```python
     categories = df['Pclass'].value_counts().index
     ```
