@@ -27,6 +27,7 @@ To create statistical diagrams with Matplotlib later on, students should be fami
 | Select multiple columns | `df[['col1', 'col2']]` | Extract several columns |
 | Filter rows | `df[df['Age'] > 18]` | Select rows matching a condition |
 | Filter with multiple conditions | `df[(df['Sex']=='female') & (df['Survived']==1)]` | Combine logical conditions |
+| Filter by multiple values | `df[df['col'].isin(list)]` | Select rows where values are in a given list |
 | Sort data | `df.sort_values('col')` | Sort DataFrame by column |
 | Check missing values | `df.isna().sum()` | Count missing values per column |
 | Drop missing rows | `df.dropna()` | Remove rows with missing values |
@@ -34,6 +35,6 @@ To create statistical diagrams with Matplotlib later on, students should be fami
 | Create a new column | `df['new'] = ...` | Add derived/computed values |
 | Group data | `df.groupby('col')` | Group rows by a category |
 | Aggregate data | `df.groupby('col').mean()` | Compute statistics per group |
-
+| Set x-axis limits (plots) | `plt.xlim(min, max)` | Define start and end of the x-axis |
 
 
