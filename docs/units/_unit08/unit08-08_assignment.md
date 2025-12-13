@@ -8,6 +8,18 @@ header:
   caption: "Photo by [Free-Photos](https://pixabay.com/photos/) [Pixabay](https://pixabay.com/de/)"
 ---
 
+Please complete Exercises write your solutions in a single Python script named `unit08_assigment.py`.  
+
+
+Save all scripts in the same `unit08_assigment` folder, compress the folder into a `.zip` file, and upload it to ILIAS.
+
+For more information, please visit the following link:  
+https://geomoer.github.io/moer-base-python/unit00/unit00-04_submission_guidelines.html
+
+Make sure your code is clearly structured and includes comments where helpful.
+
+
+
 ## Dataset World Bank – Total Population by Country and Year
 
 ```python
