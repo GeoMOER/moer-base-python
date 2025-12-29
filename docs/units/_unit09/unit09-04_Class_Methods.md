@@ -104,6 +104,25 @@ my_vehicle.calculate_age(2018)
 - This is a Toyota vehicle.
 - The Toyota vehicle is 7 years old.
 
+## Using class variables inside methods
+
+Class variables are often used inside instance methods to determine behavior.
+
+```python
+def region(self):
+    for entry in Animal.animal_regions:
+        if entry[0] == self.name:
+            print(f"The {self.name} lives mostly in {entry[1]}.")
+            return
+```
+
+In this example:
+- `self.name` is instance-specific data
+- `Animal.animal_regions` is shared class-level data
+- the method combines both to produce a result
+
+
+---
 
 ## Summary
 
