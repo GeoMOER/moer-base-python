@@ -18,11 +18,39 @@
     {% if site.author.bitbucket %}
       <li><a href="https://bitbucket.org/{{ site.author.bitbucket }}"><i class="fab fa-fw fa-bitbucket" aria-hidden="true"></i> Bitbucket</a></li>
     {% endif %}
-    <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | absolute_url }}{% endif %}"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a></li>
+    <li>
+      <a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | absolute_url }}{% endif %}">
+        <i class="fas fa-fw fa-rss-square" aria-hidden="true"></i>
+        {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}
+      </a>
+    </li>
   </ul>
 </div>
 
-<div class="page__footer-copyright"> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a> &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}
-. {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a>, <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a> &amp; <a href="https://www.uni-marburg.de/fb19" rel="nofollow">Geography@Marburg University</a>.</div>
+<!-- AI transparency notice -->
+<div class="page__footer-ai-note" style="font-size: 0.85em; margin-top: 1em;">
+  <p>
+    <strong>AI transparency note:</strong><br>
+    Some illustrations and visual concepts on this website were created with the
+    assistance of artificial intelligence (AI) tools based on text prompts authored
+    by the course creator. These images are used for educational and illustrative
+    purposes only and do not represent real persons, places, or events.
+  </p>
+</div>
 
-
+<div class="page__footer-copyright">
+  <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+    <img alt="Creative Commons License" style="border-width:0"
+         src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" />
+  </a>
+  &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}.
+  {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }}
+  <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a>,
+  <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">
+    Minimal Mistakes
+  </a>
+  &amp;
+  <a href="https://www.uni-marburg.de/fb19" rel="nofollow">
+    Geography@Marburg University
+  </a>.
+</div>
