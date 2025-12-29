@@ -1,0 +1,11 @@
+{% assign units_sorted = site.units | sort: "nav_order" %}
+
+<nav class="nav__list">
+  <ul class="nav__items">
+    {% for u in units_sorted %}
+      <li>
+        <a href="{{ u.url | relative_url }}">{{ u.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</nav>

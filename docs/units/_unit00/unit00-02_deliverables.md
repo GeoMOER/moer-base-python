@@ -27,19 +27,20 @@ These assignments help deepen your understanding and are required to pass the co
 
 | #   | Assignment Name                                                             | Type        |
 |-----|------------------------------------------------------------------------------|-------------|
-| 01  | [Overview and the very Basics](/moer-base-python/unit01/unit01-07_Assignment.html)                | unmarked    |
-| 02  | [Variables and Basic Data Types](/moer-base-python/unit02/unit02-08_assigment.html)                  | unmarked    |
-| 03  | [Working with String and simple operators](/moer-base-python/unit03/unit03-06_assigment.html)                               | unmarked    |
-| 04  | [Conditionals](/moer-base-python/unit04/unit04-08_home_exercises.html)                             | unmarked    |
-| 05  | [Object Types](/moer-base-python/unit05/unit05-10_home_exercises.html)                                    | unmarked    |
-| 06  | [Loops](/moer-base-python/unit06/unit06-10_homeworks.html)                         | unmarked    |
-| 07  | [Working with Files](/moer-base-python/unit07/unit07-07_assignment.html)                                                | unmarked    |
-| 08  | [Simple Visualizations](/moer-base-python/unit08/unit08-07_home_exercises.html)                                    | unmarked    |
-| 09  | [OOP Fundamentals](/moer-base-python/unit09/unit09-06_Assigments.html)               | unmarked    |
-| 10  | [Course Review](/moer-base-python/unit10/unit10-09_assignment.html)               | unmarked    |
-| 11  | [Practical Python Applications](/moer-base-python/unit11/unit11-01_assignment.html)               | unmarked    |
-| 12  | [Final Thesis Submission](/moer-base-python/unit12/unit10-thesis_submission.html)                               | **marked**  |
-| 13  | Feedback                               | unmarked |
+| 01  | Overview and the very Basics                | unmarked    |
+| 02  | Variables and Basic Data Types                  | unmarked    |
+| 03  | Working with String and simple operators                              | unmarked    |
+| 04  | Conditionals                             | unmarked    |
+| 05  | Object Types                 | unmarked    |
+| 06  | Loops                        | unmarked    |
+| 07  | Working with Files           | unmarked    |
+| 08  | Simple Visualizations        | unmarked    |
+| 09  | Simple Visualizations        | unmarked    | 
+| 10  | OOP Fundamentals             | unmarked    |
+| 11  | Artificial Intelligence (AI) | unmarked    |
+| 12  | Course review and practical applications | unmarked    |
+| 13  | Final Thesis Submission      | **marked**  |
+| 14  | Feedback                     | unmarked    |
 
 Be aware that it will NOT be sufficient to start working on the assignments the day before the deadline. It will be necessary to solve a lot of disturbing and time-consuming problems in the programming world. So start early!!!
 {: .notice--warning}

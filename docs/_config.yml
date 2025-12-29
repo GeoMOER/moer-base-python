@@ -112,6 +112,9 @@ collections:
   unit10:
     output: true
     permalink: /:collection/:title.html
+  unit11:
+    output: true
+    permalink: /:collection/:title.html
   unit99:
     output: true
     permalink: /:collection/:title.html
@@ -233,8 +236,18 @@ defaults:
       path: ""
       type: unit10
     values:
-      category: "Course Review"
+      category: "10 AI"
       tags: "Unit 10"
+      layout: single
+      sidebar:
+        nav: "units"
+  # unit11
+  - scope:
+      path: ""
+      type: unit11
+    values:
+      category: "11 Course Review"
+      tags: "Unit 11"
       layout: single
       sidebar:
         nav: "units"

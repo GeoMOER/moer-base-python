@@ -61,22 +61,24 @@ Further details on the tutorial format and location will be announced soon.
 ---
 # Syllabus
 
-| Unit | Date |Topic | Content |
-|------|-----|-----|---------|
-| 01 |23.10.2025| Overview and the very Basics   | Set up everything for operating Python, take your own first steps in Python |
-| 02 |30.10.2025 |Variables and Basic Data Types | How data is measured and organized with an Python perspective               |
-| 03 |06.11.2025 |Working with String and simple operators               | How to use Strings and operators in Python                       |
-| 04 |13.11.2025 |Conditionals           | Learn how to use if, elif and else                                          |
-| 05 |20.11.2025 |Object Types                          | Get to know lists, arrays, matrices and data frames |
-| 06 |27.11.2025 |Loops               | Use for-loops and while-loops                               |
-| 07 |04.12.2025 |Working with files             | Work with csv files and sort, bind and merge your data  |
-| 08 |11.12.2025 |Simple Visualizations          | Quickly and simply visualize your data  |
-| 09 |18.11.2025 |OOP Fundamentals|Introduction to Object-Oriented Programming|
-| 10 |15.01.2026 |Course Review | tbd |
-| 11 |22.01.2026 | Practical Python Applications| Practical use of Python programs to solve real-world tasks and automate simple processes.|
-| 11 |29.01.2026 | Practical Python Applications |Practical use of Python programs to solve real-world tasks and automate simple processes.|
-| 11 |05.02.2026 | Final Thesis Submission | Notes and Questions |
-| 11 |12.02.2026 | Feedback | Course feedback |
+| Unit | Date       | Topic                                   | Content                                                                 |
+|------|------------|------------------------------------------|-------------------------------------------------------------------------|
+| 01   | 23.10.2025 | Overview and the very basics             | Set up everything needed to work with Python and take your first steps  |
+| 02   | 30.10.2025 | Variables and basic data types           | How data is measured and organized from a Python perspective            |
+| 03   | 06.11.2025 | Working with strings and simple operators| How to use strings and operators in Python                              |
+| 04   | 13.11.2025 | Conditionals                             | Learn how to use if, elif, and else                                     |
+| 05   | 20.11.2025 | Object data types                        | Get to know lists, arrays, matrices, and DataFrames                     |
+| 06   | 27.11.2025 | Loops                                    | Use for-loops and while-loops                                           |
+| 07   | 04.12.2025 | Working with files                      | Work with CSV files and sort, combine, and merge data                   |
+| 08   | 11.12.2025 | Simple visualizations                   | Quickly and simply visualize data                                       |
+| 09   | 18.12.2025 | Simple visualizations                   | Quickly and simply visualize data                                       |
+| 10   | 15.01.2026 | OOP fundamentals                        | Introduction to object-oriented programming                             |
+| 11   | 22.01.2026 | Artificial Intelligence (AI)            | Python concepts used in AI and data-driven applications                 |
+| 12   | 29.01.2026 | Course review and practical applications| Review core concepts and solve small practical tasks                    |
+| 13   | 05.02.2026 | Final project                           | Discussion and guidance                                                 |
+| 14   | 12.02.2026 | Feedback and final submission           | Notes, questions, and course feedback                                   |
+
+
 
 ---
 
