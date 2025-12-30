@@ -13,7 +13,6 @@ A **class** is like a blueprint for creating objects. It defines a set of attrib
 ## Example
 {% include figure image_path="/assets/images/unit_images/u09/person.png" %}
 
-_Image concept and AI prompt: Spaska Forteva — Generated with ChatGPT/DALL·E_
 
 Let’s take the example of a **human**.
 
