@@ -73,10 +73,10 @@ Further details on the tutorial format and location will be announced soon.
 | 08   | 11.12.2025 | Simple visualizations                   | Quickly and simply visualize data                                       |
 | 09   | 18.12.2025 | Simple visualizations                   | Quickly and simply visualize data                                       |
 | 10   | 15.01.2026 | OOP fundamentals                        | Introduction to object-oriented programming                             |
-| 11   | 22.01.2026 | Artificial Intelligence (AI)            | Python concepts used in AI and data-driven applications                 |
-| 12   | 29.01.2026 | Course review and practical applications| Review core concepts and solve small practical tasks                    |
-| 13   | 05.02.2026 | Final project                           | Discussion and guidance                                                 |
-| 14   | 12.02.2026 | Feedback and final submission           | Notes, questions, and course feedback                                   |
+| 11   | 22.01.2026 | Course review and practical applications | Review core concepts and solve small practical tasks                   |
+| 12   | 29.01.2026 | Artificial Intelligence (AI)            | Python concepts used in AI and data-driven applications                             |
+| 13   | 05.02.2026 | Final project (released)                | The final project is provided; no class session takes place             |
+| 14   | 12.02.2026 | Final project discussion and feedback   | Q&A on the final project, notes, questions, and course feedback         |
 
 
 

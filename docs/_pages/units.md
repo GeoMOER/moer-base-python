@@ -88,17 +88,17 @@ feature_row:
     
   - image_path: assets/images/unit_images/u10/grid.png
     alt: "Unit 10"
-    title: "Unit 10: AI"
-    excerpt:  "Artificial Intelligence"
-    url: "/unit10/unit10-01_Intro.html"
+    title: "Unit 10: Review"
+    excerpt:  "Course Review"
+    url: "/unit11/unit10-01_Intro.html"
     btn_label: "Show me more"
     btn_class: "btn--primary"
-
+    
   - image_path: assets/images/unit_images/u11/grid.png
     alt: "Unit 11"
-    title: "Unit 11: Review"
-    excerpt:  "Course Review"
-    url: "/unit11/unit11-01_Intro.html"
+    title: "Unit 11: AI"
+    excerpt:  "Artificial Intelligence"
+    url: "/unit10/unit11-01_Intro.html"
     btn_label: "Show me more"
     btn_class: "btn--primary"
 

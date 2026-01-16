@@ -236,7 +236,7 @@ defaults:
       path: ""
       type: unit10
     values:
-      category: "10 AI"
+      category: "10 Course Review"
       tags: "Unit 10"
       layout: single
       sidebar:
@@ -246,7 +246,7 @@ defaults:
       path: ""
       type: unit11
     values:
-      category: "11 Course Review"
+      category: "11 AI"
       tags: "Unit 11"
       layout: single
       sidebar:

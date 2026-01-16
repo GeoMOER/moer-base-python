@@ -1,42 +1,46 @@
 ---
 title: LM | Introduction
-toc: TRUE
-toc_float: TRUE
-header:
-  image: /assets/images/unit_images/u10/header.png
-  image_description: "Conceptual illustration of artificial intelligence and data-driven systems"
-  caption: "Conceptual illustration generated with the assistance of artificial intelligence."
+image: /assets/images/unit_images/u10/header.png
+image_description: "Android Market-share Worldwide 2018-2020"
+caption: "Mobile Android operating system market share by version worldwide from 2018 to 2020: [StatCounter](https://gs.statcounter.com/android-version-market-share/mobile/worldwide/#monthly-201907-202001) [via Statista](https://www.statista.com/statistics/921152/mobile-android-version-share-worldwide/)"
 ---
 
-Welcome to the **Artificial Intelligence (AI) introduction section** of the Base Python course.
 
-In this unit, you will explore **what Artificial Intelligence is**, how it relates to classical programming, and why Python plays a central role in modern AI and data-driven applications.
+Welcome to the **Base Python course review section**!  
 
-Artificial Intelligence is often associated with complex models and mathematics.  
-However, at its core, AI is built upon **structured data**, **rules**, and **reusable logic** — concepts you have already practiced throughout this course.
+This section is designed to help you **refresh your skills**, strengthen your confidence, and prepare you for applying Python in more advanced projects or real-world tasks.  
 
-Instead of training AI models, this unit focuses on **understanding the principles behind AI systems** and recognizing how Python constructs are used to simulate intelligent behavior.
+Instead of simply repeating concepts, you are encouraged to actively **practice**, explore additional examples, and reflect on how each topic connects to problem-solving in programming.  
 
-Take this time to connect your Python knowledge with real-world AI examples and to develop a **critical and informed perspective** on artificial intelligence.
+Take this time to revisit what you have learned, ask questions, and deepen your understanding — so you can continue your Python journey with a solid and confident foundation.
 
----
+## 💡 Short Note: Functions in Python
 
-## 💡 Short Note: Functions as Building Blocks of AI
-
-In Python, **functions** are reusable blocks of code that perform a specific task.  
-In AI systems, functions are often used to:
-
-- process input data  
-- apply rules or decision logic  
-- return predictions or classifications  
-
-A function helps structure code in a clear and modular way — a key requirement for scalable and maintainable AI systems.
+A **function** is a reusable block of code that performs a specific task.  
+You define a function using the `def` keyword, followed by the function name and parentheses.
 
 **Example:**
 
 ```python
-def analyze_input(text):
-    print(f"Analyzing input: {text}")
+def showName(name):
+    print(f"The given name is {name}!")
 
-user_input = input("Please enter a short text: ")
-analyze_input(user_input)
+tempName = input("Bitte deinen Namen schreiben")
+
+showName(tempName)
+```
+
+## 💡 Example: Function with Three Parameters and Default Values
+
+You can define default values for function parameters, so they don't have to be provided every time.
+
+**Example:**
+
+```python
+def describe_pet(name="Dog", age=2, color="brown"):
+    print(f"This is a {color} {name}, and it is {age} years old.")
+
+describe_pet()                 # Uses all default values
+describe_pet("Cat", 5, "black") # Uses custom values
+describe_pet(age=3)           # Only changes age
+```
