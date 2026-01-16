@@ -27,20 +27,20 @@ These assignments help deepen your understanding and are required to pass the co
 
 | #   | Assignment Name                                                             | Type        |
 |-----|------------------------------------------------------------------------------|-------------|
-| 01  | Overview and the very Basics                | unmarked    |
-| 02  | Variables and Basic Data Types                  | unmarked    |
-| 03  | Working with String and simple operators                              | unmarked    |
-| 04  | Conditionals                             | unmarked    |
-| 05  | Object Types                 | unmarked    |
-| 06  | Loops                        | unmarked    |
-| 07  | Working with Files           | unmarked    |
-| 08  | Simple Visualizations        | unmarked    |
-| 09  | Simple Visualizations        | unmarked    | 
-| 10  | OOP Fundamentals             | unmarked    |
+| 00  | Overview and the very Basics                | unmarked    |
+| 01  | Variables and Basic Data Types                  | unmarked    |
+| 02  | Working with String and simple operators                              | unmarked    |
+| 03  | Conditionals                             | unmarked    |
+| 04  | Object Types                 | unmarked    |
+| 05  | Loops                        | unmarked    |
+| 06  | Working with Files           | unmarked    |
+| 07  | Simple Visualizations        | unmarked    |
+| 08  | Simple Visualizations        | unmarked    | 
+| 09  | OOP Fundamentals             | unmarked    |
+| 10  | Course review and practical applications | unmarked    |
 | 11  | Artificial Intelligence (AI) | unmarked    |
-| 12  | Course review and practical applications | unmarked    |
-| 13  | Final Thesis Submission      | **marked**  |
-| 14  | Feedback                     | unmarked    |
+| 12  | Final Thesis Submission      | **marked**  |
+| 13  | Feedback                     | unmarked    |
 
 Be aware that it will NOT be sufficient to start working on the assignments the day before the deadline. It will be necessary to solve a lot of disturbing and time-consuming problems in the programming world. So start early!!!
 {: .notice--warning}
