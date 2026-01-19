@@ -8,13 +8,6 @@ header:
   caption: "Image concept and AI prompt: Spaska Forteva – Generated with ChatGPT/DALL·E"
 ---
 
-# 📚 Exercises – Think & Apply
-
-> These exercises are designed to promote critical thinking, problem-solving, and real-world application.  
-> Ideal for revision, exam prep, and group work.
-
----
-
 ## 1. Basic Data Types – "What is it?"
 
 > **Task:**  
