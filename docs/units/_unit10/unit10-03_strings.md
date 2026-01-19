@@ -1,5 +1,7 @@
 ---
 title: LM | Working with Strings and Simple Operators
+toc: TRUE
+toc_float: TRUE
 header:
   image: /assets/images/unit_images/u10/header.png
   image_description: "Android Market-share Worldwide 2018-2020"
@@ -44,30 +46,3 @@ You also reviewed basic operators, including:
 - **Logical operators** (e.g., `and`, `or`, `not`)
 
 
-## Exercise 1: Working with Strings (Basics and Slicing)
-
-**Task:**  
-Given the following string:
-
-```python
-text = "Learning Python is fun!"
-```
-
-1. Print the **first character** of the string.  
-2. Print the word `"Python"` using **string split**. 
-3. Count how many characters the string contains and print the result.
-4. Repeat the string `"Python "` **three times** using an operator. 
-
-## Exercise 2: String Comparison and Logical Operators
-
-**Task:**  
-Write a program that compares two strings and evaluates different conditions.
-
-
-```python
-word1 = "Python"
-word2 = "python"
-```
-
-1. Check whether `word1` and `word2` are **exactly equal**.  
-2. Check whether they are equal **ignoring uppercase and lowercase letters**. 

@@ -1,5 +1,7 @@
 ---
 title: LM | Loops
+toc: TRUE
+toc_float: TRUE
 header:
   image: /assets/images/unit_images/u10/header.png
   image_description: "Android Market-share Worldwide 2018-2020"

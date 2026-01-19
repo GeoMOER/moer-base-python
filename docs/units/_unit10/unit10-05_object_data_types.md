@@ -1,5 +1,7 @@
 ---
 title: LM | Object Data Types
+toc: TRUE
+toc_float: TRUE
 header:
   image: /assets/images/unit_images/u10/header.png
   image_description: "Android Market-share Worldwide 2018-2020"
@@ -8,33 +10,87 @@ header:
 
 # Object Data Types (Lists, Arrays, DataFrames)
 
-Python offers various complex data types to store collections of data:
+In Python, **object data types** are used to store and manage **collections of values**.  
+They are essential when working with real-world data, which usually consists of **many related values**, not just single numbers or strings.
 
-- **Lists**: Ordered, mutable collections of items
-- **Arrays**: More efficient arrays of homogeneous data, often using `numpy`
-- **DataFrames**: Tabular data structures from the `pandas` library, ideal for data analysis
+The most important object data types introduced so far are:
 
-Mastering these types allows you to work efficiently with larger and more complex data sets.
+- **Lists**
+- **Arrays (NumPy)**
+- **DataFrames (pandas)**
 
-## Examples
+Each of these structures serves a different purpose and is optimized for specific tasks.
 
+---
+
+## Lists
+
+A **list** is an ordered and **mutable** collection of elements.
+
+### Key properties of lists:
+- Elements can have **different data types**
+- Order is preserved
+- Elements can be added, removed, or modified
+- Indexing starts at **0**
+
+### Typical use cases:
+- Storing small to medium collections
+- Mixed data types
+- Flexible data manipulation
+
+### Example
 ```python
-# List example
-fruits = ["apple", "banana", "cherry"]
-fruits.append("orange")
-print(fruits)
-
-# Array example (requires numpy)
-import numpy as np
-numbers = np.array([1, 2, 3, 4])
-print(numbers * 2)
-
-# DataFrame example (requires pandas)
-import pandas as pd
-data = {
-    "Name": ["Alice", "Bob", "Charlie"],
-    "Age": [25, 30, 35]
-}
-df = pd.DataFrame(data)
-print(df)
+fruits = [...
 ```
+
+## Arrays (NumPy)
+
+An array is a data structure provided by the NumPy library.
+Unlike lists, NumPy arrays are designed for numerical computations.
+
+### Key properties of arrays:
+
+- All elements must have the same data type
+- Much faster than lists for mathematical operations
+- Support vectorized operations (no explicit loops needed)
+
+### Typical use cases:
+
+- Numerical data
+- Scientific computing
+- Mathematical operations on large datasets
+
+###Example
+```python
+import numpy as np
+...
+```
+
+##DataFrames (pandas)
+
+A DataFrame is a two-dimensional, table-like data structure provided by the pandas library.
+
+### Key properties of DataFrames:
+
+- Data organized in rows and columns
+- Each column has a name
+- Columns can have different data types
+- Ideal for reading, analyzing, and cleaning data
+
+### Typical use cases:
+
+- CSV / Excel data
+- Data analysis
+- Statistics and visualization
+
+
+### Example
+```python
+import pandas as pd
+...
+
+
+
+
+
+
