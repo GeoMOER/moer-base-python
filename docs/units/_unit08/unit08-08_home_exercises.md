@@ -1,6 +1,6 @@
 ---
 
-title: "A | Assignment
+title: "A | Assignment"
 toc: true
 header:
   image: /assets/images/unit_images/u08/header.png
