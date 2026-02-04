@@ -20,7 +20,8 @@ On this website, you can **start one request and directly compare the answers of
 **Example question using a non-existent term:**
 > “What do you understand by *koridomanustrukture*?”
 
-#### My results from AI Model Comparison (Chatbot Arena).You are welcome to experiment with other questions and compare how different AI models handle them.
+#### My results from AI Model Comparison (Chatbot Arena).  
+You are welcome to experiment with other questions and compare how different AI models handle them.
 
 ### Question
 **Prompt:**

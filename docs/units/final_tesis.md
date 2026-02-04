@@ -1,12 +1,80 @@
 ---
-title: A | Thesis Sommer 2025 Base Python Kurs
+title: A | Thesis Sommer 2026 Base Python Kurs
 header:
   image: /assets/images/unit_images/u10/header.png
   image_description: "Android Market-share Worldwide 2018-2020"
   caption: "Mobile Android operating system market share by version worldwide from 2018 to 2020: [StatCounter](https://gs.statcounter.com/android-version-market-share/mobile/worldwide/#monthly-201907-202001) [via Statista](https://www.statista.com/statistics/921152/mobile-android-version-share-worldwide/)"
 ---
 
-## 🎯 Simple Tasks for Warm-up
+#  Final Thesis – Base Python (Summer Semester 2026)
+
+This final assignment assesses your understanding of **basic Python concepts**,  
+**logical thinking**, and your ability to **explain code in your own words**.
+
+The tasks combine programming, data handling, and reflection.  
+They are designed so that **understanding and explanation** are just as important as correct code.
+
+---
+
+## Important Note on Comments and Explanations (READ CAREFULLY)
+
+### Comments are part of the evaluation!
+
+For **every task**, your code **must include comments** that:
+
+- explain **what your code does**
+- explain **why you chose this solution**
+- are written in **your own words**
+- reflect **your personal understanding**
+
+🚫 **AI-generated comments are NOT allowed.**  
+🚫 Copy-paste explanations (from AI tools, websites, or other students) are **not acceptable**.
+
+> Your code may work perfectly — but **without clear, personal comments, you will lose points.**
+
+---
+
+## Why comments matter
+
+Programming is not only about producing correct output.  
+It is also about being able to:
+
+- explain your logic
+- describe your decisions
+- show that you understand what happens step by step
+
+In professional and academic contexts, **readable and well-commented code is essential**.
+
+---
+
+## Comment Evaluation (applies to EVERY task)
+
+For each task, you can earn:
+
+- **+0.5 bonus points** for **clear, meaningful comments**
+- Bonus points are **not included in the total score**,  
+  but **can help you reach a higher grade** if you are close to a grade boundary.
+
+  Poor, generic, or AI-style comments may lead to **point deductions**.
+
+---
+
+## Required Comment Structure
+
+At the **top of each script or function**, include a short description like this:
+
+```python
+"""
+Description:
+This script solves Task X of the final thesis.
+
+It explains:
+- what data is processed
+- which logic is used
+- what result is produced
+"""
+```
+
 
 ### Task 1: Even and Odd Numbers *(5 p.)*
 
@@ -75,11 +143,12 @@ Write a program that:
 
 ---
 
-### 🔍 Task 6: Search for a last name in a DataFrame *(15 p.)*
+### Task 6: Search for a last name in a DataFrame *(15 p.)*
 
 **Description:**
 
-In this task, you will practice iterating over a DataFrame and stopping a search as soon as a condition is met. This time, you will search only by last name.
+In this task, you will practice iterating over a DataFrame and stopping a search as soon as a condition is met. 
+This time, you will search only by last name.
 
 **Preparation:**
 
