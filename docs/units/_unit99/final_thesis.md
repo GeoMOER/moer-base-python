@@ -1,12 +1,12 @@
 ---
-title: A | Thesis Sommer 2026 Base Python Kurs
+title: A | Final Thesis 
 header:
   image: /assets/images/unit_images/u10/header.png
   image_description: "Android Market-share Worldwide 2018-2020"
   caption: "Mobile Android operating system market share by version worldwide from 2018 to 2020: [StatCounter](https://gs.statcounter.com/android-version-market-share/mobile/worldwide/#monthly-201907-202001) [via Statista](https://www.statista.com/statistics/921152/mobile-android-version-share-worldwide/)"
 ---
 
-#  Final Thesis – Base Python (Summer Semester 2026)
+#  Final Thesis – Base Python (Winter Semester 2025/2026)
 
 This final assignment assesses your understanding of **basic Python concepts**,  
 **logical thinking**, and your ability to **explain code in your own words**.
@@ -16,9 +16,8 @@ They are designed so that **understanding and explanation** are just as importan
 
 ---
 
-## Important Note on Comments and Explanations (READ CAREFULLY)
 
-### Comments are part of the evaluation!
+## Final Instructions for Comments and Code Quality
 
 For **every task**, your code **must include comments** that:
 
@@ -55,7 +54,7 @@ For each task, you can earn:
 - Bonus points are **not included in the total score**,  
   but **can help you reach a higher grade** if you are close to a grade boundary.
 
-  Poor, generic, or AI-style comments may lead to **point deductions**.
+Poor, generic, or AI-style comments may lead to **point deductions**.
 
 ---
 
@@ -74,6 +73,16 @@ It explains:
 - what result is produced
 """
 ```
+
+> **Good comments are rewarded!**  
+> For each task, you can receive an extra **0.5 points** for clear, well-structured comments.  
+> These points are **not included in the main grade calculation**, but they can help you if you are just below a grade boundary.  
+>  
+> 💡 For example: If you have 38 points (below passing level), but you wrote very good comments, you can receive enough extra points to pass (grade 4).  
+>  
+> 👉 So it is always worth it to write clear and meaningful comments!
+
+
 
 
 ### Task 1: Even and Odd Numbers *(5 p.)*
@@ -304,6 +313,7 @@ Create a base class `Vehicle` with common attributes such as `color`, `year`, `e
 - Task 5: 6 p.
 - Task 6: 15 p.
 - Task 7: 15 p.
+- Task 8: 15 p.
 - Task 9: 15 p.
 - Bonus Task: 15 p. (not included in final score)
 
@@ -312,54 +322,11 @@ Create a base class `Vehicle` with common attributes such as `color`, `year`, `e
 ### Suggested grades
 
 - From 42 p. = grade 4 (pass)
-- From 51 p. = grade 3
-- From 60 p. = grade 2
-- From 69 p. = grade 1
+- From 52 p. = grade 3
+- From 62 p. = grade 2
+- From 72 p. = grade 1
 
 
-## Instruction summary
- 
-1. Please include a short description at the top of each script or function explaining what your code does and what is being calculated.
-2. Inside your code, write meaningful comments to describe each important step, logic, and variable updates.
-3. Clear comments help show your understanding, make your work easier to follow, and improve the overall quality of your code.
-4. 🚫 Do not copy any example code directly; always adapt it to your own logic and task requirements.
-
-```python
-
-"""
-Description:
-This program solves Task X from the thesis assignment.
-
-It includes:
-- A loop that processes a sequence or list.
-- A condition to check certain properties of elements (e.g., number properties or string checks).
-- Printing or saving specific results based on conditions.
-
-Please adjust this description to fit your specific task and explain clearly what is being calculated.
-"""
-
-# Example of a loop (replace with your actual loop)
-for item in my_list:
-    # Check a condition (replace with your actual condition)
-    if some_condition:
-        # Add a comment explaining what happens here
-        pass
-    else:
-        # Another comment for alternative case
-        pass
-
-# Finally, print or return results with a clear explanation
-```
-
-## 💬 Note about comments
-
-> ✍️ **Good comments are rewarded!**  
-> For each task, you can receive an extra **0.5 points** for clear, well-structured comments.  
-> These points are **not included in the main grade calculation**, but they can help you if you are just below a grade boundary.  
->  
-> 💡 For example: If you have 38 points (below passing level), but you wrote very good comments, you can receive enough extra points to pass (grade 4).  
->  
-> 👉 So it is always worth it to write clear and meaningful comments!
 
 ## 💬 Note about the Bonus Task
 
