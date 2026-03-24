@@ -90,7 +90,7 @@ feature_row:
     alt: "Unit 10"
     title: "Unit 10: Review"
     excerpt:  "Course Review"
-    url: "/unit11/unit10-01_Intro.html"
+    url: "/unit10/unit10-01_Intro.html"
     btn_label: "Show me more"
     btn_class: "btn--primary"
     
@@ -98,7 +98,7 @@ feature_row:
     alt: "Unit 11"
     title: "Unit 11: AI"
     excerpt:  "Artificial Intelligence"
-    url: "/unit10/unit11-01_Intro.html"
+    url: "/unit11/unit11-01_Intro.html"
     btn_label: "Show me more"
     btn_class: "btn--primary"
 
