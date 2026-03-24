@@ -26,7 +26,7 @@ Diese Webseite dient ausschließlich dem **Lehrzweck** der Philipps-Universität
 
 ### Technische Umsetzung
 
-Die Webseite basiert auf **Jekyll** und wird im Rahmen von Lehrprojekten entwickelt. Die technische Pflege erfolgt durch Lehrende **Diplom-Informatikerin Spaska Forteva**, Fachbereich Geographie, Philipps-Universität Marburg, unter Anleitung der Fakultät für Mathematik und Informatik.
+Die Webseite basiert auf **Jekyll** und wird im Rahmen von Lehrprojekten entwickelt. Die technische Pflege erfolgt durch Lehrende **Diplom-Informatikerin Spaska Forteva**, Fachbereich Geographie, Philipps-Universität Marburg.
 
 ### Haftungsausschluss
 
