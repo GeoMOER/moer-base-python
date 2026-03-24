@@ -1,4 +1,5 @@
 ---
+layout: splash
 title: Impressum
 permalink: /impressum.html
 ---
@@ -25,7 +26,7 @@ Diese Webseite dient ausschließlich dem **Lehrzweck** der Philipps-Universität
 
 ### Technische Umsetzung
 
-Die Webseite basiert auf Python (z. B. Flask, Django oder statische Generatoren) und wird im Rahmen von Lehrprojekten entwickelt. Die technische Pflege erfolgt durch Studierende und Lehrende der Fakultät für Mathematik und Informatik unter Anleitung.
+Die Webseite basiert auf **Jekyll** und wird im Rahmen von Lehrprojekten entwickelt. Die technische Pflege erfolgt durch Lehrende **Diplom-Informatikerin Spaska Forteva**, Fachbereich Geographie, Philipps-Universität Marburg, unter Anleitung der Fakultät für Mathematik und Informatik.
 
 ### Haftungsausschluss
 
