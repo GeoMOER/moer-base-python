@@ -8,14 +8,14 @@ permalink: /impressum.html
 
 ### Verantwortlich für den Inhalt
 
-Dr. Dirk Zeuss
-Substitute professor
-Environmental Informatics
-
-Philipps-Universität Marburg
-Faculty of Geography
-Deutschhausstrasse 12 (F14 | 00A08)
-35037 Marburg
+<address>
+  <p><strong>Dr. Dirk Zeuss</strong><br>
+  Substitute professor<br>
+  Environmental Informatics<br>
+  Philipps-Universität Marburg<br>
+  Deutschhausstrasse 12 (F14 | 00A08)<br>
+  35037 Marburg</p>
+</address>
 ### Kontakt
 
 E-Mail: [dirk.zeuss@uni-marburg.de](mailto:dirk.zeuss@uni-marburg.de)  
@@ -46,4 +46,4 @@ Soweit Inhalte Dritter enthalten sind, werden diese entsprechend gekennzeichnet.
 
 ---
 
-*Stand: 23.03.2026*
+*Stand: 24. März 2026*

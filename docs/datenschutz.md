@@ -9,12 +9,17 @@ permalink: /datenschutz.html
 
 Die Verantwortliche für die Verarbeitung personenbezogener Daten im Sinne der Datenschutz-Grundverordnung (DSGVO) ist:
 
-Fakultät für Mathematik und Informatik  
-Philipps-Universität Marburg  
-Hans-Meerwein-Straße 1  
-35032 Marburg  
+### Verantwortlich für den Inhalt
 
-E-Mail: [lehrprojekt@uni-marburg.de](mailto:lehrprojekt@uni-marburg.de)
+<address>
+  <p><strong>Dr. Dirk Zeuss</strong><br>
+  Substitute professor<br>
+  Environmental Informatics<br>
+  Philipps-Universität Marburg<br>
+  Deutschhausstrasse 12 (F14 | 00A08)<br>
+  35037 Marburg</p>
+</address>
+
 
 ---
 
@@ -70,7 +75,7 @@ Als Nutzer haben Sie folgende Rechte im Sinne der DSGVO:
 - **Recht auf Datenübertragbarkeit:** Wenn technisch möglich, können Sie Ihre Daten in einem strukturierten, gängigen und maschinenlesbaren Format erhalten.
 
 Bitte richten Sie Ihre Anfragen an:  
-[lehrprojekt@uni-marburg.de](mailto:lehrprojekt@uni-marburg.de)
+[dirk.zeuss@uni-marburg.de](mailto:dirk.zeuss@uni-marburg.de) 
 
 ---
 
@@ -91,4 +96,4 @@ Wir behalten uns vor, diese Datenschutzerklärung zu aktualisieren, falls sich d
 
 ---
 
-*Stand: 05. April 2025*
+*Stand: 24. März 2026*
