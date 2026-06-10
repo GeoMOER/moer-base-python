@@ -1,5 +1,5 @@
 ---
-title: "LM | User Interface"
+title: "LM | Jupyter"
 toc: true
 header:
   image: /assets/images/unit_images/u01/header.png
@@ -10,104 +10,113 @@ header:
 
 ## Working with Jupyter (Uni Marburg Environment)
 
-Python can be used in different development environments — such as Visual Studio Code, PyCharm, or Thonny — but in this course we will **only use Jupyter** provided by **Philipps-Universität Marburg**.  
-Jupyter is web-based, requires **no installation**, and is ideal for beginners and data-driven tasks.
+Python can be used in many development environments such as Visual Studio Code, PyCharm, Thonny, or Jupyter.
+
+In this course, we primarily use **Jupyter** provided by **Philipps-Universität Marburg**. Jupyter is web-based, requires no installation, and provides an easy way to learn and practice Python programming.
 
 ---
 
 ### Accessing Jupyter at Uni Marburg
 
-You can access Jupyter directly through your browser at:  
-👉 [https://jupyter.uni-marburg.de](https://jupyter.uni-marburg.de)
+You can access Jupyter directly through your browser:
 
-Log in with your university account to start your personal workspace.  
-You can create and save notebooks (`.ipynb` files), run Python code, and explore data — all inside your web browser.
+👉 https://jupyter.uni-marburg.de
+
+Log in with your university account to access your personal workspace.
+
+Within Jupyter, you can:
+
+* create and edit notebooks (`.ipynb` files),
+* write and execute Python code,
+* save your work,
+* organize files and folders.
 
 ---
 
 ### What is Jupyter?
 
-Jupyter offers two main interfaces:
+Jupyter provides two common interfaces:
 
-- **Jupyter Notebook** – simple and linear, good for writing code and explanations step by step.  
-- **Jupyter Lab** – a modern interface where you can open multiple notebooks, terminals, text files, and folders side by side.
+* **Jupyter Notebook** – a simple environment for writing code and explanations step by step.
+* **JupyterLab** – a more advanced interface that allows multiple files, notebooks, terminals, and folders to be displayed simultaneously.
 
-Both environments allow you to combine code, text, and images in one interactive document — perfect for learning, experimenting, and documenting your work.
-
----
-
-### 🏠 Working on Your Homework with Jupyter
-
-You can work on all exercises directly inside Jupyter.  
-Each task can be placed in a new code cell or text cell.  
-
-Follow these steps:
-
-1. Complete all exercises in your Jupyter notebook.  
-
-2. When finished, open a new cell at the top and add:
-   ```python
-   # unitXX_assignment.py
-   # Student ID: 12345678
-   # Name: <Your Name>
-   ```
-3.💡 *All explanations must be written as comments inside your Python code, for example:*
-  ```python
-  # Task 1: Why is Python popular?
-  # - Easy to learn
-  # - Many libraries
-  # - Free and open source
-  ```
+Both environments allow you to combine code, text, and visual output in a single interactive document.
 
 ---
 
-## 💾 Exporting Your Code as a `.py` file.
+### Saving and Downloading Your Work
 
-You’ll need to **save your Jupyter code as a regular Python file**, to upload it to ILIAS or run it locally.
+All work completed in Jupyter is automatically saved within your university workspace.
 
-- Copy your final code from the notebook into a local text editor. 
+You can also download your notebooks to your local computer for backup purposes or to continue working outside the university environment.
 
-- Save it as **`unitXX_assignment.py`**.  
+To download a notebook:
 
----
-
-### 2️⃣ Run the Script Locally
-
-Now you can run your `unitXX_assignment.py` file outside Jupyter:
-
-1. Open a **Command Prompt (Windows)** or **Terminal (macOS/Linux)**.  
-
-2. Navigate to the folder where you saved the file:
-
-   ```bash
-   cd path/to/your/folder
-   ```
-   
-3. Run the script:
-   ```bash
-   python unit01_assignment.py
-   ```
-   You should see:
-   ```
-   Hello World
-   ```
-   
-## ❗To uload **this file as zip** to ILIAS – see: [Submission Guidelines](/moer-base-python/unit00/unit00-04_submission_guidelines.html)
-
-### ✨ Advantages of Using Jupyter
-
-- No installation needed — everything runs in your browser.  
-- Immediate feedback: execute each cell and see results below.  
-- Markdown support for comments, documentation, and equations.  
-- Already configured with essential Python libraries at Uni Marburg.  
-- Your work is automatically stored in your university account.
+1. Open the notebook.
+2. Select **File → Download**.
+3. Save the file to your local computer.
 
 ---
 
-### 🚀 Summary
+### Exporting Python Code
 
-In this course we use **Jupyter Uni-Marburg** for all programming activities.  
-Although other environments (VS Code, PyCharm, etc.) exist, Jupyter provides the easiest and most consistent setup for everyone.  
-You’ll write and test your code directly in Jupyter — and submit your final solutions as a single `.py` file.
+Jupyter notebooks use the file extension `.ipynb`.
 
-👉 [Start here: Jupyter Uni-Marburg](https://jupyter.uni-marburg.de)
+If you want to work outside Jupyter, you can export (File->Save and export Notebook as->Executable Script) or copy your code into a regular Python file:
+
+```python
+print("Hello World")
+```
+
+Save the file as:
+
+```text
+my_script.py
+```
+
+---
+
+### Running Python Scripts Locally
+
+If Python is installed on your computer, you can run your script outside Jupyter.
+
+Open a Command Prompt (Windows) or Terminal (Linux/macOS) and navigate to the folder containing your script:
+
+```bash
+cd path/to/your/folder
+```
+
+Run the script:
+
+```bash
+python my_script.py
+```
+
+or on some Windows systems:
+
+```bash
+py my_script.py
+```
+
+This allows you to continue practicing Python even without Jupyter.
+
+---
+
+### Advantages of Using Jupyter
+
+* No installation required.
+* Works directly in your browser.
+* Immediate feedback after running code.
+* Combines code, text, and graphics in one document.
+* Already configured with the required Python environment.
+* Work is stored in your university account.
+
+---
+
+### Summary
+
+In this course, Jupyter Uni-Marburg serves as the primary programming environment.
+
+Students are encouraged to use Jupyter during the course, but they may also download their files and continue working locally using a Python installation of their choice.
+
+👉 https://jupyter.uni-marburg.de

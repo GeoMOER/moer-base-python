@@ -1,5 +1,5 @@
 ---
-title: "A | Assignment"
+title: "KC | Knowledge Check"
 toc: true
 header:
   image: /assets/images/unit_images/u03/header.png
@@ -7,184 +7,93 @@ header:
   caption: "Photo by [Franki Chamaki](https://unsplash.com/@franki?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) [from unsplash](https://unsplash.com/s/photos/data?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)"
 ---
 
-## 🧹 Strings: Functions and Methods. Simple operators
+The Knowledge Check is intended to support learning and self-assessment. The questions highlight the key concepts of this unit and help prepare for the final examination.
 
-Please complete Exercises and write your solutions in a single Python script named `unit03_assigment.py`.  
-
-
-Save all scripts in the same `unit03_assigment` folder, compress the folder into a `.zip` file, and upload it to ILIAS.
-
-For more information, please visit the following link:  
-https://geomoer.github.io/moer-base-python/unit00/unit00-04_submission_guidelines.html
-
-Make sure your code is clearly structured and includes comments where helpful.
-
-### Exercise 1 – Short Text Questions
-
-Answer the following questions in complete sentences:
-
-* What are strings in Python?
-* What does it mean that strings are *immutable*?
-* What operators do you know in Python?
+The Knowledge Check is not graded.
 
 ---
 
-### Exercise 2 – String Functions and Methods
+### 1️⃣ Strings
 
-Use the following text:
+What is a string in Python?
+
+Explain in your own words what it means that strings are *immutable*.
+
+---
+
+### 2️⃣ String Methods
+
+Assume:
 
 ```python
-text = "Python is fun and powerful!"
+text = "Python is fun"
 ```
 
-Write code that:
+Write the Python statements that:
 
-* Prints the text in **uppercase**
-* Prints the **number of characters** using `len()`
-* Replaces the word `"fun"` with `"easy"`
-* Splits the text into a list of words
+* count the number of characters and print the result
+* replace "fun" with "easy" and print the result.
 
 ---
 
-### Exercise 3 – `len()` and `print()` with multiple parameters
+### 3️⃣ Logical Operators
 
-Use this string:
-
-```python
-sentence = "Learning Python is exciting"
-```
-
-Write code that:
-
-* Prints the sentence **two times in one line**, separated by a space
-* Prints the **total number of characters** in the sentence (including spaces)
-
----
-
-### Exercise 4 – `find()` and `count()` with optional parameters
-
-Use this string:
-
-```python
-quote = "Practice makes perfect. Keep practicing to improve."
-```
-
-Write code that:
-
-* Finds the **position** of the first occurrence of the word `"practice"` (case-sensitive!)
-* Counts how many times the word `"practice"` appears (case-sensitive)
-* Searches for the word `"e"` starting from index 10
-* Counts how many times the word `"e"` appears between index 10 and 30
-
----
-
-## 🧠 Logical Operators
-
-### Exercise 5 – Boolean Logic
-
-Use the variables:
+Given:
 
 ```python
 a = True
 b = False
 ```
 
-Calculate and print the results of:
+What are the results of:
 
-* `a and b`
-* `a or b`
-* `not a`
-
-Add short comments explaining the output.
+```python
+a and b
+a or b
+not a
+```
 
 ---
 
-### Exercise 6 – Logical Expression Without `if`
+### 4️⃣ Comparison Operators
 
-Use:
-
-```python
-x = 150
-y = 25
-```
-
-Create a variable `result` that stores the result of this logical expression:
+Given:
 
 ```python
-(x > 100 or y > 100) and x > 0 and y > 0
+x = 25
+y = 30
 ```
 
-Then print the value of `result`.
+Write Python expressions, use print() function that check:
+
+* whether `x` is smaller than `y`,
+* whether `x` is equal to `y`,
+* whether `x` is different from `y`.
 
 ---
 
-## 📊 Comparison Operators
+### 5️⃣ Mathematical Operators
 
-### Exercise 7 – Comparing Strings
-
-Use:
-
-```python
-name1 = "Alice"
-name2 = "Bob"
-```
-
-Write code that:
-
-* Checks if the names are **equal**
-* Compares their **lengths** and prints which one is longer or if they are the same length
-
----
-
-### Exercise 8 – Range Check
-
-Use a variable:
-
-```python
-number = 35
-```
-
-Write code that checks whether the number is **between 10 and 50**, inclusive, and prints the result.
-
----
-
-## 📈 Mathematical Operators
-
-### Exercise 9 – Basic Calculations
-
-Use:
+Given:
 
 ```python
 a = 12
 b = 5
+c = "Python"
 ```
 
-Perform and print the result of each of the following:
+What are the results of:
 
-* `a + b`
-* `a - b`
-* `a * b`
-* `a / b`
-* `a % b`
+```python
+a + c
+b * c
+a / b
+a % b
+```
 
 ---
 
-### Exercise 10 – BONUS: Combined String Methods
+## Discussion
 
-Use the following string:
+The solutions will be discussed during the course session.
 
-```python
-text = "Success is not the key to happiness. Happiness is the key to success."
-```
-
-Write code that:
-
-* Counts how many times the word `"key"` appears in the text (case-sensitive)
-* Finds the position of the **second occurrence** of the word `"success"` (case-insensitive)
-* Capitalizes the first letter of the sentence
-* Replaces the second `"key"` with the word `"secret"`
-
-*Hints:*
-
-* Use `.count()`, `.lower()`, `.rfind()`, `.capitalize()`, and `.replace()`
-* To find the second occurrence, first find the index of the first and start a second search from just after that position

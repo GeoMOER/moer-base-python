@@ -78,25 +78,5 @@ Learn how to create and manipulate data frames using pandas.
     
 ---
 
-## Task 3: Matrices
-
-### Description:
-Learn how to create and manipulate matrices using numpy.
-
-### Instructions:
-1. Create a 2x3 matrix with the following values:
-    ```
-    [[1, 2, 3],
-     [4, 5, 6]]
-    ```
-2. Perform the following operations:
-    - Transpose the matrix.
-    - Calculate the sum of all elements.
-    - Multiply each element of the matrix by 2.
-    - Access the element at row 1, column 2.
-
----
-
-
 
 Happy coding!
