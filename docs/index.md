@@ -49,35 +49,46 @@ By the end of this course, participants will be able to:
 
 ---
 
+
 # Setting
+The first session will take place on Thursday, 15 October 2026, at 14:15 (German time) in room F 14 | 00A19.
 
-This course will take place in a hybrid synchronous setting in presence in room F 14 \| 00A19 and online. In addition, there will be regular meetings with a tutor. Details on the additional tutor sessions will be provided in the first regular session, which will take place on Wednesday 23.10.2025 at 14:15 am (German time) in room F 14 \| 00A19. The virtual room for online participants must be accessed via ILIAS. Note that the tutor sessions are voluntary.
+Throughout the semester, short learning quizzes will be offered at the end of each unit to support continuous learning and self-assessment.
+
+Further information regarding study requirements, assessments, examination procedures, course organization, and participation can be found in the corresponding sections of this course website.
+
 {: .notice--info}
+A weekly tutorial session will take place on Fridays from 15:00 to 17:00 (German time) in room F 14 | 00A19.
 
-🆕 **A weekly tutorial will take place on Fridays from 15:00 to 17:00 (German time) in room F 14 \| 00A19**.  
-Further details on the tutorial format and location will be announced soon.
+The tutorial sessions are voluntary and provide additional opportunities to discuss course content, ask questions, and practice programming skills.
+
+Further details will be announced during the first course meeting.
+
+The tutorial sessions are voluntary and provide additional opportunities to discuss course content, ask questions, and practice programming skills.
+
+Further details will be announced during the first course meeting.
 {: .notice--info}
 
 ---
+
 # Syllabus
 
-| Unit | Date       | Topic                                   | Content                                                                 |
-|------|------------|------------------------------------------|-------------------------------------------------------------------------|
-| 01   | 23.10.2025 | Overview and the very basics             | Set up everything needed to work with Python and take your first steps  |
-| 02   | 30.10.2025 | Variables and basic data types           | How data is measured and organized from a Python perspective            |
-| 03   | 06.11.2025 | Working with strings and simple operators| How to use strings and operators in Python                              |
-| 04   | 13.11.2025 | Conditionals                             | Learn how to use if, elif, and else                                     |
-| 05   | 20.11.2025 | Object data types                        | Get to know lists, arrays, matrices, and DataFrames                     |
-| 06   | 27.11.2025 | Loops                                    | Use for-loops and while-loops                                           |
-| 07   | 04.12.2025 | Working with files                      | Work with CSV files and sort, combine, and merge data                   |
-| 08   | 11.12.2025 | Simple visualizations                   | Quickly and simply visualize data                                       |
-| 09   | 18.12.2025 | Simple visualizations                   | Quickly and simply visualize data                                       |
-| 10   | 15.01.2026 | OOP fundamentals                        | Introduction to object-oriented programming                             |
-| 11   | 22.01.2026 | Course review and practical applications | Review core concepts and solve small practical tasks                   |
-| 12   | 29.01.2026 | Artificial Intelligence (AI)            | Python concepts used in AI and data-driven applications                             |
-| 13   | 05.02.2026 | Final project (released)                | The final project is provided; no class session takes place             |
-| 14   | 12.02.2026 | Final project discussion and feedback   | Q&A on the final project, notes, questions, and course feedback         |
-
+| Unit | Date       | Topic                                        | Content                                                                       |
+| ---- | ---------- | -------------------------------------------- | ----------------------------------------------------------------------------- |
+| 01   | 15.10.2026 | Overview and the Very Basics                 | Set up Python, explore essential tools, and take your first programming steps |
+| 02   | 22.10.2026 | Variables and Basic Data Types               | Learn how Python stores and represents different types of data                |
+| 03   | 29.10.2026 | Working with Strings and Simple Operators    | Use strings and apply mathematical, comparison, and logical operators         |
+| 04   | 05.11.2026 | Conditionals                                 | Control program flow using if, elif, and else statements                      |
+| 05   | 12.11.2026 | Object Data Types                            | Work with lists, arrays, matrices, and DataFrames                             |
+| 06   | 19.11.2026 | Loops                                        | Automate repetitive tasks using for and while loops                           |
+| 07   | 26.11.2026 | Working with Files                           | Read, write, and process data stored in files                                 |
+| 08   | 03.12.2026 | Combining Loops and Conditionals             | Solve more complex tasks by combining loops and decision structures           |
+| 09   | 10.12.2026 | Simple Visualizations                        | Create basic charts and graphical representations of data                     |
+| 10   | 14.01.2027 | OOP Fundamentals                             | Introduction to object-oriented programming concepts                          |
+| 11   | 21.01.2027 | Artificial Intelligence (AI)                 | Explore fundamental AI concepts and practical applications                    |
+| 12   | 28.01.2027 | Course Review and Practical Applications     | Review key concepts and solve practical programming exercises                 |
+| 13   | 04.02.2027 | Final Project, Exam Preparation and Feedback | Introduction to the final project, exam preparation, and course feedback      |
+| 14   | 11.02.2027 | Final Exam and Project Submission            | Written exam and submission of the final project                              |
 
 
 ---
