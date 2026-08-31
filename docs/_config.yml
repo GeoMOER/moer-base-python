@@ -21,8 +21,8 @@
 # url: "https://ilias.uni-marburg.de"
 # baseurl: "/data/UNIMR/lm_data/lm_xxx"
 
-# Serve on GitHub
-url: https://geomoer.github.io
+# Serve on GitLab
+url: https://fb19.pages.uni-marburg.de/geomoer
 baseurl: "/moer-base-python"
 
 # Local setup (in _config.yml)
