@@ -1,0 +1,18 @@
+image: ruby:3.1
+
+pages:
+  stage: deploy
+
+  before_script:
+    - cd docs
+    - bundle install
+
+  script:
+    - bundle exec jekyll build -d ../public
+
+  artifacts:
+    paths:
+      - public
+
+  rules:
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
