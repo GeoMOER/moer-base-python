@@ -71,9 +71,7 @@ Weitere Informationen finden Sie in der Datenschutzerklärung von GitHub.
 ## Rechtsgrundlage  
 
 Die Bereitstellung dieser Webseite erfolgt im Rahmen der öffentlichen Aufgaben der Philipps-Universität Marburg in Lehre und Forschung.
-
 Rechtsgrundlage ist daher Art. 6 Abs. 1 lit. e DSGVO in Verbindung mit den einschlägigen landesrechtlichen Bestimmungen.
-
 Die Verarbeitung technischer Zugriffsdaten erfolgt durch GitHub als eigenständig Verantwortlicher.
 
 
@@ -81,16 +79,16 @@ Die Verarbeitung technischer Zugriffsdaten erfolgt durch GitHub als eigenständi
 
 Diese Webseite verwendet keine eigenen Cookies, Tracking-Tools oder Analyse-Dienste.
 
+
 ## Weitergabe von Daten  
 
 Die Philipps-Universität Marburg gibt selbst keine personenbezogenen Daten aktiv an Dritte weiter.
-
 Im Rahmen des Hostings über GitHub kann es jedoch zu einer Verarbeitung personenbezogener Daten durch GitHub sowie zu einer Weitergabe an Unterauftragsverarbeiter kommen, auch außerhalb der Europäischen Union.
+
 
 ## Speicherdauer  
 
 Die Speicherdauer der Zugriffsdaten wird durch GitHub bestimmt.
-
 Die Philipps-Universität Marburg hat keinen direkten technischen Zugriff auf die Server-Logdaten, ist jedoch als Verantwortliche verpflichtet, die Rechte betroffener Personen (z. B. Löschung gemäß Art. 17 DSGVO) gegenüber GitHub geltend zu machen.
 
 ### Ihre Rechte als betroffene Person
